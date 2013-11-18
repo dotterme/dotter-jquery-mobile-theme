@@ -1,0 +1,14 @@
+/* Dotter basket icons */
+.ui-icon-basket:after {
+	background-image: url(images/basket-white.png);
+	width: 27px;
+	left: 1em;
+}
+.ui-select .ui-icon-carat-d:after {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAATCAYAAACk9eypAAAA9ElEQVQoU5WTURHCMBBEiQLqgKKAVgFUAeAgKAAHUAWAAgYHOKAooA4YHBQFYTeTdNKQTEt+Ot3bl7vcJWIUWEopCTkRQpz8sPAFmFNoT6MXgGrXEwJomBlTDSCPAtidJWy9rGdAO6u1GWBeQLyHzgRtDejGmAZgTvB58aARoIE+BdRYgPQyYrZyBaAQ2J31HXvMNlwSYO2D109b+0hmyGAa9xlN/ENA4ucyENj806UruiTdOfBKTCKZ3tCzdg5meOxWbNK5vYSdLuE8B0B7L0sJM3W9Qre1gj438QfMnTnF3oN9AynrdjMGB4fSVjq9uaEu8AVAolZYwVe2QQAAAABJRU5ErkJggg==');
+}
+
+.ui-icon-check:after, 
+html .ui-btn.ui-checkbox-on.ui-checkbox-on:after {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAnklEQVQoU2NkIBIUG0vv+v33P+ekC89sQVoYidGXayB1pNhY1hqktu/s4yMgzQQ1ImuCWQLSjFcjNk0gzb1nHx+Fa+y0UZzz9MtPdZgf8GmafOGZDVgjSFO4ulgyzA//gX6H+Qk5DEA2gTSBAwdZE76AQtYE1ojLSbhsgomDnYpPM7pNKBpxacalCSMBINuMTxPWlAPSDJKAhR6uAAMAS3BiA+MrGHoAAAAASUVORK5CYII=');
+}
