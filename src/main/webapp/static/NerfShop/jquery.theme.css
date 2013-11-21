@@ -258,8 +258,8 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a); 
 	background-image:     -moz-linear-gradient(top, #0c0e3f, #22215a);
 	background-image:       -ms-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);*/
-	color: white;
+	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
+	color: white;*/
 	text-shadow: none;
 	font-weight: bold;
 }
@@ -272,14 +272,14 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-	background-color: #0c0e3f; 
+/*	background-color: #0c0e3f; 
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0c0e3f), to(#22215a));
 	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a); 
 	background-image:     -moz-linear-gradient(top, #0c0e3f, #22215a);
 	background-image:       -ms-linear-gradient(top, #0c0e3f, #22215a);
 	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
-	border-color:	 		#bbb /*{a-page-border}*/;
-	color: 				white;
+	border-color:	 		#bbb {a-page-border};
+	color: 				white;*/
 	text-shadow:  none;
 }
 
