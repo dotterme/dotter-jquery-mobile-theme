@@ -17,6 +17,7 @@ button,
 	line-height: 1.3em;
 	font-family: "Open Sans", sans-serif /*{global-font-family}*/;
 	color: #666;
+	-webkit-text-decorations-in-effect: none;
 }
 legend,
 .ui-input-text input,
