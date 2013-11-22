@@ -283,8 +283,8 @@ html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
 	border-color: #e06337;
-	color: 					#111 /*{a-body-color}*/;
-	text-shadow: none;;
+	color: #111 /*{a-body-color}*/;
+	text-shadow: none;
 }
 .ui-body-a {
 	border-width: 1px;
