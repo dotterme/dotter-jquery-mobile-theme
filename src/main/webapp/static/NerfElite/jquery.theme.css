@@ -667,6 +667,11 @@ button[disabled],
 	color: white;
 }
 
+.dotter-fine-print {
+       font-size: .8em;
+       color: #333333;
+}
+
 .ui-page-theme-b,
 .dotter-text-b {
 	color: #e06337;

@@ -677,6 +677,11 @@ button[disabled],
 	color: #e06337;
 }
 
+dotter-fine-print {
+	font-size: .8em;
+	color: #333333;
+}
+
 .ui-btn.ui-btn-icon-notext {
 	padding: 0;
 }
