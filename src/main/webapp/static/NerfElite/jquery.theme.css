@@ -267,7 +267,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-
+	background: rgba(0,0,0,0);
 	text-shadow:  none;
 }
 
