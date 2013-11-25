@@ -17,6 +17,7 @@ button,
 	line-height: 1.3em;
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif /*{global-font-family}*/;
 	color: #fff;
+	-webkit-text-decorations-in-effect: none;
 }
 legend,
 .ui-input-text input,
