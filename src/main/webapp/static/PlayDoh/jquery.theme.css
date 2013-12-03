@@ -273,15 +273,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a .ui-panel-wrapper {
 	text-shadow:  none;
 }
-.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper { 
-	background:none; 
-}
-.ui-content {
-    padding: 0.5em 0em;
-}
-.section {
-    margin: 0;
-}
+
 /* Body: Read-only lists, text inputs, collapsible content */
 .ui-body-a,
 .ui-page-theme-a .ui-body-inherit,
@@ -670,8 +662,15 @@ button[disabled],
 	text-shadow: none;
 }
 
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper { 
+	background:none; 
+}
 .ui-content {
-	padding: .5em 1em;
+    padding: 0.5em 0em;
+}
+.section {
+    margin: 0;
+	padding: 0;
 }
 
 .ui-page-theme-a,
