@@ -29,7 +29,7 @@ legend,
 .ui-mobile label,
 div.ui-controlgroup-label {
 	font-weight: normal;
-	font-size: 13px;
+	font-size: 11px;
 }
 /* Inputs */
 input[type=number]::-webkit-inner-spin-button, 
@@ -680,7 +680,7 @@ button[disabled],
 
 .ui-page-theme-b,
 .dotter-text-b {
-	color: #e06337;
+	color: rgb(200,0,0);
 }
 
 .dotter-fine-print {
@@ -830,6 +830,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .ui-page-theme-a .dotter-border,
 .dotter-border-a {
 	border-color: #e06337;
+}
+
+.ui-page-theme-a .dotter-label {
+	color: #aaa;
 }
 
 .dotter-breadcrumbs .dotter-active {
