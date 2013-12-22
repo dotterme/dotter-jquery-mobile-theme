@@ -664,10 +664,6 @@ button[disabled],
 	text-shadow: none;
 }
 
-.ui-content {
-	padding: .5em 1em;
-}
-
 .ui-page-theme-a,
 .dotter-text-a {
 	color: white;
