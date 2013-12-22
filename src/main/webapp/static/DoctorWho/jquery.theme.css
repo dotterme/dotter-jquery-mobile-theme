@@ -686,7 +686,7 @@ button[disabled],
 	color: white;
 }
 
-.ui-select .ui-btn {
+.ui-page-theme-a .ui-select .ui-btn {
 	text-align: left;
 	text-transform: none;
 	background: white;
@@ -694,7 +694,7 @@ button[disabled],
 	color: black;
 }
 
-.ui-select .ui-btn:after {
+.ui-page-theme-a .ui-select .ui-btn:after {
 	height: 100%;
 	width: 26px;
 	background-color: #e06337;
@@ -708,23 +708,23 @@ button[disabled],
 	border-radius: 0;
 }
 
-.ui-btn.ui-checkbox-off:after,
-.ui-btn.ui-checkbox-on:after {
+.ui-page-theme-a .ui-btn.ui-checkbox-off:after,
+.ui-page-theme-a .ui-btn.ui-checkbox-on:after {
 	border: 1px #e06337 solid;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 }
 
-.ui-checkbox-off:after,
-.ui-checkbox-on:after {
+.ui-page-theme-a .ui-checkbox-off:after,
+.ui-page-theme-a .ui-checkbox-on:after {
 	-webkit-border-radius: 0;
 	border-radius: 0;
 	height: 24px;
 	width: 24px;
 }
 
-.ui-checkbox-off:after,
-.ui-btn.ui-radio-off:after {
+.ui-page-theme-a .ui-checkbox-off:after,
+.ui-page-theme-a .ui-btn.ui-radio-off:after {
 	background-color: white;
 	filter: Alpha(Opacity=30);
 	opacity: 1;
