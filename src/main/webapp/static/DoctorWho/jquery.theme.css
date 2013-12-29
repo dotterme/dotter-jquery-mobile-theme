@@ -165,8 +165,8 @@ html .ui-btn.ui-icon-checkbox-off:after,
 html .ui-btn.ui-icon-radio-off:after {
 	background-position: center center;
 	background-repeat: no-repeat;
-	-webkit-border-radius: 1em;
-	border-radius: 1em;
+	-webkit-border-radius: 0em;
+	border-radius: 0em;
 }
 
 /* Alt icons */
@@ -704,21 +704,6 @@ button[disabled],
 	border-radius: 0;
 }
 
-.ui-page-theme-a .ui-btn.ui-checkbox-off:after,
-.ui-page-theme-a .ui-btn.ui-checkbox-on:after {
-	border: 1px #e06337 solid;
-	border-radius: 0;
-	-webkit-border-radius: 0;
-}
-
-.ui-page-theme-a .ui-checkbox-off:after,
-.ui-page-theme-a .ui-checkbox-on:after {
-	-webkit-border-radius: 0;
-	border-radius: 0;
-	height: 24px;
-	width: 24px;
-}
-
 .ui-page-theme-a .ui-checkbox-off:after,
 .ui-page-theme-a .ui-btn.ui-radio-off:after {
 	background-color: white;
@@ -745,6 +730,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .ui-checkbox label.ui-btn {
 	text-align: left;
 	text-transform: none;
+}
+
+.ui-checkbox input, .ui-radio input {
+	left: .5625em;
+	z-index: 0;
 }
 
 /* From http://css-tricks.com/hang-on-placeholders/ */
