@@ -821,6 +821,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	height: 48px;
 	background-image: url("images/bbc-logo.png");
 	background-size: 64px 48px;
+	line-height: 48px;
 }
 
 .dotter-product-info.dotter-icon:before {
@@ -832,6 +833,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background-size: 14px 14px;
 	background-repeat: no-repeat;
 	padding-left: 18px;
+}
+
+.panel.top {
+	min-height: 48px;
 }
 
 .panel.top > .dotter-image.dotter-retailer {
