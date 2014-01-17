@@ -35,8 +35,7 @@ html {
 body,
 input,
 select,
-textarea,
-{
+textarea {
 	font-size: .875em;
 	line-height: 1.3em;
 	font-family: 'Gill Sans',sans-serif /*{global-font-family}*/;
