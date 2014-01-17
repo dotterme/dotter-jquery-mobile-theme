@@ -7,11 +7,11 @@
 
 @font-face {
     font-family: 'colabmed';
-    src: url('../fonts/ColabMed-webfont.eot');
-    src: url('../fonts/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ColabMed-webfont.woff') format('woff'),
-         url('../fonts/ColabMed-webfont.ttf') format('truetype'),
-         url('../fonts/ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+    src: url('fonts/ColabMed-webfont.eot');
+    src: url('fonts/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabMed-webfont.woff') format('woff'),
+         url('fonts/ColabMed-webfont.ttf') format('truetype'),
+         url('fonts/ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -19,11 +19,11 @@
 
 @font-face {
     font-family: 'colabbol';
-    src: url('../fonts/ColabBol-webfont.eot');
-    src: url('../fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ColabBol-webfont.woff') format('woff'),
-         url('../fonts/ColabBol-webfont.ttf') format('truetype'),
-         url('../fonts/ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
+    src: url('fonts/ColabBol-webfont.eot');
+    src: url('fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabBol-webfont.woff') format('woff'),
+         url('fonts/ColabBol-webfont.ttf') format('truetype'),
+         url('fonts/ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -45,7 +45,7 @@ button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'colabbol';
+	font-family: 'colabbol',Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -321,7 +321,7 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-	border-color: #e06337;
+	border-color: #d0d0d0;
 	color: white /*{a-body-color}*/;
 	text-shadow: none;
 }
@@ -385,8 +385,8 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background: 			#de5324 /*{a-bhover-background-color}*/;
-	border-color:	 		#de5324 /*{a-bhover-border}*/;
+	background: 			#2D6192 /*{a-bhover-background-color}*/;
+	border-color:	 		#2D6192 /*{a-bhover-border}*/;
 	color: 					#fff /*{a-bhover-color}*/;
 	text-shadow: none;
 }
@@ -720,7 +720,7 @@ button[disabled],
 	text-align: left;
 	text-transform: none;
 	background: white;
-	border: none;
+	border: 1px solid #2D6192;
 	color: black;
 }
 
@@ -858,8 +858,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-image.dotter-retailer {
 	width: 64px;
 	height: 48px;
-	background-image: url("images/bbc-logo.png");
-	background-size: 64px 48px;
+	background-image: url("images/vr-logo.png");
+	background-size: 75px 45px;
 	line-height: 48px;
 }
 
