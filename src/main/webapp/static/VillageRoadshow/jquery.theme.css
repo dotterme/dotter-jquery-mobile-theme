@@ -879,3 +879,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .panel.bottom > .ui-btn {
 	float: right;
 }
+.dotter-basket-details .dotter-basket-content {
+	border: 1px solid #d0d0d0;
+	background: #f9f9f9;
+}
