@@ -370,7 +370,7 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
 	background: #2D6192;
-	backgroundr: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2D6192), to(#4371A2)); /* #2D6192 to #4371A2 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2D6192), to(#4371A2)); /* #2D6192 to #4371A2 */
 	background: -webkit-linear-gradient(top, #2D6192, #4371A2);
 	background:     -moz-linear-gradient(top, #2D6192, #4371A2);
 	background:       -ms-linear-gradient(top, #2D6192, #4371A2);
@@ -727,12 +727,7 @@ button[disabled],
 .ui-page-theme-a .ui-select .ui-btn:after {
 	height: 100%;
 	width: 26px;
-	background: #2D6192;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2D6192), to(#4371A2)); /* #2D6192 to #4371A2 */
-	background: -webkit-linear-gradient(top, #2D6192, #4371A2);
-	background:     -moz-linear-gradient(top, #2D6192, #4371A2);
-	background:       -ms-linear-gradient(top, #2D6192, #4371A2);
-	background:          -o-linear-gradient(top, #2D6192, #4371A2);
+	background-color: #2D6192;
 	right: 0;
 	top: 0;
 	margin: 0;
@@ -892,4 +887,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-basket-details .dotter-basket-content {
 	border: 1px solid #d0d0d0;
 	background: #f9f9f9;
+}
+.dotter-basket-details .dotter-basket-content .dotter-product-title {
+	color: #333;
 }
