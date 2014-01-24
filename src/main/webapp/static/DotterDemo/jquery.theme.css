@@ -862,5 +862,5 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	color: #333;
 }
 .dotter-basket-details .dotter-basket-content .dotter-item-subtotal, #content .label {
-	font-weight: normal;
+	font-weight: normal !important;
 }
