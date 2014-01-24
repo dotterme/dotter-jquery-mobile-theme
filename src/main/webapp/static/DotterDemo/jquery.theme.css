@@ -338,13 +338,8 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background: #2D6192;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2D6192), to(#4371A2)); /* #2D6192 to #4371A2 */
-	background: -webkit-linear-gradient(top, #2D6192, #4371A2);
-	background:     -moz-linear-gradient(top, #2D6192, #4371A2);
-	background:       -ms-linear-gradient(top, #2D6192, #4371A2);
-	background:          -o-linear-gradient(top, #2D6192, #4371A2);
-	border-color:	 		#2D6192 /*{a-bup-border}*/;
+	background:				#666;
+	border-color:	 		#666 /*{a-bup-border}*/;
 	color: 					#fff /*{a-bup-color}*/;
 	text-shadow: none;
 }
@@ -354,8 +349,8 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background: 			#2D6192 /*{a-bhover-background-color}*/;
-	border-color:	 		#2D6192 /*{a-bhover-border}*/;
+	background: 			#666 /*{a-bhover-background-color}*/;
+	border-color:	 		#666 /*{a-bhover-border}*/;
 	color: 					#fff /*{a-bhover-color}*/;
 	text-shadow: none;
 }
@@ -365,8 +360,8 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	background: 			#e8e8e8 /*{a-bdown-background-color}*/;
-	border-color:	 		#ddd /*{a-bdown-border}*/;
+	background: 			#777 /*{a-bdown-background-color}*/;
+	border-color:	 		#777 /*{a-bdown-border}*/;
 	color: 					#111 /*{a-bdown-color}*/;
 	text-shadow: none;
 }
@@ -661,7 +656,7 @@ button[disabled],
 }
 
 .ui-page-theme-a .ui-btn {
-	background-color: #e06337;
+	background-color: #666;
 	color: white;
 	border-radius: 0;
 	text-shadow: none;
@@ -689,20 +684,20 @@ button[disabled],
 	text-align: left;
 	text-transform: none;
 	background: white;
-	border: 1px solid #2D6192;
+	border: 1px solid #666;
 	color: black;
 }
 
 .ui-page-theme-a .ui-select .ui-btn:after {
 	height: 100%;
 	width: 26px;
-	background-color: #2D6192;
+	background-color: #666;
 	right: 0;
 	top: 0;
 	margin: 0;
 	padding: 0;
 	background-size: 12px;
-	border: 1px solid #2D6192;
+	border: 1px solid #666;
 	-webkit-border-radius: 0;
 	border-radius: 0;
 }
@@ -859,4 +854,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-basket-details .dotter-basket-content .dotter-product-title {
 	color: #333;
+}
+.dotter-basket-details .dotter-basket-content .dotter-item-subtotal, #content .label {
+	font-weight: normal;
 }
