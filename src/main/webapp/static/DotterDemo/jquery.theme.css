@@ -11,10 +11,16 @@ html {
 body,
 input,
 select,
-textarea, button, .ui-btn {
+textarea {
 	font-size: .875em;
 	line-height: 1.3em;
 	font-family: 'Gill Sans',sans-serif /*{global-font-family}*/;
+}
+button,
+.ui-btn {
+	font-size: .875em;
+	line-height: 1.3em;
+	font-family: Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -815,8 +821,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-image.dotter-retailer {
-	width: 64px;
-	height: 48px;
+	width: 75px;
+	height: 45px;
 	background-image: url("images/dotter-logo.png");
 	background-size: 75px 45px;
 	line-height: 48px;
