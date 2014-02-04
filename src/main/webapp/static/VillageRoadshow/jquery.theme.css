@@ -135,8 +135,8 @@ label.ui-btn {
 .ui-flipswitch.ui-corner-all,
 	/* Count bubble */
 .ui-li-count {
-	-webkit-border-radius: 				0;
-	border-radius: 						0;
+	-webkit-border-radius: 				5px;
+	border-radius: 						5px;
 }
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
