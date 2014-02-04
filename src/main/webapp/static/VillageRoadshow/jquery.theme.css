@@ -830,6 +830,12 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.ui-select .ui-btn {
 		line-height: 1.3em;
 	}
+	.dotter-upsell .dotter-products .bx-wrapper img {
+		margin: 0 auto;
+	}
+	.dotter-upsell .dotter-product-details h4.dotter-product-title {
+		text-align: center;
+	}
 }
 
 @media all and (min-width: 55em){
