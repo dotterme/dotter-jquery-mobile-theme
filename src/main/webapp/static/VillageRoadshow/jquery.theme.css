@@ -903,7 +903,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background: #d0d0d0;
 }
 .dotter-retailer .price {
-	padding-top: 2px;
+	padding-top: 4px;
 }
 a .dotter-retailer .price:hover {
 	color: #2D6192;
