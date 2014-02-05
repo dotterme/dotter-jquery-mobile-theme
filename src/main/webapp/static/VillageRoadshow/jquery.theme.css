@@ -321,7 +321,7 @@ html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
 	border-color: #d0d0d0;
-	color: white /*{a-body-color}*/;
+	color: #404040 /*{a-body-color}*/;
 	text-shadow: none;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
