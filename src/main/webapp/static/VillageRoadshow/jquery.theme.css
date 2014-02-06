@@ -840,7 +840,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 @media all and (min-width: 55em){
 	.dotter-lg-text-b {
-		color: #e06337;
+		color: #2D6192;
 	}
 }
 
@@ -850,7 +850,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-breadcrumbs .dotter-active {
-	color: #e06337;
+	color: #2D6192;
 }
 
 .dotter-breadcrumbs .dotter-active:before {
