@@ -275,6 +275,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a .ui-panel-wrapper {
 	background: rgba(0,0,0,0);
 	text-shadow:  none;
+	color: #fff;
 }
 
 /* Body: Read-only lists, text inputs, collapsible content */
