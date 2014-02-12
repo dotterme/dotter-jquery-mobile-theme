@@ -320,7 +320,7 @@ html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
 	border-color: #d0d0d0;
-	color: #404040 /*{a-body-color}*/;
+	color: #eee /*{a-body-color}*/;
 	text-shadow: none;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -460,9 +460,8 @@ html head + body .ui-body-a.ui-focus {
 
 .ui-popup {
 	background-color: #ffffff;
-	color: #df6237 /*{a-bup-background-color}*/;
+	color: #333 /*{a-bup-background-color}*/;
 	text-shadow: none;
-	text-transform: uppercase;
 }
 
 .ui-popup .ui-btn {
@@ -846,6 +845,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .ui-page-theme-a .dotter-border,
 .dotter-border-a {
 	border-color: #d0d0d0;
+	border-radius: 5px;
 }
 
 .dotter-breadcrumbs .dotter-active {
@@ -864,6 +864,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	line-height: 48px;
 }
 
+.dotter-product-info.dotter-icon {
+	right: .5em;
+}
 .dotter-product-info.dotter-icon:before {
 	background-color: rgba(49,116,162,1);
 }
@@ -921,4 +924,7 @@ a .dotter-retailer .price:hover {
 }
 .dotter-item-subtotal, .dotter-item-price {
 	color: #333 !important;
+}
+.dotter-item-count {
+	margin-top: 1.7em;
 }
