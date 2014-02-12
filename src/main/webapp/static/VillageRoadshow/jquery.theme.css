@@ -865,7 +865,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-product-info.dotter-icon {
-	right: .5em;
+	right: .5em !important;
 }
 .dotter-product-info.dotter-icon:before {
 	background-color: rgba(49,116,162,1);
