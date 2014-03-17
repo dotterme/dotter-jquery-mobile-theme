@@ -81,8 +81,6 @@ input[type=number]::-webkit-outer-spin-button {
 .ui-btn,
 label.ui-btn {
 	font-weight: normal;
-	border-width: 1px;
-	border-style: solid;
 	line-height: 1.5em;
 	font-size: .875em;
 	text-transform: uppercase;
@@ -338,14 +336,8 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background: #2D6192;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2D6192), to(#4371A2)); /* #2D6192 to #4371A2 */
-	background: -webkit-linear-gradient(top, #2D6192, #4371A2);
-	background:     -moz-linear-gradient(top, #2D6192, #4371A2);
-	background:       -ms-linear-gradient(top, #2D6192, #4371A2);
-	background:          -o-linear-gradient(top, #2D6192, #4371A2);
-	border-color:	 		#2D6192 /*{a-bup-border}*/;
-	color: 					#fff /*{a-bup-color}*/;
+	background: #9CC6E9;
+	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
 }
 /* Button hover */
@@ -365,8 +357,7 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	background: 			#3673a6 /*{a-bdown-background-color}*/;
-	border-color:	 		#ddd /*{a-bdown-border}*/;
+	background: 			#9CC6E9 /*{a-bdown-background-color}*/;
 	color: 					#111 /*{a-bdown-color}*/;
 	text-shadow: none;
 }
@@ -673,7 +664,7 @@ button[disabled],
 
 .ui-page-theme-b,
 .dotter-text-b {
-	color: #eee;
+	color: #000;
 }
 
 .ui-btn.ui-btn-icon-notext {
@@ -838,7 +829,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-product {
-	border: 2px solid #9CC6E9;
+	border: 2px solid #9CC6E9 !important;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
@@ -848,7 +839,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-product-info.dotter-icon:before {
 	background-color: #9CC6E9;
 }
-
+div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add {
+	border-radius: 15px;
+}
 .dotter-loggedin {
 	background-image: url(images/Orange_lock.svg);
 	background-size: 14px 14px;
