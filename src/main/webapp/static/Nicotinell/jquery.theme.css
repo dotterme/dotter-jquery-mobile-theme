@@ -296,8 +296,7 @@ html .ui-panel-page-container-a {
 	border-radius: 0px;
 }
 .ui-body-a {
-	border-width: 1px;
-	border-style: solid;
+	
 }
 
 /* Links */
@@ -818,6 +817,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 5px;
 }
 
+.dotter-header .panel.top > .panel.right {
+	border: 2px solid #0078BB;
+	border-radius: 5px;
+}
 .dotter-breadcrumbs .dotter-active {
 	color: #2D6192;
 }
@@ -834,11 +837,16 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	line-height: 48px;
 }
 
+.dotter-product {
+	border: 2px solid #9CC6E9;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
 .dotter-product-info.dotter-icon {
 	right: .5em !important;
 }
 .dotter-product-info.dotter-icon:before {
-	background-color: rgba(49,116,162,1);
+	background-color: #9CC6E9;
 }
 
 .dotter-loggedin {
