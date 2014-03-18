@@ -917,8 +917,10 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	float: right;
 }
 .dotter-basket-details .dotter-basket-content {
-	border: 1px solid #d0d0d0;
-	background: #f9f9f9;
+	border: 1px solid #9cc6e9;
+	background: #e4eef6;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 .dotter-basket-details .dotter-basket-content .dotter-product-title {
 	color: #333;
