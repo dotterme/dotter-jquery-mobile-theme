@@ -343,6 +343,8 @@ html head + body .ui-btn.ui-btn-a:visited {
 	background: #9CC6E9;
 	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -861,7 +863,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	border-radius: 15px;
 }
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket {
-	background: #0078bb;
+	background: #0078bb !important;
 }
 
 .dotter-loggedin {
