@@ -439,11 +439,6 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 }
 
-.ui-content {
-	border: 2px solid #0078BB;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
 /* B
 -----------------------------------------------------------------------------------------------------------*/
 
@@ -818,14 +813,28 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border: 2px solid #0078BB;
 	border-radius: 5px;
 }
+.retailerchoice .dotter-label {
+	background: #0078BB;
+	color: #fff;
+	padding: .5em;
+	margin: -.5em -.5em .5em;
+}
 .dotter-breadcrumbs .dotter-active {
 	color: #2D6192;
 }
-
 .dotter-breadcrumbs .dotter-active:before {
 	color: white;
 }
-
+.dotter-store-grid-container, .basket-page {
+	border: 2px solid #0078BB;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.dotter-product-grid .dotter-product-details {
+	border: 2px solid #9CC6E9;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
 .dotter-image.dotter-retailer {
 	width: 220px;
 	height: 47px;
@@ -833,9 +842,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background-size: 220px 47px;
 	line-height: 48px;
 }
-
-.dotter-product-grid .dotter-product-details {
-	border: 2px solid #9CC6E9;
+.ui-popup {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
@@ -847,14 +854,16 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #fff;
-	color: #000;
+	color: #f00;
+	font-size: 1em;
 }
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add {
 	border-radius: 15px;
 }
-div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update {
+div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket {
 	background: #0078bb;
 }
+
 .dotter-loggedin {
 	background-image: url(images/Orange_lock.svg);
 	background-size: 14px 14px;
