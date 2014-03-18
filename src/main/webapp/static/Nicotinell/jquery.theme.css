@@ -3,6 +3,35 @@
 /* Globals */
 
 /* Font
+
+@font-face{
+	font-family:'FranklinGothicURWCon-Boo';
+	src:url('fonts/26A15B_0_0.eot');
+	src:url('fonts/26A15B_0_0.eot?#iefix') format('embedded-opentype'),
+		url('fonts/26A15B_0_0.woff') format('woff'),
+		url('fonts/26A15B_0_0.ttf') format('truetype');
+}
+@font-face{
+	font-family:'FranklinGothicURWCon-Med';
+	src:url('fonts/26A15B_1_0.eot');
+	src:url('fonts/26A15B_1_0.eot?#iefix') format('embedded-opentype'),
+		url('fonts/26A15B_1_0.woff') format('woff'),
+		url('fonts/26A15B_1_0.ttf') format('truetype');
+}
+@font-face{
+	font-family:'FranklinGothicURWCon-Dem';
+	src:url('fonts/26A15B_2_0.eot');
+	src:url('fonts/26A15B_2_0.eot?#iefix') format('embedded-opentype'),
+		url('fonts/26A15B_2_0.woff') format('woff'),
+		url('fonts/26A15B_2_0.ttf') format('truetype');
+}
+@font-face{
+	font-family:'FranklinGothicURWCon-DemIta';
+	src:url('fonts/26A15B_5_0.eot');
+	src:url('fonts/26A15B_5_0.eot?#iefix') format('embedded-opentype'),
+		url('fonts/26A15B_5_0.woff') format('woff'),
+		url('fonts/26A15B_5_0.ttf') format('truetype');
+}
 -----------------------------------------------------------------------------------------------------------*/
 
 html {
@@ -14,13 +43,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: Arial,Verdana,sans-serif /*{global-font-family}*/;
+	font-family: 'FranklinGothicURWCon-Boo',Arial,Verdana,sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: Arial,Verdana,sans-serif;
+	font-family: 'FranklinGothicURWCon-Dem',Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
