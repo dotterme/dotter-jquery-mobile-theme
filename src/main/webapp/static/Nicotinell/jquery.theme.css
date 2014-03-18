@@ -132,6 +132,10 @@ label.ui-btn {
 	bottom: .6em /*{global-radii-blocks}*/;
 }
 
+.dotter-product-grid .dotter-product-details {
+	border-radius: 5px;
+}
+
 /* Shadow
 -----------------------------------------------------------------------------------------------------------*/
 
@@ -825,8 +829,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	line-height: 48px;
 }
 
-.dotter-product {
-	border: 2px solid #9CC6E9 !important;
+.dotter-product-grid .dotter-product-details {
+	border: 2px solid #9CC6E9;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
