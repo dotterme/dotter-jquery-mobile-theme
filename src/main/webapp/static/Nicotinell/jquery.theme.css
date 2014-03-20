@@ -867,11 +867,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 5px;
 }
 .dotter-image.dotter-retailer {
-	width: 220px;
-	height: 47px;
-	background-image: url("images/vr-logo-long.png");
-	background-size: 220px 47px;
-	line-height: 48px;
+	width: 540px;
+	height: 167px;
+	background-image: url("images/secondary-branding.png");
+	background-size: 540px 167px;
+	/*line-height: 48px;*/
 }
 .ui-popup {
 	-webkit-border-radius: 5px;
