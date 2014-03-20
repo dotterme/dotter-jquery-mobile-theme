@@ -832,8 +832,12 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-lg-text-b {
 		color: #2D6192;
 	}
+	.dotter-image.dotter-retailer {
+		background-image: url("images/secondary-branding-sml.png");
+	}
 }
 
+/* Dotter specific CSS */
 .ui-page-theme-a .dotter-border,
 .dotter-border-a {
 	border-color: #d0d0d0;
@@ -872,7 +876,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	right: 50%;
 	top: 20%;
 	bottom: 0px;
-	background-image: url("images/secondary-branding.png");
+	background-image: url("images/secondary-branding-sml.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
