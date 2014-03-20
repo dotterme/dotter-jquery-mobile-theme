@@ -674,9 +674,9 @@ button[disabled],
 	color: white;
 }
 
-.dotter-fine-print {
-       font-size: .8em;
-       color: #aaaaaa;
+.dotter-label {
+    font-size: .8em;
+    color: #aaaaaa;
 }
 
 .ui-page-theme-b,
