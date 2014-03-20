@@ -871,6 +871,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	height: 167px;
 	background-image: url("images/secondary-branding.png");
 	background-size: 540px 167px;
+	background-position: 0px 14px;
+	background-repeat: no-repeat;
 	/*line-height: 48px;*/
 }
 .ui-popup {
