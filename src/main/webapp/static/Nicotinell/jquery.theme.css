@@ -883,6 +883,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	bottom: 0px;
 	background-image: url("images/secondary-branding-sml.png");
 	background-size: 72%;
+	background-position: left;
 	background-repeat: no-repeat;
 }
 .ui-popup {
