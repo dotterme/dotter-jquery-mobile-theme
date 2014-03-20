@@ -832,8 +832,13 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-lg-text-b {
 		color: #2D6192;
 	}
+}
+
+@media all and (min-width: 50em){
 	.dotter-image.dotter-retailer {
-		background-image: url("images/secondary-branding.png");
+		background-image: url("images/secondary-branding.png") !important;
+		background-size: 72% !important;
+		top: 0% !important;
 	}
 }
 
