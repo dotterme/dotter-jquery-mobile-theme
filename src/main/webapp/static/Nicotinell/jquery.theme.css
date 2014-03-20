@@ -867,13 +867,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 5px;
 }
 .dotter-image.dotter-retailer {
-	width: 540px;
-	height: 167px;
+	position: absolute;
+	left: 0px;
+	right: 50%;
+	top: 20%;
+	bottom: 0px;
 	background-image: url("images/secondary-branding.png");
-	background-size: 540px 167px;
-	background-position: 0px 14px;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	/*line-height: 48px;*/
 }
 .ui-popup {
 	-webkit-border-radius: 5px;
