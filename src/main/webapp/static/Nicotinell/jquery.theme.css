@@ -299,6 +299,11 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	border-width: 1px;
 	border-style: solid;
 }
+.ui-header.ui-bar-a > h1 {
+	font-weight: normal;
+	margin: 0 1em;
+	text-align: left;
+}
 
 /* Page and overlay */
 .ui-overlay-a,
