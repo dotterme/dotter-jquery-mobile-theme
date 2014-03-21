@@ -773,8 +773,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	text-indent: -100%;
 	opacity: 1;
 }
-
+/*--------------------------------*/
 /* jQM breakpoint for fieldcontain*/
+/*--------------------------------*/
 @media all and (min-width: 28em){
 	.ui-field-contain>label+[class*=ui-],
 	.ui-field-contain .ui-controlgroup-controls {
@@ -869,9 +870,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	color: #fff;
 	padding: .5em;
 	margin: -.5em -.5em .5em;
-}
-.dotter-item-count {
-	margin-top: 1.7em;
 }
 /*Secondary Branding Image*/
 .panel.top > .dotter-image.dotter-retailer {
