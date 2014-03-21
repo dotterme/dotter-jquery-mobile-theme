@@ -461,8 +461,9 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 	color: #333 /*{a-bup-background-color}*/;
 	text-shadow: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
-
 .ui-popup .ui-btn {
 	color: #ffffff;
 	background-color: #df6237 /*{a-bup-background-color}*/;
@@ -843,14 +844,22 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 		background-image: url("images/secondary-branding.png") !important;
 	}
 }
-
+/*---------------------*/
 /* Dotter specific CSS */
+/*---------------------*/
+
+/*Border between upsell products*/
 .ui-page-theme-a .dotter-border,
 .dotter-border-a {
 	border-color: #d0d0d0;
-	border-radius: 5px;
 }
-
+/*----------------*/
+/* HEADER SECTION */
+/*----------------*/
+/*Retailer Select panel (non pop-up)*/
+.panel.top {
+	min-height: 48px;
+}
 .dotter-header .panel.top > .panel.right {
 	border: 2px solid #0078BB;
 	border-radius: 5px;
@@ -861,21 +870,12 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: .5em;
 	margin: -.5em -.5em .5em;
 }
-.dotter-breadcrumbs .dotter-active {
-	color: #2D6192;
+.dotter-item-count {
+	margin-top: 1.7em;
 }
-.dotter-breadcrumbs .dotter-active:before {
-	color: white;
-}
-.dotter-store-grid-container, .basket-page {
-	border: 2px solid #0078BB;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-}
-.dotter-product-grid .dotter-product-details {
-	border: 2px solid #9CC6E9;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+/*Secondary Branding Image*/
+.panel.top > .dotter-image.dotter-retailer {
+	float: right;
 }
 .dotter-image.dotter-retailer {
 	position: absolute;
@@ -889,49 +889,55 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background-repeat: no-repeat;
 	margin: 1em 370px 2.3em 1em;
 }
-.ui-popup {
+.panel.top > .ui-btn {
+	margin: 0.2em 0.2em 0 0;
+}
+/*Breadcrumbs*/
+.dotter-breadcrumbs .dotter-active {
+	color: #2D6192;
+}
+.dotter-breadcrumbs .dotter-active:before {
+	color: white;
+}
+/*----------------------------*/
+/* PRODUCT GRID PANEL SECTION */
+/*----------------------------*/
+.dotter-store-grid-container, .basket-page {
+	border: 2px solid #0078BB;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
-.dotter-product-info.dotter-icon {
-	right: .5em !important;
+/*Product panel (in grid)*/
+.dotter-product-grid .dotter-product-details {
+	border: 2px solid #9CC6E9;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
+/*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
 	background-color: #9CC6E9;
 }
+/*---------------*/
+/* STORE BUTTONS */
+/*---------------*/
+/*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #fff;
 	color: #f00;
 	font-size: 1em;
 }
+/*Add btn in product panel (should be std btn)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add {
 	border-radius: 15px;
 }
+/*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket {
 	background: #0078bb !important;
 }
-.dotter-loggedin {
-	background-image: url(images/Orange_lock.svg);
-	background-size: 14px 14px;
-	background-repeat: no-repeat;
-	padding-left: 18px;
-}
-
-.panel.top {
-	min-height: 48px;
-}
-
-.panel.top > .dotter-image.dotter-retailer {
-	float: right;
-}
-
-.panel.top > .ui-btn {
-	margin: 0.2em 0.2em 0 0;
-}
-
-.panel.bottom > .ui-btn {
-	float: right;
-}
+/*--------------*/
+/* Basket panel */
+/*--------------*/
+/*Basket panel styling*/
 .dotter-basket-details .dotter-basket-content {
 	border: 1px solid #9cc6e9;
 	border-bottom: none;
@@ -939,10 +945,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	-webkit-border-radius: 5px 5px 0px 0px;
 	border-radius: 5px 5px 0px 0px;
 }
-.dotter-basket-details .dotter-basket-content .dotter-product-title {
-	color: #333;
-	font-size: 1em;
-}
+/*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
 	font-size: 1em;
 	background: #0078bb;
@@ -953,21 +956,14 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 }
 .dotter-basket-details .dotter-basket-content .dotter-item-price, .dotter-basket-details .dotter-basket-content .dotter-item-subtotal, #content .label {
 	font-weight: normal;
-}
-.dotter-basket-details .dotter-basket-content .dotter-item-price, .dotter-basket-details .dotter-basket-content .dotter-item-subtotal {
 	font-size: 1em;
 }
+/*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #2D6192;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
 	background: #d0d0d0;
-}
-.dotter-retailer .price {
-	padding-top: 4px;
-}
-a .dotter-retailer .price:hover {
-	color: #2D6192;
 }
 #content .bx-wrapper .bx-next {
 	background: url(images/controls.png) no-repeat -43px -32px;
@@ -975,9 +971,14 @@ a .dotter-retailer .price:hover {
 #content .bx-wrapper .bx-prev {
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
-.dotter-item-subtotal, .dotter-item-price {
-	color: #333 !important;
+/*??? Logged in icon ???*/
+.dotter-loggedin {
+	background-image: url(images/Orange_lock.svg);
+	background-size: 14px 14px;
+	background-repeat: no-repeat;
+	padding-left: 18px;
 }
-.dotter-item-count {
-	margin-top: 1.7em;
+/*Footer button (powered by Dotter)*/
+.panel.bottom > .ui-btn {
+	float: right;
 }
