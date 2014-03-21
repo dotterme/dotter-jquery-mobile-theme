@@ -290,12 +290,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-	background-color: #0c0e3f;
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0c0e3f), to(#22215a));
-	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:     -moz-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:       -ms-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
+	background-color: #0078bb;
 	color: white /*{a-body-color}*/;
 	text-shadow: none;
 	font-weight: bold;
@@ -425,6 +420,10 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	border-color:	 		#0033ff /*{a-active-border}*/;
 	color: 					#fff /*{a-active-color}*/;
 	text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #0033ff /*{a-active-shadow-color}*/;
+}
+.ui-btn.ui-icon-delete {
+	-webkit-border-radius: 15px !important;
+	border-radius: 15px !important;
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-icon-radio-on:after,
