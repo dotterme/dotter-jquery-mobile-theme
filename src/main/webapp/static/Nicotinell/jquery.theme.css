@@ -837,8 +837,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 @media all and (min-width: 50em){
 	.dotter-image.dotter-retailer {
 		background-image: url("images/secondary-branding.png") !important;
-		background-size: 100% !important;
-		top: 20% !important;
 	}
 }
 
@@ -878,11 +876,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-image.dotter-retailer {
 	position: absolute;
 	left: 0px;
-	right: 50%;
-	top: 0%;
+	right: 0px;
+	top: 0px;
 	bottom: 0px;
 	background-image: url("images/secondary-branding-sml.png");
-	background-size: 72%;
+	background-size: 100%;
 	background-position: left;
 	background-repeat: no-repeat;
 }
