@@ -881,8 +881,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	bottom: 0px;
 	background-image: url("images/secondary-branding-sml.png");
 	background-size: 100%;
-	background-position: left;
+	background-position: center;
 	background-repeat: no-repeat;
+	margin: 1em 370px 2.3em 1em;
 }
 .ui-popup {
 	-webkit-border-radius: 5px;
