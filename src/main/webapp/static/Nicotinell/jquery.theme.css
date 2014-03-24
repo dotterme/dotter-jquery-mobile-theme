@@ -925,8 +925,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add btn in product panel (should be std btn)*/
-div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add,
-.dotter-spinner .ui-btn.ui-alt-icon {
+div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add {
 	border-radius: 15px;
 }
 /*Add btn in product panel (added/update state)*/
