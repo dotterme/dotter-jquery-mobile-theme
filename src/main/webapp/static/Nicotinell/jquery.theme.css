@@ -980,3 +980,25 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .panel.bottom > .ui-btn {
 	float: right;
 }
+
+#content .dotter-store-grid-container.ui-content {
+	padding-top: 0;
+}
+
+.dotter-store-grid-container .dotter-navigation {
+	background: #0078BB;
+}
+
+.dotter-store-grid-container .ui-navbar a.ui-btn {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a, 
+.dotter-store-grid-container .ui-grid-d > .ui-block-b, 
+.dotter-store-grid-container .ui-grid-d > .ui-block-c, 
+.dotter-store-grid-container .ui-grid-d > .ui-block-d, 
+.dotter-store-grid-container .ui-grid-d > .ui-block-e {
+	width: 17%;
+	margin-left: 1em;
+}
