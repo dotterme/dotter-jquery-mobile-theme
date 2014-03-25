@@ -928,11 +928,14 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add {
 	border-radius: 15px;
 }
-.ui-btn.ui-icon-plus {
-	border-radius: 0px 15px 15px 0px !important;
+.dotter-spinner .ui-btn.ui-icon-plus {
+	border-radius: 0px 15px 15px 0px;
 }
-.ui-btn.ui-icon-minus {
-	border-radius: 15px 0px 0px 15px !important;
+.dotter-spinner .ui-btn.ui-icon-minus {
+	border-radius: 15px 0px 0px 15px;
+}
+.dotter-spinner .ui-input-text {
+	border: 1px solid #9CC6E9;
 }
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
