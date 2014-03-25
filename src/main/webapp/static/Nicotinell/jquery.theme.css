@@ -850,9 +850,12 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*---------------------*/
 
 /*Border between upsell products*/
-.ui-page-theme-a .dotter-border,
+
 .dotter-border-a {
-	border-color: #d0d0d0;
+	border-color: #0078BB;
+}
+.dotter-border-b {
+	border-color: #9cc6e9;
 }
 /*----------------*/
 /* HEADER SECTION */
