@@ -12,3 +12,11 @@
 html .ui-btn.ui-checkbox-on.ui-checkbox-on:after {
 	background-image: url(images/check-orange.png);
 }
+
+.ui-nosvg .ui-icon-minus:after {
+	background-image: url("images/icons-png/minus-white.png");
+}
+.ui-nosvg .ui-icon-plus:after {
+	background-image: url("images/icons-png/plus-white.png");
+}
+
