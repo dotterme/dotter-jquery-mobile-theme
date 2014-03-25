@@ -845,9 +845,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 		background-image: url("images/secondary-branding.png") !important;
 	}
 }
-/*---------------------*/
-/* Dotter specific CSS */
-/*---------------------*/
+/*---------------------------*/
+/* Dotter Store specific CSS */
+/*---------------------------*/
+
+/* NICOTINELL BRANDING */
+.dotter-basket-details .dotter-basket-content .dotter-product-title:before, .dotter-product-grid .dotter-product-details h4.dotter-product-title:before, .ui-popup-container .ui-header > h1:before {
+	content: 'Nicotinell® '
+}
 
 /*Border between upsell products*/
 
