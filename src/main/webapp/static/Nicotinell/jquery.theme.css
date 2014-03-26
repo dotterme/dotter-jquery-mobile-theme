@@ -850,7 +850,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*---------------------------*/
 
 /* NICOTINELL BRANDING */
-.dotter-basket-details .dotter-basket-content .dotter-product-title:before, .dotter-product-grid .dotter-product-details h4.dotter-product-title:before, .ui-popup-container .ui-header > h1:before {
+.dotter-brand-adjust:before {
 	content: 'Nicotinell® '
 }
 
