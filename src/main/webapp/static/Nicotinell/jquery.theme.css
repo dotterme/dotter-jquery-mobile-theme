@@ -903,7 +903,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	color: #2D6192;
 }
 .dotter-breadcrumbs .dotter-active:before {
-	color: white;
+	color: #000;
 }
 /*----------------------------*/
 /* PRODUCT GRID PANEL SECTION */
