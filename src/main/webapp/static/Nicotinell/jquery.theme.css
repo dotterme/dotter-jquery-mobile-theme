@@ -337,6 +337,7 @@ html .ui-body-a a,
 html body .ui-group-theme-a a {
 	color: #000;
 	font-weight: normal;
+	text-decoration: none;
 }
 .ui-page-theme-a a:visited,
 html .ui-bar-a a:visited,
@@ -354,7 +355,7 @@ html body .ui-group-theme-a a:hover {
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-	color: #eee;
+	color: #000;
 }
 
 /* Button up */
@@ -524,26 +525,25 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-	color: #33ccff /*{b-link-color}*/;
-	font-weight: bold;
+	color: #000 /*{b-link-color}*/;
 }
 .ui-page-theme-b a:visited,
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-	color: #33ccff /*{b-link-visited}*/;
+	color: #000 /*{b-link-visited}*/;
 }
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
 html .ui-body-b a:hover,
 html body .ui-group-theme-b a:hover {
-	color: #3399ff /*{b-link-hover}*/;
+	color: #000 /*{b-link-hover}*/;
 }
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
 html body .ui-group-theme-b a:active {
-	color: #3399ff /*{b-link-active}*/;
+	color: #000 /*{b-link-active}*/;
 }
 
 /* Button up */
@@ -922,6 +922,13 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
 	background-color: #9CC6E9;
+}
+/*Product Info modals*/
+.ui-header.ui-bar-a > h1 {
+	font-size: 1.2em;
+}
+.ui-popup-container .ui-content h3 {
+	font-weight: normal;
 }
 /*---------------*/
 /* STORE BUTTONS */
