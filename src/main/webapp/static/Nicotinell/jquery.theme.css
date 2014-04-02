@@ -401,7 +401,7 @@ html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
 	background: 			#9CC6E9 /*{a-bdown-background-color}*/;
-	color: 					#111 /*{a-bdown-color}*/;
+	color: 					#fff /*{a-bdown-color}*/;
 	text-shadow: none;
 }
 
