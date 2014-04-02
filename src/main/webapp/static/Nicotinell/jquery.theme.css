@@ -959,6 +959,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	line-height: .5em;
 	padding: .55em .6em .5em;
 }
+.dotter-product-added {
+	background: #0078bb !important;
+}
 .dotter-spinner .ui-btn.ui-icon-plus {
 	border-radius: 0px 15px 15px 0px;
 }
