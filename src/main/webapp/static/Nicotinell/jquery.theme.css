@@ -907,7 +907,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Breadcrumbs*/
 .dotter-breadcrumbs .dotter-active {
-	color: #2D6192;
+	color: #0078bb;
 }
 .dotter-breadcrumbs .dotter-active:before {
 	color: #000;
