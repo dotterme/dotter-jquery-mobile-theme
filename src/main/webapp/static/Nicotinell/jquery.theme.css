@@ -931,7 +931,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background-color: #9CC6E9;
 }
 /*Price*/
-.price {
+.price, .offer-text {
 	color: red;
 }
 /*Product Info modals*/
