@@ -930,10 +930,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-product-info.dotter-icon:before {
 	background-color: #9CC6E9;
 }
-/*Price*/
-.price {
-	color: red;
-}
 /*Product Info modals*/
 .ui-header.ui-bar-a > h1 {
 	font-size: 1.2em;
