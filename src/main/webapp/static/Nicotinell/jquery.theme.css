@@ -32,6 +32,13 @@
 		url('fonts/26A15B_5_0.woff') format('woff'),
 		url('fonts/26A15B_5_0.ttf') format('truetype');
 }
+@font-face{
+	font-family:'itcfranklingothicstd-dmcp';
+	src:url('fonts/itcfranklingothicstd-dmcp.eot');
+	src:url('fonts/itcfranklingothicstd-dmcp.eot?#iefix') format('embedded-opentype'),
+		url('fonts/itcfranklingothicstd-dmcp.woff') format('woff'),
+		url('fonts/itcfranklingothicstd-dmcp.ttf') format('truetype');
+}
 /*-----------------------------------------------------------------------------------------------------------*/
 
 html {
@@ -49,7 +56,7 @@ button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'FranklinGothicURWCon-Dem',Arial,Verdana,sans-serif;
+	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
