@@ -943,8 +943,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*Header buttons*/
 .btn-lrg {
 	font-size: 1.2em !important;
-	line-height: .5em;
-	padding: .7em .6em .6em;
+	line-height: 1em;
+	padding: .5em .6em .4em;
 }
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
