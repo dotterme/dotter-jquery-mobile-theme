@@ -849,7 +849,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 @media all and (min-width: 50em){
 	.dotter-image.dotter-retailer {
-		background-image: url("images/secondary-branding.png") !important;
+		background-image: url("") !important;
 	}
 }
 /*---------------------------*/
@@ -858,7 +858,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /* NICOTINELL BRANDING */
 .dotter-brand-adjust:before {
-	content: 'Nicotinell® '
+	content: ''
 }
 
 /*Border between upsell products*/
@@ -896,7 +896,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
-	background-image: url("images/secondary-branding-sml.png");
+	background-image: url("");
 	background-size: 72%;
 	background-position: left center;
 	background-repeat: no-repeat;
