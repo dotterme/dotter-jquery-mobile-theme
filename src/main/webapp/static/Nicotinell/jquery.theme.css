@@ -657,7 +657,7 @@ html head + body .ui-body-b.ui-focus {
 .ui-state-disabled,
 button[disabled],
 .ui-select .ui-btn.ui-state-disabled {
-	filter: Alpha(Opacity=30);
+	filter: Alpha(Opacity=100);
 	opacity: 1;
 	cursor: default !important;
 	pointer-events: none;
@@ -978,6 +978,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
 	background: #0078bb !important;
+}
+.dotter-btn-basket.ui-disabled {
+	background: rgb(204,204,204) !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
