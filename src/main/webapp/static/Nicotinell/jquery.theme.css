@@ -940,6 +940,12 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
+/*Header buttons*/
+.btn-lrg {
+	font-size: 1.2em !important;
+	line-height: .5em;
+	padding: .7em .6em .6em;
+}
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #fff;
@@ -949,6 +955,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /*Add and qty select btns in product panel (should be std btn)*/
 .panel.dotter-add-to-basket a.btn-sml {
 	border-radius: 15px;
+	font-size: 1.2em;
+	line-height: .5em;
+	padding: .55em .6em .5em;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
 	border-radius: 0px 15px 15px 0px;
@@ -1023,6 +1032,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-store-grid-container .ui-navbar a.ui-btn {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+	font-size: 1.3em;
+	padding: 0;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a, 
