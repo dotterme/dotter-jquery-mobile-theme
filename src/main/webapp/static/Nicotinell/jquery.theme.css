@@ -1006,9 +1006,9 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	margin: -1em 0 .5em;
 	border-radius: 0px 0px 5px 5px;
 }
-.dotter-basket-details .dotter-basket-content .dotter-item-price, .dotter-basket-details .dotter-basket-content .dotter-item-subtotal, #content .label {
-/*	font-weight: normal;
-	font-size: 1em;*/
+.dotter-checkout-info .dotter-small-prints {
+	color: #0078bb !important;
+	font-size: 1.2em;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
