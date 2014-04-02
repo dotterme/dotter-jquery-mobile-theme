@@ -975,6 +975,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
 	background: #0078bb !important;
 }
+/*--------------------*/
+/* Dotter Login Panel */
+/*--------------------*/
+.dotter-retailer-login .ui-input-text input {
+	font-size: 1.2em;
+	padding: .3em .5em .2em;
+}
 /*--------------*/
 /* Basket panel */
 /*--------------*/
