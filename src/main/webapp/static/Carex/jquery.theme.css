@@ -437,6 +437,8 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 .ui-btn.ui-icon-delete {
 	-webkit-border-radius: 15px !important;
 	border-radius: 15px !important;
+	border: 0;
+	padding: 0.06em 0.11em !important;
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-icon-radio-on:after,
@@ -695,7 +697,7 @@ button[disabled],
 }
 
 .ui-page-theme-a .ui-btn {
-	background-color: #e06337;
+	background-color: #9CC6E9;
 	color: white;
 	border-radius: 5px;
 	text-shadow: none;
