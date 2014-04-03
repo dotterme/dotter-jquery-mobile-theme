@@ -972,7 +972,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-spinner .ui-btn.ui-icon-minus {
 	border-radius: 15px 0px 0px 15px;
 }
-.dotter-product-quantity {
+.dotter-product-quantity, .dotter-item-quantity {
 	border-color: #9CC6E9 !important;
 }
 /*Add btn in product panel (added/update state)*/
@@ -980,7 +980,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	background: #0078bb !important;
 }
 .dotter-btn-basket.ui-disabled {
-	background: rgb(204,204,204) !important;
+	background: rgb(240,240,240) !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
