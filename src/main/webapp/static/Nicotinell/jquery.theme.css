@@ -917,7 +917,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*----------------------------*/
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
-.dotter-store-grid-container, .basket-page {
+.dotter-store-grid-container, .basket-page, thankyou-page {
 	border: 2px solid #0078BB;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -1029,6 +1029,13 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 }
 #content .bx-wrapper .bx-prev {
 	background: url(images/controls.png) no-repeat 0 -32px;
+}
+/*----------------*/
+/* Thank You page */
+/*----------------*/
+.dotter-thankyou-page h1 {
+	color: #0078BB;
+	font-style: italic;
 }
 /*??? Logged in icon ???*/
 .dotter-loggedin {
