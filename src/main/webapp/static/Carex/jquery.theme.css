@@ -6,38 +6,38 @@
 
 @font-face{
 	font-family:'FranklinGothicURWCon-Boo';
-	src:url('fonts/26A15B_0_0.eot');
-	src:url('fonts/26A15B_0_0.eot?#iefix') format('embedded-opentype'),
-		url('fonts/26A15B_0_0.woff') format('woff'),
-		url('fonts/26A15B_0_0.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.eot');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.woff') format('woff'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.ttf') format('truetype');
 }
 @font-face{
 	font-family:'FranklinGothicURWCon-Med';
-	src:url('fonts/26A15B_1_0.eot');
-	src:url('fonts/26A15B_1_0.eot?#iefix') format('embedded-opentype'),
-		url('fonts/26A15B_1_0.woff') format('woff'),
-		url('fonts/26A15B_1_0.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.eot');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.woff') format('woff'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.ttf') format('truetype');
 }
 @font-face{
 	font-family:'FranklinGothicURWCon-Dem';
-	src:url('fonts/26A15B_2_0.eot');
-	src:url('fonts/26A15B_2_0.eot?#iefix') format('embedded-opentype'),
-		url('fonts/26A15B_2_0.woff') format('woff'),
-		url('fonts/26A15B_2_0.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.eot');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.woff') format('woff'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.ttf') format('truetype');
 }
 @font-face{
 	font-family:'FranklinGothicURWCon-DemIta';
-	src:url('fonts/26A15B_5_0.eot');
-	src:url('fonts/26A15B_5_0.eot?#iefix') format('embedded-opentype'),
-		url('fonts/26A15B_5_0.woff') format('woff'),
-		url('fonts/26A15B_5_0.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.eot');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.woff') format('woff'),
+		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.ttf') format('truetype');
 }
 @font-face{
 	font-family:'itcfranklingothicstd-dmcp';
-	src:url('fonts/itcfranklingothicstd-dmcp.eot');
-	src:url('fonts/itcfranklingothicstd-dmcp.eot?#iefix') format('embedded-opentype'),
-		url('fonts/itcfranklingothicstd-dmcp.woff') format('woff'),
-		url('fonts/itcfranklingothicstd-dmcp.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.eot');
+	src:url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.woff') format('woff'),
+		url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.ttf') format('truetype');
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 
@@ -659,7 +659,7 @@ html head + body .ui-body-b.ui-focus {
 .ui-state-disabled,
 button[disabled],
 .ui-select .ui-btn.ui-state-disabled {
-	filter: Alpha(Opacity=30);
+	filter: Alpha(Opacity=100);
 	opacity: 1;
 	cursor: default !important;
 	pointer-events: none;
@@ -851,7 +851,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 @media all and (min-width: 50em){
 	.dotter-image.dotter-retailer {
-		background-image: url("") !important; /*smaller branding image for mobile*/
+		background-image: url("") !important;
 	}
 }
 /*---------------------------*/
@@ -898,7 +898,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
-	background-image: url(""); /*main header branding image for desktop*/
+	background-image: url("");
 	background-size: 72%;
 	background-position: left center;
 	background-repeat: no-repeat;
@@ -922,8 +922,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
-/*Product panel (in grid)*/
-.dotter-product-grid .dotter-product-details {
+/*Product details both in grid and upsell*/
+.dotter-product-details {
 	border: 2px solid #9CC6E9;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -931,6 +931,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
 	background-color: #9CC6E9;
+}
+/*Price*/
+.price, .offer {
+	color: red;
+}
+/*Error messages*/
+.empty-product-list {
+	font-size: 1.3em;
 }
 /*Product Info modals*/
 .ui-header.ui-bar-a > h1 {
@@ -944,9 +952,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*---------------*/
 /*Header buttons*/
 .btn-lrg {
-	font-size: 1.2em !important;
+	font-size: 1.35em !important;
 	line-height: 1em;
-	padding: .5em .6em .4em;
+	padding: .4em .6em .4em;
 }
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
@@ -955,7 +963,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.panel.dotter-add-to-basket a.btn-sml {
+.dotter-add-to-basket a.btn-sml {
 	border-radius: 15px;
 	font-size: 1.2em;
 	line-height: .5em;
@@ -976,6 +984,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
 	background: #0078bb !important;
+}
+.ui-disabled {
+	background: rgb(240,240,240) !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
@@ -1002,9 +1013,9 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	color: #fff;
 	border-radius: 0px 0px 5px 5px;
 }
-.dotter-basket-details .dotter-basket-content .dotter-item-price, .dotter-basket-details .dotter-basket-content .dotter-item-subtotal, #content .label {
-/*	font-weight: normal;
-	font-size: 1em;*/
+.dotter-checkout-info .dotter-small-prints {
+	color: #0078bb !important;
+	font-size: 1.2em;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
@@ -1053,4 +1064,16 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
 	width: 17%;
 	margin-left: 1em;
+}
+
+/* Slick slider */
+.slick-prev:before,
+.slick-next:before {
+	line-height: inherit;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li a:before {
+	color: #0078bb;
 }
