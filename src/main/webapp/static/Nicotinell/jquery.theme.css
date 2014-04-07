@@ -922,8 +922,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
-/*Product panel (in grid)*/
-.dotter-product-grid .dotter-product-details {
+/*Product details both in grid and upsell*/
+.dotter-product-details {
 	border: 2px solid #9CC6E9;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -959,7 +959,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.panel.dotter-add-to-basket a.btn-sml {
+.dotter-add-to-basket a.btn-sml {
 	border-radius: 15px;
 	font-size: 1.2em;
 	line-height: .5em;
@@ -1060,4 +1060,16 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
 	width: 17%;
 	margin-left: 1em;
+}
+
+/* Slick slider */
+.slick-prev:before,
+.slick-next:before {
+	line-height: inherit;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li a:before {
+	color: #0078bb;
 }
