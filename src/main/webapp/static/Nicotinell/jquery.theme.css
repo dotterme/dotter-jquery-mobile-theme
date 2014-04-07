@@ -936,6 +936,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .price, .offer {
 	color: red;
 }
+/*Error messages*/
+.empty-product-list {
+	font-size: 1.3em;
+}
 /*Product Info modals*/
 .ui-header.ui-bar-a > h1 {
 	font-size: 1.2em;
