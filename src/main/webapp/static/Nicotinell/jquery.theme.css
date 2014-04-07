@@ -1064,6 +1064,11 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 /* Slick slider */
 .slick-prev:before,
+.slick-next:before {
+	line-height: inherit;
+}
+
+.slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
 	color: #0078bb;
