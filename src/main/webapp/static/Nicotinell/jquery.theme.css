@@ -917,7 +917,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*----------------------------*/
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
-.dotter-store-grid-container, .basket-page, thankyou-page {
+.dotter-store-grid-container, .basket-page, .thankyou-page {
 	border: 2px solid #0078BB;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
