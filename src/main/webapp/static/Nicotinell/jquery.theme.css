@@ -986,7 +986,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	background: #0078bb !important;
 }
 .ui-disabled {
-	background: rgb(240,240,240) !important;
+	background: #e6e6e6 !important;
+	text-shadow: 1px 1px #ccc !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
