@@ -963,14 +963,15 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket a.btn-sml {
+.dotter-add-to-basket .ui-btn.dotter-product-add {
 	border-radius: 15px;
 	font-size: 1.2em;
 	line-height: .5em;
 	padding: .55em .6em .5em;
+	border: none;
 }
-.dotter-product-added {
-	background: #0078bb !important;
+.dotter-add-to-basket .ui-btn.dotter-product-added {
+	background: #0078bb;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
 	border-radius: 0px 15px 15px 0px;
