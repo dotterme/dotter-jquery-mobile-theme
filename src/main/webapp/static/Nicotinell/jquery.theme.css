@@ -918,10 +918,18 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-	border: 2px solid #0078BB;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
+.dotter-store-grid-container, .thankyou-page {
+	border: 2px solid #0078BB;
+}
+@media all and (min-width: 36em) {
+	.basket-page {
+		border: 2px solid #0078BB;
+	}	
+}
+
 /*Product details both in grid and upsell*/
 .dotter-product-details {
 	border: 2px solid #9CC6E9;
