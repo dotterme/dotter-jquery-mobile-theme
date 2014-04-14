@@ -979,15 +979,15 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
-.dotter-spinner-wrapper {
+.ui-body-inherit.dotter-spinner-wrapper {
 	border-radius: 15px;
+	-webkit-border-radius: 15px;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
-.dotter-spinner-wrapper {
+.ui-body-inherit.dotter-spinner-wrapper {
 	border: 1px solid #9CC6E9;
-	line-height: 1em;
 }
 
 .dotter-add-to-basket .ui-btn.dotter-product-added {
