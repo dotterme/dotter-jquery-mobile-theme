@@ -847,9 +847,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-upsell .dotter-products .bx-wrapper img {
 		margin: 0 auto;
 	}
-	.dotter-upsell .dotter-product-details h4.dotter-product-title {
-		text-align: center;
-	}
 }
 
 @media all and (min-width: 55em){
@@ -944,6 +941,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border: 2px solid #9CC6E9;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+}
+.dotter-product-details h4.dotter-product-title {
+	text-align: center;
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
