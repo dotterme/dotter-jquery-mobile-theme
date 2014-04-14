@@ -273,10 +273,12 @@ html .ui-btn.ui-icon-checkbox-on:after {
 /* Loader */
 .ui-icon-loading {
 	background: url(images/ajax-loader.gif);
-	background-size: 2.875em 2.875em;
+	background-size: 3.25em 3.25em;
+	background-repeat: no-repeat;
 }
 
 .ui-loader {
+	background-color: #ffffff;
 	opacity: 1;
 }
 
