@@ -118,7 +118,7 @@ input[type=number]::-webkit-outer-spin-button {
 label.ui-btn {
 	font-weight: normal;
 	line-height: 1.5em;
-	font-size: .875em;
+	font-size: 1.3em;
 	text-transform: uppercase;
 }
 .ui-btn:link {
@@ -832,8 +832,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	}
 
 	.ui-btn {
-		padding-top: .5em;
-		padding-bottom: .5em;
 		line-height: 1.5em;
 	}
 
@@ -980,18 +978,20 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add {
+.dotter-add-to-basket .ui-btn.dotter-product-add,
+.dotter-product-details .dotter-select-number {
 	border-radius: 15px;
-	border: 1px solid;
 }
+.dotter-add-to-basket .ui-btn.dotter-product-add {
+	border: 0px;
+}
+.dotter-product-details .dotter-select-number {
+	border: 1px solid #0078bb;
+	line-height: 1em;
+}
+
 .dotter-add-to-basket .ui-btn.dotter-product-added {
 	background: #0078bb;
-}
-.dotter-spinner .ui-btn.ui-icon-plus {
-	border-radius: 0px 15px 15px 0px;
-}
-.dotter-spinner .ui-btn.ui-icon-minus {
-	border-radius: 15px 0px 0px 15px;
 }
 .dotter-product-quantity, .dotter-item-quantity {
 	border-color: #9CC6E9 !important;
