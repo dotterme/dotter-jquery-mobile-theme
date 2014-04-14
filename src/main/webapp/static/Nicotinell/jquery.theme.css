@@ -979,7 +979,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
-#content .ui-body-inherit.dotter-spinner-wrapper {
+#content .ui-body-inherit.dotter-spinner-wrapper,
 #basket .ui-body-inherit.dotter-spinner-wrapper {
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
