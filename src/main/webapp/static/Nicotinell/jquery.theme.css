@@ -277,6 +277,10 @@ html .ui-btn.ui-icon-checkbox-on:after {
 	background-repeat: no-repeat;
 }
 
+.ui-loader .ui-icon-loading {
+	border-radius: 0;
+}
+
 .ui-loader {
 	background-color: #ffffff;
 	opacity: 1;
