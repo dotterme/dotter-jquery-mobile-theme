@@ -1083,3 +1083,12 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .slick-dots li a:before {
 	color: #0078bb;
 }
+
+/* Dotter Terms external-content styling */
+
+.dotter-external-content ul, .dotter-external-content ol {
+	padding-left: 3em;
+}
+.dotter-external-content li {
+	list-style: inherit;
+}
