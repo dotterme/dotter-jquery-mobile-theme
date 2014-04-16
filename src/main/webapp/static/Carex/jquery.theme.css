@@ -95,7 +95,7 @@ input[type=number]::-webkit-outer-spin-button {
 label.ui-btn {
 	font-weight: normal;
 	line-height: 1.5em;
-	font-size: .875em;
+	font-size: 1.3em;
 	text-transform: uppercase;
 }
 .ui-btn:link {
@@ -250,7 +250,16 @@ html .ui-btn.ui-icon-checkbox-on:after {
 /* Loader */
 .ui-icon-loading {
 	background: url(images/ajax-loader.gif);
-	background-size: 2.875em 2.875em;
+}
+
+/* override default theme and core */
+.ui-loader .ui-icon-loading {
+	background-color: #ffffff;
+	border-radius: 0;
+	background-size: initial;
+	background-repeat: no-repeat;
+	height: 3.315em;
+	width: 3.315em;
 }
 
 .ui-loader {
@@ -800,8 +809,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	}
 
 	.ui-btn {
-		padding-top: .5em;
-		padding-bottom: .5em;
 		line-height: 1.5em;
 	}
 
@@ -814,9 +821,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	}
 	.dotter-upsell .dotter-products .bx-wrapper img {
 		margin: 0 auto;
-	}
-	.dotter-upsell .dotter-product-details h4.dotter-product-title {
-		text-align: center;
 	}
 }
 
@@ -892,16 +896,27 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*----------------------------*/
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
-.dotter-store-grid-container, .basket-page {
-	border: 2px solid #0078BB;
+.dotter-store-grid-container, .basket-page, .thankyou-page {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
+.dotter-store-grid-container, .thankyou-page {
+	border: 2px solid #0078BB;
+}
+@media all and (min-width: 36em) {
+	.basket-page {
+		border: 2px solid #0078BB;
+	}	
+}
+
 /*Product details both in grid and upsell*/
 .dotter-product-details {
 	border: 2px solid #9CC6E9;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+}
+.dotter-product-details h4.dotter-product-title {
+	text-align: center;
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
@@ -938,20 +953,21 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket a.btn-sml {
+.dotter-add-to-basket .ui-btn.dotter-product-add,
+#content .ui-body-inherit.dotter-spinner-wrapper,
+#basket .ui-body-inherit.dotter-spinner-wrapper {
 	border-radius: 15px;
-	font-size: 1.2em;
-	line-height: .5em;
-	padding: .55em .6em .5em;
+	-webkit-border-radius: 15px;
 }
-.dotter-product-added {
-	background: #0078bb !important;
+.dotter-add-to-basket .ui-btn.dotter-product-add {
+	border: 0px;
 }
-.dotter-spinner .ui-btn.ui-icon-plus {
-	border-radius: 0px 15px 15px 0px;
+.ui-body-inherit.dotter-spinner-wrapper {
+	border: 1px solid #9CC6E9;
 }
-.dotter-spinner .ui-btn.ui-icon-minus {
-	border-radius: 15px 0px 0px 15px;
+
+.dotter-add-to-basket .ui-btn.dotter-product-added {
+	background: #0078bb;
 }
 .dotter-product-quantity, .dotter-item-quantity {
 	border-color: #9CC6E9 !important;
@@ -961,7 +977,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	background: #0078bb !important;
 }
 .ui-disabled {
-	background: rgb(240,240,240) !important;
+	background: #e6e6e6 !important;
+	text-shadow: 1px 1px #ccc !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
@@ -1005,6 +1022,13 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 #content .bx-wrapper .bx-prev {
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
+/*----------------*/
+/* Thank You page */
+/*----------------*/
+.dotter-thankyou-page h1 {
+	color: #0078BB;
+	font-style: italic;
+}
 
 /*Footer button (powered by Dotter)*/
 .panel.bottom > .ui-btn {
@@ -1045,4 +1069,13 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .slick-next:before,
 .slick-dots li a:before {
 	color: #0078bb;
+}
+
+/* Dotter Terms external-content styling */
+
+.dotter-external-content ul, .dotter-external-content ol {
+	padding-left: 3em;
+}
+.dotter-external-content li {
+	list-style: inherit;
 }
