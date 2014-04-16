@@ -4,15 +4,16 @@
 
 /* Font */
 
-@font-face{
-	font-family:'MentoneLigBold';
-	src:url("../fonts/mentone-semibol-webfont.eot");
-	src:url("../fonts/mentone-semibol-webfont.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/mentone-semibol-webfont.woff") format("woff"),
-		url("../fonts/mentone-semibol-webfont.ttf") format("truetype"),
-		url("../fonts/mentone-semibol-webfont.svg#MentoneLigBold") format("svg");
-	font-weight:normal;
-	font-style:normal;
+@font-face {
+    font-family: 'mentonesemibold';
+    src: url('mentone_lig_bold.eot');
+    src: url('mentone_lig_bold.eot?#iefix') format('embedded-opentype'),
+         url('mentone_lig_bold.woff') format('woff'),
+         url('mentone_lig_bold.ttf') format('truetype'),
+         url('mentone_lig_bold.svg#mentonesemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /*-----------------------------------------------------------------------------------------------------------*/
@@ -32,7 +33,7 @@ button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'MentoneLigBold',verdana,arial,helevtica,sans-serif;
+	font-family: 'mentonesemibold',verdana,arial,helevtica,sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -880,9 +881,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background-repeat: no-repeat;
 	margin: 1em 370px 2.3em 1em;
 }
-.panel.top > .ui-btn {
-	margin: 0.2em 0.2em 0 0;
-}
+
 /*Breadcrumbs*/
 .dotter-breadcrumbs .dotter-active {
 	color: #0078bb;
@@ -1006,13 +1005,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 #content .bx-wrapper .bx-prev {
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
-/*??? Logged in icon ???*/
-.dotter-loggedin {
-	background-image: url(images/Orange_lock.svg);
-	background-size: 14px 14px;
-	background-repeat: no-repeat;
-	padding-left: 18px;
-}
+
 /*Footer button (powered by Dotter)*/
 .panel.bottom > .ui-btn {
 	float: right;
