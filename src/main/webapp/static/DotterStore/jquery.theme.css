@@ -6,17 +6,17 @@
 
 @font-face{
 	font-family:'FranklinGothicURWCon-Boo';
-	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.eot');
-	src:url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.eot?#iefix') format('embedded-opentype'),
-		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.woff') format('woff'),
-		url('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.eot');
+	src:url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.woff') format('woff'),
+		url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.ttf') format('truetype');
 }
 @font-face{
 	font-family:'itcfranklingothicstd-dmcp';
-	src:url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.eot');
-	src:url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.eot?#iefix') format('embedded-opentype'),
-		url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.woff') format('woff'),
-		url('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.ttf') format('truetype');
+	src:url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.eot');
+	src:url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.woff') format('woff'),
+		url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.ttf') format('truetype');
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 
