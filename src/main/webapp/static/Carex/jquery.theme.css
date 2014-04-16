@@ -6,11 +6,11 @@
 
 @font-face {
     font-family: 'mentonesemibold';
-    src: url('mentone_lig_bold.eot');
-    src: url('mentone_lig_bold.eot?#iefix') format('embedded-opentype'),
-         url('mentone_lig_bold.woff') format('woff'),
-         url('mentone_lig_bold.ttf') format('truetype'),
-         url('mentone_lig_bold.svg#mentonesemibold') format('svg');
+    src: url('../fonts/mentone_lig_bold.eot');
+    src: url('../fonts/mentone_lig_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mentone_lig_bold.woff') format('woff'),
+         url('../fonts/mentone_lig_bold.ttf') format('truetype'),
+         url('../fonts/mentone_lig_bold.svg#mentonesemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
