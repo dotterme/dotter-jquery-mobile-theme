@@ -6,11 +6,11 @@
 
 @font-face {
     font-family: 'mentonesemibold';
-    src: url('../fonts/mentone_lig_bold.eot');
-    src: url('../fonts/mentone_lig_bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mentone_lig_bold.woff') format('woff'),
-         url('../fonts/mentone_lig_bold.ttf') format('truetype'),
-         url('../fonts/mentone_lig_bold.svg#mentonesemibold') format('svg');
+    src: url('http://content.dotter.me/store/carex/fonts/mentone_lig_bold.eot');
+    src: url('http://content.dotter.me/store/carex/fonts/mentone_lig_bold.eot?#iefix') format('embedded-opentype'),
+         url('http://content.dotter.me/store/carex/fonts/mentone_lig_bold.woff') format('woff'),
+         url('http://content.dotter.me/store/carex/fonts/mentone_lig_bold.ttf') format('truetype'),
+         url('http://content.dotter.me/store/carex/fonts/mentone_lig_bold.svg#mentonesemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
