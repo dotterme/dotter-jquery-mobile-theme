@@ -908,9 +908,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background-repeat: no-repeat;
 	margin: 1em 370px 2.3em 1em;
 }
-.panel.top > .ui-btn {
-	margin: 0.2em 0.2em 0 0;
-}
+
 /*Breadcrumbs*/
 .dotter-breadcrumbs .dotter-active {
 	color: #0078bb;
@@ -1054,13 +1052,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	color: #0078BB;
 	font-style: italic;
 }
-/*??? Logged in icon ???*/
-.dotter-loggedin {
-	background-image: url(images/Orange_lock.svg);
-	background-size: 14px 14px;
-	background-repeat: no-repeat;
-	padding-left: 18px;
-}
+
 /*Footer button (powered by Dotter)*/
 .panel.bottom > .ui-btn {
 	float: right;
