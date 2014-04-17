@@ -505,7 +505,7 @@ html .ui-body-b .ui-body-inherit,
 html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
 	background: 			#fff /*{b-body-background-color}*/;
-	color: 					#000 /*{b-body-color}*/;
+	color: 					#ebebeb /*{b-body-color}*/;
 }
 .ui-body-b {
 	
