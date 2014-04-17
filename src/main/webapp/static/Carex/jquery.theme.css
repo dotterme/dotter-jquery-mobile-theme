@@ -300,7 +300,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
 	background-color: #fff;
-	color: #000 /*{a-body-color}*/;
+	color: #4b4b4b /*{a-body-color}*/;
 	text-shadow:  none;
 }
 
@@ -311,10 +311,11 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-	color: #000 /*{a-body-color}*/;
+	color: #4b4b4b /*{a-body-color}*/;
 	text-shadow: none;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
+	border: 1px solid #eaeaea;
 }
 .ui-body-a {
 	
@@ -325,7 +326,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-	color: #000;
+	color: #4b4b4b;
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -333,19 +334,19 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-	color: #000;
+	color: #4b4b4b;
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-	color: #000;
+	color: #4b4b4b;
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-	color: #000;
+	color: #4b4b4b;
 }
 
 /* Button up */
@@ -689,12 +690,12 @@ button[disabled],
 
 .ui-page-theme-a,
 .dotter-text-a {
-	color: #000;
+	color: #4b4b4b;
 }
 
 .ui-page-theme-b,
 .dotter-text-b {
-	color: #000;
+	color: #4b4b4b;
 }
 
 .ui-btn.ui-btn-icon-notext {
@@ -940,9 +941,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*---------------*/
 /*Header buttons*/
 .btn-lrg {
-/*	font-size: 1.35em !important;
-	line-height: 1em;
-	padding: .4em .6em .4em;*/
+	padding: .4em;
 }
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
@@ -998,7 +997,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
 	font-size: 1.2em;
-	padding: .3em .5em .2em;
+	padding: .4em .5em .3em;
+	background: #f0f5f7;
 }
 /*--------------*/
 /* Basket panel */
@@ -1019,7 +1019,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	border-radius: 0px;
 }
 .dotter-checkout-info .dotter-small-prints {
-	color: #0078bb !important;
+	color: #4b4b4b !important;
 	font-size: 1.2em;
 }
 /*Upsell slider*/
