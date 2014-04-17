@@ -315,7 +315,6 @@ html .ui-panel-page-container-a {
 	text-shadow: none;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
-	border: 1px solid #eaeaea;
 }
 .ui-body-a {
 	
@@ -420,10 +419,8 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	text-shadow: none;
 }
 .ui-btn.ui-icon-delete {
-	-webkit-border-radius: 15px !important;
-	border-radius: 15px !important;
 	border: 0;
-	padding: 0.06em 0.11em !important;
+	max-height: 27px;
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-icon-radio-on:after,
@@ -682,7 +679,7 @@ button[disabled],
 }
 
 .ui-page-theme-a .ui-btn {
-	background-color: #9CC6E9;
+	background-color: #ff963a;
 	color: white;
 	border-radius: 5px;
 	text-shadow: none;
@@ -831,7 +828,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 @media all and (min-width: 50em){
 	.dotter-image.dotter-retailer {
-		background-image: url("") !important;
+		background-image: url("images/secondary-branding.png") !important;
 	}
 }
 /*---------------------------*/
@@ -996,9 +993,12 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Dotter Login Panel */
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
-	font-size: 1.2em;
-	padding: .4em .5em .3em;
+	font-size: 1.1em;
+	padding: .5em .5em .4em;
 	background: #f0f5f7;
+}
+.ui-input-text {
+	border-color: #eaeaea;
 }
 /*--------------*/
 /* Basket panel */
@@ -1039,7 +1039,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-	color: #0078BB;
+	color: #0087ff;
 	font-style: italic;
 }
 
