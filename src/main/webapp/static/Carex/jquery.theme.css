@@ -360,8 +360,9 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background: #0087ff;
+	background: #ff963a;
 	color: 		#fff /*{a-bup-color}*/;
+	border: 1px solid #ff963a;
 	text-shadow: none;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
@@ -373,7 +374,7 @@ html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
 	background: 			#ffffff /*{a-bhover-background-color}*/;
-	border-color:	 		#ffffff /*{a-bhover-border}*/;
+	border-color:	 		#ff963a /*{a-bhover-border}*/;
 	color: 					#ff963a /*{a-bhover-color}*/;
 	text-shadow: none;
 }
@@ -981,9 +982,18 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
 	background: #0078bb !important;
 }
+.dotter-change-retailer, .dotter-checkoutasguest {
+	background: #ffffff !important;
+	color: #ff963a !important;
+}
+.dotter-change-retailer:hover, .dotter-checkoutasguest:hover {
+	background: #ff963a !important;
+	color: #ffffff !important;
+}
 .ui-disabled {
 	background: #e6e6e6 !important;
 	text-shadow: 1px 1px #ccc !important;
+	border-color: #ccc !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
