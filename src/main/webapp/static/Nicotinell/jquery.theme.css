@@ -1033,6 +1033,9 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	font-size: 1.2em;
 }
 /*Upsell slider*/
+.dotter-has-upsell h3 {
+	color: #0078bb;
+}
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #2D6192;
 }
