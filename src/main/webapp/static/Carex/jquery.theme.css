@@ -1053,7 +1053,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
 	-webkit-border-radius: 10px;
-	border-radius: 15px;
+	border-radius: 0px;
 	font-size: 1.3em;
 	padding: 15px;
 	text-transform: capitalize;
