@@ -95,7 +95,7 @@ input[type=number]::-webkit-outer-spin-button {
 label.ui-btn {
 	font-weight: normal;
 	line-height: 1.5em;
-	font-size: 1.3em;
+	font-size: 1em;
 	text-transform: uppercase;
 }
 .ui-btn:link {
@@ -280,7 +280,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-	background-color: #0078bb;
+	background-color: #ff963a;
 	color: white /*{a-body-color}*/;
 	text-shadow: none;
 	font-weight: bold;
@@ -861,7 +861,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 0px;
 }
 .retailerchoice .dotter-label {
-	background: #0078BB;
+	background: #ff963a;
 	color: #fff;
 	padding: .5em;
 	margin: -.5em -.5em .5em;
@@ -939,9 +939,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*---------------*/
 /*Header buttons*/
 .btn-lrg {
-	font-size: 1.35em !important;
+/*	font-size: 1.35em !important;
 	line-height: 1em;
-	padding: .4em .6em .4em;
+	padding: .4em .6em .4em;*/
 }
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
@@ -975,6 +975,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-product-quantity, .dotter-item-quantity {
 	border-color: #9CC6E9 !important;
+	min-height: 27px;
 }
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
@@ -1057,7 +1058,13 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	font-size: 1.3em;
 	padding: 15px;
 	text-transform: capitalize;
+	border: none;
 	border-right: 1px dotted #fff;
+	background: #0087ff;
+}
+.dotter-store-grid-container .ui-navbar a.ui-btn:hover {
+	background: #ffffff;
+	color: #ff963a;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a, 
