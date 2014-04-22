@@ -25,7 +25,7 @@ body,
 input,
 select,
 textarea {
-	font-size: .78em;
+	font-size: .875em;
 	line-height: 1.3em;
 	font-family: verdana,arial,helevtica,sans-serif /*{global-font-family}*/;
 }
