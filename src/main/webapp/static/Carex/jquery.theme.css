@@ -948,7 +948,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #fff;
 	color: #ff963a;
-	font-size: 1em;
+	font-size: 1.15em;
 	border: none;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
@@ -987,6 +987,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-change-retailer:hover, .dotter-checkoutasguest:hover {
 	background: #ff963a !important;
 	color: #ffffff !important;
+}
+.ui-icon-delete:hover {
+	background: #ff963a !important;
 }
 .ui-disabled {
 	background: #e6e6e6 !important;
@@ -1080,8 +1083,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-store-grid-container .ui-navbar a.ui-btn {
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
-	font-size: 1.3em;
-	padding: 15px;
+	font-size: 1.4em;
+	padding: 13px;
 	text-transform: capitalize;
 	border: none;
 	border-right: 1px dotted #fff;
