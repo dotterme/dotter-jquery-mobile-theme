@@ -982,6 +982,14 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 }
+.ui-icon-plus {
+	-webkit-border-radius: 0px 15px 15px 0px !important;
+	border-radius: 0px 15px 15px 0px !important;
+}
+ui-icon-minus {
+	-webkit-border-radius: 15px 0px 0px 15px !important;
+	border-radius: 15px 0px 0px 15px !important;
+}
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
