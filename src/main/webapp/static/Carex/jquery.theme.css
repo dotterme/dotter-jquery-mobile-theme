@@ -25,7 +25,7 @@ body,
 input,
 select,
 textarea {
-	font-size: .8em;
+	font-size: .78em;
 	line-height: 1.3em;
 	font-family: verdana,arial,helevtica,sans-serif /*{global-font-family}*/;
 }
@@ -889,6 +889,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-breadcrumbs .dotter-active:before {
 	color: #000;
 }
+.dotter-header .dotter-breadcrumbs li:first-child:before {
+	content: "more ";
+}
 /*----------------------------*/
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
@@ -913,6 +916,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-product-details h4.dotter-product-title {
 	text-align: center;
+	color: #0087ff;
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
@@ -986,8 +990,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .ui-disabled {
 	background: #e6e6e6 !important;
-	text-shadow: 1px 1px #ccc !important;
-	border-color: #ccc !important;
+	text-shadow: none;
+	border-color: #e6e6e6 !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
@@ -996,6 +1000,19 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1.1em;
 	padding: .5em .5em .4em;
 	background: #f0f5f7;
+	color: rgb(75,75,75);
+}
+.dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
+	color: rgb(75,75,75);
+}
+.dotter-retailer-login .ui-input-text input:-moz-placeholder {
+	color: rgb(75,75,75);
+}
+.dotter-retailer-login .ui-input-text input::-moz-placeholder {
+	color: rgb(75,75,75);
+}
+.dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
+	color: rgb(75,75,75);
 }
 .ui-input-text {
 	border-color: #eaeaea;
@@ -1020,7 +1037,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-checkout-info .dotter-small-prints {
 	color: #4b4b4b !important;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
