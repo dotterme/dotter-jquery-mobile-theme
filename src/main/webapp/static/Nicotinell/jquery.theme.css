@@ -289,7 +289,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 	background-color: #ffffff;
 	opacity: 1;
 	border-radius: 5px;
-	min-height: 250px;
+	min-width: 300px;
 }
 
 .ui-loader-verbose h1 {
