@@ -917,6 +917,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-product-details h4.dotter-product-title {
 	text-align: center;
 	color: #0087ff;
+	font-size: 1.1em;
+}
+.dotter-product-abstract {
+	font-size: .9em;
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
@@ -948,8 +952,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #fff;
 	color: #ff963a;
-	font-size: 1.15em;
+	font-size: 1.1em;
 	border: none;
+	padding: 0;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
