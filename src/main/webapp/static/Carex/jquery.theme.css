@@ -954,7 +954,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	color: #ff963a;
 	font-size: 1.1em;
 	border: none;
-	padding: 0;
+	padding: 6px 0;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
