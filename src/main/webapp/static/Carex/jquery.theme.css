@@ -1071,7 +1071,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 #content .dotter-store-grid-container.ui-content {
 	padding-top: 0;
 }
-
+/*Navigation buttons*/
 .dotter-store-grid-container .dotter-navigation-container {
 	background: #0087ff;
 	-webkit-border-radius: 10px;
@@ -1087,7 +1087,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	padding: 13px;
 	text-transform: capitalize;
 	border: none;
-	border-right: 1px dotted #fff;
 	background: #0087ff;
 }
 .dotter-store-grid-container .ui-navbar a.ui-btn:hover {
@@ -1100,13 +1099,19 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-d, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-	width: 17%;
+	width: 25%;
 	margin-left: 0em;
+	border-left: 1px dotted #fff;
+}
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+	border-left: 0;
 }
 .dotter-navigation-container .dotter-navigation ul li:first-child a {
 	border-radius: 0px 0px 0px 10px;
 }
-
+.dotter-navigation-container .dotter-navigation ul li:last-child a {
+	border-radius: 0px 0px 10px 0px;
+}
 /* Slick slider */
 .slick-prev:before,
 .slick-next:before {
