@@ -1020,6 +1020,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-retailer-login .ui-input-text input {
 	font-size: 1.2em;
 	padding: .3em .5em .2em;
+	text-transform: uppercase;
 }
 /*--------------*/
 /* Basket panel */
