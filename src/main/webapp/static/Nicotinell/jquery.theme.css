@@ -1020,6 +1020,18 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-retailer-login .ui-input-text input {
 	font-size: 1.2em;
 	padding: .3em .5em .2em;
+}
+/*Placeholder UPPERCASE*/
+.dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
+	text-transform: uppercase;
+}
+.dotter-retailer-login .ui-input-text input:-moz-placeholder {
+	text-transform: uppercase;
+}
+.dotter-retailer-login .ui-input-text input::-moz-placeholder {
+	text-transform: uppercase;
+}
+.dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
 	text-transform: uppercase;
 }
 /*--------------*/
