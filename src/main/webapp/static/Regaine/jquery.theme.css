@@ -941,6 +941,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-product-details h4.dotter-product-title {
 	text-align: center;
+	font-size: 1.1em;
+}
+.dotter-product-abstract {
+	font-size: .9em;
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
@@ -979,11 +983,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Select Retailer btn in product panel*/
 .dotter-retailer-select {
-	background: #fff;
-	color: #ff0000;
-	font-size: 1.1em;
-	border: none;
-	padding: 6px 0;
+	background: #fff !important;
+	color: #ff0000 !important;
+	font-size: 1.1em !important;
+	border: none !important;
+	padding: 0 !important;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
