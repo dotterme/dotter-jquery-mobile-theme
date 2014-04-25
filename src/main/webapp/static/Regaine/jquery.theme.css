@@ -1040,8 +1040,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* Dotter Login Panel */
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
-	font-size: 1.2em;
-	padding: .3em .5em .2em;
+	font-size: 1.1em;
+	padding: .4em;
+}
+.ui-input-text {
+	border-color: #a39674;
 }
 /*--------------*/
 /* Basket panel */
