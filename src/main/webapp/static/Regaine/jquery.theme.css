@@ -1093,7 +1093,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-	color: #0078BB;
+	color: rgb(20,70,140);
 	font-style: italic;
 }
 
