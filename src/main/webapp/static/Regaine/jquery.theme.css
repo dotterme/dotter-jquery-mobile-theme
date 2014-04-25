@@ -702,7 +702,7 @@ button[disabled],
 .ui-page-theme-a .ui-btn {
 	background-color: #9CC6E9;
 	color: white;
-	border-radius: 5px;
+	border-radius: 0px;
 	text-shadow: none;
 }
 
