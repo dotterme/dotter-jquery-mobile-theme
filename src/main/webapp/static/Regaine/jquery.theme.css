@@ -928,7 +928,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 0px;
 }
 .dotter-store-grid-container, .thankyou-page {
-	border: 1px solid #e6e6e6;
+	border: 1px solid #e6e6e6 !important;
 }
 @media all and (min-width: 36em) {
 	.basket-page {
