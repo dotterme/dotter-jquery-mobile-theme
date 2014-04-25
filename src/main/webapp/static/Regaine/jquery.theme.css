@@ -371,6 +371,7 @@ html head + body .ui-btn.ui-btn-a:visited {
 	text-shadow: none;
 	font-family: 'Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
+	font-size: 1em;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -978,15 +979,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Select Retailer btn in product panel*/
 .dotter-change-retailer {
-	background: #e6e2d9 !important; /* Old browsers */
-	background: -moz-linear-gradient(top,  #e6e2d9 0%, #d6d3ce 100%) !important; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e2d9), color-stop(100%,#d6d3ce)) !important; /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* IE10+ */
-	background: linear-gradient(to bottom,  #e6e2d9 0%,#d6d3ce 100%) !important; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2d9', endColorstr='#d6d3ce',GradientType=0 ) !important; /* IE6-9 */
-	color: #a39674 !important;
+	background: none !important;
+	color: #ff0000 !important;
 	font-size: 1em !important;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
