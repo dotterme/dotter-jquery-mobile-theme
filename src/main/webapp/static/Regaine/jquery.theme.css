@@ -394,7 +394,6 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	background: 			#9CC6E9 /*{a-bdown-background-color}*/;
 	color: 					#fff /*{a-bdown-color}*/;
 	text-shadow: none;
 }
@@ -1002,8 +1001,16 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	border-color: #a39674 !important;
 }
 /*Add btn in product panel (added/update state)*/
-div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
-	background: #0078bb !important;
+div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-a {
+	background: #e6e2d9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e2d9 0%, #d6d3ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e2d9), color-stop(100%,#d6d3ce)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e2d9 0%,#d6d3ce 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2d9', endColorstr='#d6d3ce',GradientType=0 ); /* IE6-9 */
+	color: #a39674;
 }
 .ui-disabled {
 	background: #e6e6e6 !important;
