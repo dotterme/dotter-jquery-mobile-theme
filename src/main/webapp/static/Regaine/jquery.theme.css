@@ -254,11 +254,14 @@ html .ui-btn.ui-icon-checkbox-on:after {
 .ui-loader {
 	background-color: #ffffff;
 	opacity: 1;
+	min-width: 300px;
+	border: 1px solid rgb(20,70,140);
 }
 
 .ui-loader-verbose h1 {
-	color: #2D6192;
+	color: rgb(20,70,140);
 	font-weight: normal;
+	font-size: 1em;
 }
 
 
