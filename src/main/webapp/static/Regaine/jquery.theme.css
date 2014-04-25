@@ -912,7 +912,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /*Breadcrumbs*/
 .dotter-breadcrumbs .dotter-active {
-	color: #0078bb;
+	color: rgb(20,70,140);
 }
 .dotter-breadcrumbs .dotter-active:before {
 	color: #000;
@@ -1060,6 +1060,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	font-size: 1.2em;
 	font-family: 'Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
+	color: rgb(20,70,140);
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
