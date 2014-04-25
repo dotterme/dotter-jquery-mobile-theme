@@ -371,7 +371,7 @@ html head + body .ui-btn.ui-btn-a:visited {
 	text-shadow: none;
 	font-family: 'Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 1em !important;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -1004,6 +1004,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .ui-icon-minus, .ui-icon-plus {
 	min-height: 27px;
+	border-radius: 0px !important;
 }
 /*Add btn in product panel (added/update state)*/
 .dotter-add-to-basket .ui-btn.dotter-product-added {
@@ -1036,22 +1037,29 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*--------------*/
 /*Basket panel styling*/
 .dotter-basket-details .dotter-basket-content {
-	border: 1px solid #9cc6e9;
+	border: 1px solid #a39674;
 	border-bottom: none;
-	background: #e4eef6;
-	-webkit-border-radius: 5px 5px 0px 0px;
-	border-radius: 5px 5px 0px 0px;
+	background: #F6F7F8;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
 }
 /*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
-/*	font-size: 1em;*/
-	background: #0078bb;
+	background: #a39674; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
 	color: #fff;
-	border-radius: 0px 0px 5px 5px;
+	border-radius: 0px;
 }
 .dotter-checkout-info .dotter-small-prints {
-	color: #0078bb !important;
 	font-size: 1.2em;
+	font-family: 'Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
