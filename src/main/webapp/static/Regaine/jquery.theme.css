@@ -369,8 +369,6 @@ html head + body .ui-btn.ui-btn-a:visited {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
 	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
