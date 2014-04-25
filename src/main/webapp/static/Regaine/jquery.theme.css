@@ -4,20 +4,7 @@
 
 /* Font */
 
-@font-face{
-	font-family:'FranklinGothicURWCon-Boo';
-	src:url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.eot');
-	src:url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.eot?#iefix') format('embedded-opentype'),
-		url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.woff') format('woff'),
-		url('http://content.dotter.me/store/dotterStore/fonts/26A15B_0_0.ttf') format('truetype');
-}
-@font-face{
-	font-family:'itcfranklingothicstd-dmcp';
-	src:url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.eot');
-	src:url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.eot?#iefix') format('embedded-opentype'),
-		url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.woff') format('woff'),
-		url('http://content.dotter.me/store/dotterStore/fonts/itcfranklingothicstd-dmcp.ttf') format('truetype');
-}
+
 /*-----------------------------------------------------------------------------------------------------------*/
 
 html {
@@ -29,13 +16,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'FranklinGothicURWCon-Boo',Arial,Verdana,sans-serif /*{global-font-family}*/;
+	font-family: Arial,Verdana,sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+	font-family: Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -843,7 +830,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /* NICOTINELL BRANDING */
 .dotter-brand-adjust:before {
-	content: '';
+	content: 'Regaine&reg; ';
 }
 
 /*Border between upsell products*/
@@ -866,7 +853,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 5px;
 }
 .retailerchoice .dotter-label {
-	background: #0078BB;
+	background: #a39674; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
 	color: #fff;
 	padding: .5em;
 	margin: -.5em -.5em .5em;
