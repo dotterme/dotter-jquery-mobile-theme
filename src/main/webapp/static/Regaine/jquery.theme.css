@@ -974,7 +974,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .btn-lrg {
 	font-size: 1.35em !important;
 	line-height: 1em;
-	padding: .4em .6em .4em;
+	padding: .6em;
 }
 /*Select Retailer btn in product panel*/
 .dotter-change-retailer {
@@ -1002,7 +1002,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .ui-body-inherit.dotter-spinner-wrapper {
 	border: 1px solid #a39674;
 }
-
+.ui-icon-minus, .ui-icon-plus {
+	min-height: 27px;
+}
 /*Add btn in product panel (added/update state)*/
 .dotter-add-to-basket .ui-btn.dotter-product-added {
 	background: #e6e2d9; /* Old browsers */
