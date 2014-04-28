@@ -1127,8 +1127,11 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	color: #0078BB;
 	font-size: 1em;
 	border-bottom: 1px solid #0078bb;
-	border-radius: 0px !important;
+	border-radius: 5px !important;
 	padding: .3em 2.5em;
+}
+.ui-collapsible-set .ui-collapsible {
+	border: 1px solid #fff;
 }
 .ui-collapsible-set .ui-collapsible .ui-collapsible-content {
 	border: none;
