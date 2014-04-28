@@ -478,7 +478,7 @@ html head + body .ui-body-a.ui-focus {
 	color: #333 /*{a-bup-background-color}*/;
 	text-shadow: none;
 	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 .ui-popup .ui-btn {
 	color: #ffffff;
