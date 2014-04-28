@@ -1142,7 +1142,17 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 /* Dotter Terms external-content styling */
-
+.ui-collapsible-set .ui-collapsible-heading .ui-collapsible-heading-toggle {
+	font-size: 1em;
+	border-radius: 0px;
+	padding: .3em 2.5em;
+}
+.ui-collapsible-set .ui-collapsible {
+	border: 1px solid #fff;
+}
+.ui-collapsible-set .ui-collapsible .ui-collapsible-content {
+	border: none;
+}
 .dotter-external-content ul, .dotter-external-content ol {
 	padding-left: 3em;
 }
