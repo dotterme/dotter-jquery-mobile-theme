@@ -1123,8 +1123,6 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 /* Dotter Terms external-content styling */
 .ui-collapsible-set .ui-collapsible-heading .ui-collapsible-heading-toggle {
-	background: none;
-	color: #0078BB;
 	font-size: 1em;
 	border-bottom: 1px solid #0078bb;
 	border-radius: 5px !important;
