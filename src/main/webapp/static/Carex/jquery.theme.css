@@ -360,8 +360,9 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background: #0078bb;
+	background: #ff963a;
 	color: 		#fff /*{a-bup-color}*/;
+	border: 1px solid #ff963a;
 	text-shadow: none;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
@@ -1077,7 +1078,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 /*Navigation buttons*/
 .dotter-store-grid-container .dotter-navigation-container {
-	background: #0078bb;
+	background: #ff963a;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	margin: 0px -10px 0px -10px;
