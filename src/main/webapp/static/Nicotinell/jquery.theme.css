@@ -286,7 +286,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 }
 
 .ui-loader {
-	background-color: #ffffff;
+	background-color: transparent;
 	opacity: 1;
 	border-radius: 5px !important;
 	min-width: 300px;
@@ -1078,6 +1078,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-thankyou-page h1 {
 	color: #0078BB;
 	font-style: italic;
+	font-family: 'Arial Narrow';
 }
 
 /*Footer button (powered by Dotter)*/
