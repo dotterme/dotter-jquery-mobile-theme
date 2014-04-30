@@ -1012,15 +1012,19 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
 	color: rgb(75,75,75);
+	text-transform: uppercase;
 }
 .dotter-retailer-login .ui-input-text input:-moz-placeholder {
 	color: rgb(75,75,75);
+	text-transform: uppercase;
 }
 .dotter-retailer-login .ui-input-text input::-moz-placeholder {
 	color: rgb(75,75,75);
+	text-transform: uppercase;
 }
 .dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
 	color: rgb(75,75,75);
+	text-transform: uppercase;
 }
 .ui-input-text {
 	border-color: #eaeaea;
