@@ -27,13 +27,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: verdana,arial,helevtica,sans-serif /*{global-font-family}*/;
+	font-family: sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'mentonesemibold',verdana,arial,helevtica,sans-serif;
+	font-family: 'mentonesemibold',helevtica,sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -415,7 +415,7 @@ html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background-color: 		#0087ff /*{a-active-background-color}*/;
 	border-color:	 		#0087ff /*{a-active-border}*/;
-	color: 					#fff /*{a-active-color}*/;
+	color: 					#ff963a /*{a-active-color}*/;
 	text-shadow: none;
 }
 .ui-btn.ui-icon-delete {
@@ -1092,14 +1092,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-store-grid-container .ui-navbar a.ui-btn {
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	padding: 13px;
 	text-transform: capitalize;
 	border: none;
 	background: #0087ff;
 }
 .dotter-store-grid-container .ui-navbar a.ui-btn:hover {
-	background: #ffffff;
 	color: #ff963a;
 }
 
