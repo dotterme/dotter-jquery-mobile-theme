@@ -936,7 +936,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Product Info modals*/
 .ui-header.ui-bar-a > h1 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 .ui-popup-container .ui-content h3 {
 	font-weight: normal;
@@ -968,8 +968,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #ff963a;
 	border: 1px solid #ff963a;
 }
-.ui-body-inherit.dotter-spinner-wrapper {
+.dotter-spinner > .ui-controlgroup-controls {
 	border: 1px solid #ff963a;
+	border-radius: 0px;
 }
 .ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-minus,  .ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-plus {
 	background: #ff963a;
