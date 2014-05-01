@@ -286,7 +286,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 }
 
 .ui-loader {
-	background-color: transparent;
+	background-color: #ffffff;
 	opacity: 1;
 	border-radius: 5px !important;
 	min-width: 300px;
