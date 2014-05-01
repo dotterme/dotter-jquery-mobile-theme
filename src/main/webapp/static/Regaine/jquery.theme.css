@@ -1027,8 +1027,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
-.ui-body-inherit.dotter-spinner-wrapper {
+.dotter-spinner>.ui-controlgroup-controls {
 	border: 1px solid #a39674;
+	border-radius: 0px;
 }
 .ui-icon-minus, .ui-icon-plus {
 	min-height: 27px;
