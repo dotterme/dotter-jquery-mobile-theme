@@ -902,6 +902,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-store-grid-container, .thankyou-page {
 	border: none !important;
 }
+.dotter-after-scroll-to-selected {
+	border-color: #ff963a;
+}
+
 @media all and (min-width: 36em) {
 	.basket-page {
 		border: none;
