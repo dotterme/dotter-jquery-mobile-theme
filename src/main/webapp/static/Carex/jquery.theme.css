@@ -444,6 +444,8 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
+	background: inherit;
+	border-color: #ff963a;
 	-webkit-box-shadow: none /*{a-active-background-color}*/;
 	-moz-box-shadow: none /*{a-active-background-color}*/;
 	box-shadow: none /*{a-active-background-color}*/;
