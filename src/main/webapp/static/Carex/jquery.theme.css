@@ -875,7 +875,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
-	background-image: url("images/secondary-branding.png");
+	background-image: none;
 	background-size: 25%;
 	background-position: left center;
 	background-repeat: no-repeat;
