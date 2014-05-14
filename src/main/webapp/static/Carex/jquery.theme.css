@@ -1124,8 +1124,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	border-radius: 0px 0px 10px 0px;
 }
 
-// QuantitySelector
-.dotter-spinner .ui-btn {
+/* QuantitySelector */
+.dotter-spinner button.ui-btn {
 	height: 1.8em;
 }
 
