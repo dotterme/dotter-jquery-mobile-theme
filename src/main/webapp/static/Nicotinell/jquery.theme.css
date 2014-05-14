@@ -935,6 +935,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 		border: 2px solid #0078BB;
 	}	
 }
+.dotter-after-scroll-to-selected {
+	border-color: #f00;
+}
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
