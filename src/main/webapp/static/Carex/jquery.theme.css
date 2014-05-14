@@ -373,9 +373,9 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background: 			#ffffff /*{a-bhover-background-color}*/;
+	background: 			#ff963a /*{a-bhover-background-color}*/;
 	border-color:	 		#ff963a /*{a-bhover-border}*/;
-	color: 					#ff963a /*{a-bhover-color}*/;
+	color: 					#ffffff /*{a-bhover-color}*/;
 	text-shadow: none;
 }
 /* Button down */
@@ -995,10 +995,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #ffffff !important;
 	color: #ff963a !important;
 }
-.dotter-change-retailer:hover, .dotter-checkoutasguest:hover {
-	background: #ff963a !important;
-	color: #ffffff !important;
-}
+
 .ui-icon-delete:hover {
 	background: #ff963a !important;
 }
