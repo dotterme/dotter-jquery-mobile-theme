@@ -1123,6 +1123,12 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-navigation-container .dotter-navigation ul li:last-child a {
 	border-radius: 0px 0px 10px 0px;
 }
+
+// QuantitySelector
+.dotter-spinner .ui-btn {
+	height: 1.8em;
+}
+
 /* Slick slider */
 .slick-prev:before,
 .slick-next:before {
