@@ -1139,3 +1139,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .slick-dots li a:before {
 	color: #0087ff;
 }
+
+/* External-content styling */
+.ui-popup .ui-content .ui-collapsible-set .ui-collapsible {
+	border: 1px solid #fff;
+}
