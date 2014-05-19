@@ -980,7 +980,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-spinner input {
 	border-color: #ff963a;
 }
-.ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-minus,  .ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-plus {
+.dotter-spinner > .ui-controlgroup-controls {
+    border-color: #ff963a;
+}
+.ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-minus,  
+.ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-plus {
 	background: #ff963a;
 	min-height: 27px;
 }
