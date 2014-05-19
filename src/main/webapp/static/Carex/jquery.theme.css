@@ -884,7 +884,15 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	margin: 1em 0px 2.3em 1em;
 }
 
+/* secondary navigation */
+.dotter-header .app-links .item {
+	text-transform: uppercase;
+}
+	
 /*Breadcrumbs*/
+.dotter-header .dotter-breadcrumbs li {
+	text-transform: uppercase;
+}
 .dotter-breadcrumbs .dotter-active {
 	color: #0087ff;
 }
@@ -977,9 +985,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-spinner input {
     height: 2.2em;
 }*/
-.dotter-spinner input {
-	border-color: #ff963a;
-}
+.dotter-spinner input,
 .dotter-spinner > .ui-controlgroup-controls {
     border-color: #ff963a;
 }
