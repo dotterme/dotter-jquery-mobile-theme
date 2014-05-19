@@ -983,9 +983,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add,
-#content .ui-body-inherit.dotter-spinner-wrapper,
-#basket .ui-body-inherit.dotter-spinner-wrapper {
+.dotter-add-to-basket .ui-btn.dotter-product-add {
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 }
@@ -1000,8 +998,15 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
-.ui-body-inherit.dotter-spinner-wrapper {
-	border: 1px solid #9CC6E9;
+
+.dotter-spinner .ui-btn,
+.dotter-spinner input {
+	box-sizing: border-box;
+    /*height: 2.2em;*/
+}
+
+.dotter-spinner input {
+	border-color: #9CC6E9;
 }
 
 .dotter-add-to-basket .ui-btn.dotter-product-added {
