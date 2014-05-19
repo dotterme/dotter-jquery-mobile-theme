@@ -1009,6 +1009,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	border-color: #9CC6E9;
 }
 
+.dotter-spinner > .ui-controlgroup-controls {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
 .dotter-add-to-basket .ui-btn.dotter-product-added {
 	background: #0078bb;
 }
