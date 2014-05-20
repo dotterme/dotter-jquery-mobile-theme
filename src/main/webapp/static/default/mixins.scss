@@ -1,0 +1,17 @@
+@mixin box-shadow($shadow) {
+	-webkit-box-shadow: $shadow;
+	   -moz-box-shadow: $shadow;
+	        box-shadow: $shadow;
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	        border-radius: $radius;
+}
+
+@mixin font-face-src($src) {
+	src:url($src + '.eot');
+	src:url($src + '.eot?#iefix') format('embedded-opentype'),
+		url($src + '.woff') format('woff'),
+		url($src + '.ttf') format('truetype');
+}
