@@ -697,10 +697,6 @@ button[disabled],
 	color: #4b4b4b;
 }
 
-.ui-btn.ui-btn-icon-notext {
-	padding: 0;
-}
-
 .ui-btn:hover .dotter-text-b {
 	color: white;
 }
