@@ -85,7 +85,6 @@ label.ui-btn {
 	font-weight: normal;
 	line-height: 1.5em;
 	font-size: 1.3em;
-	text-transform: uppercase;
 }
 .ui-btn:link {
 	text-decoration: none !important;
@@ -105,11 +104,11 @@ label.ui-btn {
 /* Buttons */
 .ui-btn-corner-all,
 .ui-btn.ui-corner-all,
-	/* Slider track */
+/* Slider track */
 .ui-slider-track.ui-corner-all,
-	/* Flipswitch */
+/* Flipswitch */
 .ui-flipswitch.ui-corner-all,
-	/* Count bubble */
+/* Count bubble */
 .ui-li-count {
 	-webkit-border-radius: 				5px;
 	border-radius: 						5px;
@@ -319,7 +318,7 @@ html .ui-panel-page-container-a {
 	border-radius: 0px;
 }
 .ui-body-a {
-	
+
 }
 
 /* Links */
@@ -356,23 +355,15 @@ html .ui-bar-a .ui-btn,
 html .ui-body-a .ui-btn,
 html body .ui-group-theme-a .ui-btn,
 html head + body .ui-btn.ui-btn-a,
-	/* Button visited */
+/* Button visited */
 .ui-page-theme-a .ui-btn:visited,
 html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
-	color: 		#fff /*{a-bup-color}*/;
+	color: 		#339933 /*{a-bup-color}*/;
 	text-shadow: none;
-	font-family: 'Arial Narrow',Arial,sans-serif;
+	font-family: 'Trebuchet MS',Arial,sans-serif;
 	font-weight: bold;
 	font-size: 1em !important;
 }
@@ -382,16 +373,8 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background: #20385c; /* Old browsers */
-	background: -moz-linear-gradient(top,  #20385c 0%, #142339 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#20385c), color-stop(100%,#142339)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #20385c 0%,#142339 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #20385c 0%,#142339 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #20385c 0%,#142339 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #20385c 0%,#142339 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20385c', endColorstr='#142339',GradientType=0 ); /* IE6-9 */
-	border-color:	 		#0078bb /*{a-bhover-border}*/;
-	color: 					#fff /*{a-bhover-color}*/;
+	background: #339933; /* Old browsers */
+	color: #fff /*{a-bhover-color}*/;
 	text-shadow: none;
 }
 /* Button down */
@@ -400,7 +383,7 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	color: 					#fff /*{a-bdown-color}*/;
+	color: #fff /*{a-bdown-color}*/;
 	text-shadow: none;
 }
 
@@ -410,34 +393,26 @@ html .ui-bar-a .ui-btn.ui-btn-active,
 html .ui-body-a .ui-btn.ui-btn-active,
 html body .ui-group-theme-a .ui-btn.ui-btn-active,
 html head + body .ui-btn.ui-btn-a.ui-btn-active,
-	/* Active checkbox icon */
+/* Active checkbox icon */
 .ui-page-theme-a .ui-icon-checkbox-on:after,
 html .ui-bar-a .ui-icon-checkbox-on:after,
 html .ui-body-a .ui-icon-checkbox-on:after,
 html body .ui-group-theme-a .ui-icon-checkbox-on:after,
 .ui-btn.ui-icon-checkbox-on.ui-btn-a:after,
-	/* Active flipswitch background */
+/* Active flipswitch background */
 .ui-page-theme-a .ui-flipswitch-active,
 html .ui-bar-a .ui-flipswitch-active,
 html .ui-body-a .ui-flipswitch-active,
 html body .ui-group-theme-a .ui-flipswitch-active,
 html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,
-	/* Active slider track */
+/* Active slider track */
 .ui-page-theme-a .ui-slider-track .ui-btn-active,
 html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
-	border-color:	 		#0078BB /*{a-active-border}*/;
-	color: 					#fff /*{a-active-color}*/;
+	background: #339933; /* Old browsers */
+	color: #fff /*{a-active-color}*/;
 	text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #0033ff /*{a-active-shadow-color}*/;
 }
 .ui-btn.ui-icon-delete {
@@ -461,7 +436,7 @@ html .ui-bar-a .ui-btn:focus,
 html .ui-body-a .ui-btn:focus,
 html body .ui-group-theme-a .ui-btn:focus,
 html head + body .ui-btn.ui-btn-a:focus,
-	/* Focus buttons and text inputs with div wrap */
+/* Focus buttons and text inputs with div wrap */
 .ui-page-theme-a .ui-focus,
 html .ui-bar-a .ui-focus,
 html .ui-body-a .ui-focus,
@@ -532,7 +507,7 @@ html .ui-panel-page-container-b {
 	color: 					#000 /*{b-body-color}*/;
 }
 .ui-body-b {
-	
+
 }
 
 /* Links */
@@ -567,7 +542,7 @@ html .ui-bar-b .ui-btn,
 html .ui-body-b .ui-btn,
 html body .ui-group-theme-b .ui-btn,
 html head + body .ui-btn.ui-btn-b,
-	/* Button visited */
+/* Button visited */
 .ui-page-theme-b .ui-btn:visited,
 html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
@@ -621,19 +596,19 @@ html .ui-bar-b .ui-btn.ui-btn-active,
 html .ui-body-b .ui-btn.ui-btn-active,
 html body .ui-group-theme-b .ui-btn.ui-btn-active,
 html head + body .ui-btn.ui-btn-b.ui-btn-active,
-	/* Active checkbox icon */
+/* Active checkbox icon */
 .ui-page-theme-b .ui-icon-checkbox-on:after,
 html .ui-bar-b .ui-icon-checkbox-on:after,
 html .ui-body-b .ui-icon-checkbox-on:after,
 html body .ui-group-theme-b .ui-icon-checkbox-on:after,
 .ui-btn.ui-icon-checkbox-on.ui-btn-b:after,
-	/* Active flipswitch background */
+/* Active flipswitch background */
 .ui-page-theme-b .ui-flipswitch-active,
 html .ui-bar-b .ui-flipswitch-active,
 html .ui-body-b .ui-flipswitch-active,
 html body .ui-group-theme-b .ui-flipswitch-active,
 html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active,
-	/* Active slider track */
+/* Active slider track */
 .ui-page-theme-b .ui-slider-track .ui-btn-active,
 html .ui-bar-b .ui-slider-track .ui-btn-active,
 html .ui-body-b .ui-slider-track .ui-btn-active,
@@ -659,7 +634,7 @@ html .ui-bar-b .ui-btn:focus,
 html .ui-body-b .ui-btn:focus,
 html body .ui-group-theme-b .ui-btn:focus,
 html head + body .ui-btn.ui-btn-b:focus,
-	/* Focus buttons and text inputs with div wrap */
+/* Focus buttons and text inputs with div wrap */
 .ui-page-theme-b .ui-focus,
 html .ui-bar-b .ui-focus,
 html .ui-body-b .ui-focus,
@@ -895,20 +870,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-header .panel.top > .panel.right {
 	border: 1px solid #e6e6e6;
-	border-radius: 0px;
+	border-radius: 10px;
 }
 .retailerchoice .dotter-label {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 	color: #fff;
 	padding: .5em;
 	margin: -.5em -.5em .5em;
+	border-radius: 10px 10px 0 0;
 }
 /*Secondary Branding Image*/
 .panel.top > .dotter-image.dotter-retailer {
@@ -999,15 +968,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: .6em;
 }
 .dotter-change-retailer, .dotter-checkoutasguest {
-	background: #e6e2d9 !important; /* Old browsers */
-	background: -moz-linear-gradient(top,  #e6e2d9 0%, #d6d3ce 100%) !important; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e2d9), color-stop(100%,#d6d3ce)) !important; /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* IE10+ */
-	background: linear-gradient(to bottom,  #e6e2d9 0%,#d6d3ce 100%) !important; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2d9', endColorstr='#d6d3ce',GradientType=0 ) !important; /* IE6-9 */
-	color: #a39674 !important;
+	background: #339933 !important; /* Old browsers */
+	color: #fff !important;
 }
 /*Select Retailer btn in product panel*/
 .dotter-retailer-select {
@@ -1125,12 +1087,18 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-store-grid-container .dotter-navigation-container {
-	background: #0078BB;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#efefef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-	-webkit-border-radius: 10px;
-	border-radius: 15px;
 	font-size: 1.3em;
 	padding: 0;
 }
@@ -1140,7 +1108,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-store-grid-container .ui-grid-d > .ui-block-c, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-d, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-	width: 17%;
+	width: 15%;
 	margin-left: 1em;
 }
 
