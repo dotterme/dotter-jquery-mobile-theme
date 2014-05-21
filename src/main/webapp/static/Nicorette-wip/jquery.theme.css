@@ -1066,6 +1066,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: 0;
 	background: none;
 	color: #339933;
+	border-radius: 6px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn:hover {
