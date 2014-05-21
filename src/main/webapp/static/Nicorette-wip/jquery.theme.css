@@ -134,7 +134,7 @@ label.ui-btn {
 }
 
 .dotter-product-grid .dotter-product-details {
-	border-radius: 0px;
+	border-radius: 10px;
 }
 
 /* Shadow
@@ -907,23 +907,23 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 .dotter-store-grid-container, .thankyou-page {
-	border: 1px solid #e6e6e6 !important;
+	border: 1px solid #efefef !important;
 }
 @media all and (min-width: 36em) {
 	.basket-page {
-		border: 1px solid #e6e6e6;
+		border: 1px solid #efefef;
 	}	
 }
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
 	border: 1px solid #a39674;
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 .dotter-product-details h4.dotter-product-title {
 	text-align: center;
@@ -934,14 +934,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 }
 /*Price*/
 .price, .offer {
