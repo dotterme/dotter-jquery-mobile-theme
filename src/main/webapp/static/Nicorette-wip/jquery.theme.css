@@ -294,7 +294,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
 	background-color: #fff;
-	color: #000 /*{a-body-color}*/;
+	color: #666 /*{a-body-color}*/;
 	text-shadow:  none;
 }
 
@@ -305,7 +305,7 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-	color: #000 /*{a-body-color}*/;
+	color: #666 /*{a-body-color}*/;
 	text-shadow: none;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
@@ -319,7 +319,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-	color: #000;
+	color: #666;
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -327,19 +327,19 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-	color: #000;
+	color: #666;
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-	color: #000;
+	color: #666;
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-	color: #000;
+	color: #666;
 }
 
 /* Button up */
@@ -498,7 +498,7 @@ html .ui-body-b .ui-body-inherit,
 html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
 	background: 			#fff /*{b-body-background-color}*/;
-	color: 					#000 /*{b-body-color}*/;
+	color: 					#666 /*{b-body-color}*/;
 }
 .ui-body-b {
 
@@ -509,25 +509,25 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-	color: #000 /*{b-link-color}*/;
+	color: #666 /*{b-link-color}*/;
 }
 .ui-page-theme-b a:visited,
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-	color: #000 /*{b-link-visited}*/;
+	color: #666 /*{b-link-visited}*/;
 }
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
 html .ui-body-b a:hover,
 html body .ui-group-theme-b a:hover {
-	color: #000 /*{b-link-hover}*/;
+	color: #666 /*{b-link-hover}*/;
 }
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
 html body .ui-group-theme-b a:active {
-	color: #000 /*{b-link-active}*/;
+	color: #666 /*{b-link-active}*/;
 }
 
 /* Button up */
@@ -678,12 +678,12 @@ button[disabled],
 
 .ui-page-theme-a,
 .dotter-text-a {
-	color: #000;
+	color: #666;
 }
 
 .ui-page-theme-b,
 .dotter-text-b {
-	color: #000;
+	color: #666;
 }
 
 .ui-btn.ui-btn-icon-notext {
