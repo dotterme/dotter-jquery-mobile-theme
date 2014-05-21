@@ -258,7 +258,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 }
 
 .ui-loader-verbose h1 {
-	color: rgb(20,70,140);
+	color: #339933;
 	font-weight: normal;
 	font-size: 1em;
 }
@@ -360,6 +360,7 @@ html head + body .ui-btn.ui-btn-a:visited {
 	font-family: 'Trebuchet MS',Arial,sans-serif;
 	font-weight: bold;
 	font-size: 1em !important;
+	border-radius: 7px;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -973,7 +974,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	color: #339933;
 }
 .dotter-product-quantity, .dotter-item-quantity {
-	border-color: #a39674 !important;
+	border: none !important;
 }
 .ui-disabled {
 	background: #eee !important;
@@ -987,37 +988,31 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: .4em;
 }
 .ui-input-text {
-	border-color: #a39674;
+	border-color: #339933;
 }
 /*--------------*/
 /* Basket panel */
 /*--------------*/
 /*Basket panel styling*/
 .dotter-basket-details .dotter-basket-content {
-	border: 1px solid #a39674;
+	border: 1px solid #339933;
 	border-bottom: none;
-	background: #F6F7F8;
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
+	background: #fefefe;
+	-webkit-border-radius: 7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
 }
 /*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 	color: #fff;
-	border-radius: 0px;
+	-webkit-border-radius: 0 0 7px 7px;
+	border-radius: 0 0 7px 7px;
 }
 .dotter-checkout-info .dotter-small-prints {
 	font-size: 1.2em;
 	font-family: 'Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
-	color: rgb(20,70,140);
+	color: #339933;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
@@ -1036,7 +1031,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-	color: rgb(20,70,140);
+	color: #339933;
 	font-style: italic;
 }
 
