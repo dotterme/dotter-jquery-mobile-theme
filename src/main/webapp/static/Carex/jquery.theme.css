@@ -977,10 +977,12 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #ff963a;
 	border: 1px solid #ff963a;
 }
-/*.dotter-spinner .ui-btn,
+.dotter-spinner .ui-btn {
+    height: 2em;
+}
 .dotter-spinner input {
-    height: 2.2em;
-}*/
+    height: 2.26em;
+}
 .dotter-spinner input,
 .dotter-spinner > .ui-controlgroup-controls {
     border-color: #ff963a;
