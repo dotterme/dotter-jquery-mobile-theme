@@ -1075,6 +1075,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	color: #fff;
 }
 
+.dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active {
+	background: #339933;
+	color: #fff;
+}
+
 .dotter-store-grid-container .ui-grid-d > .ui-block-a, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-b, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-c, 
