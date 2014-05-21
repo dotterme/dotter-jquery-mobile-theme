@@ -354,7 +354,8 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	color: 		#339933 /*{a-bup-color}*/;
+	background: #339933;
+	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
 	font-family: 'Trebuchet MS',Arial,sans-serif;
 	font-weight: bold;
@@ -888,7 +889,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border-radius: 10px;
 }
 .dotter-store-grid-container, .thankyou-page {
-	border: 1px solid #efefef !important;
+	border: none !important;
 }
 @media all and (min-width: 36em) {
 	.basket-page {
@@ -1065,12 +1066,21 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	background: -ms-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #eeeeee 0%,#efefef 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
-
+	border-radius: 10px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
 	font-size: 1.3em;
 	padding: 0;
+	background: none;
+	color: #339933;
+}
+
+.dotter-store-grid-container .ui-navbar a.ui-btn:hover {
+	font-size: 1.3em;
+	padding: 0;
+	background: #339933;
+	color: #fff;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a, 
