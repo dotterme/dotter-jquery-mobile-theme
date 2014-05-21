@@ -1006,11 +1006,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	border: 0px;
 }
 
-.dotter-spinner .ui-btn,
-.dotter-spinner input {
-	box-sizing: border-box;
-}
-
 .dotter-spinner input {
 	border-color: #9CC6E9;
 }
