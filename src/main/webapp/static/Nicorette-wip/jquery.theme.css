@@ -16,13 +16,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: Arial,Verdana,sans-serif /*{global-font-family}*/;
+	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: Arial,Verdana,sans-serif;
+	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
