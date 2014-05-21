@@ -697,10 +697,6 @@ button[disabled],
 	color: #4b4b4b;
 }
 
-.ui-btn.ui-btn-icon-notext {
-	padding: 0;
-}
-
 .ui-btn:hover .dotter-text-b {
 	color: white;
 }
@@ -884,7 +880,15 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	margin: 1em 0px 2.3em 1em;
 }
 
+/* secondary navigation */
+.dotter-header .app-links .item {
+	text-transform: uppercase;
+}
+	
 /*Breadcrumbs*/
+.dotter-header .dotter-breadcrumbs li {
+	text-transform: uppercase;
+}
 .dotter-breadcrumbs .dotter-active {
 	color: #0087ff;
 }
@@ -963,9 +967,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	padding: 6px 0;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add,
-#content .ui-body-inherit.dotter-spinner-wrapper,
-#basket .ui-body-inherit.dotter-spinner-wrapper {
+.dotter-add-to-basket .ui-btn.dotter-product-add {
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
 }
@@ -975,24 +977,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #ff963a;
 	border: 1px solid #ff963a;
 }
+.dotter-spinner input,
 .dotter-spinner > .ui-controlgroup-controls {
-	border: 1px solid #ff963a;
-	border-radius: 0px;
+    border-color: #ff963a;
 }
-.ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-minus,  .ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-nodisc-icon.ui-btn-icon-notext.ui-alt-icon.ui-icon-plus {
+.dotter-spinner > .ui-controlgroup-controls .ui-btn.ui-btn-icon-notext.ui-alt-icon {
 	background: #ff963a;
-	min-height: 27px;
 }
-.dotter-add-to-basket .ui-btn.dotter-product-added, .dotter-add-to-basket .ui-btn.dotter-product-add:hover {
-	background: #ffffff !important;
-	color: #ff963a !important;
-	border: 1px solid #ff963a !important;
-}
-.dotter-product-quantity, .dotter-item-quantity {
-	border-color: #9CC6E9 !important;
-	min-height: 27px;
-}
-
 .dotter-change-retailer, .dotter-checkoutasguest {
 	background: #ffffff !important;
 	color: #ff963a !important;
@@ -1121,11 +1112,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-navigation-container .dotter-navigation ul li:last-child a {
 	border-radius: 0px 0px 10px 0px;
-}
-
-/* QuantitySelector */
-.dotter-spinner .ui-controlgroup-controls button.ui-btn {
-	height: 1.8em;
 }
 
 /* Slick slider */

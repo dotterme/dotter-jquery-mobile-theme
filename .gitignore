@@ -170,3 +170,7 @@ target/
 
 *.log
 /nbproject/private/
+
+.sass-cache
+node_modules
+

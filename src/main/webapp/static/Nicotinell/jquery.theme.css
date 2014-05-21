@@ -289,7 +289,6 @@ html .ui-btn.ui-icon-checkbox-on:after {
 	background-color: #ffffff;
 	opacity: 1;
 	border-radius: 5px !important;
-	min-width: 300px;
 }
 
 .ui-loader-verbose h1 {
@@ -913,7 +912,15 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	margin: 1em 370px 2.3em 1em;
 }
 
+/* secondary navigation */
+.dotter-header .app-links .item {
+	text-transform: uppercase;
+}
+
 /*Breadcrumbs*/
+.dotter-header .dotter-breadcrumbs li {
+	text-transform: uppercase;
+}
 .dotter-breadcrumbs .dotter-active {
 	color: #0078bb;
 }
@@ -983,9 +990,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add,
-#content .ui-body-inherit.dotter-spinner-wrapper,
-#basket .ui-body-inherit.dotter-spinner-wrapper {
+.dotter-add-to-basket .ui-btn.dotter-product-add {
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 }
@@ -1000,8 +1005,14 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
-.ui-body-inherit.dotter-spinner-wrapper {
-	border: 1px solid #9CC6E9;
+
+.dotter-spinner input {
+	border-color: #9CC6E9;
+}
+
+.dotter-spinner > .ui-controlgroup-controls {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
 }
 
 .dotter-add-to-basket .ui-btn.dotter-product-added {
@@ -1026,15 +1037,9 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	padding: .3em .5em .2em;
 }
 /*Placeholder UPPERCASE*/
-.dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
-	text-transform: uppercase;
-}
-.dotter-retailer-login .ui-input-text input:-moz-placeholder {
-	text-transform: uppercase;
-}
-.dotter-retailer-login .ui-input-text input::-moz-placeholder {
-	text-transform: uppercase;
-}
+.dotter-retailer-login .ui-input-text input::-webkit-input-placeholder,
+.dotter-retailer-login .ui-input-text input:-moz-placeholder,
+.dotter-retailer-login .ui-input-text input::-moz-placeholder,
 .dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
 	text-transform: uppercase;
 }
