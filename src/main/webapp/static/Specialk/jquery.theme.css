@@ -1072,16 +1072,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
     bottom: 0;
     left: 0;
     z-index:1;
-	background: -moz-radial-gradient(.6em .6em, circle, white .55em, rgba(255,255,255,0) .6em) -.6em -.6em,
-                -moz-radial-gradient(1em 50%, circle, white .35em, rgba(255,255,255,0) .4em),
-                -moz-radial-gradient(1em 47%, circle, rgba(0,0,0,.4) .4em, transparent .43em);
-    background: -o-radial-gradient(.6em .6em, circle, white .55em, rgba(255,255,255,0) .6em) -.6em -.6em,
-                -o-radial-gradient(1em 50%, circle, white .35em, rgba(255,255,255,0) .4em),
-                -o-radial-gradient(1em 47%, circle, rgba(0,0,0,.4) .4em, transparent .43em);
-    background: -ms-radial-gradient(.6em .6em, circle, white .55em, rgba(255,255,255,0) .6em) -.6em -.6em,
-                -ms-radial-gradient(1em 50%, circle, white .35em, rgba(255,255,255,0) .4em),
-                -ms-radial-gradient(1em 47%, circle, rgba(0,0,0,.4) .4em, transparent .43em);
-    background: -webkit-radial-gradient(3px 3px, circle, white 6px, rgba(255,255,255,0) 3px) -3px -3px;
+	background: -moz-radial-gradient(.3em .3em, circle, white .3em, rgba(255,255,255,0) .3em) -.3em -.3em;
+    background: -o-radial-gradient(.3em .3em, circle, white .3em, rgba(255,255,255,0) .3em) -.3em -.3em;
+    background: -ms-radial-gradient(.3em .3em, circle, white .3em, rgba(255,255,255,0) .3em) -.3em -.3em;
+    background: -webkit-radial-gradient(.3em .3em, circle, white .3em, rgba(255,255,255,0) .3em) -.3em -.3em;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a, 
