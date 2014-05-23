@@ -16,13 +16,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif /*{global-font-family}*/;
+	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif;
+	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif;
 }
 legend,
 .ui-input-text input,
@@ -357,8 +357,7 @@ html head + body .ui-btn.ui-btn-a:visited {
 	background: #339933;
 	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
-	font-family: 'Trebuchet MS',Arial,sans-serif;
-	font-weight: bold;
+	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif;
 	font-size: 1em !important;
 	border-radius: 7px;
 }
@@ -408,7 +407,6 @@ html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background: #339933; /* Old browsers */
 	color: #fff /*{a-active-color}*/;
-	text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #0033ff /*{a-active-shadow-color}*/;
 }
 .ui-btn.ui-icon-delete {
 	-webkit-border-radius: 15px !important;
@@ -829,7 +827,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /* NICOTINELL BRANDING */
 .dotter-brand-adjust:before {
-	content: 'NICORETTE® ';
+	content: '';
 }
 
 /*Border between upsell products*/
@@ -886,8 +884,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
 }
 .dotter-store-grid-container, .thankyou-page {
 	border: none !important;
@@ -1045,15 +1043,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-store-grid-container .dotter-navigation-container {
-	background: #eeeeee; /* Old browsers */
-	background: -moz-linear-gradient(top,  #eeeeee 0%, #efefef 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #eeeeee 0%,#efefef 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
-	border-radius: 10px;
+	border-bottom: 2px solid #ed174f;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
