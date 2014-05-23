@@ -359,7 +359,6 @@ html head + body .ui-btn.ui-btn-a:visited {
 	text-shadow: none;
 	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif;
 	font-size: 1em !important;
-	border-radius: 7px;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -445,8 +444,8 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 	color: #333 /*{a-bup-background-color}*/;
 	text-shadow: none;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
 }
 .ui-popup .ui-btn {
 	color: #ffffff;
@@ -1051,7 +1050,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: 0;
 	background: none;
 	color: #4d4d4f;
-	border-radius: -5px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn:hover {
@@ -1063,9 +1061,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 .dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active {
 	background: #ed174f;
+	color: #fff;
+	padding: 4px 0;
 }
 .dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active:before {
-	color: #fff;
 	content: '';
     position: absolute;
     top: 0;
@@ -1082,9 +1081,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
     background: -ms-radial-gradient(.6em .6em, circle, white .55em, rgba(255,255,255,0) .6em) -.6em -.6em,
                 -ms-radial-gradient(1em 50%, circle, white .35em, rgba(255,255,255,0) .4em),
                 -ms-radial-gradient(1em 47%, circle, rgba(0,0,0,.4) .4em, transparent .43em);
-    background: -webkit-radial-gradient(.6em .6em, circle, white .55em, rgba(255,255,255,0) .6em) -.6em -.6em,
-                -webkit-radial-gradient(1em 50%, circle, white .35em, rgba(255,255,255,0) .4em),
-                -webkit-radial-gradient(1em 47%, circle, rgba(0,0,0,.4) .4em, transparent .43em);
+    background: -webkit-radial-gradient(3px 3px, circle, white 6px, rgba(255,255,255,0) 3px) -3px -3px
 	background: radial-gradient(.6em .6em, circle, white .55em, rgba(255,255,255,) .6em) -.6em -.6em,
                 radial-gradient(1em 50%, circle, white .35em, rgba(255,255,255,0) .4em),
                 radial-gradient(1em 47%, circle, rgba(0,0,0,.4) .4em, transparent .43em);
