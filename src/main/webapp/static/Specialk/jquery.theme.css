@@ -16,13 +16,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: Arial,Verdana,sans-serif /*{global-font-family}*/;
+	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: Arial,Verdana,sans-serif;
+	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -85,7 +85,6 @@ label.ui-btn {
 	font-weight: normal;
 	line-height: 1.5em;
 	font-size: 1.3em;
-	text-transform: uppercase;
 }
 .ui-btn:link {
 	text-decoration: none !important;
@@ -105,11 +104,11 @@ label.ui-btn {
 /* Buttons */
 .ui-btn-corner-all,
 .ui-btn.ui-corner-all,
-	/* Slider track */
+/* Slider track */
 .ui-slider-track.ui-corner-all,
-	/* Flipswitch */
+/* Flipswitch */
 .ui-flipswitch.ui-corner-all,
-	/* Count bubble */
+/* Count bubble */
 .ui-li-count {
 	-webkit-border-radius: 				5px;
 	border-radius: 						5px;
@@ -135,7 +134,7 @@ label.ui-btn {
 }
 
 .dotter-product-grid .dotter-product-details {
-	border-radius: 0px;
+	border-radius: 10px;
 }
 
 /* Shadow
@@ -259,7 +258,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 }
 
 .ui-loader-verbose h1 {
-	color: rgb(20,70,140);
+	color: #339933;
 	font-weight: normal;
 	font-size: 1em;
 }
@@ -275,14 +274,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 	color: white /*{a-body-color}*/;
 	text-shadow: none;
 	font-weight: bold;
@@ -302,7 +294,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
 	background-color: #fff;
-	color: #000 /*{a-body-color}*/;
+	color: #666 /*{a-body-color}*/;
 	text-shadow:  none;
 }
 
@@ -313,13 +305,13 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-	color: #000 /*{a-body-color}*/;
+	color: #666 /*{a-body-color}*/;
 	text-shadow: none;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
 }
 .ui-body-a {
-	
+
 }
 
 /* Links */
@@ -327,7 +319,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-	color: #000;
+	color: #666;
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -335,19 +327,19 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-	color: #000;
+	color: #666;
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-	color: #000;
+	color: #666;
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-	color: #000;
+	color: #666;
 }
 
 /* Button up */
@@ -356,25 +348,19 @@ html .ui-bar-a .ui-btn,
 html .ui-body-a .ui-btn,
 html body .ui-group-theme-a .ui-btn,
 html head + body .ui-btn.ui-btn-a,
-	/* Button visited */
+/* Button visited */
 .ui-page-theme-a .ui-btn:visited,
 html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
-	font-family: 'Arial Narrow',Arial,sans-serif;
+	font-family: 'Trebuchet MS',Arial,sans-serif;
 	font-weight: bold;
 	font-size: 1em !important;
+	border-radius: 7px;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -382,16 +368,8 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background: #20385c; /* Old browsers */
-	background: -moz-linear-gradient(top,  #20385c 0%, #142339 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#20385c), color-stop(100%,#142339)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #20385c 0%,#142339 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #20385c 0%,#142339 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #20385c 0%,#142339 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #20385c 0%,#142339 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20385c', endColorstr='#142339',GradientType=0 ); /* IE6-9 */
-	border-color:	 		#142339 /*{a-bhover-border}*/;
-	color: 					#fff /*{a-bhover-color}*/;
+	background: #339933; /* Old browsers */
+	color: #fff /*{a-bhover-color}*/;
 	text-shadow: none;
 }
 /* Button down */
@@ -400,7 +378,7 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	color: 					#fff /*{a-bdown-color}*/;
+	color: #fff /*{a-bdown-color}*/;
 	text-shadow: none;
 }
 
@@ -410,34 +388,26 @@ html .ui-bar-a .ui-btn.ui-btn-active,
 html .ui-body-a .ui-btn.ui-btn-active,
 html body .ui-group-theme-a .ui-btn.ui-btn-active,
 html head + body .ui-btn.ui-btn-a.ui-btn-active,
-	/* Active checkbox icon */
+/* Active checkbox icon */
 .ui-page-theme-a .ui-icon-checkbox-on:after,
 html .ui-bar-a .ui-icon-checkbox-on:after,
 html .ui-body-a .ui-icon-checkbox-on:after,
 html body .ui-group-theme-a .ui-icon-checkbox-on:after,
 .ui-btn.ui-icon-checkbox-on.ui-btn-a:after,
-	/* Active flipswitch background */
+/* Active flipswitch background */
 .ui-page-theme-a .ui-flipswitch-active,
 html .ui-bar-a .ui-flipswitch-active,
 html .ui-body-a .ui-flipswitch-active,
 html body .ui-group-theme-a .ui-flipswitch-active,
 html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,
-	/* Active slider track */
+/* Active slider track */
 .ui-page-theme-a .ui-slider-track .ui-btn-active,
 html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
-	border-color:	 		#0078BB /*{a-active-border}*/;
-	color: 					#fff /*{a-active-color}*/;
+	background: #339933; /* Old browsers */
+	color: #fff /*{a-active-color}*/;
 	text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #0033ff /*{a-active-shadow-color}*/;
 }
 .ui-btn.ui-icon-delete {
@@ -461,7 +431,7 @@ html .ui-bar-a .ui-btn:focus,
 html .ui-body-a .ui-btn:focus,
 html body .ui-group-theme-a .ui-btn:focus,
 html head + body .ui-btn.ui-btn-a:focus,
-	/* Focus buttons and text inputs with div wrap */
+/* Focus buttons and text inputs with div wrap */
 .ui-page-theme-a .ui-focus,
 html .ui-bar-a .ui-focus,
 html .ui-body-a .ui-focus,
@@ -477,8 +447,8 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 	color: #333 /*{a-bup-background-color}*/;
 	text-shadow: none;
-	-webkit-border-radius: 5px;
-	border-radius: 0px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 .ui-popup .ui-btn {
 	color: #ffffff;
@@ -529,10 +499,10 @@ html .ui-body-b .ui-body-inherit,
 html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
 	background: 			#fff /*{b-body-background-color}*/;
-	color: 					#000 /*{b-body-color}*/;
+	color: 					#666 /*{b-body-color}*/;
 }
 .ui-body-b {
-	
+
 }
 
 /* Links */
@@ -540,25 +510,25 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-	color: #000 /*{b-link-color}*/;
+	color: #666 /*{b-link-color}*/;
 }
 .ui-page-theme-b a:visited,
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-	color: #000 /*{b-link-visited}*/;
+	color: #666 /*{b-link-visited}*/;
 }
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
 html .ui-body-b a:hover,
 html body .ui-group-theme-b a:hover {
-	color: #000 /*{b-link-hover}*/;
+	color: #666 /*{b-link-hover}*/;
 }
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
 html body .ui-group-theme-b a:active {
-	color: #000 /*{b-link-active}*/;
+	color: #666 /*{b-link-active}*/;
 }
 
 /* Button up */
@@ -567,21 +537,14 @@ html .ui-bar-b .ui-btn,
 html .ui-body-b .ui-btn,
 html body .ui-group-theme-b .ui-btn,
 html head + body .ui-btn.ui-btn-b,
-	/* Button visited */
+/* Button visited */
 .ui-page-theme-b .ui-btn:visited,
 html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
 html body .ui-group-theme-b .ui-btn:visited,
 html head + body .ui-btn.ui-btn-b:visited {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
-	border-color:	 		#a39674 /*{b-bup-border}*/;
+	background: #339933;
+	border-color:	 		#fff /*{b-bup-border}*/;
 	color: 					#fff /*{b-bup-color}*/;
 	text-shadow: none;
 }
@@ -591,16 +554,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-	background: #e6e2d9 !important; /* Old browsers */
-	background: -moz-linear-gradient(top,  #e6e2d9 0%, #d6d3ce 100%) !important; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e2d9), color-stop(100%,#d6d3ce)) !important; /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* IE10+ */
-	background: linear-gradient(to bottom,  #e6e2d9 0%,#d6d3ce 100%) !important; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2d9', endColorstr='#d6d3ce',GradientType=0 ) !important; /* IE6-9 */
-	border-color:	 		#a39674 /*{b-bhover-border}*/;
-	color: 					#a39674 /*{b-bhover-color}*/;
+	background: #eee !important;
 	text-shadow: none;
 }
 /* Button down */
@@ -621,19 +575,19 @@ html .ui-bar-b .ui-btn.ui-btn-active,
 html .ui-body-b .ui-btn.ui-btn-active,
 html body .ui-group-theme-b .ui-btn.ui-btn-active,
 html head + body .ui-btn.ui-btn-b.ui-btn-active,
-	/* Active checkbox icon */
+/* Active checkbox icon */
 .ui-page-theme-b .ui-icon-checkbox-on:after,
 html .ui-bar-b .ui-icon-checkbox-on:after,
 html .ui-body-b .ui-icon-checkbox-on:after,
 html body .ui-group-theme-b .ui-icon-checkbox-on:after,
 .ui-btn.ui-icon-checkbox-on.ui-btn-b:after,
-	/* Active flipswitch background */
+/* Active flipswitch background */
 .ui-page-theme-b .ui-flipswitch-active,
 html .ui-bar-b .ui-flipswitch-active,
 html .ui-body-b .ui-flipswitch-active,
 html body .ui-group-theme-b .ui-flipswitch-active,
 html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active,
-	/* Active slider track */
+/* Active slider track */
 .ui-page-theme-b .ui-slider-track .ui-btn-active,
 html .ui-bar-b .ui-slider-track .ui-btn-active,
 html .ui-body-b .ui-slider-track .ui-btn-active,
@@ -659,7 +613,7 @@ html .ui-bar-b .ui-btn:focus,
 html .ui-body-b .ui-btn:focus,
 html body .ui-group-theme-b .ui-btn:focus,
 html head + body .ui-btn.ui-btn-b:focus,
-	/* Focus buttons and text inputs with div wrap */
+/* Focus buttons and text inputs with div wrap */
 .ui-page-theme-b .ui-focus,
 html .ui-bar-b .ui-focus,
 html .ui-body-b .ui-focus,
@@ -725,12 +679,12 @@ button[disabled],
 
 .ui-page-theme-a,
 .dotter-text-a {
-	color: #000;
+	color: #666;
 }
 
 .ui-page-theme-b,
 .dotter-text-b {
-	color: #000;
+	color: #666;
 }
 
 .ui-btn.ui-btn-icon-notext {
@@ -875,7 +829,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /* NICOTINELL BRANDING */
 .dotter-brand-adjust:before {
-	content: 'REGAINE® ';
+	content: 'NICORETTE® ';
 }
 
 /*Border between upsell products*/
@@ -895,20 +849,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-header .panel.top > .panel.right {
 	border: 1px solid #e6e6e6;
-	border-radius: 0px;
+	border-radius: 10px;
 }
 .retailerchoice .dotter-label {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 	color: #fff;
 	padding: .5em;
 	margin: -.5em -.5em .5em;
+	border-radius: 10px 10px 0 0;
 }
 /*Secondary Branding Image*/
 .panel.top > .dotter-image.dotter-retailer {
@@ -938,23 +886,23 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 .dotter-store-grid-container, .thankyou-page {
-	border: 1px solid #e6e6e6 !important;
+	border: none !important;
 }
 @media all and (min-width: 36em) {
 	.basket-page {
-		border: 1px solid #e6e6e6;
+		border: 1px solid #efefef;
 	}	
 }
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-	border: 1px solid #a39674;
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
+	border: 1px solid #339933;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 .dotter-product-details h4.dotter-product-title {
 	text-align: center;
@@ -965,14 +913,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 }
 /*Price*/
 .price, .offer {
@@ -999,15 +940,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: .6em;
 }
 .dotter-change-retailer, .dotter-checkoutasguest {
-	background: #e6e2d9 !important; /* Old browsers */
-	background: -moz-linear-gradient(top,  #e6e2d9 0%, #d6d3ce 100%) !important; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e2d9), color-stop(100%,#d6d3ce)) !important; /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%) !important; /* IE10+ */
-	background: linear-gradient(to bottom,  #e6e2d9 0%,#d6d3ce 100%) !important; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2d9', endColorstr='#d6d3ce',GradientType=0 ) !important; /* IE6-9 */
-	color: #a39674 !important;
+	background: #339933 !important; /* Old browsers */
+	color: #fff !important;
 }
 /*Select Retailer btn in product panel*/
 .dotter-retailer-select {
@@ -1021,37 +955,29 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-add-to-basket .ui-btn.dotter-product-add,
 #content .ui-body-inherit.dotter-spinner-wrapper,
 #basket .ui-body-inherit.dotter-spinner-wrapper {
-	border-radius: 0px;
-	-webkit-border-radius: 0px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
 .dotter-spinner>.ui-controlgroup-controls {
-	border: 1px solid #a39674;
-	border-radius: 0px;
+	border: 1px solid #339933;
+	border-radius: 10px;
 }
 .ui-icon-minus, .ui-icon-plus {
-	min-height: 27px;
-	border-radius: 0px !important;
+	border-radius: 10px;
 }
 /*Add btn in product panel (added/update state)*/
 .dotter-add-to-basket .ui-btn.dotter-product-added {
-	background: #e6e2d9; /* Old browsers */
-	background: -moz-linear-gradient(top,  #e6e2d9 0%, #d6d3ce 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e2d9), color-stop(100%,#d6d3ce)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #e6e2d9 0%,#d6d3ce 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #e6e2d9 0%,#d6d3ce 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e2d9', endColorstr='#d6d3ce',GradientType=0 ); /* IE6-9 */
-	color: #a39674;
+	background: #eee; /* Old browsers */
+	color: #339933;
 }
 .dotter-product-quantity, .dotter-item-quantity {
-	border-color: #a39674 !important;
+	border: none !important;
 }
 .ui-disabled {
-	background: #e6e6e6 !important;
+	background: #eee !important;
 	text-shadow: 1px 1px #ccc !important;
 }
 /*--------------------*/
@@ -1062,37 +988,31 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: .4em;
 }
 .ui-input-text {
-	border-color: #a39674;
+	border-color: #339933;
 }
 /*--------------*/
 /* Basket panel */
 /*--------------*/
 /*Basket panel styling*/
 .dotter-basket-details .dotter-basket-content {
-	border: 1px solid #a39674;
+	border: 1px solid #339933;
 	border-bottom: none;
-	background: #F6F7F8;
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
+	background: #fefefe;
+	-webkit-border-radius: 7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
 }
 /*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
-	background: #a39674; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	background: #339933;
 	color: #fff;
-	border-radius: 0px;
+	-webkit-border-radius: 0 0 7px 7px;
+	border-radius: 0 0 7px 7px;
 }
 .dotter-checkout-info .dotter-small-prints {
 	font-size: 1.2em;
 	font-family: 'Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
-	color: rgb(20,70,140);
+	color: #339933;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
@@ -1111,7 +1031,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-	color: rgb(20,70,140);
+	color: #339933;
 	font-style: italic;
 }
 
@@ -1125,14 +1045,35 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 .dotter-store-grid-container .dotter-navigation-container {
-	background: #0078BB;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#efefef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+	border-radius: 10px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-	-webkit-border-radius: 10px;
-	border-radius: 15px;
 	font-size: 1.3em;
 	padding: 0;
+	background: none;
+	color: #339933;
+	border-radius: 6px;
+}
+
+.dotter-store-grid-container .ui-navbar a.ui-btn:hover {
+	font-size: 1.3em;
+	padding: 0;
+	background: #339933;
+	color: #fff;
+}
+
+.dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active {
+	background: #339933;
+	color: #fff;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a, 
@@ -1140,7 +1081,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-store-grid-container .ui-grid-d > .ui-block-c, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-d, 
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-	width: 17%;
+	width: 15%;
 	margin-left: 1em;
 }
 
