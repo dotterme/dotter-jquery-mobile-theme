@@ -16,7 +16,7 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif /*{global-font-family}*/;
+	font-family: sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
@@ -110,8 +110,8 @@ label.ui-btn {
 .ui-flipswitch.ui-corner-all,
 /* Count bubble */
 .ui-li-count {
-	-webkit-border-radius: 				5px;
-	border-radius: 						5px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
 }
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
@@ -547,7 +547,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-	background: #4d4d4f !important;
+	background: #bdbdbe !important;
 	text-shadow: none;
 }
 /* Button down */
@@ -841,7 +841,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	min-height: 48px;
 }
 .dotter-header .panel.top > .panel.right {
-	border: 1px solid #4d4d4f;
+	border: 1px solid #bdbdbe;
 }
 .retailerchoice .dotter-label {
 	background: #ed174f;
@@ -928,10 +928,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	line-height: 1em;
 	padding: .6em;
 }
-.dotter-change-retailer, .dotter-checkoutasguest {
-	background: #339933 !important; /* Old browsers */
-	color: #fff !important;
-}
+
 /*Select Retailer btn in product panel*/
 .dotter-retailer-select {
 	background: #fff !important;
@@ -944,26 +941,22 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-add-to-basket .ui-btn.dotter-product-add,
 #content .ui-body-inherit.dotter-spinner-wrapper,
 #basket .ui-body-inherit.dotter-spinner-wrapper {
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
+
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
 }
-.dotter-spinner>.ui-controlgroup-controls {
-	border: 1px solid #339933;
-	border-radius: 10px;
-}
+
 .ui-icon-minus, .ui-icon-plus {
-	border-radius: 10px;
+	border-radius: 0px;
 }
 /*Add btn in product panel (added/update state)*/
 .dotter-add-to-basket .ui-btn.dotter-product-added {
 	background: #eee; /* Old browsers */
-	color: #339933;
+	color: #ed174f;
 }
 .dotter-product-quantity, .dotter-item-quantity {
-	border: none !important;
+	border: 1px solid #ed174f !important;
 }
 .ui-disabled {
 	background: #eee !important;
@@ -976,32 +969,25 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	font-size: 1.1em;
 	padding: .4em;
 }
-.ui-input-text {
-	border-color: #339933;
-}
 /*--------------*/
 /* Basket panel */
 /*--------------*/
 /*Basket panel styling*/
 .dotter-basket-details .dotter-basket-content {
-	border: 1px solid #339933;
+	border: 1px solid #bdbdbe;
 	border-bottom: none;
-	background: #fefefe;
-	-webkit-border-radius: 7px 7px 0 0;
-	border-radius: 7px 7px 0 0;
+	background: #fcfcfc;
 }
 /*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
-	background: #339933;
+	background: #bdbdbe;
 	color: #fff;
-	-webkit-border-radius: 0 0 7px 7px;
-	border-radius: 0 0 7px 7px;
 }
 .dotter-checkout-info .dotter-small-prints {
 	font-size: 1.2em;
 	font-family: 'Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
-	color: #339933;
+	color: #ed174f;
 }
 /*Upsell slider*/
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
