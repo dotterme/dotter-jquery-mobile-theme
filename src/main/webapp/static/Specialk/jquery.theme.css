@@ -254,7 +254,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 }
 
 .ui-loader-verbose h1 {
-	color: #339933;
+	color: #ed174f;
 	font-weight: normal;
 	font-size: 1em;
 }
@@ -868,7 +868,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /*Breadcrumbs*/
 .dotter-breadcrumbs .dotter-active {
-	color: rgb(20,70,140);
+	color: #ed174f;
 }
 .dotter-breadcrumbs .dotter-active:before {
 	color: #000;
@@ -980,7 +980,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
-	background: #bdbdbe;
+	background: #ed174f;
 	color: #fff;
 }
 .dotter-checkout-info .dotter-small-prints {
@@ -1006,7 +1006,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-	color: #339933;
+	color: #ed174f;
 	font-style: italic;
 }
 
