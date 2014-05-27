@@ -877,7 +877,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /*Breadcrumbs*/
 .dotter-breadcrumbs .dotter-active {
-	color: rgb(20,70,140);
+	color: #339933;
 }
 .dotter-breadcrumbs .dotter-active:before {
 	color: #000;
@@ -910,6 +910,9 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-product-abstract {
 	font-size: .9em;
+}
+.dotter-has-upsell > h3 {
+	color: #339933;
 }
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
@@ -946,7 +949,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /*Select Retailer btn in product panel*/
 .dotter-retailer-select {
 	background: #fff !important;
-	color: #ff0000 !important;
+	color: #339933 !important;
 	font-size: 1.1em !important;
 	border: none !important;
 	padding: 0 !important;
@@ -1010,7 +1013,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-checkout-info .dotter-small-prints {
 	font-size: 1.2em;
-	font-family: 'Arial Narrow',Arial,sans-serif;
+	font-family: 'Trebuchet MS',Arial,sans-serif;
 	font-weight: bold;
 	color: #339933;
 }
