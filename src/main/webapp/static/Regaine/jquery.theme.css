@@ -436,7 +436,7 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
-	border-color:	 		#0078BB /*{a-active-border}*/;
+	border-color:	 		#a39674 /*{a-active-border}*/;
 	color: 					#fff /*{a-active-color}*/;
 	text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #0033ff /*{a-active-shadow-color}*/;
 }
