@@ -866,7 +866,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 @media all and (min-width: 50em){
 	.dotter-image.dotter-retailer {
-		background-image: url("") !important;
+		background-image: url("images/secondary-branding.png") !important;
 	}
 }
 /*---------------------------*/
