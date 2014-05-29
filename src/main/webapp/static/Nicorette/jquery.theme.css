@@ -948,11 +948,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 /*Select Retailer btn in product panel*/
 .dotter-retailer-select {
-	background: #fff !important;
-	color: #339933 !important;
-	font-size: 1.1em !important;
-	border: none !important;
-	padding: 0 !important;
+	padding: .3em !important;
 }
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
