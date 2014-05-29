@@ -860,10 +860,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	top: 0px;
 	bottom: 0px;
 	background-image: url("");
-	background-size: 45%;
-	background-position: left center;
+	background-size: 25%;
+	background-position: left top;
 	background-repeat: no-repeat;
-	margin: 1em 370px 2.3em 1em;
+	margin-bottom: 2.3em;
 }
 
 /*Breadcrumbs*/
@@ -985,7 +985,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-checkout-info .dotter-small-prints {
 	font-size: 1.2em;
-	font-family: 'Arial Narrow',Arial,sans-serif;
+	font-family: sans-serif;
 	font-weight: bold;
 	color: #ed174f;
 }
