@@ -1087,7 +1087,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-thankyou-page h1 {
 	color: #0078BB;
 	font-style: italic;
-	font-family: 'Arial Narrow';
+	font-family: 'Arial Narrow',Arial;
 }
 
 /*Footer button (powered by Dotter)*/
