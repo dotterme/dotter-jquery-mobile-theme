@@ -1088,6 +1088,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	color: #0078BB;
 	font-style: italic;
 	font-family: 'Arial Narrow',Arial;
+    font-weight: normal;
 }
 
 /*Footer button (powered by Dotter)*/
