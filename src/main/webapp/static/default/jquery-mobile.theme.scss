@@ -11,6 +11,8 @@
 
 $global-font-family: sans-serif !default;
 $global-icon-color: #333 !default;
+$global-border-width-buttons: 1px !default;
+$global-border-style-buttons: solid !default;
 $global-radii-buttons: .3125em !default;
 $global-radii-blocks: .6em !default;
 $global-box-shadow-size: 0 1px 3px !default;
@@ -169,8 +171,8 @@ div.ui-controlgroup-label {
 .ui-btn,
 label.ui-btn {
 	font-weight: bold;
-	border-width: 1px;
-	border-style: solid;
+	border-width: $global-border-width-buttons;
+	border-style: $global-border-style-buttons;
 }
 .ui-btn:link {
 	text-decoration: none !important;
