@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -127,8 +128,8 @@ div.ui-controlgroup-label {
 .ui-btn,
 label.ui-btn {
   font-weight: bold;
-  border-width: 1px;
-  border-style: solid;
+  border-width: 0;
+  border-style: none;
 }
 
 .ui-btn:link {
@@ -864,11 +865,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   font-size: 1em;
 }
 
-.dotter-spinner .ui-btn,
-.dotter-spinner input {
-  box-sizing: border-box;
-}
-
 .dotter-spinner input {
   border-color: #0078bb;
 }
@@ -983,7 +979,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-thankyou-page h1 {
   color: #0078bb;
   font-style: italic;
-  font-family: 'Arial Narrow';
+  font-family: 'Arial Narrow',Arial;
+  font-weight: normal;
 }
 
 /*Footer button (powered by Dotter)*/
