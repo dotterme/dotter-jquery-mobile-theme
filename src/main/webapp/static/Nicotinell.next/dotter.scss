@@ -107,10 +107,18 @@ label.ui-btn {
 	}
 }
 
+.dotter-branding-image {
+  background-image: url("images/secondary-branding-sml.png");
+}
+
 @media all and (min-width: 50em){
-	.dotter-image.dotter-retailer {
-		background-image: url("images/secondary-branding.png") !important;
-	}
+  .dotter-image.dotter-retailer {
+    background-image: url("images/secondary-branding.png") !important;
+  }
+
+  .dotter-branding-image {
+    background-image: url("images/secondary-branding.png") !important;
+  }
 }
 /*---------------------------*/
 /* Dotter Store specific CSS */
@@ -147,6 +155,7 @@ label.ui-btn {
 	padding: .5em;
 	margin: -.5em -.5em .5em;
 }
+
 /*Secondary Branding Image*/
 .panel.top > .dotter-image.dotter-retailer {
 	float: right;
