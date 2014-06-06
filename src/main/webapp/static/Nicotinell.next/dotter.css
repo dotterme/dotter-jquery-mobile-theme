@@ -700,6 +700,9 @@ label.ui-btn {
   margin: 1em 370px 2.3em 1em; }
 
 /*Breadcrumbs*/
+.dotter-header .dotter-breadcrumbs li {
+  text-transform: uppercase; }
+
 .dotter-breadcrumbs .dotter-active {
   color: #0078bb; }
 
