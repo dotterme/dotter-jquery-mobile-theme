@@ -3,6 +3,8 @@ $secondary-color: #3388cc;
 
 $global-font-family: 'FranklinGothicURWCon-Boo',Arial,Verdana,sans-serif;
 $global-box-shadow-size: 0;
+$global-border-width-buttons: 0;
+$global-border-style-buttons: none;
 
 $a-bar-background-color: $primary-color;
 $a-bar-color: #fff;
@@ -43,12 +45,20 @@ $a-bdown-shadow-x: 0;
 $a-bdown-shadow-y: 0;
 $a-bdown-shadow-radius: 0;
 
+$a-active-box-shadow: none;
+
 $b-body-background-color: #fff;
 $b-body-color: #000;
 $b-body-shadow-x: 0;
 $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
 
+$b-link-color: #000;
+$b-link-text-decoration: none;
+$b-link-font-weight: normal;
+$b-link-visited: #000;
+$b-link-hover: #000;
+$b-link-active: #000;
 
 @import '../default/reset';
 @import '../default/mixins';
@@ -83,6 +93,7 @@ $b-body-shadow-radius: 0;
 button,
 .ui-btn {
 	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+    @include border-radius(5px);
 }
 
 .ui-btn,
@@ -105,10 +116,18 @@ label.ui-btn {
 	}
 }
 
+.dotter-branding-image {
+  background-image: url("images/secondary-branding-sml.png");
+}
+
 @media all and (min-width: 50em){
-	.dotter-image.dotter-retailer {
-		background-image: url("images/secondary-branding.png") !important;
-	}
+  .dotter-image.dotter-retailer {
+    background-image: url("images/secondary-branding.png") !important;
+  }
+
+  .dotter-branding-image {
+    background-image: url("images/secondary-branding.png") !important;
+  }
 }
 /*---------------------------*/
 /* Dotter Store specific CSS */
@@ -145,6 +164,7 @@ label.ui-btn {
 	padding: .5em;
 	margin: -.5em -.5em .5em;
 }
+
 /*Secondary Branding Image*/
 .panel.top > .dotter-image.dotter-retailer {
 	float: right;
@@ -162,7 +182,15 @@ label.ui-btn {
 	margin: 1em 370px 2.3em 1em;
 }
 
+/* secondary navigation */
+.dotter-header .app-links .item {
+  text-transform: uppercase;
+}
+
 /*Breadcrumbs*/
+.dotter-header .dotter-breadcrumbs li {
+  text-transform: uppercase;
+}
 .dotter-breadcrumbs .dotter-active {
 	color: $primary-color;
 }
@@ -324,7 +352,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-thankyou-page h1 {
 	color: $primary-color;
 	font-style: italic;
-	font-family: 'Arial Narrow';
+	font-family: 'Arial Narrow',Arial;
+    font-weight: normal;
 }
 
 /*Footer button (powered by Dotter)*/

@@ -859,6 +859,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-image.dotter-retailer {
 		background-image: url("images/secondary-branding.png") !important;
 	}
+
+	.dotter-branding-image {
+		background-image: url("images/secondary-branding.png") !important;
+	}
 }
 /*---------------------------*/
 /* Dotter Store specific CSS */
@@ -899,6 +903,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .panel.top > .dotter-image.dotter-retailer {
 	float: right;
 }
+
+.dotter-branding-image {
+	background-image: url("images/secondary-branding-sml.png");
+}
+
 .dotter-image.dotter-retailer {
 	position: absolute;
 	left: 0px;
@@ -1088,6 +1097,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	color: #0078BB;
 	font-style: italic;
 	font-family: 'Arial Narrow',Arial;
+    font-weight: normal;
 }
 
 /*Footer button (powered by Dotter)*/

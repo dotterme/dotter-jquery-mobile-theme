@@ -11,6 +11,8 @@
 
 $global-font-family: sans-serif !default;
 $global-icon-color: #333 !default;
+$global-border-width-buttons: 1px !default;
+$global-border-style-buttons: solid !default;
 $global-radii-buttons: .3125em !default;
 $global-radii-blocks: .6em !default;
 $global-box-shadow-size: 0 1px 3px !default;
@@ -81,6 +83,7 @@ $a-active-shadow-x: 0 !default;
 $a-active-shadow-y: 1px !default;
 $a-active-shadow-radius: 0 !default;
 $a-active-shadow-color: #005599 !default;
+$a-active-box-shadow: 0 0 12px $a-active-background-color !default;
 
 $b-bar-background-color: #1d1d1d !default;
 $b-bar-border: #1b1b1b !default;
@@ -102,6 +105,8 @@ $b-link-color: #22aadd !default;
 $b-link-visited: #22aadd !default;
 $b-link-hover: #0088bb !default;
 $b-link-active: #0088bb !default;
+$b-link-text-decoration: underline !default;
+$b-link-font-weight: bold !default;
 
 @import 'mixins';
 
@@ -169,8 +174,8 @@ div.ui-controlgroup-label {
 .ui-btn,
 label.ui-btn {
 	font-weight: bold;
-	border-width: 1px;
-	border-style: solid;
+	border-width: $global-border-width-buttons;
+	border-style: $global-border-style-buttons;
 }
 .ui-btn:link {
 	text-decoration: none !important;
@@ -454,7 +459,7 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-	@include box-shadow(0 0 12px $a-active-background-color);
+	@include box-shadow($a-active-box-shadow);
 }
 /* B
 -----------------------------------------------------------------------------------------------------------*/
@@ -505,7 +510,8 @@ html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
 	color: $b-link-color;
-	font-weight: bold;
+	font-weight: $b-link-font-weight;
+    text-decoration: $b-link-text-decoration;
 }
 .ui-page-theme-b a:visited,
 html .ui-bar-b a:visited,
