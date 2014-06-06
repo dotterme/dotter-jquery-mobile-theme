@@ -45,13 +45,20 @@ $a-bdown-shadow-x: 0;
 $a-bdown-shadow-y: 0;
 $a-bdown-shadow-radius: 0;
 
+$a-active-box-shadow: none;
+
 $b-body-background-color: #fff;
 $b-body-color: #000;
 $b-body-shadow-x: 0;
 $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
 
-$a-active-box-shadow: none;
+$b-link-color: #000;
+$b-link-text-decoration: none;
+$b-link-font-weight: normal;
+$b-link-visited: #000;
+$b-link-hover: #000;
+$b-link-active: #000;
 
 @import '../default/reset';
 @import '../default/mixins';

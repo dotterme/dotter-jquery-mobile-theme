@@ -105,6 +105,8 @@ $b-link-color: #22aadd !default;
 $b-link-visited: #22aadd !default;
 $b-link-hover: #0088bb !default;
 $b-link-active: #0088bb !default;
+$b-link-text-decoration: underline !default;
+$b-link-font-weight: bold !default;
 
 @import 'mixins';
 
@@ -508,7 +510,8 @@ html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
 	color: $b-link-color;
-	font-weight: bold;
+	font-weight: $b-link-font-weight;
+    text-decoration: $b-link-text-decoration;
 }
 .ui-page-theme-b a:visited,
 html .ui-bar-b a:visited,
