@@ -625,7 +625,9 @@ button[disabled],
 
 button,
 .ui-btn {
-  font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif; }
+  font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
 
 .ui-btn,
 label.ui-btn {

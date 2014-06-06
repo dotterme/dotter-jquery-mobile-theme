@@ -85,6 +85,7 @@ $b-body-shadow-radius: 0;
 button,
 .ui-btn {
 	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+    @include border-radius(5px);
 }
 
 .ui-btn,
