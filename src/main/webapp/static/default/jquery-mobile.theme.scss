@@ -83,6 +83,7 @@ $a-active-shadow-x: 0 !default;
 $a-active-shadow-y: 1px !default;
 $a-active-shadow-radius: 0 !default;
 $a-active-shadow-color: #005599 !default;
+$a-active-box-shadow: 0 0 12px $a-active-background-color !default;
 
 $b-bar-background-color: #1d1d1d !default;
 $b-bar-border: #1b1b1b !default;
@@ -456,7 +457,7 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-	@include box-shadow(0 0 12px $a-active-background-color);
+	@include box-shadow($a-active-box-shadow);
 }
 /* B
 -----------------------------------------------------------------------------------------------------------*/

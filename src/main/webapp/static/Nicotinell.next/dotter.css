@@ -400,9 +400,9 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-  -webkit-box-shadow: 0 0 12px #3388cc;
-  -moz-box-shadow: 0 0 12px #3388cc;
-  box-shadow: 0 0 12px #3388cc; }
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
 
 /* B
 -----------------------------------------------------------------------------------------------------------*/
