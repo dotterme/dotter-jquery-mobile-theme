@@ -156,7 +156,7 @@ label.ui-btn {
 }
 .dotter-header .panel.top > .panel.right {
 	border: 2px solid $primary-color;
-	border-radius: 5px;
+    @include border-radius(5px);
 }
 .retailerchoice .dotter-label {
 	background: $primary-color;
@@ -201,8 +201,7 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+  @include border-radius(5px);
 }
 .dotter-store-grid-container, .thankyou-page {
 	border: 2px solid $primary-color;
@@ -216,8 +215,7 @@ label.ui-btn {
 /*Product details both in grid and upsell*/
 .dotter-product-details {
 	border: 2px solid #9CC6E9;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+    @include border-radius(5px);
 }
 .dotter-product-details h4.dotter-product-title {
 	text-align: center;
@@ -263,16 +261,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add{
-	border-radius: 15px;
-	-webkit-border-radius: 15px;
+    @include border-radius(15px);
 }
 .ui-icon-plus {
-	-webkit-border-radius: 0px 15px 15px 0px !important;
-	border-radius: 0px 15px 15px 0px !important;
+    @include border-radius(0px 15px 15px 0px);
 }
 .ui-icon-minus {
-	-webkit-border-radius: 15px 0px 0px 15px !important;
-	border-radius: 15px 0px 0px 15px !important;
+    @include border-radius(0px 15px 15px 0px);
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add {
 	border: 0px;
@@ -316,15 +311,14 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	border: 1px solid #9cc6e9;
 	border-bottom: none;
 	background: #e4eef6;
-	-webkit-border-radius: 5px 5px 0px 0px;
-	border-radius: 5px 5px 0px 0px;
+    @include border-radius(5px 5px 0px 0px);
 }
 /*Basket total styling*/
 .dotter-basket-details .dotter-basket-total {
 /*	font-size: 1em;*/
 	background: $primary-color;
 	color: #fff;
-	border-radius: 0px 0px 5px 5px;
+    @include border-radius(0px 0px 5px 5px);
 }
 .dotter-checkout-info .dotter-small-prints {
 	color: $primary-color !important;
@@ -370,8 +364,6 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-	-webkit-border-radius: 10px;
-	border-radius: 15px;
 	font-size: 1.3em;
 	padding: 0;
 }
