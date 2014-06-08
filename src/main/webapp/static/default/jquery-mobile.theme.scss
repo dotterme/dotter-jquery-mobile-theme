@@ -10,6 +10,8 @@
 */
 
 $global-font-family: sans-serif !default;
+$global-font-size: 1em !default;
+$global-line-height: 1.3em !default;
 $global-icon-color: #333 !default;
 $global-border-width-buttons: 1px !default;
 $global-border-style-buttons: solid !default;
@@ -122,8 +124,8 @@ select,
 textarea,
 button,
 .ui-btn {
-	font-size: 1em;
-	line-height: 1.3;
+	font-size: $global-font-size;
+	line-height: $global-line-height;
 	font-family: $global-font-family;
 }
 legend,
