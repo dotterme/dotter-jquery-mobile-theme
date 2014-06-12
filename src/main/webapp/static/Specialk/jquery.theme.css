@@ -919,6 +919,14 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .ui-popup-container .ui-content h3 {
 	font-weight: normal;
 }
+.dotter-css-gda li ol li {
+	background: #ed174f;
+	color: #fff;
+}
+.dotter-css-gda li ol li span {
+	color: #333;
+	box-shadow: inset 1px 1px 2px #666;
+}
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
