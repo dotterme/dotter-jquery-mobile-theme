@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @import url( "jquery.icons.css" );
 
+=======
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 /* Globals */
 
 /* Font
@@ -32,10 +35,17 @@ div.ui-controlgroup-label {
 	font-size: 13px;
 }
 /* Inputs */
+<<<<<<< HEAD
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
+=======
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 /* Separators
@@ -95,7 +105,11 @@ label.ui-btn {
 /* Class ui-btn-corner-all deprecated in 1.4 */
 
 .ui-corner-all {
+<<<<<<< HEAD
 	-webkit-border-radius: 0;
+=======
+	-webkit-border-radius: 0; 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	border-radius: 	0;
 }
 /* Buttons */
@@ -221,7 +235,11 @@ html .ui-btn.ui-icon-checkbox-on:after {
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
+<<<<<<< HEAD
 	border-style: solid;
+=======
+	border-style: solid; 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-alt-icon.ui-btn.ui-icon-radio-on:after,
 .ui-alt-icon .ui-btn.ui-icon-radio-on:after {
@@ -291,34 +309,50 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
+<<<<<<< HEAD
 
 	color: #666;
 
+=======
+	color: #666;
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	font-weight: normal;
 }
 .ui-page-theme-a a:visited,
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
+<<<<<<< HEAD
 
     color: #666;
 
+=======
+    color: #666;
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
+<<<<<<< HEAD
 
 	color: #666;
 
+=======
+	color: #666;
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
+<<<<<<< HEAD
 
 	color: #666;
 
+=======
+	color: #666;
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 /* Button up */
@@ -421,7 +455,11 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 	color: #df6237 /*{a-bup-background-color}*/;
 	text-shadow: none;
+<<<<<<< HEAD
 	text-transform: uppercase;
+=======
+	text-transform: uppercase; 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-popup .ui-btn {
@@ -663,12 +701,16 @@ button[disabled],
 
 .ui-page-theme-a,
 .dotter-text-a {
+<<<<<<< HEAD
 
 }
 
 .dotter-fine-print {
        font-size: .8em;
        color: #333333;
+=======
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-page-theme-b,
@@ -706,14 +748,22 @@ button[disabled],
 	border-radius: 0;
 }
 
+<<<<<<< HEAD
 .ui-btn.ui-checkbox-off:after,
+=======
+.ui-btn.ui-checkbox-off:after, 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-checkbox-on:after {
 	border: 1px #e06337 solid;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 }
 
+<<<<<<< HEAD
 .ui-checkbox-off:after,
+=======
+.ui-checkbox-off:after, 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-checkbox-on:after {
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -721,17 +771,28 @@ button[disabled],
 	width: 24px;
 }
 
+<<<<<<< HEAD
 .ui-checkbox-off:after,
+=======
+.ui-checkbox-off:after, 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-radio-off:after {
 	background-color: white;
 	filter: Alpha(Opacity=30);
 	opacity: 1;
 }
 
+<<<<<<< HEAD
 .ui-page-theme-a .ui-checkbox-on:after,
 html .ui-bar-a .ui-checkbox-on:after,
 html .ui-body-a .ui-checkbox-on:after,
 html body .ui-group-theme-a .ui-checkbox-on:after,
+=======
+.ui-page-theme-a .ui-checkbox-on:after, 
+html .ui-bar-a .ui-checkbox-on:after, 
+html .ui-body-a .ui-checkbox-on:after, 
+html body .ui-group-theme-a .ui-checkbox-on:after, 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-checkbox-on.ui-btn-a:after {
 	background-color: white;
 	border-color: #e06337
@@ -751,13 +812,18 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /* From http://css-tricks.com/hang-on-placeholders/ */
 .ui-input-text input:focus::-webkit-input-placeholder {
+<<<<<<< HEAD
 	transition: text-indent 0.5s 0.5s ease;
+=======
+	transition: text-indent 0.5s 0.5s ease; 
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-indent: -100%;
 	opacity: 1;
 }
 
 /* jQM breakpoint for fieldcontain*/
 @media all and (min-width: 28em){
+<<<<<<< HEAD
 	.ui-field-contain>label+[class*=ui-],
 	.ui-field-contain .ui-controlgroup-controls {
 		width: 73%;
@@ -769,6 +835,19 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 		width: 25%;
 	}
 
+=======
+	.ui-field-contain>label+[class*=ui-], 
+	.ui-field-contain .ui-controlgroup-controls {
+		width: 73%;
+	}
+	
+	.ui-field-contain>label, 
+	.ui-field-contain .ui-controlgroup-label, 
+	.ui-field-contain>.ui-rangeslider>label {
+		width: 25%;
+	}
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.dotter-sm-text-b {
 		color: #e06337;
 	}
@@ -778,28 +857,48 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-md-text-b {
 		color: #e06337;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.panel.top > .dotter-breadcrumbs,
 	.panel.top > .dotter-user {
 		padding-right: 0;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-input-text input {
 		line-height: 1em;
 		min-height: 1em;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-field-contain {
 		margin: .5em 0;
 		line-height: 1em;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-btn {
 		padding-top: .5em;
 		padding-bottom: .5em;
 		line-height: 1em;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.panel.bottom .ui-btn {
 		line-height: 1.3em;
 	}
@@ -812,7 +911,11 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 @media all and (min-width: 55em){
 	.dotter-lg-text-b {
 		color: #e06337;
+<<<<<<< HEAD
 	}
+=======
+	}	
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-page-theme-a .dotter-border,
@@ -856,4 +959,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 .panel.bottom > .ui-btn {
 	float: right;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
