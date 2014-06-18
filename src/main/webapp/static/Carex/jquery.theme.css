@@ -908,7 +908,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-store-grid-container, .thankyou-page {
 	border: none !important;
 }
-.dotter-after-scroll-to-selected {
+.dotter-product-details.dotter-after-scroll-to-selected {
 	border-color: #ff963a;
 }
 
