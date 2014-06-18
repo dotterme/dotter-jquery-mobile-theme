@@ -21,16 +21,10 @@ button,
 legend,
 .ui-input-text input,
 .ui-input-search input {
-<<<<<<< HEAD
 	color: #000;
 	background-color: #fff;
 	text-shadow: inherit;
 }
-=======
-	color: inherit;
-	text-shadow: inherit;
-
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 /* Form labels (overrides font-weight bold in bars, and mini font-size) */
 .ui-mobile label,
 div.ui-controlgroup-label {
@@ -38,17 +32,10 @@ div.ui-controlgroup-label {
 	font-size: 13px;
 }
 /* Inputs */
-<<<<<<< HEAD
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
-=======
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-	-webkit-appearance: none; 
-	margin: 0; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 /* Separators
@@ -108,29 +95,17 @@ label.ui-btn {
 /* Class ui-btn-corner-all deprecated in 1.4 */
 
 .ui-corner-all {
-<<<<<<< HEAD
 	-webkit-border-radius: 0;
-=======
-	-webkit-border-radius: 0; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	border-radius: 	0;
 }
 /* Buttons */
 .ui-btn-corner-all,
 .ui-btn.ui-corner-all,
-<<<<<<< HEAD
 	/* Slider track */
 .ui-slider-track.ui-corner-all,
 	/* Flipswitch */
 .ui-flipswitch.ui-corner-all,
 	/* Count bubble */
-=======
-/* Slider track */
-.ui-slider-track.ui-corner-all,
-/* Flipswitch */
-.ui-flipswitch.ui-corner-all,
-/* Count bubble */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-li-count {
 	-webkit-border-radius: 				0;
 	border-radius: 						0;
@@ -190,13 +165,8 @@ html .ui-btn.ui-icon-checkbox-off:after,
 html .ui-btn.ui-icon-radio-off:after {
 	background-position: center center;
 	background-repeat: no-repeat;
-<<<<<<< HEAD
 	-webkit-border-radius: 0em;
 	border-radius: 0em;
-=======
-	-webkit-border-radius: 1em;
-	border-radius: 1em;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 /* Alt icons */
@@ -251,11 +221,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
-<<<<<<< HEAD
 	border-style: solid;
-=======
-	border-style: solid; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-alt-icon.ui-btn.ui-icon-radio-on:after,
 .ui-alt-icon .ui-btn.ui-icon-radio-on:after {
@@ -289,7 +255,6 @@ html .ui-btn.ui-icon-checkbox-on:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-<<<<<<< HEAD
 	background-color: #0c0e3f;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0c0e3f), to(#22215a));
 	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a);
@@ -297,15 +262,6 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	background-image:       -ms-linear-gradient(top, #0c0e3f, #22215a);
 	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
 	color: white /*{a-body-color}*/;
-=======
-	background-color: #0c0e3f; 
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0c0e3f), to(#22215a));
-	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a); 
-	background-image:     -moz-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:       -ms-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
-	color: white;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-shadow: none;
 	font-weight: bold;
 }
@@ -318,7 +274,6 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-<<<<<<< HEAD
 	background-color: #0c0e3f;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0c0e3f), to(#22215a));
 	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a);
@@ -327,16 +282,6 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
 	border-color: #bbb /*{a-page-border}*/;
 	color: white /*{a-body-color}*/;
-=======
-	background-color: #0c0e3f; 
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0c0e3f), to(#22215a));
-	background-image: -webkit-linear-gradient(top, #0c0e3f, #22215a); 
-	background-image:     -moz-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:       -ms-linear-gradient(top, #0c0e3f, #22215a);
-	background-image:          -o-linear-gradient(top, #0c0e3f, #22215a);
-	border-color:	 		#bbb /*{a-page-border}*/;
-	color: 				white;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-shadow:  none;
 }
 
@@ -348,13 +293,8 @@ html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
 	border-color: #e06337;
-<<<<<<< HEAD
 	color: white /*{a-body-color}*/;
 	text-shadow: none;
-=======
-	color: 					#111 /*{a-body-color}*/;
-	text-shadow: none;;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-body-a {
 	border-width: 1px;
@@ -373,11 +313,7 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-<<<<<<< HEAD
 	color: white;
-=======
-    color: white;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
@@ -398,11 +334,7 @@ html .ui-bar-a .ui-btn,
 html .ui-body-a .ui-btn,
 html body .ui-group-theme-a .ui-btn,
 html head + body .ui-btn.ui-btn-a,
-<<<<<<< HEAD
 	/* Button visited */
-=======
-/* Button visited */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-a .ui-btn:visited,
 html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
@@ -442,31 +374,19 @@ html .ui-bar-a .ui-btn.ui-btn-active,
 html .ui-body-a .ui-btn.ui-btn-active,
 html body .ui-group-theme-a .ui-btn.ui-btn-active,
 html head + body .ui-btn.ui-btn-a.ui-btn-active,
-<<<<<<< HEAD
 	/* Active checkbox icon */
-=======
-/* Active checkbox icon */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-a .ui-icon-checkbox-on:after,
 html .ui-bar-a .ui-icon-checkbox-on:after,
 html .ui-body-a .ui-icon-checkbox-on:after,
 html body .ui-group-theme-a .ui-icon-checkbox-on:after,
 .ui-btn.ui-icon-checkbox-on.ui-btn-a:after,
-<<<<<<< HEAD
 	/* Active flipswitch background */
-=======
-/* Active flipswitch background */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-a .ui-flipswitch-active,
 html .ui-bar-a .ui-flipswitch-active,
 html .ui-body-a .ui-flipswitch-active,
 html body .ui-group-theme-a .ui-flipswitch-active,
 html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,
-<<<<<<< HEAD
 	/* Active slider track */
-=======
-/* Active slider track */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-a .ui-slider-track .ui-btn-active,
 html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
@@ -492,11 +412,7 @@ html .ui-bar-a .ui-btn:focus,
 html .ui-body-a .ui-btn:focus,
 html body .ui-group-theme-a .ui-btn:focus,
 html head + body .ui-btn.ui-btn-a:focus,
-<<<<<<< HEAD
 	/* Focus buttons and text inputs with div wrap */
-=======
-/* Focus buttons and text inputs with div wrap */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-a .ui-focus,
 html .ui-bar-a .ui-focus,
 html .ui-body-a .ui-focus,
@@ -512,11 +428,7 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 	color: #df6237 /*{a-bup-background-color}*/;
 	text-shadow: none;
-<<<<<<< HEAD
 	text-transform: uppercase;
-=======
-	text-transform: uppercase; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-popup .ui-btn {
@@ -589,11 +501,7 @@ html body .ui-group-theme-b a {
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-<<<<<<< HEAD
 	color: #33ccff /*{b-link-visited}*/;
-=======
-    color: #33ccff /*{b-link-visited}*/;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
@@ -614,11 +522,7 @@ html .ui-bar-b .ui-btn,
 html .ui-body-b .ui-btn,
 html body .ui-group-theme-b .ui-btn,
 html head + body .ui-btn.ui-btn-b,
-<<<<<<< HEAD
 	/* Button visited */
-=======
-/* Button visited */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-b .ui-btn:visited,
 html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
@@ -658,31 +562,19 @@ html .ui-bar-b .ui-btn.ui-btn-active,
 html .ui-body-b .ui-btn.ui-btn-active,
 html body .ui-group-theme-b .ui-btn.ui-btn-active,
 html head + body .ui-btn.ui-btn-b.ui-btn-active,
-<<<<<<< HEAD
 	/* Active checkbox icon */
-=======
-/* Active checkbox icon */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-b .ui-icon-checkbox-on:after,
 html .ui-bar-b .ui-icon-checkbox-on:after,
 html .ui-body-b .ui-icon-checkbox-on:after,
 html body .ui-group-theme-b .ui-icon-checkbox-on:after,
 .ui-btn.ui-icon-checkbox-on.ui-btn-b:after,
-<<<<<<< HEAD
 	/* Active flipswitch background */
-=======
-/* Active flipswitch background */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-b .ui-flipswitch-active,
 html .ui-bar-b .ui-flipswitch-active,
 html .ui-body-b .ui-flipswitch-active,
 html body .ui-group-theme-b .ui-flipswitch-active,
 html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active,
-<<<<<<< HEAD
 	/* Active slider track */
-=======
-/* Active slider track */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-b .ui-slider-track .ui-btn-active,
 html .ui-bar-b .ui-slider-track .ui-btn-active,
 html .ui-body-b .ui-slider-track .ui-btn-active,
@@ -708,11 +600,7 @@ html .ui-bar-b .ui-btn:focus,
 html .ui-body-b .ui-btn:focus,
 html body .ui-group-theme-b .ui-btn:focus,
 html head + body .ui-btn.ui-btn-b:focus,
-<<<<<<< HEAD
 	/* Focus buttons and text inputs with div wrap */
-=======
-/* Focus buttons and text inputs with div wrap */
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-b .ui-focus,
 html .ui-bar-b .ui-focus,
 html .ui-body-b .ui-focus,
@@ -776,13 +664,6 @@ button[disabled],
 	text-shadow: none;
 }
 
-<<<<<<< HEAD
-=======
-.ui-content {
-	padding: .5em 1em;
-}
-
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-a,
 .dotter-text-a {
 	color: white;
@@ -801,11 +682,7 @@ button[disabled],
 	color: white;
 }
 
-<<<<<<< HEAD
 .ui-page-theme-a .ui-select .ui-btn {
-=======
-.ui-select .ui-btn {
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-align: left;
 	text-transform: none;
 	background: white;
@@ -813,11 +690,7 @@ button[disabled],
 	color: black;
 }
 
-<<<<<<< HEAD
 .ui-page-theme-a .ui-select .ui-btn:after {
-=======
-.ui-select .ui-btn:after {
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	height: 100%;
 	width: 26px;
 	background-color: #e06337;
@@ -831,44 +704,17 @@ button[disabled],
 	border-radius: 0;
 }
 
-<<<<<<< HEAD
 .ui-page-theme-a .ui-checkbox-off:after,
 .ui-page-theme-a .ui-btn.ui-radio-off:after {
-=======
-.ui-btn.ui-checkbox-off:after, 
-.ui-btn.ui-checkbox-on:after {
-	border: 1px #e06337 solid;
-	border-radius: 0;
-	-webkit-border-radius: 0;
-}
-
-.ui-checkbox-off:after, 
-.ui-checkbox-on:after {
-	-webkit-border-radius: 0;
-	border-radius: 0;
-	height: 24px;
-	width: 24px;
-}
-
-.ui-checkbox-off:after, 
-.ui-btn.ui-radio-off:after {
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	background-color: white;
 	filter: Alpha(Opacity=30);
 	opacity: 1;
 }
 
-<<<<<<< HEAD
 .ui-page-theme-a .ui-checkbox-on:after,
 html .ui-bar-a .ui-checkbox-on:after,
 html .ui-body-a .ui-checkbox-on:after,
 html body .ui-group-theme-a .ui-checkbox-on:after,
-=======
-.ui-page-theme-a .ui-checkbox-on:after, 
-html .ui-bar-a .ui-checkbox-on:after, 
-html .ui-body-a .ui-checkbox-on:after, 
-html body .ui-group-theme-a .ui-checkbox-on:after, 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-checkbox-on.ui-btn-a:after {
 	background-color: white;
 	border-color: #e06337
@@ -886,7 +732,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	text-transform: none;
 }
 
-<<<<<<< HEAD
 .ui-checkbox input, .ui-radio input {
 	left: .5625em;
 	z-index: 0;
@@ -895,18 +740,12 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* From http://css-tricks.com/hang-on-placeholders/ */
 .ui-input-text input:focus::-webkit-input-placeholder {
 	transition: text-indent 0.5s 0.5s ease;
-=======
-/* From http://css-tricks.com/hang-on-placeholders/ */
-.ui-input-text input:focus::-webkit-input-placeholder {
-	transition: text-indent 0.5s 0.5s ease; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-indent: -100%;
 	opacity: 1;
 }
 
 /* jQM breakpoint for fieldcontain*/
 @media all and (min-width: 28em){
-<<<<<<< HEAD
 	.ui-field-contain>label+[class*=ui-],
 	.ui-field-contain .ui-controlgroup-controls {
 		width: 73%;
@@ -918,19 +757,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 		width: 25%;
 	}
 
-=======
-	.ui-field-contain>label+[class*=ui-], 
-	.ui-field-contain .ui-controlgroup-controls {
-		width: 73%;
-	}
-	
-	.ui-field-contain>label, 
-	.ui-field-contain .ui-controlgroup-label, 
-	.ui-field-contain>.ui-rangeslider>label {
-		width: 25%;
-	}
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.dotter-sm-text-b {
 		color: #e06337;
 	}
@@ -940,48 +766,28 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-md-text-b {
 		color: #e06337;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.panel.top > .dotter-breadcrumbs,
 	.panel.top > .dotter-user {
 		padding-right: 0;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-input-text input {
 		line-height: 1em;
 		min-height: 1em;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-field-contain {
 		margin: .5em 0;
 		line-height: 1em;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-btn {
 		padding-top: .5em;
 		padding-bottom: .5em;
 		line-height: 1em;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.panel.bottom .ui-btn {
 		line-height: 1.3em;
 	}
@@ -994,11 +800,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 @media all and (min-width: 55em){
 	.dotter-lg-text-b {
 		color: #e06337;
-<<<<<<< HEAD
 	}
-=======
-	}	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-page-theme-a .dotter-border,
@@ -1019,10 +821,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	height: 48px;
 	background-image: url("images/bbc-logo.png");
 	background-size: 64px 48px;
-<<<<<<< HEAD
 	line-height: 48px;
-=======
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .dotter-product-info.dotter-icon:before {
@@ -1036,13 +835,10 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding-left: 18px;
 }
 
-<<<<<<< HEAD
 .panel.top {
 	min-height: 48px;
 }
 
-=======
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .panel.top > .dotter-image.dotter-retailer {
 	float: right;
 }
@@ -1053,8 +849,4 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 .panel.bottom > .ui-btn {
 	float: right;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266

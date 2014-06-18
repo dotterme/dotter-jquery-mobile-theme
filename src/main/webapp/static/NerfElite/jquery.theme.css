@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 @import url( "jquery.icons.css" );
 
-=======
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 /* Globals */
 
 /* Font
@@ -22,10 +19,7 @@ button,
 	line-height: 1.3em;
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif /*{global-font-family}*/;
 	color: #fff;
-<<<<<<< HEAD
 	-webkit-text-decorations-in-effect: none;
-=======
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 legend,
 .ui-input-text input,
@@ -40,7 +34,6 @@ div.ui-controlgroup-label {
 	font-size: 13px;
 }
 /* Inputs */
-<<<<<<< HEAD
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
 	-webkit-appearance: none;
@@ -50,14 +43,6 @@ input[type=number]::-webkit-outer-spin-button {
 /* Links */
 a:link, a:hover, a:active, a:visited {text-decoration: none;}
 
-=======
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-	-webkit-appearance: none; 
-	margin: 0; 
-}
-
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 /* Separators
 -----------------------------------------------------------------------------------------------------------*/
 /* Field contain separator (< 28em) */
@@ -115,11 +100,7 @@ label.ui-btn {
 /* Class ui-btn-corner-all deprecated in 1.4 */
 
 .ui-corner-all {
-<<<<<<< HEAD
 	-webkit-border-radius: 0;
-=======
-	-webkit-border-radius: 0; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	border-radius: 	0;
 }
 /* Buttons */
@@ -245,11 +226,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
-<<<<<<< HEAD
 	border-style: solid;
-=======
-	border-style: solid; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-alt-icon.ui-btn.ui-icon-radio-on:after,
 .ui-alt-icon .ui-btn.ui-icon-radio-on:after {
@@ -283,10 +260,7 @@ html .ui-btn.ui-icon-checkbox-on:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-<<<<<<< HEAD
 
-=======
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-shadow: none;
 	font-weight: bold;
 }
@@ -299,13 +273,9 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-<<<<<<< HEAD
 	background: rgba(0,0,0,0);
 	text-shadow:  none;
 	color: #fff;
-=======
-	text-shadow:  none;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 /* Body: Read-only lists, text inputs, collapsible content */
@@ -329,50 +299,34 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-<<<<<<< HEAD
 
 	color: #fff;
 
-=======
-	color: #fff;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	font-weight: normal;
 }
 .ui-page-theme-a a:visited,
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-<<<<<<< HEAD
 
     color: #fff;
 
-=======
-    color: #fff;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-<<<<<<< HEAD
 
 	color: #fff;
 
-=======
-	color: #fff;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-<<<<<<< HEAD
 
 	color: #fff;
 
-=======
-	color: #fff;
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 /* Button up */
@@ -475,11 +429,7 @@ html head + body .ui-body-a.ui-focus {
 	background-color: #ffffff;
 	color: #df6237 /*{a-bup-background-color}*/;
 	text-shadow: none;
-<<<<<<< HEAD
 	text-transform: uppercase;
-=======
-	text-transform: uppercase; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-popup .ui-btn {
@@ -724,14 +674,11 @@ button[disabled],
 	color: white;
 }
 
-<<<<<<< HEAD
 .dotter-label {
     font-size: .8em;
     color: #aaaaaa;
 }
 
-=======
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-page-theme-b,
 .dotter-text-b {
 	color: #e06337;
@@ -767,22 +714,14 @@ button[disabled],
 	border-radius: 0;
 }
 
-<<<<<<< HEAD
 .ui-btn.ui-checkbox-off:after,
-=======
-.ui-btn.ui-checkbox-off:after, 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-checkbox-on:after {
 	border: 1px #e06337 solid;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 }
 
-<<<<<<< HEAD
 .ui-checkbox-off:after,
-=======
-.ui-checkbox-off:after, 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-checkbox-on:after {
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -790,28 +729,17 @@ button[disabled],
 	width: 24px;
 }
 
-<<<<<<< HEAD
 .ui-checkbox-off:after,
-=======
-.ui-checkbox-off:after, 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-radio-off:after {
 	background-color: white;
 	filter: Alpha(Opacity=30);
 	opacity: 1;
 }
 
-<<<<<<< HEAD
 .ui-page-theme-a .ui-checkbox-on:after,
 html .ui-bar-a .ui-checkbox-on:after,
 html .ui-body-a .ui-checkbox-on:after,
 html body .ui-group-theme-a .ui-checkbox-on:after,
-=======
-.ui-page-theme-a .ui-checkbox-on:after, 
-html .ui-bar-a .ui-checkbox-on:after, 
-html .ui-body-a .ui-checkbox-on:after, 
-html body .ui-group-theme-a .ui-checkbox-on:after, 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 .ui-btn.ui-checkbox-on.ui-btn-a:after {
 	background-color: white;
 	border-color: #e06337
@@ -831,18 +759,13 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 /* From http://css-tricks.com/hang-on-placeholders/ */
 .ui-input-text input:focus::-webkit-input-placeholder {
-<<<<<<< HEAD
 	transition: text-indent 0.5s 0.5s ease;
-=======
-	transition: text-indent 0.5s 0.5s ease; 
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	text-indent: -100%;
 	opacity: 1;
 }
 
 /* jQM breakpoint for fieldcontain*/
 @media all and (min-width: 28em){
-<<<<<<< HEAD
 	.ui-field-contain>label+[class*=ui-],
 	.ui-field-contain .ui-controlgroup-controls {
 		width: 73%;
@@ -854,19 +777,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 		width: 25%;
 	}
 
-=======
-	.ui-field-contain>label+[class*=ui-], 
-	.ui-field-contain .ui-controlgroup-controls {
-		width: 73%;
-	}
-	
-	.ui-field-contain>label, 
-	.ui-field-contain .ui-controlgroup-label, 
-	.ui-field-contain>.ui-rangeslider>label {
-		width: 25%;
-	}
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.dotter-sm-text-b {
 		color: #e06337;
 	}
@@ -876,48 +786,28 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	.dotter-md-text-b {
 		color: #e06337;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.panel.top > .dotter-breadcrumbs,
 	.panel.top > .dotter-user {
 		padding-right: 0;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-input-text input {
 		line-height: 1em;
 		min-height: 1em;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-field-contain {
 		margin: .5em 0;
 		line-height: 1em;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.ui-btn {
 		padding-top: .5em;
 		padding-bottom: .5em;
 		line-height: 1em;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 	.panel.bottom .ui-btn {
 		line-height: 1.3em;
 	}
@@ -930,11 +820,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 @media all and (min-width: 55em){
 	.dotter-lg-text-b {
 		color: #e06337;
-<<<<<<< HEAD
 	}
-=======
-	}	
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
 }
 
 .ui-page-theme-a .dotter-border,
@@ -978,8 +864,4 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 
 .panel.bottom > .ui-btn {
 	float: right;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5e7d7d6b406b7e09b4c73b39c87f94011799b266
