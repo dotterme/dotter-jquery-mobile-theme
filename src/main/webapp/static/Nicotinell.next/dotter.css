@@ -58,7 +58,8 @@ button,
 .ui-btn {
   font-size: 1em;
   line-height: 1.3em;
-  font-family: "FranklinGothicURWCon-Boo", Arial, Verdana, sans-serif; }
+  font-family: "FranklinGothicURWCon-Boo", Arial, Verdana, sans-serif;
+  font-weight: normal; }
 
 legend,
 .ui-input-text input,

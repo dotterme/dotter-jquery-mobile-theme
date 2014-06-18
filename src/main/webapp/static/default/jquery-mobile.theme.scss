@@ -11,11 +11,13 @@
 
 $global-font-family: sans-serif !default;
 $global-font-size: 1em !default;
+$global-font-weight: normal !default;
 $global-line-height: 1.3em !default;
 $global-icon-color: #333 !default;
 $global-border-width-buttons: 1px !default;
 $global-border-style-buttons: solid !default;
 $global-radii-buttons: .3125em !default;
+$global-radii-buttons-notext: 1em !default;
 $global-radii-blocks: .6em !default;
 $global-box-shadow-size: 0 1px 3px !default;
 $global-box-shadow-color: rgba(0,0,0,.15) !default;
@@ -127,6 +129,7 @@ button,
 	font-size: $global-font-size;
 	line-height: $global-line-height;
 	font-family: $global-font-family;
+    font-weight: $global-font-weight;
 }
 legend,
 .ui-input-text input,
@@ -205,7 +208,7 @@ label.ui-btn {
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
 .ui-btn-icon-notext.ui-corner-all {
-	@include border-radius(1em);
+	@include border-radius($global-radii-buttons-notext);
 }
 /* Radius clip workaround for cleaning up corner trapping */
 .ui-btn-corner-all,
