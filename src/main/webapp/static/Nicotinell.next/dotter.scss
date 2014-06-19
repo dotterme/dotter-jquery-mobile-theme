@@ -208,6 +208,8 @@ label.ui-btn {
 }
 @media all and (min-width: 36em) {
 	.basket-page {
+        border-width: 2px;
+        border-style: solid;
 		border: 2px solid $primary-color;
 	}	
 }
