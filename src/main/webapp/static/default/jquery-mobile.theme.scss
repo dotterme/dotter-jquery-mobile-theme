@@ -81,7 +81,7 @@ $a-bdown-shadow-radius: 0 !default;
 $a-bdown-shadow-color: #f3f3f3 !default;
 
 $a-active-background-color: #3388cc !default;
-$a-active-border: #3388cc !default;
+$a-active-border-color: #3388cc !default;
 $a-active-color: #fff !default;
 $a-active-shadow-x: 0 !default;
 $a-active-shadow-y: 1px !default;
@@ -439,7 +439,7 @@ html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background-color: $a-active-background-color;
-	border-color: $a-active-border;
+	border-color: $a-active-border-color;
 	color: $a-active-color;
 	text-shadow: $a-active-shadow-x $a-active-shadow-y $a-active-shadow-radius $a-active-shadow-color;
 }
@@ -464,6 +464,7 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
+    border-color: $a-active-border-color;
 	@include box-shadow($a-active-box-shadow);
 }
 /* B
