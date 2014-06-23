@@ -1,5 +1,6 @@
 $primary-color: #0078BB;
 $secondary-color: #9CC6E9;
+$tertiary-color: #9CC6E9;
 
 $global-font-family: 'FranklinGothicURWCon-Boo',Arial,Verdana,sans-serif;
 $global-box-shadow-size: 0;
@@ -69,9 +70,17 @@ $b-link-visited: #000;
 $b-link-hover: #000;
 $b-link-active: #000;
 
+$dtr-store-brand: 'Nicotinell® ';
+$dtr-store-border-radius: 5px;
+
+$dtr-store-product-details-border: 2px solid $secondary-color;
+$dtr-store-spinner-border-radius: 15px;
+$dtr-store-basket-content-background-color: #e4eef6;
+
 @import '../default/reset';
 @import '../default/mixins';
 @import '../default/jquery-mobile.theme';
+@import '../default/store';
 
 /* Fonts */
 @font-face{
@@ -102,154 +111,11 @@ $b-link-active: #000;
 button,
 .ui-btn {
 	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
-    @include border-radius(5px);
 }
 
-.ui-btn,
-label.ui-btn {
-	text-transform: uppercase;
-}
-
-.ui-page-theme-a,
-.dotter-text-a {
-	color: #000;
-}
-
-.ui-page-theme-b,
-.dotter-text-b {
-	color: #000;
-}
-@media all and (min-width: 55em){
-	.dotter-lg-text-b {
-		color: #2D6192;
-	}
-}
-
-.dotter-branding-image {
-  background-image: url("images/secondary-branding-sml.png");
-}
-
-@media all and (min-width: 50em){
-  .dotter-image.dotter-retailer {
-    background-image: url("images/secondary-branding.png") !important;
-  }
-
-  .dotter-branding-image {
-    background-image: url("images/secondary-branding.png") !important;
-  }
-}
-/*---------------------------*/
-/* Dotter Store specific CSS */
-/*---------------------------*/
-
-/* NICOTINELL BRANDING */
-.dotter-brand-adjust:before {
-	content: 'Nicotinell® ';
-}
-
-/*Border between upsell products*/
-
-.dotter-border-a {
-	border-color: $primary-color;
-}
-.dotter-border-b,
-.ui-body-a .ui-controlgroup {
-	border-color: #9cc6e9;
-}
-/*----------------*/
-/* HEADER SECTION */
-/*----------------*/
-/*Retailer Select panel (non pop-up)*/
-.panel.top {
-	min-height: 48px;
-}
-.dotter-header .panel.top > .panel.right {
-	border: 2px solid $primary-color;
-    @include border-radius(5px);
-}
-.retailerchoice .dotter-label {
-	background: $primary-color;
-	color: #fff;
-	padding: .5em;
-}
-
-.dotter-navigation-container {
-    border: 1px solid $primary-color;
-    @include border-radius(5px);
-}
-
-.dotter-navigation.ui-navbar .ui-btn {
-    @include border-radius(0);
-}
-
-.dotter-navigation.ui-navbar .ui-btn:hover {
-    background-color: $a-bup-background-color;
-    border-color: $a-bup-border;
-    color: $secondary-color;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-    background-color: $a-bdown-background-color;
-    color: $a-bdown-color;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:after {
-    content: "|";
-    color: $secondary-color;
-    position: absolute;
-    right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-    margin-left: -.2em;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-    margin-left: 0;
-}
-
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-    content: "";
-}
-
-/*Secondary Branding Image*/
-.panel.top > .dotter-image.dotter-retailer {
-	float: right;
-}
-.dotter-image.dotter-retailer {
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-	background-image: url("images/secondary-branding-sml.png");
-	background-size: 72%;
-	background-position: left center;
-	background-repeat: no-repeat;
-	margin: 1em 370px 2.3em 1em;
-}
-
-/* secondary navigation */
-.dotter-header .app-links .item {
-  text-transform: uppercase;
-}
-
-/*Breadcrumbs*/
-.dotter-header .dotter-breadcrumbs li {
-  text-transform: uppercase;
-}
-.dotter-breadcrumbs .dotter-active {
-	color: $primary-color;
-}
-.dotter-breadcrumbs .dotter-active:before {
-	color: #000;
-}
 /*----------------------------*/
-/* PRODUCT GRID PANEL SECTION */
+/* Basket Page                */
 /*----------------------------*/
-.basket-page, .thankyou-page {
-  @include border-radius(5px);
-}
 
 @media all and (min-width: 36em) {
 	.basket-page {
@@ -259,33 +125,6 @@ label.ui-btn {
 	}	
 }
 
-/*Product details both in grid and upsell*/
-.dotter-product-details {
-	border: 2px solid $secondary-color;
-    @include border-radius(5px);
-}
-.dotter-product-details h4.dotter-product-title {
-	text-align: center;
-}
-/*Info button Icon*/
-.dotter-product-info.dotter-icon:before {
-	background-color: $secondary-color;
-}
-/*Price*/
-.price, .offer {
-	color: red;
-}
-/*Error messages*/
-.empty-product-list {
-	font-size: 1.3em;
-}
-/*Product Info modals*/
-.ui-header.ui-bar-a > h1 {
-	font-size: 1.1em;
-}
-.ui-popup-container .ui-content h3 {
-	font-weight: normal;
-}
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
@@ -295,6 +134,7 @@ label.ui-btn {
 	line-height: 1em;
 	padding: .4em .6em .4em;
 }
+
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: #fff;
@@ -302,135 +142,63 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	font-size: 1em;
 }
 
-.dotter-spinner input {
-	border-color: $primary-color;
-}
-
-/*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add{
-    @include border-radius(15px);
-}
-
-.dotter-spinner .ui-btn.ui-icon-plus {
-    @include border-radius(0px 15px 15px 0px);
-}
-.dotter-spinner .ui-btn.ui-icon-minus {
-    @include border-radius(15px 0px 0px 15px);
-}
-.dotter-add-to-basket .ui-btn.dotter-product-add {
-	border: 0px;
-}
-
-.dotter-add-to-basket .ui-btn.dotter-product-added {
-	background: $primary-color;
-}
-.dotter-product-quantity, .dotter-item-quantity {
-	border-color: $primary-color;
-}
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
 	background: $primary-color !important;
 }
+
 /*--------------------*/
-/* Dotter Login Panel */
+/* Navigation bar     */
 /*--------------------*/
-.dotter-retailer-login .ui-input-text input {
-	font-size: 1.2em;
-	padding: .3em .5em .2em;
-}
-/*Placeholder UPPERCASE*/
-.dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
-	text-transform: uppercase;
-}
-.dotter-retailer-login .ui-input-text input:-moz-placeholder {
-	text-transform: uppercase;
-}
-.dotter-retailer-login .ui-input-text input::-moz-placeholder {
-	text-transform: uppercase;
-}
-.dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
-	text-transform: uppercase;
-}
-/*--------------*/
-/* Basket panel */
-/*--------------*/
-/*Basket panel styling*/
-.dotter-basket-details .dotter-basket-content {
-	border: 1px solid #9cc6e9;
-	border-bottom: none;
-	background: #e4eef6;
-    @include border-radius(5px 5px 0px 0px);
-}
-/*Basket total styling*/
-.dotter-basket-details .dotter-basket-total {
-/*	font-size: 1em;*/
-	background: $primary-color;
-	color: #fff;
-    @include border-radius(0px 0px 5px 5px);
-}
-.dotter-checkout-info .dotter-small-prints {
-	color: $primary-color !important;
-	font-size: 1.2em;
-}
-/*Upsell slider*/
-.dotter-has-upsell h3 {
-	color: $primary-color;
-}
-.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #2D6192;
-}
-.bx-wrapper .bx-pager.bx-default-pager a {
-	background: #d0d0d0;
-}
-#content .bx-wrapper .bx-next {
-	background: url(images/controls.png) no-repeat -43px -32px;
-}
-#content .bx-wrapper .bx-prev {
-	background: url(images/controls.png) no-repeat 0 -32px;
-}
-/*----------------*/
-/* Thank You page */
-/*----------------*/
-.dotter-thankyou-page h1 {
-	color: $primary-color;
-	font-style: italic;
-	font-family: 'Arial Narrow',Arial;
-    font-weight: normal;
+
+.dotter-navigation-container {
+  @include border-radius($dtr-store-border-radius);
 }
 
-/*Footer button (powered by Dotter)*/
-.panel.bottom > .ui-btn {
-	float: right;
+.dotter-navigation.ui-navbar .ui-btn {
+  @include border-radius(0);
 }
 
-#content .dotter-store-grid-container.ui-content {
-	padding-top: 0;
+.dotter-navigation.ui-navbar .ui-btn:hover {
+  background-color: $a-bup-background-color;
+  border-color: $a-bup-border;
+  color: $secondary-color;
 }
 
-.dotter-store-grid-container .dotter-navigation-container {
-	background: $primary-color;
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
+  background-color: $a-bdown-background-color;
+  color: $a-bdown-color;
 }
 
-.dotter-store-grid-container .ui-navbar a.ui-btn {
-	font-size: 1.3em;
+.dotter-navigation.ui-navbar .ui-btn:after {
+  content: "|";
+  color: $secondary-color;
+  position: absolute;
+  right: -.2em;
 }
 
-.dotter-store-grid-container .ui-grid-d > .ui-block-a, 
-.dotter-store-grid-container .ui-grid-d > .ui-block-b, 
-.dotter-store-grid-container .ui-grid-d > .ui-block-c, 
-.dotter-store-grid-container .ui-grid-d > .ui-block-d, 
-.dotter-store-grid-container .ui-grid-d > .ui-block-e {
-	width: 17%;
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin-left: -.2em;
 }
 
-/* Slick slider */
-.slick-prev:before,
-.slick-next:before {
-	line-height: inherit;
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
 }
 
-.slick-prev:before,
-.slick-next:before,
-.slick-dots li a:before {
-	color: $primary-color;
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: 0;
+}
+
+.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
+  content: "";
+}
+
+.dotter-store-grid-container {
+  @include grid-container {
+    width: 17%;
+  }
+
+  .ui-navbar a.ui-btn {
+    font-size: 1.1em;
+  }
 }

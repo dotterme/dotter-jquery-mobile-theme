@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -65,9 +64,9 @@ select,
 textarea,
 button,
 .ui-btn {
-  font-size: 1em;
+  font-size: 0.875em;
   line-height: 1.3em;
-  font-family: "FranklinGothicURWCon-Boo", Arial, Verdana, sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
 }
 
@@ -145,8 +144,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-  -webkit-border-radius: 0.3125em;
-  border-radius: 0.3125em;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /* Buttons */
@@ -155,15 +154,15 @@ label.ui-btn {
 .ui-slider-track.ui-corner-all,
 .ui-flipswitch.ui-corner-all,
 .ui-li-count {
-  -webkit-border-radius: 0.3125em;
-  border-radius: 0.3125em;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
 .ui-btn-icon-notext.ui-corner-all {
-  -webkit-border-radius: 1em;
-  border-radius: 1em;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /* Radius clip workaround for cleaning up corner trapping */
@@ -293,7 +292,7 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-  background-color: #0078bb;
+  background-color: #ff963a;
   border-color: #dddddd;
   color: white;
   text-shadow: none   ;
@@ -309,7 +308,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  background-color: #f9f9f9;
+  background-color: none;
   border-color: #bbbbbb;
   color: #333333;
   text-shadow: 0 1px 0 #f3f3f3;
@@ -375,8 +374,8 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-  background-color: #0078bb;
-  border-color: #9cc6e9;
+  background-color: #ff963a;
+  border-color: #ff963a;
   color: white;
   text-shadow: none   ;
 }
@@ -387,8 +386,8 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-  background-color: #9cc6e9;
-  border-color: #0078bb;
+  background-color: #ff963a;
+  border-color: #ff963a;
   color: white;
   text-shadow: none   ;
 }
@@ -399,8 +398,8 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-  background-color: #9cc6e9;
-  border-color: #0078bb;
+  background-color: #ff963a;
+  border-color: #ff963a;
   color: white;
   text-shadow: none   ;
 }
@@ -426,8 +425,8 @@ html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-  background-color: #9cc6e9;
-  border-color: #3388cc;
+  background-color: #3388cc;
+  border-color: #ff963a;
   color: white;
   text-shadow: none   ;
 }
@@ -438,7 +437,7 @@ html .ui-bar-a .ui-radio-on:after,
 html .ui-body-a .ui-radio-on:after,
 html body .ui-group-theme-a .ui-radio-on:after,
 .ui-btn.ui-radio-on.ui-btn-a:after {
-  border-color: #9cc6e9;
+  border-color: #3388cc;
 }
 
 /* Focus */
@@ -453,7 +452,7 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-  border-color: #3388cc;
+  border-color: #ff963a;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -681,8 +680,8 @@ button[disabled],
 
 button,
 .ui-btn {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .ui-btn,
@@ -729,12 +728,12 @@ label.ui-btn {
 }
 /* BRANDING */
 .dotter-brand-adjust:before {
-  content: "Nicotinell® ";
+  content: "";
 }
 
 /*Border between upsell products*/
 .dotter-border-a {
-  border-color: #0078bb;
+  border-color: #ff963a;
 }
 
 .dotter-border-b,
@@ -751,13 +750,13 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid #0078bb;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border: 2px solid #ff963a;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .retailerchoice .dotter-label {
-  background: #0078bb;
+  background: #ff963a;
   color: white;
   padding: .5em;
 }
@@ -791,7 +790,7 @@ label.ui-btn {
 }
 
 .dotter-breadcrumbs .dotter-active {
-  color: #0078bb;
+  color: #ff963a;
 }
 .dotter-breadcrumbs .dotter-active:before {
   color: #000;
@@ -801,15 +800,15 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 1px solid #9cc6e9;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
@@ -823,7 +822,7 @@ label.ui-btn {
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-  background-color: #9cc6e9;
+  background-color: #ff963a;
 }
 
 /*Price*/
@@ -851,35 +850,35 @@ label.ui-btn {
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: white;
-  color: #0078bb;
+  color: #ff963a;
   font-size: 1em;
 }
 
 /* Spinner */
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add {
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   border: 0px;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added {
-  background: #0078bb;
+  background: #ff963a;
 }
 
 .dotter-spinner input {
-  border-color: #0078bb;
+  border-color: #ff963a;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
-  -webkit-border-radius: 0px 15px 15px 0px;
-  border-radius: 0px 15px 15px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 .dotter-spinner .ui-btn.ui-icon-minus {
-  -webkit-border-radius: 15px 0px 0px 15px;
-  border-radius: 15px 0px 0px 15px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
-  border-color: #0078bb;
+  border-color: #ff963a;
 }
 
 /*--------------------*/
@@ -912,34 +911,34 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   /*Basket total styling*/
 }
 .dotter-basket-details .dotter-basket-content {
-  border: 1px solid #9cc6e9;
+  border: 1px solid #eaeaea;
   border-bottom: none;
-  background-color: #e4eef6;
-  -webkit-border-radius: 5px 5px 0px 0px;
-  border-radius: 5px 5px 0px 0px;
+  background-color: #f0f5f7;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
-  background: #0078bb;
+  background: #ff963a;
   color: white;
-  -webkit-border-radius: 0px 0px 5px 5px;
-  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .dotter-checkout-info .dotter-small-prints {
-  color: #0078bb;
+  color: #ff963a;
   font-size: 1.2em;
 }
 
 /*Upsell slider*/
 .dotter-has-upsell h3 {
-  color: #0078bb;
+  color: #ff963a;
 }
 
 /*----------------*/
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-  color: #0078bb;
+  color: #ff963a;
   font-style: italic;
   font-family: 'Arial Narrow', Arial;
   font-weight: normal;
@@ -951,9 +950,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 
 .dotter-store-grid-container .dotter-navigation-container {
-  background: #0078bb;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background: #ff963a;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 /* Slick slider */
@@ -965,122 +964,80 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
-  color: #0078bb;
+  color: #ff963a;
 }
 
 /* Fonts */
 @font-face {
-  font-family: 'FranklinGothicURWCon-Boo';
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.eot");
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.woff") format("woff"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0.ttf") format("truetype");
+  font-family: 'mentonesemibold';
+  src: url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.eot");
+  src: url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.woff") format("woff"), url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'FranklinGothicURWCon-Med';
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.eot");
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.woff") format("woff"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-Dem';
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.eot");
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.woff") format("woff"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-DemIta';
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.eot");
-  src: url("http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.woff") format("woff"), url("http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'itcfranklingothicstd-dmcp';
-  src: url("http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.eot");
-  src: url("http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.woff") format("woff"), url("http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp.ttf") format("truetype");
-}
-.ui-header, .ui-footer {
-  border: none;
-}
-
 button,
 .ui-btn {
-  font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+  font-family: 'mentonesemibold', helevtica, sans-serif;
+  font-size: .875em;
 }
 
-/*----------------------------*/
-/* Basket Page                */
-/*----------------------------*/
-@media all and (min-width: 36em) {
-  .basket-page {
-    border-width: 2px;
-    border-style: solid;
-    border: 2px solid #0078bb;
-  }
+/*----------------*/
+/* HEADER SECTION */
+/*----------------*/
+.retailerchoice .dotter-label {
+  margin: -.5em -.5em .5em;
 }
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
-/*Header buttons*/
-.btn-lrg {
-  font-size: 1.35em !important;
-  line-height: 1em;
-  padding: .4em .6em .4em;
+html .ui-body-a .ui-btn.dotter-change-retailer,
+html .ui-body-a .ui-btn.dotter-checkoutasguest {
+  border: 1px solid #ff963a;
+  background-color: #fff;
+  color: #ff963a;
 }
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: #fff;
-  color: #f00;
+  color: #ff963a;
   font-size: 1em;
 }
 
-/*Add btn in product panel (added/update state)*/
-div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
-  background: #0078bb !important;
+/*--------------------*/
+/* Dotter Login Panel */
+/*--------------------*/
+.dotter-retailer-login .ui-input-text input {
+  background: #f0f5f7;
+  color: #4b4b4b;
 }
 
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/
-.dotter-navigation-container {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+  border-left: 0;
 }
 
-.dotter-navigation.ui-navbar .ui-btn {
-  -webkit-border-radius: 0;
-  border-radius: 0;
+.dotter-navigation-container .dotter-navigation ul li:first-child a {
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
-.dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #0078bb;
-  border-color: #9cc6e9;
-  color: #9cc6e9;
+.dotter-navigation-container .dotter-navigation ul li:nth-child(5) a {
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #9cc6e9;
-  color: white;
+.dotter-store-grid-container .ui-navbar a.ui-btn {
+  font-size: 1.3em;
+  padding: .7em 1em;
+  text-transform: capitalize;
+  background-color: #0087ff;
 }
-
-.dotter-navigation.ui-navbar .ui-btn:after {
-  content: "|";
-  color: #9cc6e9;
-  position: absolute;
-  right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-  margin-left: -.2em;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 5px 0px 0px 5px;
-  border-radius: 5px 0px 0px 5px;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-  margin-left: 0;
-}
-
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-  content: "";
+.dotter-store-grid-container .ui-navbar a.ui-btn .ui-navbar a.ui-btn:hover {
+  color: #ff963a;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a,
@@ -1088,10 +1045,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 17%;
-}
-.dotter-store-grid-container .ui-navbar a.ui-btn {
-  font-size: 1.1em;
+  width: 25%;
+  border-left: 1px dotted #fff;
 }
 
 /*# sourceMappingURL=dotter.css.map */
