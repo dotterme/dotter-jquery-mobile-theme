@@ -1,0 +1,309 @@
+/* Common rules for Dotter store */
+
+@import 'mixins';
+
+@mixin grid-container {
+  .ui-grid-d > .ui-block-a,
+  .ui-grid-d > .ui-block-b,
+  .ui-grid-d > .ui-block-c,
+  .ui-grid-d > .ui-block-d,
+  .ui-grid-d > .ui-block-e {
+    @content;
+  }
+}
+
+$primary-color: #eaeaea !default;
+$secondary-color: #eaeaea !default;
+$tertiary-color: #eaeaea !default;
+
+$dtr-store-product-details-border: none !default;
+$dtr-store-spinner-border-radius: 0px !default;
+
+.ui-header, .ui-footer {
+  border: none;
+}
+
+button,
+.ui-btn {
+  @include border-radius($dtr-store-border-radius);
+}
+
+.ui-btn,
+label.ui-btn {
+  text-transform: uppercase;
+}
+
+.ui-page-theme-a,
+.dotter-text-a {
+  color: #000;
+}
+
+.ui-page-theme-b,
+.dotter-text-b {
+  color: #000;
+}
+
+@media all and (min-width: 55em) {
+  .dotter-lg-text-b {
+    color: #2D6192;
+  }
+}
+
+/* From http://css-tricks.com/hang-on-placeholders/ */
+.ui-input-text input:focus::-webkit-input-placeholder {
+  transition: text-indent 0.5s 0.5s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+/* Branding */
+.dotter-branding-image {
+  background-image: url("images/secondary-branding-sml.png");
+
+  @media all and (min-width: 50em) {
+    background-image: url("images/secondary-branding.png");
+  }
+}
+
+@media all and (min-width: 50em) {
+  .dotter-image.dotter-retailer {
+    background-image: url("images/secondary-branding.png");
+  }
+}
+
+/* BRANDING */
+.dotter-brand-adjust:before {
+  content: $dtr-store-brand;
+}
+
+/*Border between upsell products*/
+.dotter-border-a {
+  border-color: $primary-color;
+}
+
+.dotter-border-b,
+.ui-body-a .ui-controlgroup {
+  border-color: #9cc6e9;
+}
+
+/*----------------*/
+/* HEADER SECTION */
+/*----------------*/
+
+/*Retailer Select panel (non pop-up)*/
+.panel.top {
+  min-height: 48px;
+}
+
+.dotter-header .panel.top > .panel.right {
+  border: 2px solid $primary-color;
+  @include border-radius($dtr-store-border-radius);
+}
+
+.retailerchoice .dotter-label {
+  background: $primary-color;
+  color: $a-body-background-color;
+  padding: .5em;
+}
+
+/*Secondary Branding Image*/
+.panel.top > .dotter-image.dotter-retailer {
+  float: right;
+}
+
+.dotter-image.dotter-retailer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-image: url("images/secondary-branding-sml.png");
+  background-size: 72%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin: 1em 370px 2.3em 1em;
+}
+
+/* secondary navigation */
+.dotter-header .app-links .item {
+  text-transform: uppercase;
+}
+
+/*Breadcrumbs*/
+.dotter-header .dotter-breadcrumbs li {
+  text-transform: uppercase;
+}
+
+.dotter-breadcrumbs {
+  .dotter-active {
+    color: $primary-color;
+  }
+
+  .dotter-active:before {
+    color: #000;
+  }
+}
+
+/*----------------------------*/
+/* PRODUCT GRID PANEL SECTION */
+/*----------------------------*/
+.dotter-store-grid-container, .basket-page, .thankyou-page {
+  @include border-radius($dtr-store-border-radius);
+}
+
+/*Product details both in grid and upsell*/
+.dotter-product-details {
+  border: 1px solid $tertiary-color;
+  @include border-radius($dtr-store-border-radius);
+
+  h4.dotter-product-title {
+    text-align: center;
+    color: #0087ff;
+    font-size: 1.1em;
+  }
+}
+
+.dotter-product-abstract {
+  font-size: .9em;
+}
+
+/*Info button Icon*/
+.dotter-product-info.dotter-icon:before {
+  background-color: $secondary-color;
+}
+
+/*Price*/
+.price, .offer {
+  color: red;
+}
+
+/*Error messages*/
+.empty-product-list {
+  font-size: 1.3em;
+}
+
+/*Product Info modals*/
+.ui-header.ui-bar-a > h1 {
+  font-size: 1.1em;
+}
+
+.ui-popup-container .ui-content h3 {
+  font-weight: normal;
+}
+
+/*---------------*/
+/* STORE BUTTONS */
+/*---------------*/
+
+/*Select Retailer btn in product panel*/
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
+  background: $a-body-background-color;
+  color: $primary-color;
+  font-size: 1em;
+}
+
+/* Spinner */
+/*Add and qty select btns in product panel (should be std btn)*/
+.dotter-add-to-basket .ui-btn.dotter-product-add {
+  @include border-radius($dtr-store-spinner-border-radius);
+  border: 0px;
+
+  .ui-btn.dotter-product-added {
+    background: $primary-color;
+  }
+}
+
+.dotter-spinner {
+  input {
+    border-color: $primary-color;
+  }
+
+  .ui-btn.ui-icon-plus {
+    @include border-radius(0px $dtr-store-spinner-border-radius $dtr-store-spinner-border-radius 0px);
+  }
+
+  .ui-btn.ui-icon-minus {
+    @include border-radius($dtr-store-spinner-border-radius 0px 0px $dtr-store-spinner-border-radius);
+  }
+}
+
+.dotter-product-quantity, .dotter-item-quantity {
+  border-color: $primary-color;
+}
+
+/*--------------------*/
+/* Dotter Login Panel */
+/*--------------------*/
+.dotter-retailer-login .ui-input-text input {
+  font-size: 1.2em;
+  padding: .3em .5em .2em;
+}
+
+/*Placeholder UPPERCASE*/
+.dotter-retailer-login .ui-input-text {
+  @include input-placeholder {
+    text-transform: uppercase;
+  }
+}
+
+/*--------------*/
+/* Basket panel */
+/*--------------*/
+.dotter-basket-details {
+  /*Basket panel styling*/
+  .dotter-basket-content {
+    border: 1px solid $tertiary-color;
+    border-bottom: none;
+    background-color: $dtr-store-basket-content-background-color;
+    @include border-radius($dtr-store-border-radius $dtr-store-border-radius 0px 0px);
+  }
+
+  /*Basket total styling*/
+  .dotter-basket-total {
+    background: $primary-color;
+    color: $a-body-background-color;
+    @include border-radius(0px 0px $dtr-store-border-radius $dtr-store-border-radius);
+  }
+}
+
+.dotter-checkout-info .dotter-small-prints {
+  color: $primary-color;
+  font-size: 1.2em;
+}
+
+/*Upsell slider*/
+.dotter-has-upsell h3 {
+  color: $primary-color;
+}
+
+/*----------------*/
+/* Thank You page */
+/*----------------*/
+.dotter-thankyou-page h1 {
+  color: $primary-color;
+  font-style: italic;
+  font-family: 'Arial Narrow', Arial;
+  font-weight: normal;
+}
+
+/*Footer button (powered by Dotter)*/
+.panel.bottom > .ui-btn {
+  float: right;
+}
+
+.dotter-store-grid-container .dotter-navigation-container {
+  background: $primary-color;
+  @include border-radius($dtr-store-border-radius);
+}
+
+/* Slick slider */
+.slick-prev:before,
+.slick-next:before {
+  line-height: inherit;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li a:before {
+  color: $primary-color;
+}
