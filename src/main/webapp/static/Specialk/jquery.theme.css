@@ -972,8 +972,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	border: 1px solid #ed174f !important;
 }
 .ui-disabled {
-	background: #eee !important;
-	text-shadow: 1px 1px #ccc !important;
+	background: #ddd !important;
 }
 /*--------------------*/
 /* Dotter Login Panel */
@@ -998,7 +997,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 .dotter-checkout-info .dotter-small-prints {
 	font-size: 1.2em;
-	font-family: sans-serif;
+	font-family: "Avenir-lt", sans-serif;
 	font-weight: bold;
 	color: #ed174f;
 }
@@ -1085,7 +1084,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
-	color: #0078bb;
+	color: #ed174f;
 }
 
 /* Dotter Terms external-content styling */
