@@ -3,7 +3,13 @@
 /* Globals */
 
 /* Font */
-
+@font-face{
+	font-family:'Avenir-lt';
+	src:url('http://content.dotter.me/store/specialk/fonts/Avenir-Light.eot');
+	src:url('http://content.dotter.me/store/specialk/fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+		url('http://content.dotter.me/store/specialk/fonts/Avenir-Light.woff') format('woff'),
+		url('http://content.dotter.me/store/specialk/fonts/Avenir-Light.ttf') format('truetype');
+}
 
 /*-----------------------------------------------------------------------------------------------------------*/
 
@@ -16,13 +22,13 @@ select,
 textarea {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: sans-serif /*{global-font-family}*/;
+	font-family: 'Avenir-lt', sans-serif /*{global-font-family}*/;
 }
 button,
 .ui-btn {
 	font-size: .875em;
 	line-height: 1.3em;
-	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif;
+	font-family: "Avenir-lt", sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -353,7 +359,7 @@ html head + body .ui-btn.ui-btn-a:visited {
 	background: #ed174f;
 	color: 		#fff /*{a-bup-color}*/;
 	text-shadow: none;
-	font-family: "Bookman Old Style", Georgia, "Times New Roman", Serif;
+	font-family: "Avenir-lt", sans-serif;
 	font-size: 1em !important;
 }
 /* Button hover */
