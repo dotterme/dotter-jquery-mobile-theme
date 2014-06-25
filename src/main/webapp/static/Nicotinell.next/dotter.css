@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -966,6 +965,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .slick-next:before,
 .slick-dots li a:before {
   color: #0078bb;
+}
+
+html .ui-body-a {
+  border: none;
+  border-width: 0;
 }
 
 /* Fonts */
