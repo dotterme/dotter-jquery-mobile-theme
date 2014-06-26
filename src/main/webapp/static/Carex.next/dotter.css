@@ -967,6 +967,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   color: #ff963a;
 }
 
+html .ui-body-a {
+  border: none;
+  border-width: 0;
+}
+
 /* Fonts */
 @font-face {
   font-family: 'mentonesemibold';
