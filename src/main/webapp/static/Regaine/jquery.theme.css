@@ -908,7 +908,6 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
 	color: #fff;
 	padding: .5em;
-	margin: -.5em -.5em .5em;
 }
 /*Secondary Branding Image*/
 .panel.top > .dotter-image.dotter-retailer {
