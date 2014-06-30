@@ -145,8 +145,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-  -webkit-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Buttons */
@@ -155,8 +155,8 @@ label.ui-btn {
 .ui-slider-track.ui-corner-all,
 .ui-flipswitch.ui-corner-all,
 .ui-li-count {
-  -webkit-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Icon-only buttons */
