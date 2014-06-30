@@ -1,0 +1,168 @@
+$primary-color: #ff963a;
+$secondary-color: #ff963a;
+$tertiary-color: #EAEAEA;
+
+$global-font-family: sans-serif;
+$global-font-size: .875em;
+$global-box-shadow-size: 0;
+$global-border-width-buttons: 0;
+$global-border-style-buttons: none;
+$global-radii-buttons: 0;
+$global-radii-buttons-notext: 0;
+
+$a-page-background-color: none;
+
+$a-bar-background-color: $primary-color;
+$a-bar-color: #fff;
+$a-bar-border: #ddd !default;
+$a-bar-shadow-x: none;
+$a-bar-shadow-y: unquote('');
+$a-bar-shadow-radius: unquote('');
+$a-bar-shadow-color: unquote('');
+
+$a-body-shadow-x: 0;
+$a-body-shadow-y: 0;
+$a-body-shadow-radius: 0;
+
+$a-link-color: #000;
+$a-link-text-decoration: none;
+$a-link-font-weight: normal;
+$a-link-visited: #000;
+$a-link-hover: #000;
+$a-link-active: #000;
+
+$a-bup-background-color: $secondary-color;
+$a-bup-border: $secondary-color;
+$a-bup-color: #fff;
+$a-bup-shadow-x: none;
+$a-bup-shadow-y: unquote('');
+$a-bup-shadow-radius: unquote('');
+$a-bup-shadow-color: unquote('');
+
+$a-bhover-background-color: $secondary-color;
+$a-bhover-border: $primary-color;
+$a-bhover-color: #fff;
+$a-bhover-shadow-x: none;
+$a-bhover-shadow-y: unquote('');
+$a-bhover-shadow-radius: unquote('');
+$a-bhover-shadow-color: unquote('');
+
+$a-bdown-background-color: $primary-color;
+$a-bdown-border: $secondary-color;
+$a-bdown-color: #fff;
+$a-bdown-shadow-x: none;
+$a-bdown-shadow-y: unquote('');
+$a-bdown-shadow-radius: unquote('');
+$a-bdown-shadow-color: unquote('');
+
+$a-active-shadow-x: none;
+$a-active-shadow-y: unquote('');
+$a-active-shadow-radius: unquote('');
+$a-active-shadow-color: unquote('');
+$a-active-box-shadow: none;
+$a-active-border-color: $primary-color;
+
+$b-body-background-color: #fff;
+$b-body-color: #000;
+$b-body-shadow-x: 0;
+$b-body-shadow-y: 1;
+$b-body-shadow-radius: 0;
+
+$b-link-color: #000;
+$b-link-text-decoration: none;
+$b-link-font-weight: normal;
+$b-link-visited: #000;
+$b-link-hover: #000;
+$b-link-active: #000;
+
+$dtr-store-brand: '';
+$dtr-store-border-radius: 0px;
+
+$dtr-store-product-details-border: 1px solid $tertiary-color;
+$dtr-store-spinner-border-radius: 0px;
+$dtr-store-basket-content-background-color: #f0f5f7;
+
+@import '../default/reset';
+@import '../default/mixins';
+@import '../default/jquery-mobile.theme';
+@import '../default/store';
+
+/* Fonts */
+@font-face {
+  font-family: 'mentonesemibold';
+  @include font-face-src('http://content.dotter.me/store/carex/fonts/mentone_lig_bold');
+  font-weight: normal;
+  font-style: normal;
+}
+
+button,
+.ui-btn {
+  font-family: 'mentonesemibold', helevtica, sans-serif;
+  font-size: .875em;
+}
+
+/*----------------*/
+/* HEADER SECTION */
+/*----------------*/
+.retailerchoice .dotter-label {
+  margin: -.5em -.5em .5em;
+}
+
+/*---------------*/
+/* STORE BUTTONS */
+/*---------------*/
+html .ui-body-a .ui-btn.dotter-change-retailer,
+html .ui-body-a .ui-btn.dotter-checkoutasguest {
+  border: 1px solid $primary-color;
+  background-color: #fff;
+  color: $primary-color;
+}
+
+/*Select Retailer btn in product panel*/
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
+  background: #fff;
+  color: $primary-color;
+  font-size: 1em;
+}
+
+/*--------------------*/
+/* Dotter Login Panel */
+/*--------------------*/
+.dotter-retailer-login .ui-input-text input {
+  background: #f0f5f7;
+  color: rgb(75, 75, 75);
+}
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+  border-left: 0;
+}
+
+.dotter-navigation-container .dotter-navigation ul li:first-child a {
+  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
+}
+
+.dotter-navigation-container .dotter-navigation ul li:nth-child(5) a {
+  @include border-radius(0px $dtr-store-border-radius $dtr-store-border-radius 0px);
+}
+
+.dotter-store-grid-container .ui-navbar a.ui-btn {
+  font-size: 1.3em;
+  padding: .7em 1em;
+  text-transform: capitalize;
+  background-color: #0087ff;
+
+  .ui-navbar a.ui-btn:hover {
+    color: $primary-color;
+  }
+}
+
+.dotter-store-grid-container {
+  @include grid-container {
+    width: 25%;
+    border-left: 1px dotted #fff;
+  }
+}
+
