@@ -1,8 +1,8 @@
-$primary-color: #ff963a;
-$secondary-color: #ff963a;
-$tertiary-color: #EAEAEA;
+$primary-color: #05764E;
+$secondary-color: #05764E;
+$tertiary-color: #ffffff;
 
-$global-font-family: sans-serif;
+$global-font-family: "Roboto",Arial,Helvetica,sans-serif;
 $global-font-size: .875em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
@@ -89,15 +89,16 @@ $dtr-store-basket-content-background-color: #f0f5f7;
 
 /* Fonts */
 @font-face {
-  font-family: 'mentonesemibold';
-  @include font-face-src('http://content.dotter.me/store/carex/fonts/mentone_lig_bold');
+  font-family: 'Gothic821CondensedBT-Regular';
+  @include font-face-src('http://content.dotter.me/store/originalsource/fonts/2AD9C9_0_0');
   font-weight: normal;
   font-style: normal;
 }
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 button,
 .ui-btn {
-  font-family: 'mentonesemibold', helevtica, sans-serif;
+  font-family: 'Gothic821CondensedBT-Regular', helevtica, sans-serif;
   font-size: .875em;
 }
 
