@@ -810,6 +810,7 @@ label.ui-btn {
   border: 1px solid white;
   -webkit-border-radius: 0px;
   border-radius: 0px;
+  background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
@@ -1004,7 +1005,7 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: #05764e;
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 /*--------------------*/

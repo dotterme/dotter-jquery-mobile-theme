@@ -16,6 +16,7 @@ $primary-color: #eaeaea !default;
 $secondary-color: #eaeaea !default;
 $tertiary-color: #eaeaea !default;
 
+$dtr-store-product-details-background-color: #fff !default;
 $dtr-store-product-details-border: none !default;
 $dtr-store-spinner-border-radius: 0px !default;
 
@@ -155,6 +156,7 @@ label.ui-btn {
 .dotter-product-details {
   border: 1px solid $tertiary-color;
   @include border-radius($dtr-store-border-radius);
+  background-color: $dtr-store-product-details-background-color;
 
   h4.dotter-product-title {
     text-align: center;
