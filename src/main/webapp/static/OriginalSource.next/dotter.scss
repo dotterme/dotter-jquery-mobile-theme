@@ -10,6 +10,7 @@ $global-border-style-buttons: none;
 $global-radii-buttons: 0;
 $global-radii-buttons-notext: 0;
 
+$a-body-background-color: transparent;
 $a-page-background-color: transparent;
 
 $a-bar-background-color: transparent;
@@ -106,7 +107,7 @@ button,
 /* HEADER SECTION */
 /*----------------*/
 .retailerchoice .dotter-label {
-  margin: -.5em -.5em .5em;
+	
 }
 
 /*---------------*/
@@ -153,10 +154,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   font-size: 1.3em;
   padding: .7em 1em;
   text-transform: capitalize;
-  background-color: #0087ff;
+  background-color: transparent;
 
   .ui-navbar a.ui-btn:hover {
     color: $primary-color;
+	text-decoration: underline;
   }
 }
 
