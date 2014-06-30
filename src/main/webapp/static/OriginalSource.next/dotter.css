@@ -145,8 +145,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
 }
 
 /* Buttons */
@@ -155,8 +155,8 @@ label.ui-btn {
 .ui-slider-track.ui-corner-all,
 .ui-flipswitch.ui-corner-all,
 .ui-li-count {
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
 }
 
 /* Icon-only buttons */
@@ -752,6 +752,7 @@ label.ui-btn {
 
 .dotter-header .panel.top > .panel.right {
   border: 2px solid #05764e;
+  background-color: white;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }

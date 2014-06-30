@@ -16,6 +16,7 @@ $primary-color: #eaeaea !default;
 $secondary-color: #eaeaea !default;
 $tertiary-color: #eaeaea !default;
 
+$dtr-store-retailer-select-panel-background-color: #fff !default;
 $dtr-store-product-details-background-color: #fff !default;
 $dtr-store-product-details-border: none !default;
 $dtr-store-spinner-border-radius: 0px !default;
@@ -98,6 +99,7 @@ label.ui-btn {
 
 .dotter-header .panel.top > .panel.right {
   border: 2px solid $primary-color;
+  background-color: $dtr-store-retailer-select-panel-background-color;
   @include border-radius($dtr-store-border-radius);
 }
 
