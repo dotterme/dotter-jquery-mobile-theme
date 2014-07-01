@@ -1087,4 +1087,10 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   border-left: 0;
 }
 
+.dotter-thankyou-page h1 {
+  color: white;
+  font-family: 'Gothic821CondensedBT-Regular', Arial;
+  font-style: normal;
+}
+
 /*# sourceMappingURL=dotter.css.map */
