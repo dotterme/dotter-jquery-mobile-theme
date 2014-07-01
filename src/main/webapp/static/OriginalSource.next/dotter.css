@@ -338,7 +338,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-  color: white;
+  color: black;
   font-weight: normal;
   text-decoration: none;
 }
@@ -347,21 +347,21 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-  color: white;
+  color: black;
 }
 
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-  color: white;
+  color: black;
 }
 
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-  color: white;
+  color: black;
 }
 
 /* Button up */
@@ -997,6 +997,10 @@ button,
   border: 0;
 }
 
+.dotter-retailer .name {
+  color: #333;
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
@@ -1012,6 +1016,10 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: #05764e;
   color: white;
   font-size: 1.2em;
+}
+
+.ui-link.read-more {
+  color: #333;
 }
 
 /*--------------------*/

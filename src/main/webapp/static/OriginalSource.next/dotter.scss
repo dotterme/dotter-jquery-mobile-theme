@@ -26,12 +26,12 @@ $a-body-shadow-x: 0;
 $a-body-shadow-y: 0;
 $a-body-shadow-radius: 0;
 
-$a-link-color: #fff;
+$a-link-color: #000;
 $a-link-text-decoration: none;
 $a-link-font-weight: normal;
-$a-link-visited: #fff;
-$a-link-hover: #fff;
-$a-link-active: #fff;
+$a-link-visited: #000;
+$a-link-hover: #000;
+$a-link-active: #000;
 
 $a-bup-background-color: $secondary-color;
 $a-bup-border: $secondary-color;
@@ -111,12 +111,12 @@ button,
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
-.retailerchoice .dotter-label {
-	
-}
 
 .dotter-header .panel.top > .panel.right {
   border: 0;
+}
+.dotter-retailer .name {
+	color: #333;
 }
 
 /*---------------*/
@@ -134,6 +134,10 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: $primary-color;
   color: $tertiary-color;
   font-size: 1.2em;
+}
+
+.ui-link.read-more {
+	color: #333;
 }
 
 /*--------------------*/
