@@ -10,6 +10,7 @@ $global-border-style-buttons: none;
 $global-radii-buttons: 25px;
 $global-radii-buttons-notext: 50%;
 
+$a-body-color: #fff;
 $a-body-background-color: transparent;
 $a-page-background-color: transparent;
 
@@ -69,6 +70,9 @@ $b-body-shadow-x: 0;
 $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
 
+$b-bar-color: #333;
+$b-bar-background-color: #fff;
+
 $b-link-color: #000;
 $b-link-text-decoration: none;
 $b-link-font-weight: normal;
@@ -80,7 +84,7 @@ $dtr-store-brand: '';
 $dtr-store-border-radius: 0px;
 
 $dtr-store-product-details-border: 1px solid $tertiary-color;
-$dtr-store-spinner-border-radius: 10px;
+$dtr-store-spinner-border-radius: 15px;
 $dtr-store-basket-content-background-color: #fff;
 $dtr-store-product-name-h4-color: $primary-color;
 

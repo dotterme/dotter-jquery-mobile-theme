@@ -324,7 +324,7 @@ html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
   background-color: transparent;
   border-color: #dddddd;
-  color: #333333;
+  color: white;
   text-shadow: 0 0 0 #f3f3f3;
 }
 
@@ -467,9 +467,9 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-  background-color: #1d1d1d;
+  background-color: white;
   border-color: #1b1b1b;
-  color: white;
+  color: #333333;
   text-shadow: 0 1px 0 #111111;
   font-weight: bold;
 }
@@ -860,8 +860,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Spinner */
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   border: 0px;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added {
@@ -872,12 +872,12 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   border-color: #05764e;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
-  -webkit-border-radius: 0px 10px 10px 0px;
-  border-radius: 0px 10px 10px 0px;
+  -webkit-border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 15px 15px 0px;
 }
 .dotter-spinner .ui-btn.ui-icon-minus {
-  -webkit-border-radius: 10px 0px 0px 10px;
-  border-radius: 10px 0px 0px 10px;
+  -webkit-border-radius: 15px 0px 0px 15px;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
