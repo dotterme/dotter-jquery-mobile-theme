@@ -180,15 +180,16 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-  font-size: 1.3em;
+  font-size: 1.7em;
   padding: .7em 1em;
   text-transform: capitalize;
   background-color: transparent;
 
-  .ui-navbar a.ui-btn:hover {
-    color: $primary-color;
-	text-decoration: underline;
-  }
+}
+
+.dotter-store-grid-container .ui-navbar a.ui-btn:hover {
+  color: $primary-color;
+  text-decoration: underline;
 }
 
 .dotter-store-grid-container {
