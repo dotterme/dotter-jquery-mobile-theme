@@ -142,6 +142,10 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   border-left: 0;
 }
 
+.dotter-store-grid-container .dotter-navigation-container {
+	background-color: transparent;
+}
+
 .dotter-navigation-container .dotter-navigation ul li:first-child a {
   @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
 }
