@@ -1074,6 +1074,10 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   text-decoration: underline !important;
 }
 
+.dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active {
+  text-decoration: underline !important;
+}
+
 .dotter-store-grid-container .ui-grid-d > .ui-block-a,
 .dotter-store-grid-container .ui-grid-d > .ui-block-b,
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
