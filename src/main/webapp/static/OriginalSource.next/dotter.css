@@ -932,7 +932,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   color: black;
 }
 
-.dotter-retailer-info .dotter-small-prints {
+.dotter-retailer-info.dotter-small-prints {
   color: white;
   font-size: 1.2em;
 }
