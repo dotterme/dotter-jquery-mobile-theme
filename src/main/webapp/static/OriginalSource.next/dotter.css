@@ -1005,6 +1005,14 @@ button,
   color: #333;
 }
 
+.dotter-breadcrumbs .dotter-active {
+  color: white;
+  text-decoration: underline;
+}
+.dotter-breadcrumbs .dotter-active:before {
+  color: #fff;
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
