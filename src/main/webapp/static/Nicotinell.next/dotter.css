@@ -752,6 +752,7 @@ label.ui-btn {
 
 .dotter-header .panel.top > .panel.right {
   border: 2px solid #0078bb;
+  background-color: white;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
@@ -810,6 +811,7 @@ label.ui-btn {
   border: 1px solid #9cc6e9;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
