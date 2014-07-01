@@ -309,7 +309,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  background-color: transparent;
+  background-color: #179b70;
   border-color: #bbbbbb;
   color: #333333;
   text-shadow: 0 1px 0 #f3f3f3;
@@ -322,7 +322,7 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-  background-color: transparent;
+  background-color: white;
   border-color: #dddddd;
   color: #333333;
   text-shadow: 0 0 0 #f3f3f3;
@@ -759,7 +759,7 @@ label.ui-btn {
 
 .retailerchoice .dotter-label {
   background: #05764e;
-  color: transparent;
+  color: white;
   padding: .5em;
 }
 
@@ -852,7 +852,7 @@ label.ui-btn {
 /*---------------*/
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: transparent;
+  background: white;
   color: #05764e;
   font-size: 1em;
 }
@@ -922,7 +922,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-basket-details .dotter-basket-total {
   background: #05764e;
-  color: transparent;
+  color: white;
   -webkit-border-radius: 0px 0px 0px 0px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -993,7 +993,7 @@ button,
 /* HEADER SECTION */
 /*----------------*/
 .dotter-header .panel.top > .panel.right {
-  border-color: transparent;
+  border: 0;
 }
 
 /*---------------*/
