@@ -692,12 +692,12 @@ label.ui-btn {
 
 .ui-page-theme-a,
 .dotter-text-a {
-  color: #000;
+  color: white;
 }
 
 .ui-page-theme-b,
 .dotter-text-b {
-  color: #000;
+  color: black;
 }
 
 @media all and (min-width: 55em) {
@@ -821,7 +821,7 @@ label.ui-btn {
 
 .dotter-product-abstract {
   font-size: .9em;
-  color: #333333;
+  color: black;
 }
 
 /*Info button Icon*/
@@ -913,6 +913,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-basket-details {
   /*Basket panel styling*/
   /*Basket total styling*/
+  /* Basket product title */
 }
 .dotter-basket-details .dotter-basket-content {
   border: 1px solid white;
@@ -926,6 +927,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   color: transparent;
   -webkit-border-radius: 0px 0px 0px 0px;
   border-radius: 0px 0px 0px 0px;
+}
+.dotter-basket-details .dotter-product-title {
+  color: black;
 }
 
 .dotter-checkout-info .dotter-small-prints {
