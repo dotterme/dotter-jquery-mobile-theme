@@ -21,6 +21,7 @@ $dtr-store-product-details-background-color: #fff !default;
 $dtr-store-product-details-border: none !default;
 $dtr-store-spinner-border-radius: 0px !default;
 $dtr-store-product-name-h4-color: #0087ff !default;
+$dtr-store-product-abstract-color: #333 !default;
 
 .ui-header, .ui-footer {
   border: none;
@@ -170,6 +171,7 @@ label.ui-btn {
 
 .dotter-product-abstract {
   font-size: .9em;
+  color: $dtr-store-product-abstract-color;
 }
 
 /*Info button Icon*/
