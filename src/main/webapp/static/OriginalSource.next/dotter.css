@@ -1070,8 +1070,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background-color: transparent;
 }
 
-.dotter-store-grid-container .ui-navbar a.ui-btn:hover, .dotter-store-grid-container .ui-navbar a.ui-btn:active {
-  text-decoration: underline;
+.dotter-store-grid-container .ui-navbar a.ui-btn:hover {
+  text-decoration: underline !important;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a,
