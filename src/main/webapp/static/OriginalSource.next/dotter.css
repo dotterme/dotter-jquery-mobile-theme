@@ -295,7 +295,7 @@ html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
   background-color: white;
   border-color: #dddddd;
-  color: white;
+  color: #333333;
   text-shadow: none   ;
   font-weight: bold;
 }
@@ -815,7 +815,7 @@ label.ui-btn {
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
-  color: #0087ff;
+  color: #05764e;
   font-size: 1.1em;
 }
 

@@ -20,6 +20,7 @@ $dtr-store-retailer-select-panel-background-color: #fff !default;
 $dtr-store-product-details-background-color: #fff !default;
 $dtr-store-product-details-border: none !default;
 $dtr-store-spinner-border-radius: 0px !default;
+$dtr-store-product-name-h4-color: #0087ff !default;
 
 .ui-header, .ui-footer {
   border: none;
@@ -162,7 +163,7 @@ label.ui-btn {
 
   h4.dotter-product-title {
     text-align: center;
-    color: #0087ff;
+    color: $dtr-store-product-name-h4-color;
     font-size: 1.1em;
   }
 }
