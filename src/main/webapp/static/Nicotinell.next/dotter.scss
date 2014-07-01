@@ -57,11 +57,15 @@ $a-active-shadow-color: unquote('');
 $a-active-background-color: $secondary-color;
 $a-active-box-shadow: none;
 
+$b-bar-background-color: $primary-color;
+
 $b-body-background-color: #fff;
 $b-body-color: #000;
 $b-body-shadow-x: 0;
 $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
+
+$b-bup-background-color: $primary-color;
 
 $b-link-color: #000;
 $b-link-text-decoration: none;

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "CP850";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -467,7 +467,7 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-  background-color: #1d1d1d;
+  background-color: #0078bb;
   border-color: #1b1b1b;
   color: white;
   text-shadow: 0 1px 0 #111111;
