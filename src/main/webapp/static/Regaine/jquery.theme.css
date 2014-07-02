@@ -500,9 +500,16 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-	background: 			#1d1d1d /*{b-bar-background-color}*/;
-	border-color:	 		#1b1b1b /*{b-bar-border}*/;
-	color: 					#fff /*{b-bar-color}*/;
+	background: #a39674; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a39674 0%, #655d48 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a39674), color-stop(100%,#655d48)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a39674 0%,#655d48 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a39674 0%,#655d48 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a39674 0%,#655d48 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a39674', endColorstr='#655d48',GradientType=0 ); /* IE6-9 */
+	border-color:	 		#a39674 /*{a-active-border}*/;
+	color: 					#fff /*{a-active-color}*/;
 	text-shadow: 0 /*{b-bar-shadow-x}*/ 1px /*{b-bar-shadow-y}*/ 0 /*{b-bar-shadow-radius}*/ 	#111 /*{b-bar-shadow-color}*/;
 	font-weight: bold;
 }
