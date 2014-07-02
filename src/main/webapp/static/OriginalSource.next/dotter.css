@@ -1010,6 +1010,10 @@ button,
   color: #333;
 }
 
+.retailerchoice .dotter-label {
+  color: white;
+}
+
 .dotter-breadcrumbs .dotter-active {
   color: white;
   text-decoration: underline;
