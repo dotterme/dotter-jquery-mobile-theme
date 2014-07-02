@@ -247,8 +247,7 @@ label.ui-btn {
 	background-color: $global-icon-disc;
 	background-position: center center;
 	background-repeat: no-repeat;
-	-webkit-border-radius: 1em;
-	border-radius: 1em;
+    @include border-radius(1em);
 }
 /* Alt icons */
 .ui-alt-icon.ui-btn:after,
