@@ -1030,9 +1030,9 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  /*  background: $primary-color;
-    color: $tertiary-color;
-    font-size: 1.2em;*/
+  background: #05764e;
+  color: white;
+  font-size: 1.2em;
 }
 
 .ui-link.read-more {
