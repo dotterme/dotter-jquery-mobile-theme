@@ -158,7 +158,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: $primary-color;
   color: $tertiary-color;
   font-size: 1.2em;
-  font-weight: normal;
 }
 
 .ui-link.read-more {
@@ -218,6 +217,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
     width: 25%;
     border-left: 0;
   }
+}
+
+/*Upsell slider*/
+.dotter-has-upsell h3 {
+  color: $tertiary-color;
 }
 
 .dotter-thankyou-page h1 {
