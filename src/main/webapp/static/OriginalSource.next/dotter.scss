@@ -20,11 +20,12 @@ $a-bar-border: #ddd !default;
 $a-bar-shadow-x: none;
 $a-bar-shadow-y: unquote('');
 $a-bar-shadow-radius: unquote('');
-$a-bar-shadow-color: unquote('');
+$a-bar-shadow-color: transparent;
 
 $a-body-shadow-x: 0;
 $a-body-shadow-y: 0;
 $a-body-shadow-radius: 0;
+$a-body-shadow-color: transparent;
 
 $a-link-color: #fff;
 $a-link-text-decoration: none;
@@ -72,6 +73,7 @@ $b-body-shadow-radius: 0;
 
 $b-bar-color: #fff;
 $b-bar-background-color: $primary-color;
+$b-bar-shadow-color: transparent;
 
 $b-bup-background-color: $primary-color;
 
@@ -138,16 +140,16 @@ button,
 /*---------------*/
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  border: 1px solid $primary-color;
+/*  border: 1px solid $primary-color;
   background-color: #fff;
-  color: $primary-color;
+  color: $primary-color;*/
 }
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: $primary-color;
+/*  background: $primary-color;
   color: $tertiary-color;
-  font-size: 1.2em;
+  font-size: 1.2em;*/
 }
 
 .ui-link.read-more {
