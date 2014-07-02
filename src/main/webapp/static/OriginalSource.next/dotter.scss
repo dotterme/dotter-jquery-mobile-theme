@@ -65,11 +65,17 @@ $a-active-shadow-color: unquote('');
 $a-active-box-shadow: none;
 $a-active-border-color: $primary-color;
 
+$a-page-shadow-x: 0;
+$a-page-shadow-y: 0;
+$a-page-shadow-radius: 0;
+$a-page-shadow-color: transparent;
+
 $b-body-background-color: #fff;
 $b-body-color: #000;
 $b-body-shadow-x: 0;
-$b-body-shadow-y: 1;
+$b-body-shadow-y: 0;
 $b-body-shadow-radius: 0;
+$b-body-shadow-color: transparent;
 
 $b-bar-color: #fff;
 $b-bar-background-color: $primary-color;

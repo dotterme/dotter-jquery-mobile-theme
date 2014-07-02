@@ -312,7 +312,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
   background-color: transparent;
   border-color: #bbbbbb;
   color: #333333;
-  text-shadow: 0 1px 0 #f3f3f3;
+  text-shadow: 0 0 0 transparent;
 }
 
 /* Body: Read-only lists, text inputs, collapsible content */
@@ -499,7 +499,7 @@ html .ui-panel-page-container-b {
   background-color: white;
   border-color: #1d1d1d;
   color: black;
-  text-shadow: 0 1 0 #111111;
+  text-shadow: 0 0 0 transparent;
 }
 
 .ui-body-b {
