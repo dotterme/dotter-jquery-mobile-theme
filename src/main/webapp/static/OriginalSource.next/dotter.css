@@ -1025,18 +1025,12 @@ button,
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
-html .ui-body-a .ui-btn.dotter-change-retailer,
-html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  /*  border: 1px solid $primary-color;
-    background-color: #fff;
-    color: $primary-color;*/
-}
-
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: #05764e;
   color: white;
   font-size: 1.2em;
+  font-weight: normal;
 }
 
 .ui-link.read-more {
