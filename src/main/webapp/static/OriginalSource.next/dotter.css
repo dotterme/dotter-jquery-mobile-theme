@@ -999,6 +999,9 @@ button,
   font-size: .875em;
 }
 
+.ui-body-a .ui-loader {
+  background-color: #05764e; }
+
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
