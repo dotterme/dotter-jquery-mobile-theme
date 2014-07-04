@@ -375,8 +375,8 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-  background-color: #0078bb;
-  border-color: #9cc6e9;
+  background-color: #9cc6e9;
+  border-color: #0078bb;
   color: white;
   text-shadow: none   ;
 }
@@ -1066,8 +1066,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #0078bb;
-  border-color: #9cc6e9;
+  background-color: #9cc6e9;
+  border-color: #0078bb;
   color: #9cc6e9;
 }
 
@@ -1085,6 +1085,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
+  background-color: #0078bb;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn {
