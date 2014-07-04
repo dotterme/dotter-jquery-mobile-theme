@@ -689,10 +689,6 @@ label.ui-btn {
   text-transform: uppercase;
 }
 
-.ui-disabled {
-  background: #bbbbbb !important;
-}
-
 .ui-page-theme-a,
 .dotter-text-a {
   color: black;
