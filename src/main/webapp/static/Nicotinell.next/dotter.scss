@@ -151,6 +151,12 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 	background: $primary-color !important;
 }
 
+.dotter-spinner {
+  input {
+    border-color: $secondary-color;
+  }
+}
+
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/

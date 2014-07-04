@@ -1052,6 +1052,10 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
   background: #0078bb !important;
 }
 
+.dotter-spinner input {
+  border-color: #9cc6e9;
+}
+
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/
