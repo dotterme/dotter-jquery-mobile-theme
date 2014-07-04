@@ -1068,7 +1068,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-navigation.ui-navbar .ui-btn:hover {
   background-color: #9cc6e9;
   border-color: #0078bb;
-  color: #9cc6e9;
+  color: #fff;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
@@ -1078,7 +1078,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 .dotter-navigation.ui-navbar .ui-btn:after {
   content: "|";
-  color: #9cc6e9;
+  color: #0078bb;
   position: absolute;
   right: -.2em;
 }
