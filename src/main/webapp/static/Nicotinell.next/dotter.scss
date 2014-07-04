@@ -201,6 +201,10 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
   @include grid-container {
     width: 17%;
   }
+  
+  .dotter-navigation-container {
+	background-color: $secondary-color;
+  }
 
   .ui-navbar a.ui-btn {
     font-size: 1.1em;

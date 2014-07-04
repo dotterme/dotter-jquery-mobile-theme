@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "CP850";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -1106,6 +1106,9 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
   width: 17%;
+}
+.dotter-store-grid-container .dotter-navigation-container {
+  background-color: #9cc6e9;
 }
 .dotter-store-grid-container .ui-navbar a.ui-btn {
   font-size: 1.1em;
