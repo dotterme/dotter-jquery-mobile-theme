@@ -1089,8 +1089,8 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #9cc6e9;
-  color: white;
+  background-color: #0078bb;
+  color: #9cc6e9;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:after {
