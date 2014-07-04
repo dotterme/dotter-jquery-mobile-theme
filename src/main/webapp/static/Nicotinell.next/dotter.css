@@ -690,6 +690,10 @@ label.ui-btn {
   text-transform: uppercase;
 }
 
+.ui-disabled {
+  background: #bbbbbb !important;
+}
+
 .ui-page-theme-a,
 .dotter-text-a {
   color: black;
@@ -1030,6 +1034,19 @@ button,
     border: 2px solid #0078bb;
   }
 }
+.dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
+  text-transform: lowercase;
+}
+.dotter-retailer-login .ui-input-text input:-moz-placeholder {
+  text-transform: lowercase;
+}
+.dotter-retailer-login .ui-input-text input::-moz-placeholder {
+  text-transform: lowercase;
+}
+.dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
+  text-transform: lowercase;
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/

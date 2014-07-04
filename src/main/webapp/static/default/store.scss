@@ -26,6 +26,7 @@ $dtr-store-product-abstract-color: #000 !default;
 $dtr-store-text-a: #000 !default;
 $dtr-store-text-b: #000 !default;
 $dtr-store-popup-radii: 0 !default;
+$dtr-store-btn-disabled-background: #bbb !default;
 
 .ui-header, .ui-footer {
   border: none;
@@ -39,6 +40,10 @@ button,
 .ui-btn,
 label.ui-btn {
   text-transform: uppercase;
+}
+
+.ui-disabled {
+  background: $dtr-store-btn-disabled-background !important;
 }
 
 .ui-page-theme-a,

@@ -129,6 +129,12 @@ button,
 	}	
 }
 
+.dotter-retailer-login .ui-input-text {
+  @include input-placeholder {
+    text-transform: lowercase;
+  }
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
