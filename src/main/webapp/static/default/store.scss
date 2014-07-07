@@ -188,7 +188,7 @@ label.ui-btn {
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon {
-  &:hover {
+  &:before {
     background-color: $secondary-color;
   }
   &:hover:before {

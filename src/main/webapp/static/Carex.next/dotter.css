@@ -833,7 +833,7 @@ label.ui-btn {
 }
 
 /*Info button Icon*/
-.dotter-product-info.dotter-icon:hover {
+.dotter-product-info.dotter-icon:before {
   background-color: #ff963a;
 }
 .dotter-product-info.dotter-icon:hover:before {
