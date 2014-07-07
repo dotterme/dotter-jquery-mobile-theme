@@ -1018,6 +1018,10 @@ button,
 .ui-btn {
   font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
 }
+button.ui-disabled,
+.ui-btn.ui-disabled {
+  background-color: #e6e6e6;
+}
 
 /*----------------------------*/
 /* Basket Page                */
