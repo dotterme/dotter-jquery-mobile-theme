@@ -295,7 +295,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
   background-color: #ff963a;
   border-color: #dddddd;
   color: white;
-  text-shadow: none   ;
+  text-shadow: none   transparent;
   font-weight: bold;
 }
 
@@ -324,7 +324,7 @@ html .ui-panel-page-container-a {
   background-color: white;
   border-color: #dddddd;
   color: #333333;
-  text-shadow: 0 0 0 #f3f3f3;
+  text-shadow: 0 0 0 transparent;
 }
 
 .ui-body-a {
@@ -377,7 +377,7 @@ html head + body .ui-btn.ui-btn-a:visited {
   background-color: #ff963a;
   border-color: #ff963a;
   color: white;
-  text-shadow: none   ;
+  text-shadow: none   transparent;
 }
 
 /* Button hover */
@@ -389,7 +389,7 @@ html head + body .ui-btn.ui-btn-a:hover {
   background-color: #ff963a;
   border-color: #ff963a;
   color: white;
-  text-shadow: none   ;
+  text-shadow: none   transparent;
 }
 
 /* Button down */
@@ -428,7 +428,7 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
   background-color: #3388cc;
   border-color: #ff963a;
   color: white;
-  text-shadow: none   ;
+  text-shadow: none   transparent;
 }
 
 /* Active radio button icon */

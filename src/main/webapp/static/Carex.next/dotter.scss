@@ -18,11 +18,12 @@ $a-bar-border: #ddd !default;
 $a-bar-shadow-x: none;
 $a-bar-shadow-y: unquote('');
 $a-bar-shadow-radius: unquote('');
-$a-bar-shadow-color: unquote('');
+$a-bar-shadow-color: transparent;
 
 $a-body-shadow-x: 0;
 $a-body-shadow-y: 0;
 $a-body-shadow-radius: 0;
+$a-body-shadow-color: transparent;
 
 $a-link-color: #000;
 $a-link-text-decoration: none;
@@ -37,7 +38,7 @@ $a-bup-color: #fff;
 $a-bup-shadow-x: none;
 $a-bup-shadow-y: unquote('');
 $a-bup-shadow-radius: unquote('');
-$a-bup-shadow-color: unquote('');
+$a-bup-shadow-color: transparent;
 
 $a-bhover-background-color: $secondary-color;
 $a-bhover-border: $primary-color;
@@ -45,7 +46,7 @@ $a-bhover-color: #fff;
 $a-bhover-shadow-x: none;
 $a-bhover-shadow-y: unquote('');
 $a-bhover-shadow-radius: unquote('');
-$a-bhover-shadow-color: unquote('');
+$a-bhover-shadow-color: transparent;
 
 $a-bdown-background-color: $primary-color;
 $a-bdown-border: $secondary-color;
@@ -58,7 +59,7 @@ $a-bdown-shadow-color: unquote('');
 $a-active-shadow-x: none;
 $a-active-shadow-y: unquote('');
 $a-active-shadow-radius: unquote('');
-$a-active-shadow-color: unquote('');
+$a-active-shadow-color: transparent;
 $a-active-box-shadow: none;
 $a-active-border-color: $primary-color;
 
