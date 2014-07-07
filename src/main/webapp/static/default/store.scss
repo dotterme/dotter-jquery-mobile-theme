@@ -15,6 +15,7 @@
 $primary-color: #eaeaea !default;
 $secondary-color: #eaeaea !default;
 $tertiary-color: #eaeaea !default;
+$disabled-color: #E6E6E6 !default;
 
 $dtr-store-retailer-select-panel-background-color: #fff !default;
 $dtr-store-product-details-background-color: #fff !default;
@@ -34,6 +35,10 @@ $dtr-store-popup-radii: 0 !default;
 button,
 .ui-btn {
   @include border-radius($dtr-store-border-radius);
+  &.ui-disabled {
+    background-color: $disabled-color;
+    opacity: 1;
+  }
 }
 
 .ui-btn,

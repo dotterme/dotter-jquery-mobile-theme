@@ -683,6 +683,11 @@ button,
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
+button.ui-disabled,
+.ui-btn.ui-disabled {
+  background-color: #e6e6e6;
+  opacity: 1;
+}
 
 .ui-btn,
 label.ui-btn {
