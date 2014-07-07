@@ -685,7 +685,7 @@ button,
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
-  background-color: #e6e6e6;
+  background-color: #e6e6e6 !important;
   opacity: 1;
 }
 

@@ -36,7 +36,7 @@ button,
 .ui-btn {
   @include border-radius($dtr-store-border-radius);
   &.ui-disabled {
-    background-color: $disabled-color;
+    background-color: $disabled-color !important;
     opacity: 1;
   }
 }
