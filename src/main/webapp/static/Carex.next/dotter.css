@@ -683,6 +683,11 @@ button,
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
+button.ui-disabled,
+.ui-btn.ui-disabled {
+  background-color: #e6e6e6 !important;
+  opacity: 1;
+}
 
 .ui-btn,
 label.ui-btn {
@@ -819,7 +824,6 @@ label.ui-btn {
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
-  color: #0087ff;
   font-size: 1.1em;
 }
 
@@ -830,6 +834,9 @@ label.ui-btn {
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
+  background-color: #ff963a;
+}
+.dotter-product-info.dotter-icon:hover:before {
   background-color: #ff963a;
 }
 

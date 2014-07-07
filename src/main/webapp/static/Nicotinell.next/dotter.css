@@ -1,4 +1,4 @@
-@charset "CP850";
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -561,7 +561,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-  background-color: #373737;
+  background-color: #9cc6e9;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -683,6 +683,11 @@ button,
 .ui-btn {
   -webkit-border-radius: 5px;
   border-radius: 5px;
+}
+button.ui-disabled,
+.ui-btn.ui-disabled {
+  background-color: #e6e6e6 !important;
+  opacity: 1;
 }
 
 .ui-btn,
@@ -820,7 +825,6 @@ label.ui-btn {
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
-  color: black;
   font-size: 1.1em;
 }
 
@@ -832,6 +836,9 @@ label.ui-btn {
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
   background-color: #9cc6e9;
+}
+.dotter-product-info.dotter-icon:hover:before {
+  background-color: #0078bb;
 }
 
 /*Price*/
