@@ -1,6 +1,7 @@
 $primary-color: #0078BB;
 $secondary-color: #9CC6E9;
 $tertiary-color: #9CC6E9;
+$disabled-color: #E6E6E6;
 
 $global-font-family: 'FranklinGothicURWCon-Boo',Arial,Verdana,sans-serif;
 $global-box-shadow-size: 0;
@@ -35,6 +36,8 @@ $a-bup-shadow-x: none;
 $a-bup-shadow-y: unquote('');
 $a-bup-shadow-radius: unquote('');
 $a-bup-shadow-color: unquote('');
+
+$a-bdisabled-background-color: #E6E6E6;
 
 $a-bhover-background-color: $primary-color;
 $a-bhover-border: $primary-color;
@@ -119,6 +122,9 @@ $dtr-store-product-name-h4-color: #000;
 button,
 .ui-btn {
 	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+	&.ui-disabled {
+		background-color: $a-bdisabled-background-color;
+	}
 }
 
 /*----------------------------*/
