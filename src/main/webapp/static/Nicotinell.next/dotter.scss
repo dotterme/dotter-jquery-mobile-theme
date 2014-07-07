@@ -123,7 +123,8 @@ button,
 .ui-btn {
 	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
 	&.ui-disabled {
-		background-color: $a-bdisabled-background-color;
+		background-color: $a-bdisabled-background-color !important;
+		opacity: 1;
 	}
 }
 
