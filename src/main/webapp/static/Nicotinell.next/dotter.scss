@@ -21,12 +21,12 @@ $a-body-shadow-radius: 0;
 
 $a-page-background-color: #fff;
 
-$a-link-color: #000;
+$a-link-color: $primary-color;
 $a-link-text-decoration: none;
 $a-link-font-weight: normal;
 $a-link-visited: #000;
-$a-link-hover: #000;
-$a-link-active: #000;
+$a-link-hover: $secondary-color;
+$a-link-active: $secondary-color;
 
 $a-bup-background-color: $secondary-color;
 $a-bup-border: $primary-color;

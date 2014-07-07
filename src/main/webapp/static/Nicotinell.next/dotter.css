@@ -338,7 +338,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-  color: black;
+  color: #0078bb;
   font-weight: normal;
   text-decoration: none;
 }
@@ -354,14 +354,14 @@ html body .ui-group-theme-a a:visited {
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-  color: black;
+  color: #9cc6e9;
 }
 
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-  color: black;
+  color: #9cc6e9;
 }
 
 /* Button up */
