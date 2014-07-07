@@ -837,6 +837,9 @@ label.ui-btn {
 .dotter-product-info.dotter-icon:before {
   background-color: #9cc6e9;
 }
+.dotter-product-info.dotter-icon:before:hover {
+  background-color: #0078bb;
+}
 
 /*Price*/
 .price, .offer {
