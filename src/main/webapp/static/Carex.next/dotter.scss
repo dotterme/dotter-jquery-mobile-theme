@@ -177,6 +177,10 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   }
 }
 
+.dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active {
+  color: $primary-color;
+}
+
 .dotter-store-grid-container {
   @include grid-container {
     width: 25%;
