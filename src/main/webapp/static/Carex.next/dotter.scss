@@ -84,6 +84,10 @@ $b-bup-shadow-radius: 0;
 $b-bup-shadow-color: transparent;
 
 $b-bhover-background-color: $primary-color;
+$b-bhover-shadow-x: 0;
+$b-bhover-shadow-y: 0;
+$b-bhover-shadow-radius: 0;
+$b-bhover-shadow-color: transparent;
 
 $b-bdown-background-color: $primary-color;
 
@@ -100,6 +104,7 @@ $dtr-store-border-radius: 0px;
 $dtr-store-product-details-border: 1px solid $tertiary-color;
 $dtr-store-spinner-border-radius: 0px;
 $dtr-store-basket-content-background-color: #f0f5f7;
+$dtr-store-product-name-h4-color: #0087ff;
 
 @import '../default/reset';
 @import '../default/mixins';

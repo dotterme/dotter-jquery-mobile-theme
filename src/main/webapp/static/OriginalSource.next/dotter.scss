@@ -116,7 +116,7 @@ $dtr-store-text-a: $tertiary-color;
 /* Fonts */
 @font-face {
   font-family: 'Gothic821CondensedBT-Regular';
-  @include font-face-src('http://content.dotter.me/store/originalsource/fonts/2AD9C9_0_0');
+  @include font-face-src('//cdn.dotter.me/themes/OriginalSource/fonts/2AD9C9_0_0');
   font-weight: normal;
   font-style: normal;
 }
