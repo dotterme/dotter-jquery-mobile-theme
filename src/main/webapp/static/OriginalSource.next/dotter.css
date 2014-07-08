@@ -995,8 +995,8 @@ html .ui-body-a {
 /* Fonts */
 @font-face {
   font-family: 'Gothic821CondensedBT-Regular';
-  src: url("http://content.dotter.me/store/originalsource/fonts/2AD9C9_0_0.eot");
-  src: url("http://content.dotter.me/store/originalsource/fonts/2AD9C9_0_0.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/originalsource/fonts/2AD9C9_0_0.woff") format("woff"), url("http://content.dotter.me/store/originalsource/fonts/2AD9C9_0_0.ttf") format("truetype");
+  src: url("//cdn.dotter.me/themes/OriginalSource/fonts/2AD9C9_0_0.eot");
+  src: url("//cdn.dotter.me/themes/OriginalSource/fonts/2AD9C9_0_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/OriginalSource/fonts/2AD9C9_0_0.woff") format("woff"), url("//cdn.dotter.me/themes/OriginalSource/fonts/2AD9C9_0_0.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
