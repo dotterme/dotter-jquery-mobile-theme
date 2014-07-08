@@ -872,7 +872,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 }
 
 @media all and (min-width: 50em){
-	.dotter-image.dotter-retailer {
+	.dotter-branding-image {
 		background-image: url("images/secondary-branding.png") !important;
 	}
 }
@@ -917,7 +917,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	padding: .5em;
 }
 /*Secondary Branding Image*/
-.panel.top > .dotter-image.dotter-retailer {
+.panel.top > .dotter-branding-image {
 	float: right;
 }
 .dotter-image.dotter-retailer {
