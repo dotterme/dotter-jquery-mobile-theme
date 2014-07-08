@@ -1,25 +1,26 @@
 {
-    "name": "dotter-themes",
-    "title": "Commerce Builder themes",
-    "version": "0.0.1",
-    "private": true,
-    "author": {
-        "name": "Dotter"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:dotterme/dotter-jquery-mobile-theme.git"
-    },
-    "bugs": "https://www.assembla.com/spaces/dotter/tickets",
-    "licenses": [],
-    "devDependencies": {
-        "grunt-grunticon": "1.2.3",
-        "grunt-contrib-sass": "0.7.3",
-        "load-grunt-tasks": "0.4.0"
-    },
-    "main": "Gruntfile.js",
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "keywords": []
+  "name": "dotter-themes",
+  "title": "Commerce Builder themes",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Dotter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dotterme/dotter-jquery-mobile-theme.git"
+  },
+  "bugs": "https://www.assembla.com/spaces/dotter/tickets",
+  "licenses": [],
+  "devDependencies": {
+    "grunt-contrib-sass": "0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-grunticon": "1.2.3",
+    "load-grunt-tasks": "0.4.0"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": []
 }

@@ -52,7 +52,7 @@ module.exports = function( grunt ) {
                         // This allows root-relative referencing of the CSS. If you don't want a prefix path, set to to ""
                         cssbasepath: "/"
                     }
-                }
+                };
             });
             return config;
         }()),
@@ -76,11 +76,19 @@ module.exports = function( grunt ) {
                 };
             });
             return config;
-        }())
+        }()),
+
+        watch: {
+            scripts: {
+                files: ['**/*.scss'],
+                tasks: ['sass'],
+            },
+        },
     });
 
     // grunt plugins
     require( "load-grunt-tasks" )( grunt );
 
     grunt.registerTask( "default", [ "grunticon", "sass" ] );
+    grunt.loadNpmTasks('grunt-contrib-watch');
 };
