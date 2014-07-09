@@ -1084,7 +1084,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-  font-size: 1.7em;
+  font-size: 1.4em;
   padding: .7em 1em;
   text-transform: capitalize;
   background-color: transparent;
@@ -1103,7 +1103,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 25%;
+  width: 20%;
   border-left: 0;
 }
 
