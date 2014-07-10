@@ -897,6 +897,7 @@ html .ui-btn.btn-lrg {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   border: 0px;
+  font-size: 1.3em;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added {
   background: #05764e;
