@@ -1,3 +1,4 @@
+/*$a-page-background-color: transparent;*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -309,7 +310,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  background-color: transparent;
+  background-color: #f9f9f9;
   border-color: #bbbbbb;
   color: #333333;
   text-shadow: 0 0 0 transparent;
@@ -322,7 +323,7 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-  background-color: transparent;
+  background-color: #179b70;
   border-color: #dddddd;
   color: white;
   text-shadow: 0 0 0 transparent;
@@ -772,7 +773,7 @@ label.ui-btn {
 
 .retailerchoice .dotter-label {
   background: #05764e;
-  color: transparent;
+  color: #179b70;
   padding: .5em;
 }
 
@@ -879,7 +880,7 @@ label.ui-btn {
 /*---------------*/
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: transparent;
+  background: #179b70;
   color: #05764e;
   font-size: 1em;
 }
@@ -957,7 +958,7 @@ html .ui-btn.btn-lrg {
 }
 .dotter-basket-details .dotter-basket-total {
   background: #05764e;
-  color: transparent;
+  color: #179b70;
   -webkit-border-radius: 0px 0px 0px 0px;
   border-radius: 0px 0px 0px 0px;
 }
