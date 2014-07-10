@@ -1019,8 +1019,8 @@ html .ui-body-a {
 /* Fonts */
 @font-face {
   font-family: 'mentonesemibold';
-  src: url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.eot");
-  src: url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.eot?#iefix") format("embedded-opentype"), url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.woff") format("woff"), url("http://content.dotter.me/store/carex/fonts/mentone_lig_bold.ttf") format("truetype");
+  src: url("//cdn.dotter.me/themes/Carex/fonts/mentone_lig_bold.eot");
+  src: url("//cdn.dotter.me/themes/Carex/fonts/mentone_lig_bold.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Carex/fonts/mentone_lig_bold.woff") format("woff"), url("//cdn.dotter.me/themes/Carex/fonts/mentone_lig_bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -116,7 +116,7 @@ $dtr-store-product-name-h4-color: #0087ff;
 /* Fonts */
 @font-face {
   font-family: 'mentonesemibold';
-  @include font-face-src('http://content.dotter.me/store/carex/fonts/mentone_lig_bold');
+  @include font-face-src('//cdn.dotter.me/themes/Carex/fonts/mentone_lig_bold');
   font-weight: normal;
   font-style: normal;
 }
