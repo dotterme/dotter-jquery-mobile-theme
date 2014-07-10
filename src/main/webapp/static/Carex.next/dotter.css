@@ -815,6 +815,11 @@ label.ui-btn {
   border-radius: 0px;
 }
 
+.dotter-store-grid-container .ui-navbar a.ui-btn {
+  font-size: 1.3em;
+  padding: .7em 1em;
+}
+
 /*Product details both in grid and upsell*/
 .dotter-product-details {
   border: 1px solid #eaeaea;
