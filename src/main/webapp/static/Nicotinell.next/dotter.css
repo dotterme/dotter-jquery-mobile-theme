@@ -719,6 +719,7 @@ label.ui-btn {
 .ui-popup.ui-corner-all {
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  border-width: 0;
 }
 
 /* Branding */

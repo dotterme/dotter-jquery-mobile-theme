@@ -26,7 +26,9 @@ $dtr-store-basket-product-title-color: #000 !default;
 $dtr-store-product-abstract-color: #000 !default;
 $dtr-store-text-a: #000 !default;
 $dtr-store-text-b: #000 !default;
+
 $dtr-store-popup-radii: 0 !default;
+$dtr-store-popup-border-width: 0 !default;
 
 .ui-header, .ui-footer {
   border: none;
@@ -71,6 +73,7 @@ label.ui-btn {
 
 .ui-popup.ui-corner-all {
   @include border-radius($dtr-store-popup-radii);
+  border-width: $dtr-store-popup-border-width;
 }
 
 /* Branding */
