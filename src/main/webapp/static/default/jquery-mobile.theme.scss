@@ -402,7 +402,10 @@ html head + body .ui-btn.ui-btn-a,
 html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
-html head + body .ui-btn.ui-btn-a:visited {
+html head + body .ui-btn.ui-btn-a:visited,
+/* pseudo */
+html head + body .ui-btn.ui-btn-a:after
+{
 	background-color: $a-bup-background-color;
 	border-color: $a-bup-border;
 	color: $a-bup-color;
