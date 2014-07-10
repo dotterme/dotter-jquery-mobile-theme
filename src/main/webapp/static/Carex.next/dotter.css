@@ -1008,7 +1008,6 @@ html .ui-body-a {
 button,
 .ui-btn {
   font-family: 'mentonesemibold', helevtica, sans-serif;
-  font-size: .875em;
 }
 
 /*----------------*/
@@ -1028,7 +1027,6 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: #fff;
   color: #ff963a;
-  font-size: 1em;
 }
 
 /*--------------------*/
@@ -1057,8 +1055,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-  font-size: 1.3em;
-  padding: .7em 1em;
   text-transform: capitalize;
   background-color: #0087ff;
 }
