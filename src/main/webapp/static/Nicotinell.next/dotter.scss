@@ -101,23 +101,23 @@ $dtr-store-navbar-line-height: .9em;
 /* Fonts */
 @font-face{
 	font-family:'FranklinGothicURWCon-Boo';
-	@include font-face-src('http://content.dotter.me/store/nicotinell/fonts/26A15B_0_0');
+	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0');
 }
 @font-face{
 	font-family:'FranklinGothicURWCon-Med';
-	@include font-face-src('http://content.dotter.me/store/nicotinell/fonts/26A15B_1_0');
+	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0');
 }
 @font-face{
 	font-family:'FranklinGothicURWCon-Dem';
-	@include font-face-src('http://content.dotter.me/store/nicotinell/fonts/26A15B_2_0');
+	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0');
 }
 @font-face{
 	font-family:'FranklinGothicURWCon-DemIta';
-	@include font-face-src('http://content.dotter.me/store/nicotinell/fonts/26A15B_5_0');
+	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0');
 }
 @font-face{
 	font-family:'itcfranklingothicstd-dmcp';
-	@include font-face-src('http://content.dotter.me/store/nicotinell/fonts/itcfranklingothicstd-dmcp');
+	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp');
 }
 
 .ui-header, .ui-footer {
