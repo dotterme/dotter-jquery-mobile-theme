@@ -386,7 +386,8 @@ html head + body .ui-btn.ui-btn-a:after {
 html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
-html head + body .ui-btn.ui-btn-a:hover {
+html head + body .ui-btn.ui-btn-a:hover,
+html head + body .ui-btn.ui-btn-a:hover:after {
   background-color: #ff963a;
   border-color: #ff963a;
   color: white;
