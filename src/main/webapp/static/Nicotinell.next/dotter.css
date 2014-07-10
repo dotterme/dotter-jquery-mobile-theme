@@ -1,3 +1,4 @@
+@charset "CP850";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -821,7 +822,7 @@ label.ui-btn {
 .dotter-store-grid-container .ui-navbar a.ui-btn {
   font-size: 1.3em;
   padding: .7em 1em;
-  line-height: 1.25em;
+  line-height: 0.9em;
 }
 
 /*Product details both in grid and upsell*/
