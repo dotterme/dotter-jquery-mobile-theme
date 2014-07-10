@@ -125,7 +125,6 @@ $dtr-store-text-a: $tertiary-color;
 button,
 .ui-btn {
   font-family: 'Gothic821CondensedBT-Regular', helevtica, sans-serif;
-  font-size: .875em;
 }
 
 .ui-body-a .ui-loader {
@@ -169,17 +168,10 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: $primary-color;
   color: $tertiary-color;
-  font-size: 1.2em;
 }
 
 .ui-link.read-more {
 	color: #333;
-}
-
-.ui-header .ui-btn,
-.ui-content .ui-btn,
-.ui-footer .ui-btn  {
-  font-size: 1.2em;
 }
 
 /*--------------------*/
@@ -210,8 +202,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
-  font-size: 1.4em;
-  padding: .7em 1em;
   text-transform: capitalize;
   background-color: transparent;
 }
