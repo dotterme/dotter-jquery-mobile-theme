@@ -81,7 +81,7 @@ $a-bdown-shadow-y: 1px !default;
 $a-bdown-shadow-radius: 0 !default;
 $a-bdown-shadow-color: #f3f3f3 !default;
 
-$a-active-background-color: #3388cc !default;
+$a-active-background-color: $a-bdown-background-color !default;
 $a-active-border-color: #3388cc !default;
 $a-active-color: #fff !default;
 $a-active-shadow-x: 0 !default;
