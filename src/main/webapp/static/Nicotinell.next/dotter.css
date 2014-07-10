@@ -1066,13 +1066,13 @@ button,
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
-/*Header buttons*/
+/* Header buttons
 .btn-lrg {
-  font-size: 1.35em !important;
-  line-height: 1em;
-  padding: .4em .6em .4em;
+	font-size: 1.35em !important;
+	line-height: 1em;
+	padding: .4em .6em .4em;
 }
-
+*/
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: #fff;
@@ -1146,9 +1146,6 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 }
 .dotter-store-grid-container .dotter-navigation-container {
   background-color: #9cc6e9;
-}
-.dotter-store-grid-container .ui-navbar a.ui-btn {
-  font-size: 1.1em;
 }
 
 /* Login Panel */
