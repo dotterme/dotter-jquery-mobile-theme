@@ -23,6 +23,7 @@ $dtr-store-product-details-border: none !default;
 $dtr-store-spinner-border-radius: 0px !default;
 $dtr-store-product-name-h4-color: #0087ff !default;
 $dtr-store-basket-product-title-color: #000 !default;
+$dtr-store-basket-total-color: #000 !default;
 $dtr-store-product-abstract-color: #000 !default;
 $dtr-store-text-a: #000 !default;
 $dtr-store-text-b: #000 !default;
@@ -308,7 +309,7 @@ html .ui-btn.btn-lrg {
   /*Basket total styling*/
   .dotter-basket-total {
     background: $primary-color;
-    color: $a-body-background-color;
+    color: $dtr-store-basket-total-color;
     @include border-radius(0px 0px $dtr-store-border-radius $dtr-store-border-radius);
   }
   
