@@ -31,6 +31,8 @@ $dtr-store-text-b: #000 !default;
 $dtr-store-popup-radii: 0 !default;
 $dtr-store-popup-border-width: 0 !default;
 
+$dtr-store-navbar-line-height: 1.25em !default;
+
 .ui-header, .ui-footer {
   border: none;
 }
@@ -176,6 +178,7 @@ label.ui-btn {
 .dotter-store-grid-container .ui-navbar a.ui-btn {
   font-size: 1.3em;
   padding: .7em 1em;
+  line-height: $dtr-store-navbar-line-height;
 }
 
 /*Product details both in grid and upsell*/
