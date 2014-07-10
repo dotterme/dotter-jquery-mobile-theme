@@ -64,7 +64,7 @@ select,
 textarea,
 button,
 .ui-btn {
-  font-size: 0.875em;
+  font-size: 0.825em;
   line-height: 1.3em;
   font-family: sans-serif;
   font-weight: normal;
@@ -897,7 +897,7 @@ html .ui-btn.btn-lrg {
   -webkit-border-radius: 0px;
   border-radius: 0px;
   border: 0px;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added,
 .dotter-deeplink-button .ui-btn.dotter-product-added {
