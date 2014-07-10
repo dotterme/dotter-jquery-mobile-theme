@@ -248,7 +248,7 @@ label.ui-btn {
 	@include box-shadow(inset$global-box-shadow-size rgba(0,0,0,.2));
 }
 .ui-overlay-shadow {
-	@include box-shadow(0 0 12px rgba(0,0,0,.6));
+	@include box-shadow($global-box-shadow-size $global-box-shadow-color);
 }
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
