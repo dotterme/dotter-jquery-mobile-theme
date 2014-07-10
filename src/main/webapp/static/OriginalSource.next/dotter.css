@@ -884,6 +884,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   font-size: 1em;
 }
 
+/* Header buttons */
+html .ui-btn.btn-lrg {
+  font-size: 1.35em !important;
+  line-height: 1em;
+  padding: .4em .6em .4em;
+}
+
 /* Spinner */
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add {
