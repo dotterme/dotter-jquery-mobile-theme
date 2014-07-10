@@ -252,13 +252,16 @@ html .ui-btn.btn-lrg {
 
 /* Spinner */
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add {
+.dotter-add-to-basket .ui-btn.dotter-product-add,
+.dotter-deeplink-button {
   @include border-radius($dtr-store-spinner-border-radius);
   border: 0px;
 
   .ui-btn.dotter-product-added {
     background: $primary-color;
   }
+
+  font-size: 1.3em;
 }
 
 .dotter-spinner {

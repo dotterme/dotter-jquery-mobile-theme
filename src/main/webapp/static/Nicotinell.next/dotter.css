@@ -892,12 +892,15 @@ html .ui-btn.btn-lrg {
 
 /* Spinner */
 /*Add and qty select btns in product panel (should be std btn)*/
-.dotter-add-to-basket .ui-btn.dotter-product-add {
+.dotter-add-to-basket .ui-btn.dotter-product-add,
+.dotter-deeplink-button {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   border: 0px;
+  font-size: 1.3em;
 }
-.dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added {
+.dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added,
+.dotter-deeplink-button .ui-btn.dotter-product-added {
   background: #0078bb;
 }
 
