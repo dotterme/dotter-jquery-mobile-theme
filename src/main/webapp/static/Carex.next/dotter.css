@@ -687,7 +687,7 @@ button,
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
-  background-color: #e6e6e6 !important;
+  background: #e6e6e6 !important;
   opacity: 1;
 }
 
@@ -763,7 +763,7 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid #ff963a;
+  border: 1px solid #ff963a;
   background-color: white;
   -webkit-border-radius: 0px;
   border-radius: 0px;

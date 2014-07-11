@@ -96,7 +96,7 @@ $dtr-store-border-radius: 0;
 
 $dtr-store-product-details-border: 1px solid $primary-color;
 $dtr-store-spinner-border-radius: 0;
-$dtr-store-basket-content-background-color: #e4eef6;
+$dtr-store-basket-content-background-color: #F6F7F8;
 $dtr-store-basket-total-color: #fff;
 $dtr-store-product-name-h4-color: #000;
 $dtr-store-popup-radii: 0;
@@ -125,11 +125,13 @@ button,
 
 @media all and (min-width: 36em) {
 	.basket-page {
-        border-width: 2px;
-        border-style: solid;
-		border: 2px solid $primary-color;
+		border: 1px solid $secondary-color;
 	}	
 }
+
+.dotter-basket-details .dotter-basket-content {
+    border: 1px solid $primary-color;
+  }
 
 .dotter-retailer-login .ui-input-text {
   @include input-placeholder {
@@ -183,8 +185,34 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
   @include linear-gradient ($binv-grad-from,$binv-grad-to);
-  border: 1px solid $primary-color;
+  border: 1px solid $secondary-color;
   color: $primary-color;
+}
+
+html .ui-body-a .ui-btn.dotter-change-retailer:hover,
+html .ui-body-a .ui-btn.dotter-checkoutasguest:hover {
+  @include linear-gradient ($bhover-grad-from,$bhover-grad-to);
+  border: 1px solid $secondary-color;
+  color: #fff;
+}
+
+/*Info button Icon*/
+.dotter-product-info.dotter-icon {
+  &:before {
+    @include linear-gradient ($bup-grad-from,$bup-grad-to);
+  }
+  &:hover:before {
+    @include linear-gradient ($bhover-grad-from,$bhover-grad-to);
+  }
+}
+
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-b,
+.ui-page-theme-b .ui-bar-inherit,
+html .ui-bar-b .ui-bar-inherit,
+html .ui-body-b .ui-bar-inherit,
+html body .ui-group-theme-b .ui-bar-inherit {
+	@include linear-gradient ($bup-grad-from,$bup-grad-to);
 }
 
 /*---------------*/

@@ -18,6 +18,7 @@ $tertiary-color: #eaeaea !default;
 $disabled-color: #E6E6E6 !default;
 
 $dtr-store-retailer-select-panel-background-color: #fff !default;
+$dtr-store-retailer-select-panel-border: 1px solid $primary-color !default;
 $dtr-store-product-details-background-color: #fff !default;
 $dtr-store-product-details-border: none !default;
 $dtr-store-spinner-border-radius: 0px !default;
@@ -41,7 +42,7 @@ button,
 .ui-btn {
   @include border-radius($dtr-store-border-radius);
   &.ui-disabled {
-    background-color: $disabled-color !important;
+    background: $disabled-color !important;
     opacity: 1;
   }
 }
@@ -119,7 +120,7 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid $primary-color;
+  border: $dtr-store-retailer-select-panel-border;
   background-color: $dtr-store-retailer-select-panel-background-color;
   @include border-radius($dtr-store-border-radius);
 }

@@ -687,7 +687,7 @@ button,
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
-  background-color: #e6e6e6 !important;
+  background: #e6e6e6 !important;
   opacity: 1;
 }
 
@@ -763,7 +763,7 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid #a39674;
+  border: 1px solid #a39674;
   background-color: white;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -954,7 +954,7 @@ html .ui-btn.btn-lrg {
 .dotter-basket-details .dotter-basket-content {
   border: 1px solid #20385c;
   border-bottom: none;
-  background-color: #e4eef6;
+  background-color: #f6f7f8;
   -webkit-border-radius: 0 0 0px 0px;
   border-radius: 0 0 0px 0px;
 }
@@ -1031,11 +1031,13 @@ button,
 /*----------------------------*/
 @media all and (min-width: 36em) {
   .basket-page {
-    border-width: 2px;
-    border-style: solid;
-    border: 2px solid #a39674;
+    border: 1px solid #e6e6e6;
   }
 }
+.dotter-basket-details .dotter-basket-content {
+  border: 1px solid #a39674;
+}
+
 .dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
   text-transform: lowercase;
 }
@@ -1164,8 +1166,92 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
   /* IE6-9 */
-  border: 1px solid #a39674;
+  border: 1px solid #e6e6e6;
   color: #a39674;
+}
+
+html .ui-body-a .ui-btn.dotter-change-retailer:hover,
+html .ui-body-a .ui-btn.dotter-checkoutasguest:hover {
+  background: #20385c;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #20385c), color-stop(100%, #142339));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #20385c 0%, #142339 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
+  border: 1px solid #e6e6e6;
+  color: #fff;
+}
+
+/*Info button Icon*/
+.dotter-product-info.dotter-icon:before {
+  background: #a39674;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a39674), color-stop(100%, #655d48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a39674 0%, #655d48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
+}
+.dotter-product-info.dotter-icon:hover:before {
+  background: #20385c;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #20385c), color-stop(100%, #142339));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #20385c 0%, #142339 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #20385c 0%, #142339 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-b,
+.ui-page-theme-b .ui-bar-inherit,
+html .ui-bar-b .ui-bar-inherit,
+html .ui-body-b .ui-bar-inherit,
+html body .ui-group-theme-b .ui-bar-inherit {
+  background: #a39674;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a39674), color-stop(100%, #655d48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a39674 0%, #655d48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
 }
 
 /*---------------*/

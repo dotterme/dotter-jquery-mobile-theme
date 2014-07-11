@@ -687,7 +687,7 @@ button,
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
-  background-color: #e6e6e6 !important;
+  background: #e6e6e6 !important;
   opacity: 1;
 }
 
@@ -763,7 +763,7 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid #0078bb;
+  border: 1px solid #0078bb;
   background-color: white;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -826,7 +826,7 @@ label.ui-btn {
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 1px solid #9cc6e9;
+  border: 2px solid #9cc6e9;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   background-color: white;
