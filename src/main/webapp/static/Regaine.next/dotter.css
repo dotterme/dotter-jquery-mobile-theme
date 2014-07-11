@@ -1017,38 +1017,13 @@ html .ui-body-a {
 }
 
 /* Fonts */
-@font-face {
-  font-family: 'FranklinGothicURWCon-Boo';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-Med';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-Dem';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-DemIta';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'itcfranklingothicstd-dmcp';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.ttf") format("truetype");
-}
 .ui-header, .ui-footer {
   border: none;
 }
 
 button,
 .ui-btn {
-  font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+  font-family: Arial,Verdana,sans-serif;
 }
 
 /*----------------------------*/
@@ -1072,6 +1047,26 @@ button,
 }
 .dotter-retailer-login .ui-input-text input:-ms-input-placeholder {
   text-transform: lowercase;
+}
+
+/* Gradient Overrides */
+.retailerchoice .dotter-label {
+  background: #a39674;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a39674), color-stop(100%, #655d48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a39674 0%, #655d48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
 }
 
 /*---------------*/

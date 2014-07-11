@@ -99,26 +99,6 @@ $dtr-store-navbar-line-height: .9em;
 @import '../default/store';
 
 /* Fonts */
-@font-face{
-	font-family:'FranklinGothicURWCon-Boo';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0');
-}
-@font-face{
-	font-family:'FranklinGothicURWCon-Med';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0');
-}
-@font-face{
-	font-family:'FranklinGothicURWCon-Dem';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0');
-}
-@font-face{
-	font-family:'FranklinGothicURWCon-DemIta';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0');
-}
-@font-face{
-	font-family:'itcfranklingothicstd-dmcp';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp');
-}
 
 .ui-header, .ui-footer {
   border: none;
@@ -126,7 +106,7 @@ $dtr-store-navbar-line-height: .9em;
 
 button,
 .ui-btn {
-	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+	font-family: Arial,Verdana,sans-serif;
 }
 
 /*----------------------------*/
@@ -145,6 +125,12 @@ button,
   @include input-placeholder {
     text-transform: lowercase;
   }
+}
+
+/* Gradient Overrides */
+
+.retailerchoice .dotter-label {
+  @include linear-gradient (#a39674,#655d48);
 }
 
 /*---------------*/
