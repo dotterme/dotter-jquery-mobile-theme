@@ -1,6 +1,6 @@
 $primary-color: #A39674;
 $secondary-color: #E6E6E6;
-$tertiary-color: #9CC6E9;
+$tertiary-color: #20385C;
 $disabled-color: #E6E6E6;
 
 $bup-grad-from: $primary-color;
@@ -38,7 +38,7 @@ $a-link-visited: #000;
 $a-link-hover: #000;
 $a-link-active: #000;
 
-$a-bup-background-color: $secondary-color;
+$a-bup-background-color: $primary-color;
 $a-bup-border: $primary-color;
 $a-bup-color: #fff;
 $a-bup-shadow-x: none;
@@ -48,7 +48,7 @@ $a-bup-shadow-color: unquote('');
 
 $a-bdisabled-background-color: #E6E6E6;
 
-$a-bhover-background-color: $primary-color;
+$a-bhover-background-color: $tertiary-color;
 $a-bhover-border: $primary-color;
 $a-bhover-color: #fff;
 $a-bhover-shadow-x: none;
