@@ -31,7 +31,7 @@
   }
 }
 
-@mixin gradient($from, $to) {
+@mixin linear-gradient($from, $to) {
   background: $from; /* Old browsers */
   background: -moz-linear-gradient(top,  $from 0%, $to 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to)); /* Chrome,Safari4+ */
