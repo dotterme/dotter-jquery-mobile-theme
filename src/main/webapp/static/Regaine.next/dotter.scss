@@ -1,7 +1,14 @@
-$primary-color: #0078BB;
-$secondary-color: #9CC6E9;
+$primary-color: #A39674;
+$secondary-color: #E6E6E6;
 $tertiary-color: #9CC6E9;
 $disabled-color: #E6E6E6;
+
+$bup-grad-from: $primary-color;
+$bup-grad-to: #655d48;
+$bhover-grad-from: #20385c;
+$bhover-grad-to: #142339;
+$binv-grad-from: #e6e2d9;
+$binv-grad-to: #d6d3ce;
 
 $global-font-family: Arial,Verdana,sans-serif;
 $global-box-shadow-size: 0;
@@ -106,7 +113,7 @@ $dtr-store-navbar-line-height: .9em;
 
 button,
 .ui-btn {
-	font-family: Arial,Verdana,sans-serif;
+	font-family: 'Arial Narrow',Arial,Verdana,sans-serif;
 }
 
 /*----------------------------*/
@@ -127,10 +134,29 @@ button,
   }
 }
 
+/*--------------------*/
 /* Gradient Overrides */
+/*--------------------*/
 
 .retailerchoice .dotter-label {
   @include linear-gradient (#a39674,#655d48);
+}
+
+.ui-page-theme-a .ui-btn,
+html .ui-bar-a .ui-btn,
+html .ui-body-a .ui-btn,
+html body .ui-group-theme-a .ui-btn,
+html head + body .ui-btn.ui-btn-a,
+/* Button visited */
+.ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited,
+html head + body .ui-btn.ui-btn-a:visited,
+/* pseudo */
+html head + body .ui-btn.ui-btn-a:after
+{
+	@include linear-gradient ($bup-grad-from,$bup-grad-to);
 }
 
 /*---------------*/
