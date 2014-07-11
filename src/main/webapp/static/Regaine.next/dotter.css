@@ -1126,6 +1126,26 @@ html head + body .ui-btn.ui-btn-a:hover:after {
   /* IE6-9 */
 }
 
+/*Select Retailer btn in product panel*/
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
+  background: #a39674;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a39674), color-stop(100%, #655d48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a39674 0%, #655d48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a39674 0%, #655d48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
