@@ -183,7 +183,7 @@ label.ui-btn {
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 1px solid $tertiary-color;
+  border: $dtr-store-product-details-border;
   @include border-radius($dtr-store-border-radius);
   background-color: $dtr-store-product-details-background-color;
 
