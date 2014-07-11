@@ -11,10 +11,11 @@ $binv-grad-from: #e6e2d9;
 $binv-grad-to: #d6d3ce;
 
 $global-font-family: Arial,Verdana,sans-serif;
-$global-font-size: .825em;
+$global-font-size: .85em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
 $global-border-style-buttons: none;
+$global-radii-buttons: 0;
 
 $a-bar-background-color: $primary-color;
 $a-bar-color: #fff;
@@ -92,12 +93,12 @@ $b-link-active: #000;
 $dtr-store-brand: 'Nicotinell\00AE  ';
 $dtr-store-border-radius: 5px;
 
-$dtr-store-product-details-border: 2px solid $secondary-color;
-$dtr-store-spinner-border-radius: 15px;
+$dtr-store-product-details-border: 1px solid $primary-color;
+$dtr-store-spinner-border-radius: 0;
 $dtr-store-basket-content-background-color: #e4eef6;
 $dtr-store-basket-total-color: #fff;
 $dtr-store-product-name-h4-color: #000;
-$dtr-store-popup-radii: 5px;
+$dtr-store-popup-radii: 0;
 
 $dtr-store-navbar-line-height: .9em;
 

@@ -64,7 +64,7 @@ select,
 textarea,
 button,
 .ui-btn {
-  font-size: 0.825em;
+  font-size: 0.85em;
   line-height: 1.3em;
   font-family: Arial, Verdana, sans-serif;
   font-weight: normal;
@@ -144,8 +144,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-  -webkit-border-radius: 0.3125em;
-  border-radius: 0.3125em;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /* Buttons */
@@ -154,8 +154,8 @@ label.ui-btn {
 .ui-slider-track.ui-corner-all,
 .ui-flipswitch.ui-corner-all,
 .ui-li-count {
-  -webkit-border-radius: 0.3125em;
-  border-radius: 0.3125em;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /* Icon-only buttons */
@@ -719,8 +719,8 @@ label.ui-btn {
 }
 
 .ui-popup.ui-corner-all {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
   border-width: 0;
 }
 
@@ -895,8 +895,8 @@ html .ui-btn.btn-lrg {
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
 .dotter-deeplink-button {
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
   border: 0px;
   font-size: 1.1em;
 }
@@ -909,12 +909,12 @@ html .ui-btn.btn-lrg {
   border-color: #a39674;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
-  -webkit-border-radius: 0px 15px 15px 0px;
-  border-radius: 0px 15px 15px 0px;
+  -webkit-border-radius: 0px 0 0 0px;
+  border-radius: 0px 0 0 0px;
 }
 .dotter-spinner .ui-btn.ui-icon-minus {
-  -webkit-border-radius: 15px 0px 0px 15px;
-  border-radius: 15px 0px 0px 15px;
+  -webkit-border-radius: 0 0px 0px 0;
+  border-radius: 0 0px 0px 0;
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
