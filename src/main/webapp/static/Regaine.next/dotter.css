@@ -174,10 +174,10 @@ label.ui-btn {
 
 /* Popup arrow */
 .ui-popup.ui-corner-all > .ui-popup-arrow-guide {
-  left: 0.6em;
-  right: 0.6em;
-  top: 0.6em;
-  bottom: 0.6em;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 /* Shadow
@@ -1182,7 +1182,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 	background: $primary-color !important;
 }*/
 .dotter-spinner input {
-  border-color: #e6e6e6;
+  border-color: #a39674;
 }
 
 /*--------------------*/
