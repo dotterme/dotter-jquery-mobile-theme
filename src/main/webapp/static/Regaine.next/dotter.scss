@@ -179,6 +179,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   @include linear-gradient ($bup-grad-from,$bup-grad-to);
 }
 
+html .ui-body-a .ui-btn.dotter-change-retailer,
+html .ui-body-a .ui-btn.dotter-checkoutasguest {
+  @include linear-gradient ($binv-grad-from,$binv-grad-to);
+  border: 1px solid $primary-color;
+  color: $primary-color;
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
