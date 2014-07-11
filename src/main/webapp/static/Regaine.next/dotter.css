@@ -682,8 +682,8 @@ button[disabled],
 
 button,
 .ui-btn {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
@@ -741,7 +741,7 @@ label.ui-btn {
 }
 /* BRANDING */
 .dotter-brand-adjust:before {
-  content: "Nicotinell\00AE  ";
+  content: "Regaine\00AE  ";
 }
 
 /*Border between upsell products*/
@@ -765,8 +765,8 @@ label.ui-btn {
 .dotter-header .panel.top > .panel.right {
   border: 2px solid #a39674;
   background-color: white;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 .retailerchoice .dotter-label {
@@ -814,8 +814,8 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
@@ -827,8 +827,8 @@ label.ui-btn {
 /*Product details both in grid and upsell*/
 .dotter-product-details {
   border: 1px solid #20385c;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
   background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
@@ -955,14 +955,14 @@ html .ui-btn.btn-lrg {
   border: 1px solid #20385c;
   border-bottom: none;
   background-color: #e4eef6;
-  -webkit-border-radius: 5px 5px 0px 0px;
-  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 0 0 0px 0px;
+  border-radius: 0 0 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
   background: #a39674;
   color: white;
-  -webkit-border-radius: 0px 0px 5px 5px;
-  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 0 0;
+  border-radius: 0px 0px 0 0;
 }
 .dotter-basket-details .dotter-product-title {
   color: black;
@@ -995,8 +995,8 @@ html .ui-btn.btn-lrg {
 
 .dotter-store-grid-container .dotter-navigation-container {
   background: #a39674;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /* Slick slider */
@@ -1189,8 +1189,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Navigation bar     */
 /*--------------------*/
 .dotter-navigation-container {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 .dotter-navigation.ui-navbar .ui-btn {
@@ -1222,8 +1222,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 5px 0px 0px 5px;
-  border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 0 0px 0px 0;
+  border-radius: 0 0px 0px 0;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
