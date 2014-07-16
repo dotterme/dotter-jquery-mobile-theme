@@ -153,6 +153,16 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   }
 }
 
+/*Info button Icon*/
+.dotter-product-info.dotter-icon {
+  &:before {
+    background-color: $primary-color;
+  }
+  &:hover:before {
+    background-color: $tertiary-color;
+  }
+}
+
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/
