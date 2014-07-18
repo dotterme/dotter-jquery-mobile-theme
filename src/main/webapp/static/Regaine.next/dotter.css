@@ -1018,8 +1018,10 @@ html .ui-body-a {
 
 .dotter-product-details.dotter-after-scroll-to-selected {
   border: 1px solid #a39674;
-  box-shadow: box-shadow(inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0));
   background-color: white;
+  -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
+  -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
+  box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
 }
 
 /* Fonts */
