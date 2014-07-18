@@ -34,6 +34,10 @@ $dtr-store-popup-border-width: 0 !default;
 
 $dtr-store-navbar-line-height: 1.25em !default;
 
+$dtr-store-product-details-flash-box-shadow-color: rgba(50, 50, 50, 0) !default;
+$dtr-store-product-details-flash-border: $dtr-store-product-details-border !default;
+$dtr-store-product-details-flash-background-color: $dtr-store-product-details-background-color !default;
+
 .ui-header, .ui-footer {
   border: none;
 }
@@ -372,3 +376,10 @@ html .ui-body-a {
   border: none;
   border-width: 0;
 }
+
+.dotter-product-details.dotter-after-scroll-to-selected {
+  border: $dtr-store-product-details-flash-border;
+  box-shadow: box-shadow( inset 0px 0px .6em .6em $dtr-store-product-details-flash-box-shadow-color );
+  background-color: $dtr-store-product-details-flash-background-color;
+}
+
