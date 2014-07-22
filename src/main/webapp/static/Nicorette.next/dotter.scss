@@ -1,0 +1,227 @@
+$primary-color: #A39674;
+$secondary-color: #E6E6E6;
+$tertiary-color: #20385C;
+$disabled-color: #E6E6E6;
+
+$global-font-family: Arial,Verdana,sans-serif;
+$global-font-size: .85em;
+$global-box-shadow-size: 0;
+$global-border-width-buttons: 0;
+$global-border-style-buttons: none;
+$global-radii-buttons: 0;
+$global-radii-blocks: 0;
+
+$a-bar-background-color: $primary-color;
+$a-bar-color: #fff;
+$a-bar-border: #ddd !default;
+$a-bar-shadow-x: none;
+$a-bar-shadow-y: unquote('');
+$a-bar-shadow-radius: unquote('');
+$a-bar-shadow-color: unquote('');
+
+$a-body-shadow-x: 0;
+$a-body-shadow-y: 0;
+$a-body-shadow-radius: 0;
+
+$a-page-background-color: #fff;
+
+$a-link-color: #000;
+$a-link-text-decoration: none;
+$a-link-font-weight: normal;
+$a-link-visited: #000;
+$a-link-hover: #000;
+$a-link-active: #000;
+
+$a-bup-background-color: $primary-color;
+$a-bup-border: $primary-color;
+$a-bup-color: #fff;
+$a-bup-shadow-x: none;
+$a-bup-shadow-y: unquote('');
+$a-bup-shadow-radius: unquote('');
+$a-bup-shadow-color: unquote('');
+
+$a-bdisabled-background-color: #E6E6E6;
+
+$a-bhover-background-color: $tertiary-color;
+$a-bhover-border: $primary-color;
+$a-bhover-color: #fff;
+$a-bhover-shadow-x: none;
+$a-bhover-shadow-y: unquote('');
+$a-bhover-shadow-radius: unquote('');
+$a-bhover-shadow-color: unquote('');
+
+$a-bdown-background-color: $secondary-color;
+$a-bdown-border: $primary-color;
+$a-bdown-color: #fff;
+$a-bdown-shadow-x: none;
+$a-bdown-shadow-y: unquote('');
+$a-bdown-shadow-radius: unquote('');
+$a-bdown-shadow-color: unquote('');
+
+$a-active-shadow-x: none;
+$a-active-shadow-y: unquote('');
+$a-active-shadow-radius: unquote('');
+$a-active-shadow-color: unquote('');
+$a-active-background-color: $secondary-color;
+$a-active-box-shadow: none;
+
+$b-bar-background-color: $primary-color;
+
+$b-body-background-color: #fff;
+$b-body-color: #000;
+$b-body-shadow-x: 0;
+$b-body-shadow-y: 1;
+$b-body-shadow-radius: 0;
+
+$b-bup-background-color: $primary-color;
+$b-bhover-background-color: $secondary-color;
+$b-bdown-background-color: $secondary-color;
+
+$b-link-color: #000;
+$b-link-text-decoration: none;
+$b-link-font-weight: normal;
+$b-link-visited: #000;
+$b-link-hover: #000;
+$b-link-active: #000;
+
+$dtr-store-brand: 'Regaine\00AE  ';
+$dtr-store-border-radius: 0;
+
+$dtr-store-product-details-border: 1px solid $primary-color;
+$dtr-store-spinner-border-radius: 0;
+$dtr-store-basket-content-background-color: #F6F7F8;
+$dtr-store-basket-total-color: #fff;
+$dtr-store-product-name-h4-color: #000;
+$dtr-store-popup-radii: 0;
+
+$dtr-store-navbar-line-height: .9em;
+
+@import '../default/reset';
+@import '../default/mixins';
+@import '../default/jquery-mobile.theme';
+@import '../default/store';
+
+/* Fonts */
+
+.ui-header, .ui-footer {
+  border: none;
+}
+
+button,
+.ui-btn {
+	font-family: 'Arial Narrow',Arial,Verdana,sans-serif;
+}
+
+/*----------------------------*/
+/* Basket Page                */
+/*----------------------------*/
+
+@media all and (min-width: 36em) {
+	.basket-page {
+		border: 1px solid $secondary-color;
+	}	
+}
+
+.dotter-basket-details .dotter-basket-content {
+    border: 1px solid $primary-color;
+  }
+
+.dotter-retailer-login .ui-input-text {
+  @include input-placeholder {
+    text-transform: lowercase;
+  }
+}
+
+/*---------------*/
+/* STORE BUTTONS */
+/*---------------*/
+
+/*Select Retailer btn in product panel*/
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
+	background: #fff;
+	color: #f00;
+}
+
+/*Add btn in product panel (added/update state)*/
+/*div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
+	background: $primary-color !important;
+}*/
+
+.dotter-spinner {
+  input {
+    border-color: $primary-color;
+  }
+}
+
+/*Info button Icon*/
+.dotter-product-info.dotter-icon {
+  &:before {
+    background-color: $primary-color;
+  }
+  &:hover:before {
+    background-color: $tertiary-color;
+  }
+}
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+
+.dotter-navigation-container {
+  @include border-radius($dtr-store-border-radius);
+}
+
+.dotter-navigation.ui-navbar .ui-btn {
+  @include border-radius(0);
+}
+
+.dotter-navigation.ui-navbar .ui-btn:hover {
+  background-color: $a-bup-background-color;
+  border-color: $a-bup-border;
+  color: $primary-color;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:after {
+  content: "|";
+  color: $primary-color;
+  position: absolute;
+  right: -.2em;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin-left: -.2em;
+  background-color: $primary-color;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: 0;
+}
+
+.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
+  content: "";
+}
+
+.dotter-store-grid-container {
+  @include grid-container {
+    width: 17%;
+  }
+  
+  .dotter-navigation-container {
+	background-color: $secondary-color;
+  }
+
+}
+ /* Login Panel */
+
+.dotter-retailer-info.dotter-small-prints {
+  color: $primary-color;
+}
