@@ -130,6 +130,7 @@ label.ui-btn {
 }
 
 .retailerchoice .dotter-label {
+  @include border-radius($dtr-store-border-radius $dtr-store-border-radius 0px 0px );
   background: $primary-color;
   color: $a-body-background-color;
   padding: .5em;

@@ -771,6 +771,8 @@ label.ui-btn {
 }
 
 .retailerchoice .dotter-label {
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
   background: #05764e;
   color: #179b70;
   padding: .5em;
