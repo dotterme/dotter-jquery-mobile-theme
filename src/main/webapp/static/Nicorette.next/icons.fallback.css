@@ -4,6 +4,9 @@
 .ui-icon-carat-d:after,
 .icon-carat-d { background-image: url('icons/png/carat-d.png'); background-repeat: no-repeat; }
 
+.ui-icon-carat-old:after,
+.icon-carat-old { background-image: url('icons/png/carat-old.png'); background-repeat: no-repeat; }
+
 .ui-icon-check:after,
 .icon-check { background-image: url('icons/png/check.png'); background-repeat: no-repeat; }
 

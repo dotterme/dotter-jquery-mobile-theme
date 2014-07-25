@@ -118,6 +118,7 @@ $b-bhover-shadow-x: 0 !default;
 $b-bhover-shadow-y: 1px !default;
 $b-bhover-shadow-radius: 0 !default;
 $b-bhover-shadow-color: #111 !default;
+$b-bhover-color: #fff !default;
 
 $b-bdown-background-color: #404040 !default;
 
@@ -584,7 +585,7 @@ html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
 	background-color: 			$b-bhover-background-color /*{b-bhover-background-color}*/;
 	border-color:	 		$b-bhover-border-color /*{b-bhover-border}*/;
-	color: 					#fff /*{b-bhover-color}*/;
+	color: 					$b-bhover-color /*{b-bhover-color}*/;
 	text-shadow: $b-bhover-shadow-x /*{b-bhover-shadow-x}*/ $b-bhover-shadow-y /*{b-bhover-shadow-y}*/ $b-bhover-shadow-radius /*{b-bhover-shadow-radius}*/ $b-bhover-shadow-color /*{b-bhover-shadow-color}*/;
 }
 /* Button down */

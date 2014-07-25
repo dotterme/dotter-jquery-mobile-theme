@@ -74,7 +74,18 @@ $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
 
 $b-bup-background-color: $primary-color;
+$b-bup-shadow-x: 0;
+$b-bup-shadow-y: 0;
+$b-bup-shadow-radius: 0;
+$b-bup-shadow-color: transparent;
+
 $b-bhover-background-color: $secondary-color;
+$b-bhover-shadow-x: 0;
+$b-bhover-shadow-y: 0;
+$b-bhover-shadow-radius: 0;
+$b-bhover-shadow-color: transparent;
+$b-bhover-color: $primary-color;
+
 $b-bdown-background-color: $secondary-color;
 
 $b-link-color: #666;

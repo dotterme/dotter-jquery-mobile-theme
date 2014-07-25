@@ -8,14 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="12"
-   height="19"
-   id="svg3052"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="arrows.svg"
-   style="enable-background:new">
+   width="16"
+   height="16"
+   id="svg3033"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="MediaWiki_Vector_skin_action_arrow.svg">
   <metadata
-     id="metadata3060">
+     id="metadata3041">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3058" />
+     id="defs3039" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -37,49 +36,24 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="992"
-     inkscape:window-height="836"
-     id="namedview3056"
+     inkscape:window-width="1298"
+     inkscape:window-height="749"
+     id="namedview3037"
      showgrid="false"
-     inkscape:zoom="24.8125"
-     inkscape:cx="7.9313693"
-     inkscape:cy="6.2721793"
-     inkscape:window-x="1855"
-     inkscape:window-y="155"
+     inkscape:zoom="33.1875"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="background"
-     style="display:none"
-     transform="translate(0.16120906,7.6750631)">
-    <rect
-       style="fill:#999999;fill-opacity:1"
-       id="rect3904"
-       width="12.050378"
-       height="19.062973"
-       x="-0.16120906"
-       y="-7.7380352" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="arrows"
-     transform="translate(0.16120906,7.6750631)">
-    <path
-       d="M -0.14168745,3.0003386 5.8308261,11.263853 11.80334,3.0003386 z"
-       id="path3054"
-       inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-opacity:1" />
-    <path
-       d="M 11.829345,0.54626164 5.8568313,-7.7172543 -0.11568187,0.54626164 z"
-       id="path3054-6"
-       inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-opacity:1" />
-  </g>
+     inkscape:current-layer="svg3033" />
+  <path
+     fill="#797979"
+     d="M2.5,6l5,5l5,-5z"
+     id="path3035" />
+  <path
+     style="fill:#ffffff"
+     d="m 5.0380414,8.5001883 -2.470672,-2.4708098 4.9414818,0 4.9414818,0 -2.470672,2.4708098 C 8.6207916,9.8591337 7.5089272,10.970998 7.5088512,10.970998 c -9.04e-5,0 -1.1119403,-1.1118643 -2.4708098,-2.4708097 z"
+     id="path3043"
+     inkscape:connector-curvature="0" />
 </svg>
