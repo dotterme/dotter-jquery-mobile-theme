@@ -376,7 +376,7 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited,
 html head + body .ui-btn.ui-btn-a:after {
-  background-color: #eeeeee;
+  background-color: #339933;
   border-color: #eeeeee;
   color: white;
   text-shadow: none   ;
@@ -1032,13 +1032,13 @@ html .ui-body-a {
   -webkit-border-radius: 0;
   border-radius: 0;
   background-color: #eeeeee;
-  color: white;
+  color: #339933;
   font-family: "Cabin Condensed";
   text-transform: capitalize;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #eeeeee;
+  background-color: #339933;
   border-color: #eeeeee;
   color: white;
 }

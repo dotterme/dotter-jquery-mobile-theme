@@ -32,7 +32,7 @@ $a-link-visited: #666;
 $a-link-hover: #666;
 $a-link-active: #666;
 
-$a-bup-background-color: $secondary-color;
+$a-bup-background-color: $primary-color;
 $a-bup-border: $secondary-color;
 $a-bup-color: #fff;
 $a-bup-shadow-x: none;
@@ -110,7 +110,9 @@ $dtr-store-navbar-line-height: .9em;
 $dtr-store-navbar-text-transform: capitalize;
 $dtr-store-navbar-font-family: 'Cabin Condensed';
 $dtr-store-navbar-btn-width: 16.66%;
+$dtr-store-navbar-btn-color: $primary-color;
 $dtr-store-navbar-btn-hover-color: #ffffff;
+$dtr-store-navbar-btn-hover-background: $primary-color;
 
 @import '../default/reset';
 @import '../default/mixins';
