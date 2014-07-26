@@ -993,12 +993,6 @@ html .ui-btn.btn-lrg {
   float: right;
 }
 
-.dotter-store-grid-container .dotter-navigation-container {
-  background: #a39674;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-
 /* Slick slider */
 .slick-prev:before,
 .slick-next:before {
@@ -1022,6 +1016,82 @@ html .ui-body-a {
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
+}
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+.dotter-store-grid-container .dotter-navigation-container {
+  background: #a39674;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: #e6e6e6;
+  color: white;
+  font-family: inherit;
+  text-transform: normal;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:hover {
+  background-color: #a39674;
+  border-color: #a39674;
+  color: white;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:after {
+  content: "|";
+  color: #a39674;
+  position: absolute;
+  right: -.2em;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  -webkit-border-radius: 0 0px 0px 0;
+  border-radius: 0 0px 0px 0;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin-left: -.2em;
+  background-color: #a39674;
+  color: white;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: 0;
+}
+
+.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
+  content: "";
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn:hover,
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn.ui-btn-active {
+  text-decoration: none;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a,
+.dotter-store-grid-container .ui-grid-d > .ui-block-b,
+.dotter-store-grid-container .ui-grid-d > .ui-block-c,
+.dotter-store-grid-container .ui-grid-d > .ui-block-d,
+.dotter-store-grid-container .ui-grid-d > .ui-block-e {
+  width: 17%;
+  border-left: 0;
+}
+.dotter-store-grid-container .dotter-navigation-container {
+  background-color: #e6e6e6;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
+  background-color: #a39674;
+  color: #e6e6e6;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+  border-left: 0;
 }
 
 /* Fonts */
@@ -1082,66 +1152,6 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-product-info.dotter-icon:hover:before {
   background-color: #20385c;
-}
-
-/*--------------------*/
-/* Navigation bar     */
-/*--------------------*/
-.dotter-navigation-container {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-
-.dotter-navigation.ui-navbar .ui-btn {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #a39674;
-  border-color: #a39674;
-  color: #a39674;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #a39674;
-  color: #e6e6e6;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:after {
-  content: "|";
-  color: #a39674;
-  position: absolute;
-  right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-  margin-left: -.2em;
-  background-color: #a39674;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 0 0px 0px 0;
-  border-radius: 0 0px 0px 0;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-  margin-left: 0;
-}
-
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-  content: "";
-}
-
-.dotter-store-grid-container .ui-grid-d > .ui-block-a,
-.dotter-store-grid-container .ui-grid-d > .ui-block-b,
-.dotter-store-grid-container .ui-grid-d > .ui-block-c,
-.dotter-store-grid-container .ui-grid-d > .ui-block-d,
-.dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 17%;
-}
-.dotter-store-grid-container .dotter-navigation-container {
-  background-color: #e6e6e6;
 }
 
 /* Login Panel */

@@ -33,10 +33,29 @@ $dtr-store-popup-radii: 0 !default;
 $dtr-store-popup-border-width: 0 !default;
 
 $dtr-store-navbar-line-height: 1.25em !default;
+$dtr-store-navbar-text-transform: normal !default;
+$dtr-store-navbar-font-family: inherit !default;
+$dtr-store-navbar-btn-width: inherit !default;
+$dtr-store-navbar-btn-border: 0 !default;
+$dtr-store-navbar-btn-text-border: "" !default;
+$dtr-store-navbar-background: $secondary-color !default;
+
+$dtr-store-navbar-btn-background: $secondary-color !default;
+$dtr-store-navbar-btn-hover-background: $a-bup-background-color !default;
+$dtr-store-navbar-btn-active-background: $primary-color !default;
+$dtr-store-navbar-btn-text-decoration: none !default;
+$dtr-store-navbar-active-hover-effect: true !default;
+$dtr-store-navbar-full-width: false !default;
+$dtr-store-navbar-btn-color: $a-bup-color !default;
+$dtr-store-navbar-btn-hover-color: $a-bup-color !default;
+$dtr-store-navbar-btn-active-color: $a-bup-color !default;
 
 $dtr-store-product-details-flash-box-shadow-color: rgba(50, 50, 50, 0) !default;
 $dtr-store-product-details-flash-border: $dtr-store-product-details-border !default;
 $dtr-store-product-details-flash-background-color: $dtr-store-product-details-background-color !default;
+
+
+
 
 .ui-header, .ui-footer {
   border: none;
@@ -354,11 +373,6 @@ html .ui-btn.btn-lrg {
   float: right;
 }
 
-.dotter-store-grid-container .dotter-navigation-container {
-  background: $primary-color;
-  @include border-radius($dtr-store-border-radius);
-}
-
 /* Slick slider */
 .slick-prev:before,
 .slick-next:before {
@@ -382,3 +396,82 @@ html .ui-body-a {
   @include box-shadow( inset 0px 0px .6em .6em $dtr-store-product-details-flash-box-shadow-color );
 }
 
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+
+.dotter-store-grid-container .dotter-navigation-container {
+  background: $primary-color;
+  @include border-radius($dtr-store-border-radius);
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
+  @include border-radius(0);
+  background-color: $dtr-store-navbar-btn-background;
+  color: $dtr-store-navbar-btn-color;
+  font-family: $dtr-store-navbar-font-family;
+  text-transform: $dtr-store-navbar-text-transform;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:hover {
+  background-color: $dtr-store-navbar-btn-hover-background;
+  border-color: $a-bup-border;
+  color: $dtr-store-navbar-btn-hover-color;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:after {
+  content: $dtr-store-navbar-btn-text-border;
+  color: $primary-color;
+  position: absolute;
+  right: -.2em;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin-left: -.2em;
+  background-color: $dtr-store-navbar-btn-active-background;
+  color: $dtr-store-navbar-btn-active-color;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: 0;
+}
+
+.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
+  content: "";
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn:hover,
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn.ui-btn-active {
+  text-decoration: $dtr-store-navbar-btn-text-decoration;
+}
+
+.dotter-store-grid-container {
+  @include grid-container {
+    width: $dtr-store-navbar-btn-width;
+    border-left: $dtr-store-navbar-btn-border;
+  }
+
+  .dotter-navigation-container {
+    background-color: $dtr-store-navbar-background;
+  }
+}
+
+@mixin active-hover-effect {
+  @if $dtr-store-navbar-active-hover-effect {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
+  @include active-hover-effect
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+  border-left: 0;
+}

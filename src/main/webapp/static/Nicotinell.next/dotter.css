@@ -993,12 +993,6 @@ html .ui-btn.btn-lrg {
   float: right;
 }
 
-.dotter-store-grid-container .dotter-navigation-container {
-  background: #0078bb;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
 /* Slick slider */
 .slick-prev:before,
 .slick-next:before {
@@ -1022,6 +1016,82 @@ html .ui-body-a {
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(156, 198, 233, 0.25);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(156, 198, 233, 0.25);
   box-shadow: inset 0px 0px 0.6em 0.6em rgba(156, 198, 233, 0.25);
+}
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+.dotter-store-grid-container .dotter-navigation-container {
+  background: #0078bb;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: #9cc6e9;
+  color: white;
+  font-family: "itcfranklingothicstd-dmcp", Arial, Verdana, sans-serif;
+  text-transform: normal;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:hover {
+  background-color: #9cc6e9;
+  border-color: #0078bb;
+  color: #0078bb;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:after {
+  content: "";
+  color: #0078bb;
+  position: absolute;
+  right: -.2em;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  -webkit-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin-left: -.2em;
+  background-color: #0078bb;
+  color: white;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: 0;
+}
+
+.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
+  content: "";
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn:hover,
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn.ui-btn-active {
+  text-decoration: none;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a,
+.dotter-store-grid-container .ui-grid-d > .ui-block-b,
+.dotter-store-grid-container .ui-grid-d > .ui-block-c,
+.dotter-store-grid-container .ui-grid-d > .ui-block-d,
+.dotter-store-grid-container .ui-grid-d > .ui-block-e {
+  width: 17%;
+  border-left: 0;
+}
+.dotter-store-grid-container .dotter-navigation-container {
+  background-color: #9cc6e9;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
+  background-color: #0078bb;
+  color: #9cc6e9;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+  border-left: 0;
 }
 
 /* Fonts */
@@ -1098,66 +1168,6 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 .dotter-spinner input {
   border-color: #9cc6e9;
-}
-
-/*--------------------*/
-/* Navigation bar     */
-/*--------------------*/
-.dotter-navigation-container {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.dotter-navigation.ui-navbar .ui-btn {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #9cc6e9;
-  border-color: #0078bb;
-  color: #0078bb;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #0078bb;
-  color: #9cc6e9;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:after {
-  content: "|";
-  color: #0078bb;
-  position: absolute;
-  right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-  margin-left: -.2em;
-  background-color: #0078bb;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 5px 0px 0px 5px;
-  border-radius: 5px 0px 0px 5px;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-  margin-left: 0;
-}
-
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-  content: "";
-}
-
-.dotter-store-grid-container .ui-grid-d > .ui-block-a,
-.dotter-store-grid-container .ui-grid-d > .ui-block-b,
-.dotter-store-grid-container .ui-grid-d > .ui-block-c,
-.dotter-store-grid-container .ui-grid-d > .ui-block-d,
-.dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 17%;
-}
-.dotter-store-grid-container .dotter-navigation-container {
-  background-color: #9cc6e9;
 }
 
 /* Login Panel */

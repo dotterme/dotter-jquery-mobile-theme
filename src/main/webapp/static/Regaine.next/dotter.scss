@@ -94,7 +94,9 @@ $dtr-store-basket-total-color: #fff;
 $dtr-store-product-name-h4-color: #000;
 $dtr-store-popup-radii: 0;
 
+$dtr-store-navbar-btn-text-border: "|";
 $dtr-store-navbar-line-height: .9em;
+$dtr-store-navbar-btn-width: 17%;
 
 @import '../default/reset';
 @import '../default/mixins';
@@ -163,63 +165,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   }
 }
 
-/*--------------------*/
-/* Navigation bar     */
-/*--------------------*/
 
-.dotter-navigation-container {
-  @include border-radius($dtr-store-border-radius);
-}
 
-.dotter-navigation.ui-navbar .ui-btn {
-  @include border-radius(0);
-}
-
-.dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: $a-bup-background-color;
-  border-color: $a-bup-border;
-  color: $primary-color;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: $primary-color;
-  color: $secondary-color;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:after {
-  content: "|";
-  color: $primary-color;
-  position: absolute;
-  right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-  margin-left: -.2em;
-  background-color: $primary-color;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-  margin-left: 0;
-}
-
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-  content: "";
-}
-
-.dotter-store-grid-container {
-  @include grid-container {
-    width: 17%;
-  }
-  
-  .dotter-navigation-container {
-	background-color: $secondary-color;
-  }
-
-}
  /* Login Panel */
 
 .dotter-retailer-info.dotter-small-prints {

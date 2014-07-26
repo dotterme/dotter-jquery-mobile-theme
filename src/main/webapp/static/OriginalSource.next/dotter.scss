@@ -109,6 +109,18 @@ $dtr-store-basket-total-color: #fff;
 $dtr-store-product-name-h4-color: $primary-color;
 $dtr-store-text-a: $tertiary-color;
 
+$dtr-store-navbar-text-transform: uppercase;
+$dtr-store-navbar-btn-width: 20%;
+$dtr-store-navbar-background: transparent;
+$dtr-store-navbar-btn-background: transparent;
+$dtr-store-navbar-btn-hover-background: transparent;
+$dtr-store-navbar-btn-active-background: transparent;
+
+$dtr-store-navbar-btn-text-decoration: underline !important;
+$dtr-store-navbar-active-hover-effect: false;
+
+$dtr-store-navbar-font-family: 'Gothic821CondensedBT-Regular', helevtica, sans-serif;
+
 
 @import '../default/reset';
 @import '../default/mixins';
@@ -187,41 +199,12 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/
-.dotter-store-grid-container .ui-grid-d > .ui-block-a {
-  border-left: 0;
-}
-
-.dotter-store-grid-container .dotter-navigation-container {
-	background-color: transparent;
-}
-
-.dotter-navigation-container .dotter-navigation ul li:first-child a {
-  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
-}
 
 .dotter-navigation-container .dotter-navigation ul li:nth-child(5) a {
   @include border-radius(0px $dtr-store-border-radius $dtr-store-border-radius 0px);
 }
 
-.dotter-store-grid-container .ui-navbar a.ui-btn {
-  text-transform: uppercase;
-  background-color: transparent;
-}
 
-.dotter-store-grid-container .ui-navbar a.ui-btn:hover {
-  text-decoration: underline !important;
-}
-
-.dotter-store-grid-container .ui-navbar a.ui-btn.ui-btn-active {
-  text-decoration: underline !important;
-}
-
-.dotter-store-grid-container {
-  @include grid-container {
-    width: 20%;
-    border-left: 0;
-  }
-}
 
 /*Upsell slider*/
 .dotter-has-upsell h3 {

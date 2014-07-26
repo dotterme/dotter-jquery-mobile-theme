@@ -376,8 +376,8 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited,
 html head + body .ui-btn.ui-btn-a:after {
-  background-color: #339933;
-  border-color: #339933;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
   color: white;
   text-shadow: none   ;
 }
@@ -994,12 +994,6 @@ html .ui-btn.btn-lrg {
   float: right;
 }
 
-.dotter-store-grid-container .dotter-navigation-container {
-  background: #339933;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-
 /* Slick slider */
 .slick-prev:before,
 .slick-next:before {
@@ -1023,6 +1017,82 @@ html .ui-body-a {
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
+}
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+.dotter-store-grid-container .dotter-navigation-container {
+  background: #339933;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: #eeeeee;
+  color: white;
+  font-family: "Cabin Condensed";
+  text-transform: capitalize;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:hover {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  color: white;
+}
+
+.dotter-navigation.ui-navbar .ui-btn:after {
+  content: "";
+  color: #339933;
+  position: absolute;
+  right: -.2em;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  -webkit-border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin-left: -.2em;
+  background-color: #339933;
+  color: white;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: 0;
+}
+
+.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
+  content: "";
+}
+
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn:hover,
+.dotter-store-grid-container .dotter-navigation.ui-navbar a.ui-btn.ui-btn-active {
+  text-decoration: none;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a,
+.dotter-store-grid-container .ui-grid-d > .ui-block-b,
+.dotter-store-grid-container .ui-grid-d > .ui-block-c,
+.dotter-store-grid-container .ui-grid-d > .ui-block-d,
+.dotter-store-grid-container .ui-grid-d > .ui-block-e {
+  width: 16.66%;
+  border-left: 0;
+}
+.dotter-store-grid-container .dotter-navigation-container {
+  background-color: #eeeeee;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
+  background-color: #339933;
+  color: #eeeeee;
+}
+
+.dotter-store-grid-container .ui-grid-d > .ui-block-a {
+  border-left: 0;
 }
 
 /* Fonts */
@@ -1089,70 +1159,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/
-.dotter-navigation-container {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-
-.dotter-navigation.ui-navbar .ui-btn {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  background-color: #eeeeee;
-  color: #339933;
-  font-family: 'Cabin Condensed';
-  text-transform: capitalize;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #339933;
-  border-color: #339933;
-  color: #ffffff;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #339933;
-  color: #eeeeee;
-}
-
 .dotter-navigation.ui-navbar .ui-btn:after {
-  content: "";
   color: #eeeeee;
-  position: absolute;
-  right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-  margin-left: -.2em;
-  background-color: #339933;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 10px 0px 0px 10px;
-  border-radius: 10px 0px 0px 10px;
 }
 
 .dotter-navigation.ui-navbar ul li:last-child .ui-btn {
   -webkit-border-radius: 0px 10px 10px 0px;
   border-radius: 0px 10px 10px 0px;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-  margin-left: 0;
-}
-
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-  content: "";
-}
-
-.dotter-store-grid-container .ui-grid-d > .ui-block-a,
-.dotter-store-grid-container .ui-grid-d > .ui-block-b,
-.dotter-store-grid-container .ui-grid-d > .ui-block-c,
-.dotter-store-grid-container .ui-grid-d > .ui-block-d,
-.dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 16.66%;
-}
-.dotter-store-grid-container .dotter-navigation-container {
-  background-color: #eeeeee;
 }
 
 /* Login Panel */

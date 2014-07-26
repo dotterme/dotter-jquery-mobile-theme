@@ -32,8 +32,8 @@ $a-link-visited: #666;
 $a-link-hover: #666;
 $a-link-active: #666;
 
-$a-bup-background-color: $primary-color;
-$a-bup-border: $primary-color;
+$a-bup-background-color: $secondary-color;
+$a-bup-border: $secondary-color;
 $a-bup-color: #fff;
 $a-bup-shadow-x: none;
 $a-bup-shadow-y: unquote('');
@@ -107,6 +107,10 @@ $dtr-store-product-name-h4-color: #666;
 $dtr-store-popup-radii: 10px;
 
 $dtr-store-navbar-line-height: .9em;
+$dtr-store-navbar-text-transform: capitalize;
+$dtr-store-navbar-font-family: 'Cabin Condensed';
+$dtr-store-navbar-btn-width: 16.66%;
+$dtr-store-navbar-btn-hover-color: #ffffff;
 
 @import '../default/reset';
 @import '../default/mixins';
@@ -181,67 +185,16 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Navigation bar     */
 /*--------------------*/
 
-.dotter-navigation-container {
-  @include border-radius($dtr-store-border-radius);
-}
-
-.dotter-navigation.ui-navbar .ui-btn {
-  @include border-radius(0);
-  background-color: $secondary-color;
-  color: $primary-color;
-  font-family: 'Cabin Condensed';
-  text-transform: capitalize;
-}
-
-.dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: $a-bup-background-color;
-  border-color: $a-bup-border;
-  color: #ffffff;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: $primary-color;
-  color: $secondary-color;
-}
-
 .dotter-navigation.ui-navbar .ui-btn:after {
-  content: "";
   color: $secondary-color;
-  position: absolute;
-  right: -.2em;
-}
-
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
-  margin-left: -.2em;
-  background-color: $primary-color;
-}
-
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  @include border-radius($dtr-store-border-radius 0px 0px $dtr-store-border-radius);
 }
 
 .dotter-navigation.ui-navbar ul li:last-child .ui-btn {
   @include border-radius(0px $dtr-store-border-radius $dtr-store-border-radius 0px );
 }
 
-.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
-  margin-left: 0;
-}
 
-.dotter-navigation.ui-navbar ul li:last-child .ui-btn:after {
-  content: "";
-}
 
-.dotter-store-grid-container {
-  @include grid-container {
-    width: 16.66%;
-  }
-  
-  .dotter-navigation-container {
-	background-color: $secondary-color;
-  }
-
-}
  /* Login Panel */
 
 .dotter-retailer-info.dotter-small-prints {
