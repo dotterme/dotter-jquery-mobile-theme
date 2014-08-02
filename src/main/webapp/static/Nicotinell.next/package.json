@@ -1,0 +1,8 @@
+{
+  "name": "Nictotinell",
+  "version": "0.0.1",
+  "description": "Nicotinell theme for Dotter store",
+  "main.scss": "dotter.scss",
+  "author": "Dotter",
+  "license": "MIT"
+}
