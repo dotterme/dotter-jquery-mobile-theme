@@ -838,6 +838,9 @@ label.ui-btn {
   font-size: 1.1em;
   color: #0087ff;
 }
+.dotter-product-details .dotter-product-image {
+  background-color: white;
+}
 
 .dotter-product-abstract {
   font-size: .9em;

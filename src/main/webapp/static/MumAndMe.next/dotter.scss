@@ -7,8 +7,8 @@ $global-font-size: .825em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
 $global-border-style-buttons: none;
-$global-radii-buttons: 0;
-$global-radii-buttons-notext: 0;
+$global-radii-buttons: 3px;
+$global-radii-buttons-notext: 3px;
 
 $a-page-background-color: none;
 $a-page-shadow-x: 0;
@@ -29,12 +29,12 @@ $a-body-shadow-y: 0;
 $a-body-shadow-radius: 0;
 $a-body-shadow-color: transparent;
 
-$a-link-color: #000;
+$a-link-color: #69737c;
 $a-link-text-decoration: none;
 $a-link-font-weight: normal;
-$a-link-visited: #000;
-$a-link-hover: #000;
-$a-link-active: #000;
+$a-link-visited: #69737c;
+$a-link-hover: #69737c;
+$a-link-active: #69737c;
 
 $a-bup-background-color: $secondary-color;
 $a-bup-border: $secondary-color;
@@ -72,7 +72,7 @@ $b-bar-background-color: $primary-color;
 $b-bar-shadow-color: transparent;
 
 $b-body-background-color: #fff;
-$b-body-color: #000;
+$b-body-color: #69737c;
 $b-body-shadow-x: 0;
 $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
@@ -91,31 +91,40 @@ $b-bhover-shadow-color: transparent;
 
 $b-bdown-background-color: $primary-color;
 
-$b-link-color: #000;
+$b-link-color: #69737c;
 $b-link-text-decoration: none;
 $b-link-font-weight: normal;
-$b-link-visited: #000;
-$b-link-hover: #000;
-$b-link-active: #000;
+$b-link-visited: #69737c;
+$b-link-hover: #69737c;
+$b-link-active: #69737c;
+
+$dtr-store-text-a: #69737c;
+$dtr-store-text-b: #69737c;
 
 $dtr-store-brand: '';
-$dtr-store-border-radius: 0px;
+$dtr-store-border-radius: 3px;
+$dtr-store-popup-radii: 3px;
 
-$dtr-store-product-details-border: 1px solid $tertiary-color;
-$dtr-store-spinner-border-radius: 0px;
-$dtr-store-basket-content-background-color: #f0f5f7;
+$dtr-store-retailer-select-panel-border: 1px solid #e1dfd9;
+$dtr-store-product-details-border: 1px solid #e1dfd9;
+$dtr-store-product-image-background-color: $tertiary-color;
+$dtr-store-product-abstract-color: #69737c;
+$dtr-store-spinner-border-radius: 3px;
+$dtr-store-basket-content-background-color: $tertiary-color;
 $dtr-store-basket-total-color: #fff;
-$dtr-store-product-name-h4-color: #0087ff;
+$dtr-store-basket-product-title-color: #69737c;
+$dtr-store-product-name-h4-color: $primary-color;
 
 $dtr-store-navbar-text-transform: capitalize;
 $dtr-store-navbar-btn-width: 25%;
 $dtr-store-navbar-btn-border: 1px dotted #fff;
 $dtr-store-navbar-background: transparent;
-$dtr-store-navbar-btn-color: $a-bdown-color;
+$dtr-store-navbar-btn-color: #69737c;
 $dtr-store-navbar-btn-active-color: $primary-color;
-$dtr-store-navbar-btn-background: #0087ff;
-$dtr-store-navbar-btn-hover-background: #0087ff;
-$dtr-store-navbar-btn-active-background: #0087ff;
+$dtr-store-navbar-btn-hover-color: #D5D7D3;
+$dtr-store-navbar-btn-background: #F3F1EB;
+$dtr-store-navbar-btn-hover-background: #F3F1EB;
+$dtr-store-navbar-btn-active-background: #F3F1EB;
 $dtr-store-navbar-active-hover-effect: false;
 
 
@@ -145,15 +154,16 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: #fff;
-  color: $primary-color;
+  background: $primary-color;
+  color: #fff;
+  border-radius: $dtr-store-border-radius;
 }
 
 /*--------------------*/
 /* Dotter Login Panel */
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
-  background: #f0f5f7;
+  background: $tertiary-color;
   color: rgb(75, 75, 75);
 }
 
