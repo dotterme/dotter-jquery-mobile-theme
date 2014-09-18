@@ -1,9 +1,10 @@
-$primary-color: #0078BB;
-$secondary-color: #9CC6E9;
-$tertiary-color: #9CC6E9;
+$primary-color: #ED174F;
+$secondary-color: #BDBDBE;
+$tertiary-color: #4D4D4F;
 $disabled-color: #E6E6E6;
 
-$global-font-family: 'FranklinGothicURWCon-Boo',Arial,Verdana,sans-serif;
+$global-font-family: 'Avenir-lt',sans-serif;
+$global-font-size: .875em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
 $global-border-style-buttons: none;
@@ -22,15 +23,15 @@ $a-body-shadow-radius: 0;
 
 $a-page-background-color: #fff;
 
-$a-link-color: #000;
+$a-link-color: $tertiary-color;
 $a-link-text-decoration: none;
 $a-link-font-weight: normal;
-$a-link-visited: #000;
-$a-link-hover: #000;
-$a-link-active: #000;
+$a-link-visited: $tertiary-color;
+$a-link-hover: $tertiary-color;
+$a-link-active: $tertiary-color;
 
-$a-bup-background-color: $secondary-color;
-$a-bup-border: $primary-color;
+$a-bup-background-color: $primary-color;
+$a-bup-border: $secondary-color;
 $a-bup-color: #fff;
 $a-bup-shadow-x: none;
 $a-bup-shadow-y: unquote('');
@@ -47,7 +48,7 @@ $a-bhover-shadow-y: unquote('');
 $a-bhover-shadow-radius: unquote('');
 $a-bhover-shadow-color: unquote('');
 
-$a-bdown-background-color: $secondary-color;
+$a-bdown-background-color: $primary-color;
 $a-bdown-border: $primary-color;
 $a-bdown-color: #fff;
 $a-bdown-shadow-x: none;
@@ -65,7 +66,7 @@ $a-active-box-shadow: none;
 $b-bar-background-color: $primary-color;
 
 $b-body-background-color: #fff;
-$b-body-color: #000;
+$b-body-color: $tertiary-color;
 $b-body-shadow-x: 0;
 $b-body-shadow-y: 1;
 $b-body-shadow-radius: 0;
@@ -74,27 +75,34 @@ $b-bup-background-color: $primary-color;
 $b-bhover-background-color: $secondary-color;
 $b-bdown-background-color: $secondary-color;
 
-$b-link-color: #000;
+$b-link-color: $tertiary-color;
 $b-link-text-decoration: none;
 $b-link-font-weight: normal;
-$b-link-visited: #000;
-$b-link-hover: #000;
-$b-link-active: #000;
+$b-link-visited: $tertiary-color;
+$b-link-hover: $tertiary-color;
+$b-link-active: $tertiary-color;
 
-$dtr-store-brand: 'Nicotinell\00AE  ';
-$dtr-store-border-radius: 5px;
+$dtr-store-brand: '';
+$dtr-store-border-radius: 0px;
 
-$dtr-store-product-details-border: 2px solid $secondary-color;
-$dtr-store-spinner-border-radius: 15px;
-$dtr-store-basket-content-background-color: #e4eef6;
+$dtr-store-product-details-border: 1px solid $secondary-color;
+$dtr-store-spinner-border-radius: 0px;
+$dtr-store-basket-content-background-color: #fcfcfc;
 $dtr-store-basket-total-color: #fff;
-$dtr-store-product-name-h4-color: #000;
-$dtr-store-popup-radii: 5px;
+$dtr-store-product-name-h4-color: $tertiary-color;
+$dtr-store-popup-radii: 0px;
 
-$dtr-store-navbar-line-height: .9em;
-$dtr-store-navbar-btn-width: 17%;
-$dtr-store-navbar-font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+$dtr-store-navbar-line-height: .5em;
+$dtr-store-navbar-btn-width: 20%;
+$dtr-store-navbar-font-family: 'Avenir-lt',sans-serif;
 $dtr-store-navbar-btn-hover-color: $primary-color;
+$dtr-store-navbar-text-transform: capitalize;
+
+$dtr-store-navbar-background: #FFFFFF;
+$dtr-store-navbar-btn-hover-background: #FFFFFF;
+$dtr-store-navbar-btn-background: #FFFFFF;
+$dtr-store-navbar-btn-color: $secondary-color;
+$dtr-store-navbar-btn-hover-color: $tertiary-color;
 
 $dtr-store-product-details-flash-box-shadow-color: rgba(156, 198, 233, 0.25);
 
@@ -105,24 +113,11 @@ $dtr-store-product-details-flash-box-shadow-color: rgba(156, 198, 233, 0.25);
 
 /* Fonts */
 @font-face{
-	font-family:'FranklinGothicURWCon-Boo';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0');
-}
-@font-face{
-	font-family:'FranklinGothicURWCon-Med';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0');
-}
-@font-face{
-	font-family:'FranklinGothicURWCon-Dem';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0');
-}
-@font-face{
-	font-family:'FranklinGothicURWCon-DemIta';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0');
-}
-@font-face{
-	font-family:'itcfranklingothicstd-dmcp';
-	@include font-face-src('//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp');
+  font-family:'Avenir-lt';
+  src:url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot');
+  src:url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+  url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.woff') format('woff'),
+  url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.ttf') format('truetype');
 }
 
 .ui-header, .ui-footer {
@@ -131,7 +126,7 @@ $dtr-store-product-details-flash-box-shadow-color: rgba(156, 198, 233, 0.25);
 
 button,
 .ui-btn {
-	font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+	font-family: 'Avenir-lt',sans-serif;
 }
 
 /*----------------------------*/
@@ -140,10 +135,8 @@ button,
 
 @media all and (min-width: 36em) {
 	.basket-page {
-        border-width: 2px;
-        border-style: solid;
-		border: 2px solid $primary-color;
-	}	
+		border: 1px solid $primary-color;
+	}
 }
 
 .dotter-retailer-login .ui-input-text {
@@ -169,7 +162,7 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 
 .dotter-spinner {
   input {
-    border-color: $secondary-color;
+    border-color: $primary-color;
   }
 }
 

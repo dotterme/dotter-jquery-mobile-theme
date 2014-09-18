@@ -64,9 +64,9 @@ select,
 textarea,
 button,
 .ui-btn {
-  font-size: 1em;
+  font-size: 0.875em;
   line-height: 1.3em;
-  font-family: "FranklinGothicURWCon-Boo", Arial, Verdana, sans-serif;
+  font-family: "Avenir-lt", sans-serif;
   font-weight: normal;
 }
 
@@ -292,7 +292,7 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-  background-color: #0078bb;
+  background-color: #ed174f;
   border-color: #dddddd;
   color: white;
   text-shadow: none   ;
@@ -337,7 +337,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-  color: black;
+  color: #4d4d4f;
   font-weight: normal;
   text-decoration: none;
 }
@@ -346,21 +346,21 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-  color: black;
+  color: #4d4d4f;
 }
 
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-  color: black;
+  color: #4d4d4f;
 }
 
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-  color: black;
+  color: #4d4d4f;
 }
 
 /* Button up */
@@ -375,8 +375,8 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited,
 html head + body .ui-btn.ui-btn-a:after {
-  background-color: #9cc6e9;
-  border-color: #0078bb;
+  background-color: #ed174f;
+  border-color: #bdbdbe;
   color: white;
   text-shadow: none   ;
 }
@@ -388,8 +388,8 @@ html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover,
 html head + body .ui-btn.ui-btn-a:hover:after {
-  background-color: #0078bb;
-  border-color: #0078bb;
+  background-color: #ed174f;
+  border-color: #ed174f;
   color: white;
   text-shadow: none   ;
 }
@@ -400,8 +400,8 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-  background-color: #9cc6e9;
-  border-color: #0078bb;
+  background-color: #ed174f;
+  border-color: #ed174f;
   color: white;
   text-shadow: none   ;
 }
@@ -427,7 +427,7 @@ html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-  background-color: #9cc6e9;
+  background-color: #bdbdbe;
   border-color: #3388cc;
   color: white;
   text-shadow: none   ;
@@ -439,7 +439,7 @@ html .ui-bar-a .ui-radio-on:after,
 html .ui-body-a .ui-radio-on:after,
 html body .ui-group-theme-a .ui-radio-on:after,
 .ui-btn.ui-radio-on.ui-btn-a:after {
-  border-color: #9cc6e9;
+  border-color: #bdbdbe;
 }
 
 /* Focus */
@@ -468,7 +468,7 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-  background-color: #0078bb;
+  background-color: #ed174f;
   border-color: #1b1b1b;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -499,7 +499,7 @@ html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
   background-color: white;
   border-color: #1d1d1d;
-  color: black;
+  color: #4d4d4f;
   text-shadow: 0 1 0 #111111;
 }
 
@@ -513,7 +513,7 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-  color: black;
+  color: #4d4d4f;
   font-weight: normal;
   text-decoration: none;
 }
@@ -522,21 +522,21 @@ html body .ui-group-theme-b a {
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-  color: black;
+  color: #4d4d4f;
 }
 
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
 html .ui-body-b a:hover,
 html body .ui-group-theme-b a:hover {
-  color: black;
+  color: #4d4d4f;
 }
 
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
 html body .ui-group-theme-b a:active {
-  color: black;
+  color: #4d4d4f;
 }
 
 /* Button up */
@@ -550,7 +550,7 @@ html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
 html body .ui-group-theme-b .ui-btn:visited,
 html head + body .ui-btn.ui-btn-b:visited {
-  background-color: #0078bb;
+  background-color: #ed174f;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -562,7 +562,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-  background-color: #9cc6e9;
+  background-color: #bdbdbe;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -574,7 +574,7 @@ html .ui-bar-b .ui-btn:active,
 html .ui-body-b .ui-btn:active,
 html body .ui-group-theme-b .ui-btn:active,
 html head + body .ui-btn.ui-btn-b:active {
-  background-color: #9cc6e9;
+  background-color: #bdbdbe;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -682,8 +682,8 @@ button[disabled],
 
 button,
 .ui-btn {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
@@ -719,8 +719,8 @@ label.ui-btn {
 }
 
 .ui-popup.ui-corner-all {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   border-width: 0;
 }
 
@@ -741,12 +741,12 @@ label.ui-btn {
 }
 /* BRANDING */
 .dotter-brand-adjust:before {
-  content: "Nicotinell\00AE  ";
+  content: "";
 }
 
 /*Border between upsell products*/
 .dotter-border-a {
-  border-color: #0078bb;
+  border-color: #ed174f;
 }
 
 .dotter-border-b,
@@ -763,16 +763,16 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 1px solid #0078bb;
+  border: 1px solid #ed174f;
   background-color: white;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .retailerchoice .dotter-label {
-  -webkit-border-radius: 5px 5px 0px 0px;
-  border-radius: 5px 5px 0px 0px;
-  background: #0078bb;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
+  background: #ed174f;
   color: white;
   padding: .5em;
 }
@@ -806,7 +806,7 @@ label.ui-btn {
 }
 
 .dotter-breadcrumbs .dotter-active {
-  color: #0078bb;
+  color: #ed174f;
 }
 .dotter-breadcrumbs .dotter-active:before {
   color: #000;
@@ -816,27 +816,27 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
   font-size: 1.3em;
   padding: .7em 1em;
-  line-height: 0.9em;
+  line-height: 0.5em;
 }
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 2px solid #9cc6e9;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border: 1px solid #bdbdbe;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
   font-size: 1.1em;
-  color: black;
+  color: #4d4d4f;
 }
 .dotter-product-details .dotter-product-image {
   background-color: white;
@@ -849,10 +849,10 @@ label.ui-btn {
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-  background-color: #9cc6e9;
+  background-color: #bdbdbe;
 }
 .dotter-product-info.dotter-icon:hover:before {
-  background-color: #0078bb;
+  background-color: #ed174f;
 }
 
 /*Price*/
@@ -885,7 +885,7 @@ label.ui-btn {
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   background: white;
-  color: #0078bb;
+  color: #ed174f;
   font-size: 1em;
 }
 
@@ -900,30 +900,30 @@ html .ui-btn.btn-lrg {
 /*Add and qty select btns in product panel (should be std btn)*/
 .dotter-add-to-basket .ui-btn.dotter-product-add,
 .dotter-deeplink-button {
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   border: 0px;
   font-size: 1.1em;
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added,
 .dotter-deeplink-button .ui-btn.dotter-product-added {
-  background: #0078bb;
+  background: #ed174f;
 }
 
 .dotter-spinner input {
-  border-color: #0078bb;
+  border-color: #ed174f;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
-  -webkit-border-radius: 0px 15px 15px 0px;
-  border-radius: 0px 15px 15px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 .dotter-spinner .ui-btn.ui-icon-minus {
-  -webkit-border-radius: 15px 0px 0px 15px;
-  border-radius: 15px 0px 0px 15px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
-  border-color: #0078bb;
+  border-color: #ed174f;
 }
 
 /*--------------------*/
@@ -957,37 +957,37 @@ html .ui-btn.btn-lrg {
   /* Basket product title */
 }
 .dotter-basket-details .dotter-basket-content {
-  border: 1px solid #9cc6e9;
+  border: 1px solid #4d4d4f;
   border-bottom: none;
-  background-color: #e4eef6;
-  -webkit-border-radius: 5px 5px 0px 0px;
-  border-radius: 5px 5px 0px 0px;
+  background-color: #fcfcfc;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
-  background: #0078bb;
+  background: #ed174f;
   color: white;
-  -webkit-border-radius: 0px 0px 5px 5px;
-  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 .dotter-basket-details .dotter-product-title {
   color: black;
 }
 
 .dotter-retailer-info.dotter-small-prints {
-  color: #9cc6e9;
+  color: #4d4d4f;
   font-size: 1.2em;
 }
 
 /*Upsell slider*/
 .dotter-has-upsell h3 {
-  color: #0078bb;
+  color: #ed174f;
 }
 
 /*----------------*/
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-  color: #0078bb;
+  color: #ed174f;
   font-weight: normal;
 }
 
@@ -1005,7 +1005,7 @@ html .ui-btn.btn-lrg {
 .slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
-  color: #0078bb;
+  color: #ed174f;
 }
 
 html .ui-body-a {
@@ -1014,7 +1014,7 @@ html .ui-body-a {
 }
 
 .dotter-product-details.dotter-after-scroll-to-selected {
-  border: 2px solid #9cc6e9;
+  border: 1px solid #bdbdbe;
   background-color: white;
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(156, 198, 233, 0.25);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(156, 198, 233, 0.25);
@@ -1025,41 +1025,41 @@ html .ui-body-a {
 /* Navigation bar     */
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
-  background: #0078bb;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background: #ed174f;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: #9cc6e9;
-  color: white;
-  font-family: "itcfranklingothicstd-dmcp", Arial, Verdana, sans-serif;
-  text-transform: normal;
+  background-color: white;
+  color: #bdbdbe;
+  font-family: "Avenir-lt", sans-serif;
+  text-transform: capitalize;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #9cc6e9;
-  border-color: #0078bb;
-  color: #0078bb;
+  background-color: white;
+  border-color: #bdbdbe;
+  color: #4d4d4f;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:after {
   content: "";
-  color: #0078bb;
+  color: #ed174f;
   position: absolute;
   right: -.2em;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 5px 0px 0px 5px;
-  border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: #0078bb;
+  background-color: #ed174f;
   color: white;
 }
 
@@ -1081,16 +1081,16 @@ html .ui-body-a {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 17%;
+  width: 20%;
   border-left: 0;
 }
 .dotter-store-grid-container .dotter-navigation-container {
-  background-color: #9cc6e9;
+  background-color: white;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #0078bb;
-  color: #9cc6e9;
+  background-color: #ed174f;
+  color: #bdbdbe;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a {
@@ -1099,29 +1099,9 @@ html .ui-body-a {
 
 /* Fonts */
 @font-face {
-  font-family: 'FranklinGothicURWCon-Boo';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_0_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-Med';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_1_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-Dem';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_2_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'FranklinGothicURWCon-DemIta';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/26A15B_5_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'itcfranklingothicstd-dmcp';
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.eot");
-  src: url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.woff") format("woff"), url("//cdn.dotter.me/themes/Nicotinell/fonts/itcfranklingothicstd-dmcp.ttf") format("truetype");
+  font-family: 'Avenir-lt';
+  src: url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot");
+  src: url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.woff") format("woff"), url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.ttf") format("truetype");
 }
 .ui-header, .ui-footer {
   border: none;
@@ -1129,7 +1109,7 @@ html .ui-body-a {
 
 button,
 .ui-btn {
-  font-family: 'itcfranklingothicstd-dmcp',Arial,Verdana,sans-serif;
+  font-family: 'Avenir-lt',sans-serif;
 }
 
 /*----------------------------*/
@@ -1137,9 +1117,7 @@ button,
 /*----------------------------*/
 @media all and (min-width: 36em) {
   .basket-page {
-    border-width: 2px;
-    border-style: solid;
-    border: 2px solid #0078bb;
+    border: 1px solid #ed174f;
   }
 }
 .dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
@@ -1166,16 +1144,16 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
-  background: #0078bb !important;
+  background: #ed174f !important;
 }
 
 .dotter-spinner input {
-  border-color: #9cc6e9;
+  border-color: #ed174f;
 }
 
 /* Login Panel */
 .dotter-retailer-info.dotter-small-prints {
-  color: #0078bb;
+  color: #ed174f;
 }
 
 /*# sourceMappingURL=dotter.css.map */
