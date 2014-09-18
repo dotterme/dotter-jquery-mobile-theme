@@ -1034,7 +1034,7 @@ html .ui-body-a {
   -webkit-border-radius: 0;
   border-radius: 0;
   background-color: white;
-  color: #bdbdbe;
+  color: #4d4d4f;
   font-family: "Avenir-lt", sans-serif;
   text-transform: capitalize;
 }
@@ -1042,7 +1042,7 @@ html .ui-body-a {
 .dotter-navigation.ui-navbar .ui-btn:hover {
   background-color: white;
   border-color: #bdbdbe;
-  color: #4d4d4f;
+  color: #bdbdbe;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:after {
