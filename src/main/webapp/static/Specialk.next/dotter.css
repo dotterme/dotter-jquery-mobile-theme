@@ -849,10 +849,10 @@ label.ui-btn {
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-  background-color: #bdbdbe;
+  background-color: #ed174f;
 }
 .dotter-product-info.dotter-icon:hover:before {
-  background-color: #ed174f;
+  background-color: #bdbdbe;
 }
 
 /*Price*/

@@ -29,6 +29,8 @@ $dtr-store-basket-total-color: #000 !default;
 $dtr-store-product-abstract-color: #000 !default;
 $dtr-store-text-a: #000 !default;
 $dtr-store-text-b: #000 !default;
+$dtr-store-product-info-btn-background-color: $secondary-color !default;
+$dtr-store-product-info-btn-background-hover-color: $primary-color !default;
 
 $dtr-store-popup-radii: 0 !default;
 $dtr-store-popup-border-width: 0 !default;
@@ -231,10 +233,10 @@ label.ui-btn {
 /*Info button Icon*/
 .dotter-product-info.dotter-icon {
   &:before {
-    background-color: $secondary-color;
+    background-color: $dtr-store-product-info-btn-background-color;
   }
   &:hover:before {
-    background-color: $primary-color;
+    background-color: $dtr-store-product-info-btn-background-hover-color;
   }
 }
 
