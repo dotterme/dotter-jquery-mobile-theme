@@ -865,3 +865,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .panel.bottom > .ui-btn {
 	float: right;
 }
+
+/* Hasbro specific OOS message */
+.availability.dotter-text-b {
+    font-size: 14px;
+}

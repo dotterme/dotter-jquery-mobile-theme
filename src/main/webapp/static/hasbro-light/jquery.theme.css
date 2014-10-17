@@ -878,3 +878,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	font-size: .6em;
 	color: #999999;
 }
+
+/* Hasbro specific OOS message */
+.availability.dotter-text-b {
+    font-size: 14px;
+}
