@@ -1,0 +1,194 @@
+$primary-color: #F79549;
+$secondary-color: #F79549;
+$tertiary-color: #fcfbfa;
+
+$global-font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+$global-font-size: .825em;
+$global-box-shadow-size: 0;
+$global-border-width-buttons: 0;
+$global-border-style-buttons: none;
+$global-radii-buttons: 3px;
+$global-radii-buttons-notext: 3px;
+
+$a-page-background-color: none;
+$a-page-shadow-x: 0;
+$a-page-shadow-y: 0;
+$a-page-shadow-radius: 0;
+$a-page-shadow-color: transparent;
+
+$a-bar-background-color: $primary-color;
+$a-bar-color: #fff;
+$a-bar-border: #ddd !default;
+$a-bar-shadow-x: none;
+$a-bar-shadow-y: unquote('');
+$a-bar-shadow-radius: unquote('');
+$a-bar-shadow-color: transparent;
+
+$a-body-shadow-x: 0;
+$a-body-shadow-y: 0;
+$a-body-shadow-radius: 0;
+$a-body-shadow-color: transparent;
+
+$a-link-color: #69737c;
+$a-link-text-decoration: none;
+$a-link-font-weight: normal;
+$a-link-visited: #69737c;
+$a-link-hover: #69737c;
+$a-link-active: #69737c;
+
+$a-bup-background-color: $secondary-color;
+$a-bup-border: $secondary-color;
+$a-bup-color: #fff;
+$a-bup-shadow-x: none;
+$a-bup-shadow-y: unquote('');
+$a-bup-shadow-radius: unquote('');
+$a-bup-shadow-color: transparent;
+
+$a-bhover-background-color: $secondary-color;
+$a-bhover-border: $primary-color;
+$a-bhover-color: #fff;
+$a-bhover-shadow-x: none;
+$a-bhover-shadow-y: unquote('');
+$a-bhover-shadow-radius: unquote('');
+$a-bhover-shadow-color: transparent;
+
+$a-bdown-background-color: $primary-color;
+$a-bdown-border: $secondary-color;
+$a-bdown-color: #fff;
+$a-bdown-shadow-x: none;
+$a-bdown-shadow-y: unquote('');
+$a-bdown-shadow-radius: unquote('');
+$a-bdown-shadow-color: unquote('');
+
+$a-active-shadow-x: none;
+$a-active-shadow-y: unquote('');
+$a-active-shadow-radius: unquote('');
+$a-active-shadow-color: transparent;
+$a-active-box-shadow: none;
+$a-active-border-color: $primary-color;
+
+$b-bar-color: #fff;
+$b-bar-background-color: $primary-color;
+$b-bar-shadow-color: transparent;
+
+$b-body-background-color: #fff;
+$b-body-color: #69737c;
+$b-body-shadow-x: 0;
+$b-body-shadow-y: 1;
+$b-body-shadow-radius: 0;
+
+$b-bup-background-color: $primary-color;
+$b-bup-shadow-x: 0;
+$b-bup-shadow-y: 0;
+$b-bup-shadow-radius: 0;
+$b-bup-shadow-color: transparent;
+
+$b-bhover-background-color: $primary-color;
+$b-bhover-shadow-x: 0;
+$b-bhover-shadow-y: 0;
+$b-bhover-shadow-radius: 0;
+$b-bhover-shadow-color: transparent;
+
+$b-bdown-background-color: $primary-color;
+
+$b-link-color: #69737c;
+$b-link-text-decoration: none;
+$b-link-font-weight: normal;
+$b-link-visited: #69737c;
+$b-link-hover: #69737c;
+$b-link-active: #69737c;
+
+$dtr-store-text-a: #69737c;
+$dtr-store-text-b: #69737c;
+
+$dtr-store-brand: '';
+$dtr-store-border-radius: 3px;
+$dtr-store-popup-radii: 3px;
+
+$dtr-store-retailer-select-panel-border: 1px solid #e1dfd9;
+$dtr-store-product-details-border: 1px solid #e1dfd9;
+$dtr-store-product-image-background-color: $tertiary-color;
+$dtr-store-product-abstract-color: #69737c;
+$dtr-store-spinner-border-radius: 3px;
+$dtr-store-basket-content-background-color: $tertiary-color;
+$dtr-store-basket-total-color: #fff;
+$dtr-store-basket-product-title-color: #69737c;
+$dtr-store-product-name-h4-color: $primary-color;
+
+$dtr-store-navbar-text-transform: uppercase;
+$dtr-store-navbar-btn-width: 25%;
+$dtr-store-navbar-btn-border: 1px dotted #fff;
+$dtr-store-navbar-background: transparent;
+$dtr-store-navbar-btn-color: #69737c;
+$dtr-store-navbar-btn-active-color: $primary-color;
+$dtr-store-navbar-btn-hover-color: #EEEEEE;
+$dtr-store-navbar-btn-background: #CEC794;
+$dtr-store-navbar-btn-hover-background: #CEC794;
+$dtr-store-navbar-btn-active-background: #CEC794;
+$dtr-store-navbar-active-hover-effect: false;
+
+
+@import '../default/reset';
+@import '../default/mixins';
+@import '../default/jquery-mobile.theme';
+@import '../default/store';
+
+/* Fonts */
+
+
+/*----------------*/
+/* HEADER SECTION */
+/*----------------*/
+
+
+
+/*---------------*/
+/* STORE BUTTONS */
+/*---------------*/
+html .ui-body-a .ui-btn.dotter-change-retailer,
+html .ui-body-a .ui-btn.dotter-checkoutasguest {
+  border: 1px solid $primary-color;
+  background-color: #fff;
+  color: $primary-color;
+}
+
+/*Select Retailer btn in product panel*/
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
+  background: $primary-color;
+  color: #fff;
+  border-radius: $dtr-store-border-radius;
+}
+
+/*--------------------*/
+/* Dotter Login Panel */
+/*--------------------*/
+.dotter-retailer-login .ui-input-text input {
+  background: $tertiary-color;
+  color: rgb(75, 75, 75);
+}
+
+/*--------------------*/
+/* Navigation bar     */
+/*--------------------*/
+
+.dotter-navigation-container .dotter-navigation ul li:nth-child(5) a {
+  @include border-radius(0px $dtr-store-border-radius $dtr-store-border-radius 0px);
+}
+
+
+
+/* Login Panel */
+
+.dotter-retailer-info.dotter-small-prints {
+  color: $primary-color;
+}
+
+/*--------------*/
+/* Basket panel */
+/*--------------*/
+.dotter-basket-details {
+  /*Basket panel styling*/
+  .dotter-basket-content {
+    border: 1px solid #e1dfd9;
+  }
+}
