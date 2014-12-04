@@ -2,7 +2,7 @@ $primary-color: #F79549;
 $secondary-color: #F79549;
 $tertiary-color: #fcfbfa;
 
-$global-font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+$global-font-family: "Bourgeois Medium", Verdana, Arial, Helvetica, sans-serif;;
 $global-font-size: .825em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
@@ -135,6 +135,18 @@ $dtr-store-navbar-active-hover-effect: false;
 
 /* Fonts */
 
+@font-face {
+  font-family: 'Bourgeois Medium';
+    src: url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot');
+    src: url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot?#iefix') format('embedded-opentype'),
+      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff2') format('woff2'),
+      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff') format('woff'),
+      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.ttf') format('truetype'),
+      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.svg#bourgeoismed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 /*----------------*/
 /* HEADER SECTION */

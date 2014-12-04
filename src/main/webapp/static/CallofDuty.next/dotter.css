@@ -66,7 +66,7 @@ button,
 .ui-btn {
   font-size: 0.825em;
   line-height: 1.3em;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Bourgeois Medium", Verdana, Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -1093,6 +1093,13 @@ html .ui-body-a {
 }
 
 /* Fonts */
+@font-face {
+  font-family: 'Bourgeois Medium';
+  src: url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot");
+  src: url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff2") format("woff2"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff") format("woff"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.ttf") format("truetype"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.svg#bourgeoismed") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
