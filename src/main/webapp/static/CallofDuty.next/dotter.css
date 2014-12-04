@@ -64,7 +64,7 @@ select,
 textarea,
 button,
 .ui-btn {
-  font-size: 0.825em;
+  font-size: 1em;
   line-height: 1.3em;
   font-family: "Bourgeois Medium", Verdana, Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -292,7 +292,7 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-  background-color: #f79549;
+  background-color: #cc9800;
   border-color: #dddddd;
   color: white;
   text-shadow: none   transparent;
@@ -308,7 +308,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  background-color: none;
+  background-color: black;
   border-color: #bbbbbb;
   color: #333333;
   text-shadow: 0 0 0 transparent;
@@ -321,9 +321,9 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-  background-color: white;
+  background-color: black;
   border-color: #dddddd;
-  color: #333333;
+  color: white;
   text-shadow: 0 0 0 transparent;
 }
 
@@ -337,7 +337,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-  color: #69737c;
+  color: white;
   font-weight: normal;
   text-decoration: none;
 }
@@ -346,21 +346,21 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-  color: #69737c;
+  color: white;
 }
 
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-  color: #69737c;
+  color: white;
 }
 
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-  color: #69737c;
+  color: white;
 }
 
 /* Button up */
@@ -375,8 +375,8 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited,
 html head + body .ui-btn.ui-btn-a:after {
-  background-color: #f79549;
-  border-color: #f79549;
+  background-color: #cc9800;
+  border-color: #cc9800;
   color: white;
   text-shadow: none   transparent;
 }
@@ -388,8 +388,8 @@ html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover,
 html head + body .ui-btn.ui-btn-a:hover:after {
-  background-color: #f79549;
-  border-color: #f79549;
+  background-color: #cc9800;
+  border-color: #cc9800;
   color: white;
   text-shadow: none   transparent;
 }
@@ -400,8 +400,8 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-  background-color: #f79549;
-  border-color: #f79549;
+  background-color: #cc9800;
+  border-color: white;
   color: white;
   text-shadow: none   ;
 }
@@ -427,8 +427,8 @@ html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-  background-color: #f79549;
-  border-color: #f79549;
+  background-color: #cc9800;
+  border-color: #cc9800;
   color: white;
   text-shadow: none   transparent;
 }
@@ -439,7 +439,7 @@ html .ui-bar-a .ui-radio-on:after,
 html .ui-body-a .ui-radio-on:after,
 html body .ui-group-theme-a .ui-radio-on:after,
 .ui-btn.ui-radio-on.ui-btn-a:after {
-  border-color: #f79549;
+  border-color: #cc9800;
 }
 
 /* Focus */
@@ -454,7 +454,7 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-  border-color: #f79549;
+  border-color: #cc9800;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -468,7 +468,7 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-  background-color: #f79549;
+  background-color: #cc9800;
   border-color: #1b1b1b;
   color: white;
   text-shadow: 0 1px 0 transparent;
@@ -499,7 +499,7 @@ html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
   background-color: white;
   border-color: #1d1d1d;
-  color: #69737c;
+  color: black;
   text-shadow: 0 1 0 #111111;
 }
 
@@ -513,7 +513,7 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-  color: #69737c;
+  color: black;
   font-weight: normal;
   text-decoration: none;
 }
@@ -522,21 +522,21 @@ html body .ui-group-theme-b a {
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-  color: #69737c;
+  color: black;
 }
 
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
 html .ui-body-b a:hover,
 html body .ui-group-theme-b a:hover {
-  color: #69737c;
+  color: black;
 }
 
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
 html body .ui-group-theme-b a:active {
-  color: #69737c;
+  color: black;
 }
 
 /* Button up */
@@ -550,7 +550,7 @@ html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
 html body .ui-group-theme-b .ui-btn:visited,
 html head + body .ui-btn.ui-btn-b:visited {
-  background-color: #f79549;
+  background-color: #cc9800;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 0 0 transparent;
@@ -562,7 +562,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-  background-color: #f79549;
+  background-color: #cc9800;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 0 0 transparent;
@@ -574,7 +574,7 @@ html .ui-bar-b .ui-btn:active,
 html .ui-body-b .ui-btn:active,
 html body .ui-group-theme-b .ui-btn:active,
 html head + body .ui-btn.ui-btn-b:active {
-  background-color: #f79549;
+  background-color: #cc9800;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -698,12 +698,12 @@ label.ui-btn {
 
 .ui-page-theme-a,
 .dotter-text-a {
-  color: #69737c;
+  color: white;
 }
 
 .ui-page-theme-b,
 .dotter-text-b {
-  color: #69737c;
+  color: white;
 }
 
 @media all and (min-width: 55em) {
@@ -746,7 +746,7 @@ label.ui-btn {
 
 /*Border between upsell products*/
 .dotter-border-a {
-  border-color: #f79549;
+  border-color: #cc9800;
 }
 
 .dotter-border-b,
@@ -763,8 +763,8 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 1px solid #e1dfd9;
-  background-color: white;
+  border: 2px solid #cc9800;
+  background-color: black;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -772,8 +772,8 @@ label.ui-btn {
 .retailerchoice .dotter-label {
   -webkit-border-radius: 3px 3px 0px 0px;
   border-radius: 3px 3px 0px 0px;
-  background: #f79549;
-  color: white;
+  background: #cc9800;
+  color: black;
   padding: .5em;
 }
 
@@ -806,7 +806,7 @@ label.ui-btn {
 }
 
 .dotter-breadcrumbs .dotter-active {
-  color: #f79549;
+  color: #cc9800;
 }
 .dotter-breadcrumbs .dotter-active:before {
   color: #000;
@@ -828,31 +828,31 @@ label.ui-btn {
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 1px solid #e1dfd9;
+  border: 2px solid #cc9800;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  background-color: white;
+  background-color: black;
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
   font-size: 1.1em;
-  color: #f79549;
+  color: #cc9800;
 }
 .dotter-product-details .dotter-product-image {
-  background-color: #fcfbfa;
+  background-color: black;
 }
 
 .dotter-product-abstract {
   font-size: .9em;
-  color: #69737c;
+  color: white;
 }
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-  background-color: #f79549;
+  background-color: #cc9800;
 }
 .dotter-product-info.dotter-icon:hover:before {
-  background-color: #f79549;
+  background-color: #cc9800;
 }
 
 /*Price*/
@@ -884,8 +884,8 @@ label.ui-btn {
 /*---------------*/
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: white;
-  color: #f79549;
+  background: black;
+  color: #cc9800;
   font-size: 1em;
 }
 
@@ -907,11 +907,11 @@ html .ui-btn.btn-lrg {
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added,
 .dotter-deeplink-button .ui-btn.dotter-product-added {
-  background: #f79549;
+  background: #cc9800;
 }
 
 .dotter-spinner input {
-  border-color: #f79549;
+  border-color: #cc9800;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
   -webkit-border-radius: 0px 3px 3px 0px;
@@ -923,7 +923,7 @@ html .ui-btn.btn-lrg {
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
-  border-color: #f79549;
+  border-color: #cc9800;
 }
 
 /*--------------------*/
@@ -957,37 +957,37 @@ html .ui-btn.btn-lrg {
   /* Basket product title */
 }
 .dotter-basket-details .dotter-basket-content {
-  border: 1px solid #fcfbfa;
+  border: 1px solid black;
   border-bottom: none;
-  background-color: #fcfbfa;
+  background-color: black;
   -webkit-border-radius: 3px 3px 0px 0px;
   border-radius: 3px 3px 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
-  background: #f79549;
+  background: #cc9800;
   color: white;
   -webkit-border-radius: 0px 0px 3px 3px;
   border-radius: 0px 0px 3px 3px;
 }
 .dotter-basket-details .dotter-product-title {
-  color: #69737c;
+  color: #cc9800;
 }
 
 .dotter-retailer-info.dotter-small-prints {
-  color: #fcfbfa;
+  color: black;
   font-size: 1.2em;
 }
 
 /*Upsell slider*/
 .dotter-has-upsell h3 {
-  color: #f79549;
+  color: #cc9800;
 }
 
 /*----------------*/
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-  color: #f79549;
+  color: #cc9800;
   font-weight: normal;
 }
 
@@ -1005,7 +1005,7 @@ html .ui-btn.btn-lrg {
 .slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
-  color: #f79549;
+  color: #cc9800;
 }
 
 html .ui-body-a {
@@ -1014,8 +1014,8 @@ html .ui-body-a {
 }
 
 .dotter-product-details.dotter-after-scroll-to-selected {
-  border: 1px solid #e1dfd9;
-  background-color: white;
+  border: 2px solid #cc9800;
+  background-color: black;
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
@@ -1025,7 +1025,8 @@ html .ui-body-a {
 /* Navigation bar     */
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
-  background: #f79549;
+  background: #cc9800;
+  border: 2px solid #cc9800;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -1033,21 +1034,21 @@ html .ui-body-a {
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: #cec794;
-  color: #69737c;
+  background-color: black;
+  color: #464646;
   font-family: inherit;
   text-transform: uppercase;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #cec794;
-  border-color: #f79549;
-  color: #eeeeee;
+  background-color: black;
+  border-color: #cc9800;
+  color: white;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:after {
   content: "";
-  color: #f79549;
+  color: #cc9800;
   position: absolute;
   right: -.2em;
 }
@@ -1059,8 +1060,8 @@ html .ui-body-a {
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: #cec794;
-  color: #f79549;
+  background-color: black;
+  color: #cc9800;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
@@ -1081,8 +1082,8 @@ html .ui-body-a {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 25%;
-  border-left: 1px dotted white;
+  width: 16.6%;
+  border-left: 2px solid #cc9800;
 }
 .dotter-store-grid-container .dotter-navigation-container {
   background-color: transparent;
@@ -1108,14 +1109,14 @@ html .ui-body-a {
 /*---------------*/
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  border: 1px solid #f79549;
+  border: 1px solid #cc9800;
   background-color: #fff;
-  color: #f79549;
+  color: #cc9800;
 }
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: #f79549;
+  background: #cc9800;
   color: #fff;
   border-radius: 3px;
 }
@@ -1124,21 +1125,21 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Dotter Login Panel */
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
-  background: #fcfbfa;
+  background: black;
   color: #4b4b4b;
 }
 
 /*--------------------*/
 /* Navigation bar     */
 /*--------------------*/
-.dotter-navigation-container .dotter-navigation ul li:nth-child(5) a {
+.dotter-navigation-container .dotter-navigation ul li:nth-child(6) a {
   -webkit-border-radius: 0px 3px 3px 0px;
   border-radius: 0px 3px 3px 0px;
 }
 
 /* Login Panel */
 .dotter-retailer-info.dotter-small-prints {
-  color: #f79549;
+  color: #cc9800;
 }
 
 /*--------------*/
@@ -1148,7 +1149,7 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   /*Basket panel styling*/
 }
 .dotter-basket-details .dotter-basket-content {
-  border: 1px solid #e1dfd9;
+  border: 2px solid #cc9800;
 }
 
 /*# sourceMappingURL=dotter.css.map */

@@ -1026,6 +1026,7 @@ html .ui-body-a {
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
   background: #f79549;
+  border: 0;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }

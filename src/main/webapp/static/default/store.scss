@@ -42,6 +42,7 @@ $dtr-store-navbar-btn-width: inherit !default;
 $dtr-store-navbar-btn-border: 0 !default;
 $dtr-store-navbar-btn-text-border: "" !default;
 $dtr-store-navbar-background: $secondary-color !default;
+$dtr-store-navbar-border: 0 !default;
 
 $dtr-store-navbar-btn-background: $secondary-color !default;
 $dtr-store-navbar-btn-hover-background: $a-bup-background-color !default;
@@ -409,6 +410,7 @@ html .ui-body-a {
 
 .dotter-store-grid-container .dotter-navigation-container {
   background: $primary-color;
+  border: $dtr-store-navbar-border;
   @include border-radius($dtr-store-border-radius);
 }
 
