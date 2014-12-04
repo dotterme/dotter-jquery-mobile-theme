@@ -123,7 +123,7 @@ $dtr-store-product-info-btn-background-hover-color: $primary-color;
 
 $dtr-store-navbar-text-transform: uppercase;
 $dtr-store-navbar-btn-width: 16.6%;
-$dtr-store-navbar-btn-border: 2px solid #cc9800;
+$dtr-store-navbar-btn-border: none;
 $dtr-store-navbar-background: transparent;
 $dtr-store-navbar-btn-color: #464646;
 $dtr-store-navbar-btn-active-color: $primary-color;
@@ -210,4 +210,9 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   .dotter-basket-content {
     border: 2px solid $primary-color;
   }
+}
+
+/*Price*/
+.price, .offer {
+  color: #fff;
 }

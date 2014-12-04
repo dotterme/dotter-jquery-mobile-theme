@@ -1083,7 +1083,7 @@ html .ui-body-a {
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
   width: 16.6%;
-  border-left: 2px solid #cc9800;
+  border-left: none;
 }
 .dotter-store-grid-container .dotter-navigation-container {
   background-color: transparent;
@@ -1150,6 +1150,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 }
 .dotter-basket-details .dotter-basket-content {
   border: 2px solid #cc9800;
+}
+
+/*Price*/
+.price, .offer {
+  color: #fff;
 }
 
 /*# sourceMappingURL=dotter.css.map */
