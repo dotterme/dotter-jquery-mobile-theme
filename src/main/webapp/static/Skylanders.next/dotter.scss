@@ -1,18 +1,18 @@
-$primary-color: #cc9800;
+$primary-color: #5096ff;
 $secondary-color: #fff;
 $tertiary-color: #000;
 
-$global-font-family: "Bourgeois Medium", Verdana, Arial, Helvetica, sans-serif;;
-$global-font-size: 1em;
+$global-font-family: montserratregular, Arial, Helvetica, sans-serif;
+$global-font-size: .9em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
 $global-border-style-buttons: none;
-$global-radii-buttons: 3px;
-$global-radii-buttons-notext: 3px;
+$global-radii-buttons: 15px;
+$global-radii-buttons-notext: 15px;
 
 $a-body-color: $secondary-color;
-$a-body-background-color: #000000;
-$a-page-background-color: #000000;
+$a-body-background-color: #ffffff;
+$a-page-background-color: #ffffff;
 $a-page-shadow-x: 0;
 $a-page-shadow-y: 0;
 $a-page-shadow-radius: 0;
@@ -31,15 +31,15 @@ $a-body-shadow-y: 0;
 $a-body-shadow-radius: 0;
 $a-body-shadow-color: transparent;
 
-$a-link-color: $secondary-color;
+$a-link-color: $primary-color;
 $a-link-text-decoration: none;
 $a-link-font-weight: normal;
-$a-link-visited: $secondary-color;
-$a-link-hover: $secondary-color;
-$a-link-active: $secondary-color;
+$a-link-visited: $primary-color;
+$a-link-hover: $primary-color;
+$a-link-active: $primary-color;
 
 $a-bup-background-color: $primary-color;
-$a-bup-border: $primary-color;
+$a-bup-border: $secondary-color;
 $a-bup-color: $secondary-color;
 $a-bup-shadow-x: none;
 $a-bup-shadow-y: unquote('');
@@ -47,7 +47,7 @@ $a-bup-shadow-radius: unquote('');
 $a-bup-shadow-color: transparent;
 
 $a-bhover-background-color: $primary-color;
-$a-bhover-border: $primary-color;
+$a-bhover-border: $secondary-color;
 $a-bhover-color: $secondary-color;
 $a-bhover-shadow-x: none;
 $a-bhover-shadow-y: unquote('');
@@ -67,7 +67,7 @@ $a-active-shadow-y: unquote('');
 $a-active-shadow-radius: unquote('');
 $a-active-shadow-color: transparent;
 $a-active-box-shadow: none;
-$a-active-border-color: $primary-color;
+$a-active-border-color: $secondary-color;
 
 $b-bar-color: $secondary-color;
 $b-bar-background-color: $primary-color;
@@ -104,17 +104,16 @@ $dtr-store-text-a: $secondary-color;
 $dtr-store-text-b: $secondary-color;
 
 $dtr-store-brand: '';
-$dtr-store-border-radius: 3px;
-$dtr-store-popup-radii: 3px;
+$dtr-store-border-radius: 15px;
+$dtr-store-popup-radii: 5px;
 
 $dtr-store-retailer-select-panel-border: 2px solid $primary-color;
-$dtr-store-retailer-select-panel-background-color: $tertiary-color;
+$dtr-store-retailer-select-panel-background-color: $secondary-color;
 $dtr-store-product-details-border: 2px solid $primary-color;
-$dtr-store-product-details-background-color: $tertiary-color;
-$dtr-store-product-image-background-color: $tertiary-color;
-$dtr-store-product-abstract-color: #fff;
+$dtr-store-product-image-background-color: $secondary-color;
+$dtr-store-product-abstract-color: #333;
 $dtr-store-spinner-border-radius: 3px;
-$dtr-store-basket-content-background-color: $tertiary-color;
+$dtr-store-basket-content-background-color: $secondary-color;
 $dtr-store-basket-total-color: #fff;
 $dtr-store-basket-product-title-color: $primary-color;
 $dtr-store-product-name-h4-color: $primary-color;
@@ -125,12 +124,12 @@ $dtr-store-navbar-text-transform: uppercase;
 $dtr-store-navbar-btn-width: 16.6%;
 $dtr-store-navbar-btn-border: none;
 $dtr-store-navbar-background: transparent;
-$dtr-store-navbar-btn-color: #464646;
+$dtr-store-navbar-btn-color: #ddd;
 $dtr-store-navbar-btn-active-color: $primary-color;
-$dtr-store-navbar-btn-hover-color: #ffffff;
-$dtr-store-navbar-btn-background: #000000;
-$dtr-store-navbar-btn-hover-background: #000000;
-$dtr-store-navbar-btn-active-background: #000000;
+$dtr-store-navbar-btn-hover-color: #bbb;
+$dtr-store-navbar-btn-background: transparent;
+$dtr-store-navbar-btn-hover-background: transparent;
+$dtr-store-navbar-btn-active-background: transparent;
 $dtr-store-navbar-active-hover-effect: false;
 $dtr-store-navbar-border: 2px solid $primary-color;
 
@@ -142,18 +141,7 @@ $dtr-store-navbar-border: 2px solid $primary-color;
 
 /* Fonts */
 
-@font-face {
-  font-family: 'Bourgeois Medium';
-    src: url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot');
-    src: url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot?#iefix') format('embedded-opentype'),
-      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff2') format('woff2'),
-      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff') format('woff'),
-      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.ttf') format('truetype'),
-      url('//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.svg#bourgeoismed') format('svg');
-  font-weight: normal;
-  font-style: normal;
 
-}
 
 /*----------------*/
 /* HEADER SECTION */
@@ -166,23 +154,26 @@ $dtr-store-navbar-border: 2px solid $primary-color;
 /*---------------*/
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  border: 1px solid $primary-color;
-  background-color: #fff;
+  border: 2px solid $primary-color;
+  background-color: #eee;
   color: $primary-color;
+  border-radius: 10px;
 }
 
 /*Select Retailer btn in product panel*/
-div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: $primary-color;
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
+  background-color: #e10000 !important;
   color: #fff;
   border-radius: $dtr-store-border-radius;
+  border: 3px solid $secondary-color;
+  box-shadow: 0px 2px 1px #666;
 }
 
 /*--------------------*/
 /* Dotter Login Panel */
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
-  background: $tertiary-color;
+  background: $secondary-color;
   color: rgb(75, 75, 75);
 }
 
@@ -214,5 +205,5 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 
 /*Price*/
 .price, .offer {
-  color: #fff;
+  color: #e10000;
 }

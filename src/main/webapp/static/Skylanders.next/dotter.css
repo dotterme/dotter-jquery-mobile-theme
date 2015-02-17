@@ -64,9 +64,9 @@ select,
 textarea,
 button,
 .ui-btn {
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.3em;
-  font-family: "Bourgeois Medium", Verdana, Arial, Helvetica, sans-serif;
+  font-family: montserratregular, Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -144,8 +144,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 /* Buttons */
@@ -154,15 +154,15 @@ label.ui-btn {
 .ui-slider-track.ui-corner-all,
 .ui-flipswitch.ui-corner-all,
 .ui-li-count {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
 .ui-btn-icon-notext.ui-corner-all {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 /* Radius clip workaround for cleaning up corner trapping */
@@ -292,7 +292,7 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-  background-color: #cc9800;
+  background-color: #5096ff;
   border-color: #dddddd;
   color: white;
   text-shadow: none   transparent;
@@ -308,7 +308,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  background-color: black;
+  background-color: white;
   border-color: #bbbbbb;
   color: #333333;
   text-shadow: 0 0 0 transparent;
@@ -321,7 +321,7 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-  background-color: black;
+  background-color: white;
   border-color: #dddddd;
   color: white;
   text-shadow: 0 0 0 transparent;
@@ -337,7 +337,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-  color: white;
+  color: #5096ff;
   font-weight: normal;
   text-decoration: none;
 }
@@ -346,21 +346,21 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-  color: white;
+  color: #5096ff;
 }
 
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-  color: white;
+  color: #5096ff;
 }
 
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-  color: white;
+  color: #5096ff;
 }
 
 /* Button up */
@@ -375,8 +375,8 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited,
 html head + body .ui-btn.ui-btn-a:after {
-  background-color: #cc9800;
-  border-color: #cc9800;
+  background-color: #5096ff;
+  border-color: white;
   color: white;
   text-shadow: none   transparent;
 }
@@ -388,8 +388,8 @@ html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover,
 html head + body .ui-btn.ui-btn-a:hover:after {
-  background-color: #cc9800;
-  border-color: #cc9800;
+  background-color: #5096ff;
+  border-color: white;
   color: white;
   text-shadow: none   transparent;
 }
@@ -400,7 +400,7 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-  background-color: #cc9800;
+  background-color: #5096ff;
   border-color: white;
   color: white;
   text-shadow: none   ;
@@ -427,8 +427,8 @@ html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-  background-color: #cc9800;
-  border-color: #cc9800;
+  background-color: #5096ff;
+  border-color: white;
   color: white;
   text-shadow: none   transparent;
 }
@@ -439,7 +439,7 @@ html .ui-bar-a .ui-radio-on:after,
 html .ui-body-a .ui-radio-on:after,
 html body .ui-group-theme-a .ui-radio-on:after,
 .ui-btn.ui-radio-on.ui-btn-a:after {
-  border-color: #cc9800;
+  border-color: #5096ff;
 }
 
 /* Focus */
@@ -454,7 +454,7 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-  border-color: #cc9800;
+  border-color: white;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -468,7 +468,7 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-  background-color: #cc9800;
+  background-color: #5096ff;
   border-color: #1b1b1b;
   color: white;
   text-shadow: 0 1px 0 transparent;
@@ -550,7 +550,7 @@ html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
 html body .ui-group-theme-b .ui-btn:visited,
 html head + body .ui-btn.ui-btn-b:visited {
-  background-color: #cc9800;
+  background-color: #5096ff;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 0 0 transparent;
@@ -562,7 +562,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-  background-color: #cc9800;
+  background-color: #5096ff;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 0 0 transparent;
@@ -574,7 +574,7 @@ html .ui-bar-b .ui-btn:active,
 html .ui-body-b .ui-btn:active,
 html body .ui-group-theme-b .ui-btn:active,
 html head + body .ui-btn.ui-btn-b:active {
-  background-color: #cc9800;
+  background-color: #5096ff;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -682,8 +682,8 @@ button[disabled],
 
 button,
 .ui-btn {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
@@ -719,8 +719,8 @@ label.ui-btn {
 }
 
 .ui-popup.ui-corner-all {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   border-width: 0;
 }
 
@@ -746,7 +746,7 @@ label.ui-btn {
 
 /*Border between upsell products*/
 .dotter-border-a {
-  border-color: #cc9800;
+  border-color: #5096ff;
 }
 
 .dotter-border-b,
@@ -763,17 +763,17 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid #cc9800;
-  background-color: black;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  border: 2px solid #5096ff;
+  background-color: white;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .retailerchoice .dotter-label {
-  -webkit-border-radius: 3px 3px 0px 0px;
-  border-radius: 3px 3px 0px 0px;
-  background: #cc9800;
-  color: black;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
+  background: #5096ff;
+  color: white;
   padding: .5em;
 }
 
@@ -806,7 +806,7 @@ label.ui-btn {
 }
 
 .dotter-breadcrumbs .dotter-active {
-  color: #cc9800;
+  color: #5096ff;
 }
 .dotter-breadcrumbs .dotter-active:before {
   color: #000;
@@ -816,8 +816,8 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
@@ -828,31 +828,31 @@ label.ui-btn {
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 2px solid #cc9800;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  background-color: black;
+  border: 2px solid #5096ff;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
   text-align: center;
   font-size: 1.1em;
-  color: #cc9800;
+  color: #5096ff;
 }
 .dotter-product-details .dotter-product-image {
-  background-color: black;
+  background-color: white;
 }
 
 .dotter-product-abstract {
   font-size: .9em;
-  color: white;
+  color: #333333;
 }
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-  background-color: #cc9800;
+  background-color: #5096ff;
 }
 .dotter-product-info.dotter-icon:hover:before {
-  background-color: #cc9800;
+  background-color: #5096ff;
 }
 
 /*Price*/
@@ -884,8 +884,8 @@ label.ui-btn {
 /*---------------*/
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: black;
-  color: #cc9800;
+  background: white;
+  color: #5096ff;
   font-size: 1em;
 }
 
@@ -907,11 +907,11 @@ html .ui-btn.btn-lrg {
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added,
 .dotter-deeplink-button .ui-btn.dotter-product-added {
-  background: #cc9800;
+  background: #5096ff;
 }
 
 .dotter-spinner input {
-  border-color: #cc9800;
+  border-color: #5096ff;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
   -webkit-border-radius: 0px 3px 3px 0px;
@@ -923,7 +923,7 @@ html .ui-btn.btn-lrg {
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
-  border-color: #cc9800;
+  border-color: #5096ff;
 }
 
 /*--------------------*/
@@ -959,18 +959,18 @@ html .ui-btn.btn-lrg {
 .dotter-basket-details .dotter-basket-content {
   border: 1px solid black;
   border-bottom: none;
-  background-color: black;
-  -webkit-border-radius: 3px 3px 0px 0px;
-  border-radius: 3px 3px 0px 0px;
+  background-color: white;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
-  background: #cc9800;
+  background: #5096ff;
   color: white;
-  -webkit-border-radius: 0px 0px 3px 3px;
-  border-radius: 0px 0px 3px 3px;
+  -webkit-border-radius: 0px 0px 15px 15px;
+  border-radius: 0px 0px 15px 15px;
 }
 .dotter-basket-details .dotter-product-title {
-  color: #cc9800;
+  color: #5096ff;
 }
 
 .dotter-retailer-info.dotter-small-prints {
@@ -980,14 +980,14 @@ html .ui-btn.btn-lrg {
 
 /*Upsell slider*/
 .dotter-has-upsell h3 {
-  color: #cc9800;
+  color: #5096ff;
 }
 
 /*----------------*/
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-  color: #cc9800;
+  color: #5096ff;
   font-weight: normal;
 }
 
@@ -1005,7 +1005,7 @@ html .ui-btn.btn-lrg {
 .slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
-  color: #cc9800;
+  color: #5096ff;
 }
 
 html .ui-body-a {
@@ -1014,8 +1014,8 @@ html .ui-body-a {
 }
 
 .dotter-product-details.dotter-after-scroll-to-selected {
-  border: 2px solid #cc9800;
-  background-color: black;
+  border: 2px solid #5096ff;
+  background-color: white;
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
@@ -1025,43 +1025,43 @@ html .ui-body-a {
 /* Navigation bar     */
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
-  background: #cc9800;
-  border: 2px solid #cc9800;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  background: #5096ff;
+  border: 2px solid #5096ff;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: black;
-  color: #464646;
+  background-color: transparent;
+  color: #dddddd;
   font-family: inherit;
   text-transform: uppercase;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: black;
-  border-color: #cc9800;
-  color: white;
+  background-color: transparent;
+  border-color: white;
+  color: #bbbbbb;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:after {
   content: "";
-  color: #cc9800;
+  color: #5096ff;
   position: absolute;
   right: -.2em;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 3px 0px 0px 3px;
-  border-radius: 3px 0px 0px 3px;
+  -webkit-border-radius: 15px 0px 0px 15px;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: black;
-  color: #cc9800;
+  background-color: transparent;
+  color: #5096ff;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
@@ -1094,13 +1094,6 @@ html .ui-body-a {
 }
 
 /* Fonts */
-@font-face {
-  font-family: 'Bourgeois Medium';
-  src: url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot");
-  src: url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff2") format("woff2"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.woff") format("woff"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.ttf") format("truetype"), url("//cdn.dotter.me/brands/activision/themes/fonts/virus_-_bourgeois-med-webfont.svg#bourgeoismed") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
@@ -1109,23 +1102,26 @@ html .ui-body-a {
 /*---------------*/
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  border: 1px solid #cc9800;
-  background-color: #fff;
-  color: #cc9800;
+  border: 2px solid #5096ff;
+  background-color: #eee;
+  color: #5096ff;
+  border-radius: 10px;
 }
 
 /*Select Retailer btn in product panel*/
-div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: #cc9800;
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
+  background-color: #e10000 !important;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 15px;
+  border: 3px solid white;
+  box-shadow: 0px 2px 1px #666;
 }
 
 /*--------------------*/
 /* Dotter Login Panel */
 /*--------------------*/
 .dotter-retailer-login .ui-input-text input {
-  background: black;
+  background: white;
   color: #4b4b4b;
 }
 
@@ -1133,13 +1129,13 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 /* Navigation bar     */
 /*--------------------*/
 .dotter-navigation-container .dotter-navigation ul li:nth-child(6) a {
-  -webkit-border-radius: 0px 3px 3px 0px;
-  border-radius: 0px 3px 3px 0px;
+  -webkit-border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 15px 15px 0px;
 }
 
 /* Login Panel */
 .dotter-retailer-info.dotter-small-prints {
-  color: #cc9800;
+  color: #5096ff;
 }
 
 /*--------------*/
@@ -1149,12 +1145,12 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
   /*Basket panel styling*/
 }
 .dotter-basket-details .dotter-basket-content {
-  border: 2px solid #cc9800;
+  border: 2px solid #5096ff;
 }
 
 /*Price*/
 .price, .offer {
-  color: #fff;
+  color: #e10000;
 }
 
 /*# sourceMappingURL=dotter.css.map */
