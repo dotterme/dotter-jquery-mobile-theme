@@ -1,14 +1,14 @@
-$primary-color: #5096ff;
+$primary-color: #9d2125;
 $secondary-color: #fff;
 $tertiary-color: #000;
 
-$global-font-family: montserratregular, Arial, Helvetica, sans-serif;
+$global-font-family: Arial, Helvetica, sans-serif;
 $global-font-size: .9em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
 $global-border-style-buttons: none;
-$global-radii-buttons: 15px;
-$global-radii-buttons-notext: 15px;
+$global-radii-buttons: 0px;
+$global-radii-buttons-notext: 0px;
 
 $a-body-color: $secondary-color;
 $a-body-background-color: #ffffff;
@@ -104,8 +104,8 @@ $dtr-store-text-a: $secondary-color;
 $dtr-store-text-b: $secondary-color;
 
 $dtr-store-brand: '';
-$dtr-store-border-radius: 15px;
-$dtr-store-popup-radii: 5px;
+$dtr-store-border-radius: 0px;
+$dtr-store-popup-radii: 0px;
 
 $dtr-store-retailer-select-panel-border: 2px solid $primary-color;
 $dtr-store-retailer-select-panel-background-color: $secondary-color;
@@ -155,18 +155,16 @@ $dtr-store-navbar-border: 2px solid $primary-color;
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
   border: 2px solid $primary-color;
-  background-color: #eee;
-  color: $primary-color;
-  border-radius: 10px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  border-radius: $dtr-store-border-radius;
 }
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
-  background-color: #e10000 !important;
-  color: #fff;
+  background-color: #e92326;
+  color: $secondary-color;
   border-radius: $dtr-store-border-radius;
-  border: 3px solid $secondary-color;
-  box-shadow: 0px 2px 1px #666;
 }
 
 /*--------------------*/
@@ -205,5 +203,5 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-
 
 /*Price*/
 .price, .offer {
-  color: #e10000;
+  color: #e92326;
 }
