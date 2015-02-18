@@ -763,7 +763,7 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 2px solid #9d2125;
+  border: 1px solid #9d2125;
   background-color: white;
   -webkit-border-radius: 0px;
   border-radius: 0px;
@@ -828,7 +828,7 @@ label.ui-btn {
 
 /*Product details both in grid and upsell*/
 .dotter-product-details {
-  border: 2px solid #9d2125;
+  border: 1px solid #9d2125;
   -webkit-border-radius: 0px;
   border-radius: 0px;
   background-color: white;
@@ -1014,7 +1014,7 @@ html .ui-body-a {
 }
 
 .dotter-product-details.dotter-after-scroll-to-selected {
-  border: 2px solid #9d2125;
+  border: 1px solid #9d2125;
   background-color: white;
   -webkit-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0px 0px 0.6em 0.6em rgba(50, 50, 50, 0);
@@ -1026,7 +1026,7 @@ html .ui-body-a {
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
   background: #9d2125;
-  border: 2px solid #9d2125;
+  border: 1px solid #9d2125;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
@@ -1034,16 +1034,16 @@ html .ui-body-a {
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: transparent;
+  background-color: #9d2125;
   color: #dddddd;
   font-family: inherit;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: transparent;
+  background-color: #e92326;
   border-color: white;
-  color: #bbbbbb;
+  color: white;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:after {
@@ -1060,8 +1060,8 @@ html .ui-body-a {
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: transparent;
-  color: #9d2125;
+  background-color: #e92326;
+  color: white;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
@@ -1082,11 +1082,11 @@ html .ui-body-a {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 16.6%;
+  width: 19.6%;
   border-left: none;
 }
 .dotter-store-grid-container .dotter-navigation-container {
-  background-color: transparent;
+  background-color: #9d2125;
 }
 
 .dotter-store-grid-container .ui-grid-d > .ui-block-a {

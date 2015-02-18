@@ -107,9 +107,9 @@ $dtr-store-brand: '';
 $dtr-store-border-radius: 0px;
 $dtr-store-popup-radii: 0px;
 
-$dtr-store-retailer-select-panel-border: 2px solid $primary-color;
+$dtr-store-retailer-select-panel-border: 1px solid $primary-color;
 $dtr-store-retailer-select-panel-background-color: $secondary-color;
-$dtr-store-product-details-border: 2px solid $primary-color;
+$dtr-store-product-details-border: 1px solid $primary-color;
 $dtr-store-product-image-background-color: $secondary-color;
 $dtr-store-product-abstract-color: #333;
 $dtr-store-spinner-border-radius: 3px;
@@ -120,18 +120,18 @@ $dtr-store-product-name-h4-color: $primary-color;
 $dtr-store-product-info-btn-background-color: $primary-color;
 $dtr-store-product-info-btn-background-hover-color: $primary-color;
 
-$dtr-store-navbar-text-transform: uppercase;
-$dtr-store-navbar-btn-width: 16.6%;
+$dtr-store-navbar-text-transform: none;
+$dtr-store-navbar-btn-width: 19.6%;
 $dtr-store-navbar-btn-border: none;
-$dtr-store-navbar-background: transparent;
+$dtr-store-navbar-background: $primary-color;
 $dtr-store-navbar-btn-color: #ddd;
-$dtr-store-navbar-btn-active-color: $primary-color;
-$dtr-store-navbar-btn-hover-color: #bbb;
-$dtr-store-navbar-btn-background: transparent;
-$dtr-store-navbar-btn-hover-background: transparent;
-$dtr-store-navbar-btn-active-background: transparent;
+$dtr-store-navbar-btn-active-color: $secondary-color;
+$dtr-store-navbar-btn-hover-color: $secondary-color;
+$dtr-store-navbar-btn-background: $primary-color;
+$dtr-store-navbar-btn-hover-background: #e92326;
+$dtr-store-navbar-btn-active-background: #e92326;
 $dtr-store-navbar-active-hover-effect: false;
-$dtr-store-navbar-border: 2px solid $primary-color;
+$dtr-store-navbar-border: 1px solid $primary-color;
 
 
 @import '../default/reset';
