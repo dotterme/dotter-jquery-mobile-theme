@@ -1,0 +1,18 @@
+.ui-icon-alert:after,
+.icon-alert { background-image: url('icons/png/alert.png'); background-repeat: no-repeat; }
+
+.ui-icon-carat-d:after,
+.icon-carat-d { background-image: url('icons/png/carat-d.png'); background-repeat: no-repeat; }
+
+.ui-icon-check:after,
+.icon-check { background-image: url('icons/png/check.png'); background-repeat: no-repeat; }
+
+.ui-icon-delete:after,
+.icon-delete { background-image: url('icons/png/delete.png'); background-repeat: no-repeat; }
+
+.ui-icon-minus:after,
+.icon-minus { background-image: url('icons/png/minus.png'); background-repeat: no-repeat; }
+
+.ui-icon-plus:after,
+.icon-plus { background-image: url('icons/png/plus.png'); background-repeat: no-repeat; }
+
