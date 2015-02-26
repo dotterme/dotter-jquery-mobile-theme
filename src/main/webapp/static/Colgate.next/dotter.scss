@@ -10,8 +10,9 @@ $global-border-style-buttons: none;
 $global-radii-buttons: 0px;
 $global-radii-buttons-notext: 0px;
 
-$a-body-color: $secondary-color;
+$a-body-color: $tertiary-color;
 $a-body-background-color: #ffffff;
+$a-page-color: #333;
 $a-page-background-color: #ffffff;
 $a-page-shadow-x: 0;
 $a-page-shadow-y: 0;
@@ -99,9 +100,6 @@ $b-link-font-weight: normal;
 $b-link-visited: $tertiary-color;
 $b-link-hover: $tertiary-color;
 $b-link-active: $tertiary-color;
-
-$dtr-store-text-a: $secondary-color;
-$dtr-store-text-b: $secondary-color;
 
 $dtr-store-brand: '';
 $dtr-store-border-radius: 0px;

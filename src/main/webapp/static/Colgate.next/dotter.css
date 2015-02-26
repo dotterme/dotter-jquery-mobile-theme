@@ -323,7 +323,7 @@ html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
   background-color: white;
   border-color: #dddddd;
-  color: white;
+  color: black;
   text-shadow: 0 0 0 transparent;
 }
 
@@ -698,12 +698,12 @@ label.ui-btn {
 
 .ui-page-theme-a,
 .dotter-text-a {
-  color: white;
+  color: black;
 }
 
 .ui-page-theme-b,
 .dotter-text-b {
-  color: white;
+  color: black;
 }
 
 @media all and (min-width: 55em) {
