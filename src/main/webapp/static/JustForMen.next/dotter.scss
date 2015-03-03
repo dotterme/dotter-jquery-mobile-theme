@@ -84,7 +84,7 @@ $b-link-visited: #000;
 $b-link-hover: #000;
 $b-link-active: #000;
 
-$dtr-store-brand: 'REGAINE\00AE  ';
+$dtr-store-brand: ' ';
 $dtr-store-border-radius: 0;
 
 $dtr-store-product-details-border: 1px solid $primary-color;
@@ -96,7 +96,8 @@ $dtr-store-popup-radii: 0;
 
 $dtr-store-navbar-btn-text-border: "|";
 $dtr-store-navbar-line-height: .9em;
-$dtr-store-navbar-btn-width: 17%;
+$dtr-store-navbar-btn-width: 25%;
+$dtr-store-navbar-text-transform: capitalize;
 
 @import '../default/reset';
 @import '../default/mixins';

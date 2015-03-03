@@ -741,7 +741,7 @@ label.ui-btn {
 }
 /* BRANDING */
 .dotter-brand-adjust:before {
-  content: "REGAINE\00AE  ";
+  content: " ";
 }
 
 /*Border between upsell products*/
@@ -1037,7 +1037,7 @@ html .ui-body-a {
   background-color: #e6e6e6;
   color: white;
   font-family: inherit;
-  text-transform: normal;
+  text-transform: capitalize;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
@@ -1082,7 +1082,7 @@ html .ui-body-a {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 17%;
+  width: 25%;
   border-left: 0;
 }
 .dotter-store-grid-container .dotter-navigation-container {
