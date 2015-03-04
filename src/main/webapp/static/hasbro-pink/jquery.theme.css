@@ -887,3 +887,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 .dotter-retailer .availability {
     color: #ccc;
 }
+
+.dotter-retailer .name {
+    color: white;
+}
