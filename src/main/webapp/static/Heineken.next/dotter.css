@@ -144,8 +144,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Buttons */
@@ -154,15 +154,15 @@ label.ui-btn {
 .ui-slider-track.ui-corner-all,
 .ui-flipswitch.ui-corner-all,
 .ui-li-count {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
 .ui-btn-icon-notext.ui-corner-all {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Radius clip workaround for cleaning up corner trapping */
@@ -682,8 +682,8 @@ button[disabled],
 
 button,
 .ui-btn {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
@@ -719,8 +719,8 @@ label.ui-btn {
 }
 
 .ui-popup.ui-corner-all {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   border-width: 0;
 }
 
@@ -765,13 +765,13 @@ label.ui-btn {
 .dotter-header .panel.top > .panel.right {
   border: 1px solid #00a100;
   background-color: white;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .retailerchoice .dotter-label {
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   background: #00a100;
   color: white;
   padding: .5em;
@@ -816,8 +816,8 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
@@ -829,8 +829,8 @@ label.ui-btn {
 /*Product details both in grid and upsell*/
 .dotter-product-details {
   border: 1px solid #00a100;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
@@ -960,14 +960,14 @@ html .ui-btn.btn-lrg {
   border: 1px solid black;
   border-bottom: none;
   background-color: white;
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
   background: #00a100;
   color: white;
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
 }
 .dotter-basket-details .dotter-product-title {
   color: #00a100;
@@ -1027,8 +1027,8 @@ html .ui-body-a {
 .dotter-store-grid-container .dotter-navigation-container {
   background: #00a100;
   border: 1px solid #00a100;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
@@ -1054,8 +1054,8 @@ html .ui-body-a {
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
@@ -1110,14 +1110,14 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
   border: 2px solid #00a100;
   background-color: #00a100;
   color: white;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
   background-color: #FF2B00;
   color: white;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 /*--------------------*/
@@ -1132,8 +1132,8 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-
 /* Navigation bar     */
 /*--------------------*/
 .dotter-navigation-container .dotter-navigation ul li:nth-child(6) a {
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
 }
 
 /* Login Panel */
