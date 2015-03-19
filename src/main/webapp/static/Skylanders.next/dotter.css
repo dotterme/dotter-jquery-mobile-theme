@@ -1037,7 +1037,7 @@ html .ui-body-a {
   background-color: transparent;
   color: #dddddd;
   font-family: inherit;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
