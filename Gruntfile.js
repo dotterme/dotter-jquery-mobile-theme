@@ -63,7 +63,6 @@ module.exports = function( grunt ) {
                 config[theme] = {
                     options: {
                         style: "expanded",
-                        sourcemap: true,
                         trace: true
                     },
                     files: [{

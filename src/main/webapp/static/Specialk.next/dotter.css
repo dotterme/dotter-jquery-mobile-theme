@@ -841,6 +841,9 @@ label.ui-btn {
 .dotter-product-details .dotter-product-image {
   background-color: white;
 }
+.dotter-product-details .dotter-product-offer-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
 .dotter-product-abstract {
   font-size: .9em;
@@ -1104,6 +1107,7 @@ html .ui-body-a {
   src: url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot");
   src: url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.woff") format("woff"), url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.ttf") format("truetype");
 }
+
 .ui-header, .ui-footer {
   border: none;
 }
@@ -1156,5 +1160,3 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 .dotter-retailer-info.dotter-small-prints {
   color: #ed174f;
 }
-
-/*# sourceMappingURL=dotter.css.map */

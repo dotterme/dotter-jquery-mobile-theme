@@ -842,6 +842,9 @@ label.ui-btn {
 .dotter-product-details .dotter-product-image {
   background-color: white;
 }
+.dotter-product-details .dotter-product-offer-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
 .dotter-product-abstract {
   font-size: .9em;
@@ -1176,5 +1179,3 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-retailer-info.dotter-small-prints {
   color: #339933;
 }
-
-/*# sourceMappingURL=dotter.css.map */
