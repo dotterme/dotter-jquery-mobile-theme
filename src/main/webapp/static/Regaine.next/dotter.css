@@ -724,6 +724,10 @@ label.ui-btn {
   border-width: 0;
 }
 
+.dotter-popup .ui-popup {
+  box-shadow: 0 0 10px #333333;
+}
+
 .dotter-popup .ui-overlay-b {
   background-color: white;
 }

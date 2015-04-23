@@ -37,6 +37,7 @@ $dtr-store-popup-radii: 0 !default;
 $dtr-store-popup-border-width: 0 !default;
 $dtr-store-popup-background-color: #fff !default;
 $dtr-store-popup-background-opacity: 0.5 !default;
+$dtr-store-popup-background-shadow: 0 0 10px #333 !default;
 
 $dtr-store-navbar-line-height: 1.25em !default;
 $dtr-store-navbar-text-transform: normal !default;
@@ -108,6 +109,10 @@ label.ui-btn {
 .ui-popup.ui-corner-all {
   @include border-radius($dtr-store-popup-radii);
   border-width: $dtr-store-popup-border-width;
+}
+
+.dotter-popup .ui-popup {
+	box-shadow: $dtr-store-popup-background-shadow;
 }
 
 .dotter-popup .ui-overlay-b {
