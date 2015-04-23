@@ -724,6 +724,14 @@ label.ui-btn {
   border-width: 0;
 }
 
+.dotter-popup .ui-overlay-b {
+  background-color: white;
+}
+
+.dotter-popup .ui-popup-screen.in {
+  opacity: 0.5;
+}
+
 /* Branding */
 .dotter-branding-image {
   background-image: url("images/secondary-branding-sml.png");

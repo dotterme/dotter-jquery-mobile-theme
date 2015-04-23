@@ -36,6 +36,7 @@ $dtr-store-product-info-btn-background-hover-color: $primary-color !default;
 $dtr-store-popup-radii: 0 !default;
 $dtr-store-popup-border-width: 0 !default;
 $dtr-store-popup-background-color: #fff !default;
+$dtr-store-popup-background-opacity: 0.5 !default;
 
 $dtr-store-navbar-line-height: 1.25em !default;
 $dtr-store-navbar-text-transform: normal !default;
@@ -107,6 +108,14 @@ label.ui-btn {
 .ui-popup.ui-corner-all {
   @include border-radius($dtr-store-popup-radii);
   border-width: $dtr-store-popup-border-width;
+}
+
+.dotter-popup .ui-overlay-b {
+	background-color: $dtr-store-popup-background-color;
+}
+
+.dotter-popup .ui-popup-screen.in {
+	opacity: $dtr-store-popup-background-opacity;
 }
 
 /* Branding */
