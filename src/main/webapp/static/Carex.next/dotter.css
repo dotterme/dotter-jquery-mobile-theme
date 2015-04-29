@@ -724,6 +724,18 @@ label.ui-btn {
   border-width: 0;
 }
 
+.dotter-popup .ui-popup {
+  box-shadow: 0 0 10px #333333;
+}
+
+.dotter-popup .ui-overlay-b {
+  background-color: white;
+}
+
+.dotter-popup .ui-popup-screen.in {
+  opacity: 0.5;
+}
+
 /* Branding */
 .dotter-branding-image {
   background-image: url("images/secondary-branding-sml.png");
@@ -840,6 +852,9 @@ label.ui-btn {
 }
 .dotter-product-details .dotter-product-image {
   background-color: white;
+}
+.dotter-product-details .dotter-product-offer-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .dotter-product-abstract {
@@ -1101,6 +1116,7 @@ html .ui-body-a {
   font-weight: normal;
   font-style: normal;
 }
+
 button,
 .ui-btn {
   font-family: 'mentonesemibold', helevtica, sans-serif;
@@ -1145,5 +1161,3 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
 .dotter-retailer-info.dotter-small-prints {
   color: #ff963a;
 }
-
-/*# sourceMappingURL=dotter.css.map */

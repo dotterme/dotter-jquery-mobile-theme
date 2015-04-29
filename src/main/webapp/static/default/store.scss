@@ -27,6 +27,7 @@ $dtr-store-product-name-h4-color: #0087ff !default;
 $dtr-store-basket-product-title-color: #000 !default;
 $dtr-store-basket-total-color: #000 !default;
 $dtr-store-product-abstract-color: #000 !default;
+$dtr-store-product-offer-overlay-color: rgba(255,255,255,0.8) !default;
 $dtr-store-text-a: #000 !default;
 $dtr-store-text-b: #000 !default;
 $dtr-store-product-info-btn-background-color: $secondary-color !default;
@@ -34,6 +35,9 @@ $dtr-store-product-info-btn-background-hover-color: $primary-color !default;
 
 $dtr-store-popup-radii: 0 !default;
 $dtr-store-popup-border-width: 0 !default;
+$dtr-store-popup-background-color: #fff !default;
+$dtr-store-popup-background-opacity: 0.5 !default;
+$dtr-store-popup-background-shadow: 0 0 10px #333 !default;
 
 $dtr-store-navbar-line-height: 1.25em !default;
 $dtr-store-navbar-text-transform: normal !default;
@@ -105,6 +109,18 @@ label.ui-btn {
 .ui-popup.ui-corner-all {
   @include border-radius($dtr-store-popup-radii);
   border-width: $dtr-store-popup-border-width;
+}
+
+.dotter-popup .ui-popup {
+	box-shadow: $dtr-store-popup-background-shadow;
+}
+
+.dotter-popup .ui-overlay-b {
+	background-color: $dtr-store-popup-background-color;
+}
+
+.dotter-popup .ui-popup-screen.in {
+	opacity: $dtr-store-popup-background-opacity;
 }
 
 /* Branding */
@@ -210,6 +226,7 @@ label.ui-btn {
   line-height: $dtr-store-navbar-line-height;
 }
 
+
 /*Product details both in grid and upsell*/
 .dotter-product-details {
   border: $dtr-store-product-details-border;
@@ -221,9 +238,15 @@ label.ui-btn {
     font-size: 1.1em;
 	color: $dtr-store-product-name-h4-color;
   }
+
   .dotter-product-image {
     background-color: $dtr-store-product-image-background-color;
   }
+
+  .dotter-product-offer-overlay {
+    background-color: $dtr-store-product-offer-overlay-color;
+  }
+
 }
 
 .dotter-product-abstract {
