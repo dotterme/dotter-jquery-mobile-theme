@@ -1097,7 +1097,7 @@ html .ui-body-a {
 .dotter-store-grid-container .ui-grid-d > .ui-block-c,
 .dotter-store-grid-container .ui-grid-d > .ui-block-d,
 .dotter-store-grid-container .ui-grid-d > .ui-block-e {
-  width: 16.6%;
+  width: 25%;
   border-left: none;
 }
 .dotter-store-grid-container .dotter-navigation-container {
@@ -1116,7 +1116,6 @@ html .ui-body-a {
   font-weight: normal;
   font-style: normal;
 }
-
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
