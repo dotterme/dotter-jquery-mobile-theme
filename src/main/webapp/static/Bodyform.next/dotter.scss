@@ -203,3 +203,11 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-
 .price, .offer {
   color: #e92326;
 }
+
+/* info panel style override */
+
+.dotter-product-description h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
