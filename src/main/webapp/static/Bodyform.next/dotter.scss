@@ -121,13 +121,13 @@ $dtr-store-product-info-btn-background-hover-color: $primary-color;
 $dtr-store-navbar-text-transform: none;
 $dtr-store-navbar-btn-width: 19.6%;
 $dtr-store-navbar-btn-border: none;
-$dtr-store-navbar-background: $primary-color;
-$dtr-store-navbar-btn-color: #ddd;
+$dtr-store-navbar-background: #e8e0ef;
+$dtr-store-navbar-btn-color: #8988d8;
 $dtr-store-navbar-btn-active-color: $secondary-color;
 $dtr-store-navbar-btn-hover-color: $secondary-color;
-$dtr-store-navbar-btn-background: $primary-color;
-$dtr-store-navbar-btn-hover-background: #e92326;
-$dtr-store-navbar-btn-active-background: #e92326;
+$dtr-store-navbar-btn-background: #e8e0ef;
+$dtr-store-navbar-btn-hover-background: #cfbfdc;
+$dtr-store-navbar-btn-active-background: $primary-color;
 $dtr-store-navbar-active-hover-effect: true;
 $dtr-store-navbar-border: 1px solid $primary-color;
 
@@ -160,7 +160,7 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
-  background-color: #FF2B00;
+  background-color: $primary-color;
   color: $secondary-color;
   border-radius: $dtr-store-border-radius;
 }

@@ -1049,14 +1049,14 @@ html .ui-body-a {
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: #aa87d2;
-  color: #dddddd;
+  background-color: #e8e0ef;
+  color: #8988d8;
   font-family: inherit;
   text-transform: none;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #e92326;
+  background-color: #cfbfdc;
   border-color: white;
   color: white;
 }
@@ -1075,7 +1075,7 @@ html .ui-body-a {
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: #e92326;
+  background-color: #aa87d2;
   color: white;
 }
 
@@ -1101,7 +1101,7 @@ html .ui-body-a {
   border-left: none;
 }
 .dotter-store-grid-container .dotter-navigation-container {
-  background-color: #aa87d2;
+  background-color: #e8e0ef;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
@@ -1130,7 +1130,7 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
-  background-color: #FF2B00;
+  background-color: #aa87d2;
   color: white;
   border-radius: 5px;
 }
