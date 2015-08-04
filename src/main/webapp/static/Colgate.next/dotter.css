@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -66,7 +67,7 @@ button,
 .ui-btn {
   font-size: 0.9em;
   line-height: 1.3em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 
@@ -1041,7 +1042,7 @@ html .ui-body-a {
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
   background: #9d2125;
-  border: 1px solid #9d2125;
+  border: none;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
@@ -1049,14 +1050,14 @@ html .ui-body-a {
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: #9d2125;
+  background-color: transparent;
   color: #dddddd;
   font-family: inherit;
   text-transform: none;
 }
 
 .dotter-navigation.ui-navbar .ui-btn:hover {
-  background-color: #e92326;
+  background-color: transparent;
   border-color: white;
   color: white;
 }
@@ -1075,8 +1076,8 @@ html .ui-body-a {
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: #e92326;
-  color: white;
+  background-color: white;
+  color: #bc1602;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
@@ -1104,11 +1105,6 @@ html .ui-body-a {
   background-color: #9d2125;
 }
 
-.dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #9d2125;
-  color: white;
-}
-
 .dotter-store-grid-container .ui-grid-d > .ui-block-a {
   border-left: 0;
 }
@@ -1117,6 +1113,10 @@ html .ui-body-a {
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
+.retailerchoice .dotter-label {
+  background: #9d2125 url(http://www.colgate.co.uk/ColgateOralCare/ElectricToothbrush/ProClinical/common/images/backgrounds/header.jpg) center top repeat-y;
+}
+
 /*---------------*/
 /* STORE BUTTONS */
 /*---------------*/
@@ -1130,9 +1130,10 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
-  background-color: #e92326;
+  background: #650801 url(http://cdn.dotter.me/brands/colgate/assets/colgate-button-bg.png) center top repeat-y;
+  background-size: cover;
   color: white;
-  border-radius: 0px;
+  border-radius: 6px;
 }
 
 /*--------------------*/
@@ -1149,6 +1150,24 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-
 .dotter-navigation-container .dotter-navigation ul li:nth-child(6) a {
   -webkit-border-radius: 0px 0px 0px 0px;
   border-radius: 0px 0px 0px 0px;
+}
+
+.dotter-store-grid-container .dotter-navigation-container {
+  background: #650801 url(http://www.colgate.co.uk/ColgateOralCare/ElectricToothbrush/ProClinical/common/images/backgrounds/header.jpg) center top repeat-y;
+}
+
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin: .3em .3em -.3em .3em;
+  border-radius: 5px 5px 0 0;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: .3em;
 }
 
 /* Login Panel */

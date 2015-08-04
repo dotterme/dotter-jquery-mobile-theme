@@ -2,7 +2,7 @@ $primary-color: #9d2125;
 $secondary-color: #fff;
 $tertiary-color: #000;
 
-$global-font-family: Arial, Helvetica, sans-serif;
+$global-font-family: 'Roboto', sans-serif;;
 $global-font-size: .9em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
@@ -123,13 +123,13 @@ $dtr-store-navbar-btn-width: 19.6%;
 $dtr-store-navbar-btn-border: none;
 $dtr-store-navbar-background: $primary-color;
 $dtr-store-navbar-btn-color: #ddd;
-$dtr-store-navbar-btn-active-color: $secondary-color;
+$dtr-store-navbar-btn-active-color: #bc1602;
 $dtr-store-navbar-btn-hover-color: $secondary-color;
-$dtr-store-navbar-btn-background: $primary-color;
-$dtr-store-navbar-btn-hover-background: #e92326;
-$dtr-store-navbar-btn-active-background: #e92326;
-$dtr-store-navbar-active-hover-effect: true;
-$dtr-store-navbar-border: 1px solid $primary-color;
+$dtr-store-navbar-btn-background: transparent;
+$dtr-store-navbar-btn-hover-background: transparent;
+$dtr-store-navbar-btn-active-background: $secondary-color;
+$dtr-store-navbar-active-hover-effect: false;
+$dtr-store-navbar-border: none;
 
 
 @import '../default/reset';
@@ -139,13 +139,15 @@ $dtr-store-navbar-border: 1px solid $primary-color;
 
 /* Fonts */
 
-
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 /*----------------*/
 /* HEADER SECTION */
 /*----------------*/
 
-
+.retailerchoice .dotter-label {
+  background: #9d2125 url(http://www.colgate.co.uk/ColgateOralCare/ElectricToothbrush/ProClinical/common/images/backgrounds/header.jpg) center top repeat-y;
+}
 
 /*---------------*/
 /* STORE BUTTONS */
@@ -160,9 +162,10 @@ html .ui-body-a .ui-btn.dotter-checkoutasguest {
 
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-deeplink-button {
-  background-color: #e92326;
-  color: $secondary-color;
-  border-radius: $dtr-store-border-radius;
+  background: #650801 url(http://cdn.dotter.me/brands/colgate/assets/colgate-button-bg.png) center top repeat-y;
+  background-size: cover;
+  color: white;
+  border-radius: 6px;
 }
 
 /*--------------------*/
@@ -181,7 +184,23 @@ div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .dotter-
   @include border-radius(0px $dtr-store-border-radius $dtr-store-border-radius 0px);
 }
 
+.dotter-store-grid-container .dotter-navigation-container {
+  background: #650801 url(http://www.colgate.co.uk/ColgateOralCare/ElectricToothbrush/ProClinical/common/images/backgrounds/header.jpg) center top repeat-y;
+}
 
+.dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
+  margin: .3em .3em -.3em .3em;
+  border-radius: 5px 5px 0 0;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn {
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.dotter-navigation.ui-navbar ul li:first-child .ui-btn.ui-btn-active {
+  margin-left: .3em;
+}
 
 /* Login Panel */
 
