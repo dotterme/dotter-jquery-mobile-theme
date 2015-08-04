@@ -154,10 +154,10 @@ $dtr-store-navbar-border: none;
 /*---------------*/
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  border: 2px solid $primary-color;
-  background-color: $primary-color;
+  background: #650801 url(http://cdn.dotter.me/brands/colgate/assets/colgate-button-bg.png) center top repeat-y;
+  background-size: cover;
   color: $secondary-color;
-  border-radius: $dtr-store-border-radius;
+  border-radius: 6px;
 }
 
 /*Select Retailer btn in product panel*/
