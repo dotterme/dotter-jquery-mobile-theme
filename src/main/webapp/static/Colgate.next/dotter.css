@@ -1122,8 +1122,8 @@ html .ui-body-a {
 /*---------------*/
 html .ui-body-a .ui-btn.dotter-change-retailer,
 html .ui-body-a .ui-btn.dotter-checkoutasguest {
-  background: #650801 url(http://cdn.dotter.me/brands/colgate/assets/colgate-button-bg.png) center top repeat-y;
-  background-size: cover;
+  background: #650801 url(http://cdn.dotter.me/brands/colgate/assets/colgate-button-bg.png) center top repeat;
+  background-size: contain;
   color: white;
   border-radius: 6px;
 }
