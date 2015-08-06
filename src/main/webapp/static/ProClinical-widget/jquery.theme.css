@@ -879,6 +879,7 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 	color: #fff;
     padding: .5em 0 .5em .5em;
     background: #9d2125 url(http://www.colgate.co.uk/ColgateOralCare/ElectricToothbrush/ProClinical/common/images/backgrounds/header.jpg) center top repeat-y;
+    background-size: cover;
 }
 
 /* Colgate specific OOS message */
