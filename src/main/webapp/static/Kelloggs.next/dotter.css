@@ -1192,6 +1192,11 @@ div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow
   border-color: #d31145;
 }
 
+/*Price*/
+.price {
+  color: #e1962f;
+}
+
 /* Login Panel */
 .dotter-retailer-info.dotter-small-prints {
   color: #d31145;
