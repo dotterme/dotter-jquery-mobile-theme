@@ -1,0 +1,178 @@
+$primary-color: #ED174F;
+$secondary-color: #BDBDBE;
+$tertiary-color: #4D4D4F;
+$disabled-color: #E6E6E6;
+
+$global-font-family: 'Avenir-lt',sans-serif;
+$global-font-size: .875em;
+$global-box-shadow-size: 0;
+$global-border-width-buttons: 0;
+$global-border-style-buttons: none;
+
+$a-bar-background-color: $primary-color;
+$a-bar-color: #fff;
+$a-bar-border: #ddd !default;
+$a-bar-shadow-x: none;
+$a-bar-shadow-y: unquote('');
+$a-bar-shadow-radius: unquote('');
+$a-bar-shadow-color: unquote('');
+
+$a-body-shadow-x: 0;
+$a-body-shadow-y: 0;
+$a-body-shadow-radius: 0;
+
+$a-page-background-color: #fff;
+
+$a-link-color: $tertiary-color;
+$a-link-text-decoration: none;
+$a-link-font-weight: normal;
+$a-link-visited: $tertiary-color;
+$a-link-hover: $tertiary-color;
+$a-link-active: $tertiary-color;
+
+$a-bup-background-color: $primary-color;
+$a-bup-border: $secondary-color;
+$a-bup-color: #fff;
+$a-bup-shadow-x: none;
+$a-bup-shadow-y: unquote('');
+$a-bup-shadow-radius: unquote('');
+$a-bup-shadow-color: unquote('');
+
+$a-bdisabled-background-color: #E6E6E6;
+
+$a-bhover-background-color: $primary-color;
+$a-bhover-border: $primary-color;
+$a-bhover-color: #fff;
+$a-bhover-shadow-x: none;
+$a-bhover-shadow-y: unquote('');
+$a-bhover-shadow-radius: unquote('');
+$a-bhover-shadow-color: unquote('');
+
+$a-bdown-background-color: $primary-color;
+$a-bdown-border: $primary-color;
+$a-bdown-color: #fff;
+$a-bdown-shadow-x: none;
+$a-bdown-shadow-y: unquote('');
+$a-bdown-shadow-radius: unquote('');
+$a-bdown-shadow-color: unquote('');
+
+$a-active-shadow-x: none;
+$a-active-shadow-y: unquote('');
+$a-active-shadow-radius: unquote('');
+$a-active-shadow-color: unquote('');
+$a-active-background-color: $secondary-color;
+$a-active-box-shadow: none;
+
+$b-bar-background-color: $primary-color;
+
+$b-body-background-color: #fff;
+$b-body-color: $tertiary-color;
+$b-body-shadow-x: 0;
+$b-body-shadow-y: 1;
+$b-body-shadow-radius: 0;
+
+$b-bup-background-color: $primary-color;
+$b-bhover-background-color: $secondary-color;
+$b-bdown-background-color: $secondary-color;
+
+$b-link-color: $tertiary-color;
+$b-link-text-decoration: none;
+$b-link-font-weight: normal;
+$b-link-visited: $tertiary-color;
+$b-link-hover: $tertiary-color;
+$b-link-active: $tertiary-color;
+
+$dtr-store-brand: '';
+$dtr-store-border-radius: 0px;
+
+$dtr-store-product-details-border: 1px solid $secondary-color;
+$dtr-store-spinner-border-radius: 0px;
+$dtr-store-basket-content-background-color: #fcfcfc;
+$dtr-store-basket-total-color: #fff;
+$dtr-store-product-name-h4-color: $tertiary-color;
+$dtr-store-popup-radii: 0px;
+
+$dtr-store-product-info-btn-background-color: $primary-color;
+$dtr-store-product-info-btn-background-hover-color: $secondary-color;
+
+$dtr-store-navbar-line-height: .5em;
+$dtr-store-navbar-btn-width: 20%;
+$dtr-store-navbar-font-family: 'Avenir-lt',sans-serif;
+$dtr-store-navbar-btn-hover-color: $primary-color;
+$dtr-store-navbar-text-transform: capitalize;
+
+$dtr-store-navbar-background: #FFFFFF;
+$dtr-store-navbar-btn-hover-background: #FFFFFF;
+$dtr-store-navbar-btn-background: #FFFFFF;
+$dtr-store-navbar-btn-color: $tertiary-color;
+$dtr-store-navbar-btn-hover-color: $secondary-color;
+
+$dtr-store-product-details-flash-box-shadow-color: rgba(156, 198, 233, 0.25);
+
+@import '../default/reset';
+@import '../default/mixins';
+@import '../default/jquery-mobile.theme';
+@import '../default/store';
+
+/* Fonts */
+@font-face{
+  font-family:'Avenir-lt';
+  src:url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot');
+  src:url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+  url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.woff') format('woff'),
+  url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.ttf') format('truetype');
+}
+
+.ui-header, .ui-footer {
+  border: none;
+}
+
+button,
+.ui-btn {
+	font-family: 'Avenir-lt',sans-serif;
+}
+
+/*----------------------------*/
+/* Basket Page                */
+/*----------------------------*/
+
+@media all and (min-width: 36em) {
+	.basket-page {
+		border: 1px solid $primary-color;
+	}
+}
+
+.dotter-retailer-login .ui-input-text {
+  @include input-placeholder {
+    text-transform: lowercase;
+  }
+}
+
+/*---------------*/
+/* STORE BUTTONS */
+/*---------------*/
+
+/*Select Retailer btn in product panel*/
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
+	background: #fff;
+	color: #f00;
+}
+
+/*Add btn in product panel (added/update state)*/
+div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
+	background: $primary-color !important;
+}
+
+.dotter-spinner {
+  input {
+    border-color: $primary-color;
+  }
+}
+
+
+
+/* Login Panel */
+
+.dotter-retailer-info.dotter-small-prints {
+  color: $primary-color;
+}
