@@ -1,9 +1,9 @@
-$primary-color: #ED174F;
+$primary-color: #d31145;
 $secondary-color: #BDBDBE;
 $tertiary-color: #4D4D4F;
 $disabled-color: #E6E6E6;
 
-$global-font-family: 'Avenir-lt',sans-serif;
+$global-font-family: 'KSansMedium',sans-serif;
 $global-font-size: .875em;
 $global-box-shadow-size: 0;
 $global-border-width-buttons: 0;
@@ -21,7 +21,8 @@ $a-body-shadow-x: 0;
 $a-body-shadow-y: 0;
 $a-body-shadow-radius: 0;
 
-$a-page-background-color: #fff;
+$a-body-background-color: rgba(255,255,255,.8);
+$a-page-background-color: rgba(255,255,255,.8);
 
 $a-link-color: $tertiary-color;
 $a-link-text-decoration: none;
@@ -83,21 +84,21 @@ $b-link-hover: $tertiary-color;
 $b-link-active: $tertiary-color;
 
 $dtr-store-brand: '';
-$dtr-store-border-radius: 0px;
+$dtr-store-border-radius: 6px;
 
 $dtr-store-product-details-border: 1px solid $secondary-color;
 $dtr-store-spinner-border-radius: 0px;
 $dtr-store-basket-content-background-color: #fcfcfc;
 $dtr-store-basket-total-color: #fff;
 $dtr-store-product-name-h4-color: $tertiary-color;
-$dtr-store-popup-radii: 0px;
+$dtr-store-popup-radii: 6px;
 
 $dtr-store-product-info-btn-background-color: $primary-color;
 $dtr-store-product-info-btn-background-hover-color: $secondary-color;
 
 $dtr-store-navbar-line-height: .5em;
 $dtr-store-navbar-btn-width: 20%;
-$dtr-store-navbar-font-family: 'Avenir-lt',sans-serif;
+$dtr-store-navbar-font-family: 'KSansMedium',sans-serif;
 $dtr-store-navbar-btn-hover-color: $primary-color;
 $dtr-store-navbar-text-transform: capitalize;
 
@@ -115,12 +116,26 @@ $dtr-store-product-details-flash-box-shadow-color: rgba(156, 198, 233, 0.25);
 @import '../default/store';
 
 /* Fonts */
-@font-face{
-  font-family:'Avenir-lt';
-  src:url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot');
-  src:url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
-  url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.woff') format('woff'),
-  url('http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.ttf') format('truetype');
+@font-face {
+  font-family: 'KSansBold';
+  src: url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.eot');
+  src: url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.eot?#iefix') format('embedded-opentype'),url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.woff') format('woff'),url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: 'KSansMedium';
+  src: url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.eot');
+  src: url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.eot?#iefix') format('embedded-opentype'),url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.woff') format('woff'),url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: 'KSansRegular';
+  src: url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.eot');
+  src: url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.eot?#iefix') format('embedded-opentype'),url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.woff') format('woff'),url('//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal
 }
 
 .ui-header, .ui-footer {
@@ -153,14 +168,23 @@ button,
 /*---------------*/
 
 /*Select Retailer btn in product panel*/
-div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-	background: #fff;
-	color: #f00;
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .ui-btn.dotter-deeplink-button {
+	background: $primary-color;
+	color: #fff;
+    border-radius: 6px;
+    font-family: "Lucida Grande","Lucida","Trebuchet MS","Arial",sans-serif!important;
+}
+
+.ui-btn.dotter-deeplink-button {
+  line-height: 1em;
 }
 
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
 	background: $primary-color !important;
+  color: #fff;
+  border-radius: 6px;
+  font-family: "Lucida Grande","Lucida","Trebuchet MS","Arial",sans-serif!important;
 }
 
 .dotter-spinner {

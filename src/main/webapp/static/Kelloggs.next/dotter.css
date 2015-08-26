@@ -66,7 +66,7 @@ button,
 .ui-btn {
   font-size: 0.875em;
   line-height: 1.3em;
-  font-family: "Avenir-lt", sans-serif;
+  font-family: "KSansMedium", sans-serif;
   font-weight: normal;
 }
 
@@ -292,7 +292,7 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-  background-color: #ed174f;
+  background-color: #d31145;
   border-color: #dddddd;
   color: white;
   text-shadow: none   ;
@@ -308,7 +308,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border-color: #bbbbbb;
   color: #333333;
   text-shadow: 0 1px 0 #f3f3f3;
@@ -321,7 +321,7 @@ html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit,
 html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border-color: #dddddd;
   color: #333333;
   text-shadow: 0 0 0 #f3f3f3;
@@ -375,7 +375,7 @@ html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited,
 html head + body .ui-btn.ui-btn-a:after {
-  background-color: #ed174f;
+  background-color: #d31145;
   border-color: #bdbdbe;
   color: white;
   text-shadow: none   ;
@@ -388,8 +388,8 @@ html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover,
 html head + body .ui-btn.ui-btn-a:hover:after {
-  background-color: #ed174f;
-  border-color: #ed174f;
+  background-color: #d31145;
+  border-color: #d31145;
   color: white;
   text-shadow: none   ;
 }
@@ -400,8 +400,8 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-  background-color: #ed174f;
-  border-color: #ed174f;
+  background-color: #d31145;
+  border-color: #d31145;
   color: white;
   text-shadow: none   ;
 }
@@ -468,7 +468,7 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-  background-color: #ed174f;
+  background-color: #d31145;
   border-color: #1b1b1b;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -550,7 +550,7 @@ html .ui-bar-b .ui-btn:visited,
 html .ui-body-b .ui-btn:visited,
 html body .ui-group-theme-b .ui-btn:visited,
 html head + body .ui-btn.ui-btn-b:visited {
-  background-color: #ed174f;
+  background-color: #d31145;
   border-color: #1f1f1f;
   color: white;
   text-shadow: 0 1px 0 #111111;
@@ -682,8 +682,8 @@ button[disabled],
 
 button,
 .ui-btn {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
 }
 button.ui-disabled,
 .ui-btn.ui-disabled {
@@ -719,8 +719,8 @@ label.ui-btn {
 }
 
 .ui-popup.ui-corner-all {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
   border-width: 0;
 }
 
@@ -758,7 +758,7 @@ label.ui-btn {
 
 /*Border between upsell products*/
 .dotter-border-a {
-  border-color: #ed174f;
+  border-color: #d31145;
 }
 
 .dotter-border-b,
@@ -775,17 +775,17 @@ label.ui-btn {
 }
 
 .dotter-header .panel.top > .panel.right {
-  border: 1px solid #ed174f;
+  border: 1px solid #d31145;
   background-color: white;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .retailerchoice .dotter-label {
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
-  background: #ed174f;
-  color: white;
+  -webkit-border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
+  background: #d31145;
+  color: rgba(255, 255, 255, 0.8);
   padding: .5em;
 }
 
@@ -818,7 +818,7 @@ label.ui-btn {
 }
 
 .dotter-breadcrumbs .dotter-active {
-  color: #ed174f;
+  color: #d31145;
 }
 .dotter-breadcrumbs .dotter-active:before {
   color: #000;
@@ -828,8 +828,8 @@ label.ui-btn {
 /* PRODUCT GRID PANEL SECTION */
 /*----------------------------*/
 .dotter-store-grid-container, .basket-page, .thankyou-page {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .dotter-store-grid-container .ui-navbar a.ui-btn {
@@ -841,8 +841,8 @@ label.ui-btn {
 /*Product details both in grid and upsell*/
 .dotter-product-details {
   border: 1px solid #bdbdbe;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
   background-color: white;
 }
 .dotter-product-details h4.dotter-product-title {
@@ -864,7 +864,7 @@ label.ui-btn {
 
 /*Info button Icon*/
 .dotter-product-info.dotter-icon:before {
-  background-color: #ed174f;
+  background-color: #d31145;
 }
 .dotter-product-info.dotter-icon:hover:before {
   background-color: #bdbdbe;
@@ -899,8 +899,8 @@ label.ui-btn {
 /*---------------*/
 /*Select Retailer btn in product panel*/
 div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: white;
-  color: #ed174f;
+  background: rgba(255, 255, 255, 0.8);
+  color: #d31145;
   font-size: 1em;
 }
 
@@ -922,11 +922,11 @@ html .ui-btn.btn-lrg {
 }
 .dotter-add-to-basket .ui-btn.dotter-product-add .ui-btn.dotter-product-added,
 .dotter-deeplink-button .ui-btn.dotter-product-added {
-  background: #ed174f;
+  background: #d31145;
 }
 
 .dotter-spinner input {
-  border-color: #ed174f;
+  border-color: #d31145;
 }
 .dotter-spinner .ui-btn.ui-icon-plus {
   -webkit-border-radius: 0px 0px 0px 0px;
@@ -938,7 +938,7 @@ html .ui-btn.btn-lrg {
 }
 
 .dotter-product-quantity, .dotter-item-quantity {
-  border-color: #ed174f;
+  border-color: #d31145;
 }
 
 /*--------------------*/
@@ -975,14 +975,14 @@ html .ui-btn.btn-lrg {
   border: 1px solid #4d4d4f;
   border-bottom: none;
   background-color: #fcfcfc;
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
 }
 .dotter-basket-details .dotter-basket-total {
-  background: #ed174f;
+  background: #d31145;
   color: white;
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 6px 6px;
+  border-radius: 0px 0px 6px 6px;
 }
 .dotter-basket-details .dotter-product-title {
   color: black;
@@ -995,14 +995,14 @@ html .ui-btn.btn-lrg {
 
 /*Upsell slider*/
 .dotter-has-upsell h3 {
-  color: #ed174f;
+  color: #d31145;
 }
 
 /*----------------*/
 /* Thank You page */
 /*----------------*/
 .dotter-thankyou-page h1 {
-  color: #ed174f;
+  color: #d31145;
   font-weight: normal;
 }
 
@@ -1020,7 +1020,7 @@ html .ui-btn.btn-lrg {
 .slick-prev:before,
 .slick-next:before,
 .slick-dots li a:before {
-  color: #ed174f;
+  color: #d31145;
 }
 
 html .ui-body-a {
@@ -1040,10 +1040,10 @@ html .ui-body-a {
 /* Navigation bar     */
 /*--------------------*/
 .dotter-store-grid-container .dotter-navigation-container {
-  background: #ed174f;
+  background: #d31145;
   border: 0;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .dotter-store-grid-container .dotter-navigation.ui-navbar .ui-btn {
@@ -1051,7 +1051,7 @@ html .ui-body-a {
   border-radius: 0;
   background-color: white;
   color: #4d4d4f;
-  font-family: "Avenir-lt", sans-serif;
+  font-family: "KSansMedium", sans-serif;
   text-transform: capitalize;
 }
 
@@ -1063,19 +1063,19 @@ html .ui-body-a {
 
 .dotter-navigation.ui-navbar .ui-btn:after {
   content: "";
-  color: #ed174f;
+  color: #d31145;
   position: absolute;
   right: -.2em;
 }
 
 .dotter-navigation.ui-navbar ul li:first-child .ui-btn {
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 6px 0px 0px 6px;
+  border-radius: 6px 0px 0px 6px;
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active {
   margin-left: -.2em;
-  background-color: #ed174f;
+  background-color: #d31145;
   color: white;
 }
 
@@ -1105,7 +1105,7 @@ html .ui-body-a {
 }
 
 .dotter-navigation.ui-navbar .ui-btn.ui-btn-active:hover {
-  background-color: #ed174f;
+  background-color: #d31145;
   color: #bdbdbe;
 }
 
@@ -1115,11 +1115,26 @@ html .ui-body-a {
 
 /* Fonts */
 @font-face {
-  font-family: 'Avenir-lt';
-  src: url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot");
-  src: url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.woff") format("woff"), url("http://cdn.dotter.me/brands/specialk/themes/fonts/Avenir-Light.ttf") format("truetype");
+  font-family: 'KSansBold';
+  src: url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.eot");
+  src: url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.woff") format("woff"), url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
+@font-face {
+  font-family: 'KSansMedium';
+  src: url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.eot");
+  src: url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.woff") format("woff"), url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-medium-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KSansRegular';
+  src: url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.eot");
+  src: url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.woff") format("woff"), url("//cdn.dotter.me/brands/kelloggs/themes/fonts/ksans-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .ui-header, .ui-footer {
   border: none;
 }
@@ -1134,7 +1149,7 @@ button,
 /*----------------------------*/
 @media all and (min-width: 36em) {
   .basket-page {
-    border: 1px solid #ed174f;
+    border: 1px solid #d31145;
   }
 }
 .dotter-retailer-login .ui-input-text input::-webkit-input-placeholder {
@@ -1154,21 +1169,30 @@ button,
 /* STORE BUTTONS */
 /*---------------*/
 /*Select Retailer btn in product panel*/
-div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select {
-  background: #fff;
-  color: #f00;
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-retailer-select, .ui-btn.dotter-deeplink-button {
+  background: #d31145;
+  color: #fff;
+  border-radius: 6px;
+  font-family: "Lucida Grande", "Lucida", "Trebuchet MS", "Arial", sans-serif !important;
+}
+
+.ui-btn.dotter-deeplink-button {
+  line-height: 1em;
 }
 
 /*Add btn in product panel (added/update state)*/
 div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.ui-state-disabled.mobile-button-disabled.dotter-product-added, div.panel.dotter-add-to-basket > div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow.dotter-product-add.dotter-product-update, .dotter-btn-basket, .dotter-btn-a {
-  background: #ed174f !important;
+  background: #d31145 !important;
+  color: #fff;
+  border-radius: 6px;
+  font-family: "Lucida Grande", "Lucida", "Trebuchet MS", "Arial", sans-serif !important;
 }
 
 .dotter-spinner input {
-  border-color: #ed174f;
+  border-color: #d31145;
 }
 
 /* Login Panel */
 .dotter-retailer-info.dotter-small-prints {
-  color: #ed174f;
+  color: #d31145;
 }
